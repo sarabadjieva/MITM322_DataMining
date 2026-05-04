@@ -1,0 +1,65 @@
+[
+  {
+    "file": "Pop_1.2.1._birth_DR.xlsx",
+    "dataset": "births_by_sex",
+    "mode": "wide_years_triplets",
+    "rows": 14091,
+    "output_csv": "output\\births_by_sex_clean.csv"
+  },
+  {
+    "file": "Pop_1.2.2._birth_DR.xlsx",
+    "dataset": "births_marital_status_residence",
+    "mode": "sheet_per_year_blocks",
+    "rows": 35638,
+    "output_csv": "output\\births_marital_status_residence_clean.csv"
+  },
+  {
+    "file": "Pop_1.2.3._birth_DR.xlsx",
+    "dataset": "births_by_mother_age",
+    "mode": "sheet_per_year_blocks",
+    "rows": 32440,
+    "output_csv": "output\\births_by_mother_age_clean.csv"
+  },
+  {
+    "file": "Pop_4.1.1._Marriages_DR.xlsx",
+    "dataset": "marriages_by_residence",
+    "mode": "wide_years_triplets",
+    "rows": 1344,
+    "output_csv": "output\\marriages_by_residence_clean.csv"
+  },
+  {
+    "file": "Pop_4.1.2._Marriages_DR.xlsx",
+    "dataset": "marriages_age_matrix",
+    "mode": "sheet_per_year_matrix",
+    "rows": 3314,
+    "output_csv": "output\\marriages_age_matrix_clean.csv"
+  },
+  {
+    "file": "Pop_4.1.5._Marriages_DR.xlsx",
+    "dataset": "marriages_by_age_sex",
+    "mode": "wide_years_pairs",
+    "rows": 8230,
+    "output_csv": "output\\marriages_by_age_sex_clean.csv"
+  },
+  {
+    "file": "Pop_4.2.1._Divorces_DR.xlsx",
+    "dataset": "divorces_by_residence",
+    "mode": "wide_years_triplets",
+    "rows": 1344,
+    "output_csv": "output\\divorces_by_residence_clean.csv"
+  },
+  {
+    "file": "Pop_4.2.2._Divorces_DR.xlsx",
+    "dataset": "divorces_age_matrix",
+    "mode": "sheet_per_year_matrix",
+    "rows": 2522,
+    "output_csv": "output\\divorces_age_matrix_clean.csv"
+  },
+  {
+    "file": "Pop_4.2.5._Divorces_DR.xlsx",
+    "dataset": "divorces_by_age_sex",
+    "mode": "wide_years_pairs",
+    "rows": 7066,
+    "output_csv": "output\\divorces_by_age_sex_clean.csv"
+  }
+]

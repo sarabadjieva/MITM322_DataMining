@@ -1,0 +1,1345 @@
+﻿dataset,year,territory_raw,territory_level,oblast,municipality,metric,value,source_file
+marriages_by_residence,2010,Благоевград,oblast,Благоевград,,total,1229.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Благоевград,oblast,Благоевград,,urban,755.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Благоевград,oblast,Благоевград,,rural,474.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Благоевград,oblast,Благоевград,,total,1166.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Благоевград,oblast,Благоевград,,urban,704.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Благоевград,oblast,Благоевград,,rural,462.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Благоевград,oblast,Благоевград,,total,1023.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Благоевград,oblast,Благоевград,,urban,637.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Благоевград,oblast,Благоевград,,rural,386.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Благоевград,oblast,Благоевград,,total,1082.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Благоевград,oblast,Благоевград,,urban,703.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Благоевград,oblast,Благоевград,,rural,379.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Благоевград,oblast,Благоевград,,total,1091.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Благоевград,oblast,Благоевград,,urban,686.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Благоевград,oblast,Благоевград,,rural,405.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Благоевград,oblast,Благоевград,,total,1232.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Благоевград,oblast,Благоевград,,urban,773.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Благоевград,oblast,Благоевград,,rural,459.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Благоевград,oblast,Благоевград,,total,1123.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Благоевград,oblast,Благоевград,,urban,677.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Благоевград,oblast,Благоевград,,rural,446.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Благоевград,oblast,Благоевград,,total,1131.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Благоевград,oblast,Благоевград,,urban,676.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Благоевград,oblast,Благоевград,,rural,455.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Благоевград,oblast,Благоевград,,total,1195.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Благоевград,oblast,Благоевград,,urban,741.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Благоевград,oblast,Благоевград,,rural,454.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Благоевград,oblast,Благоевград,,total,1174.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Благоевград,oblast,Благоевград,,urban,712.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Благоевград,oblast,Благоевград,,rural,462.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Благоевград,oblast,Благоевград,,total,876.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Благоевград,oblast,Благоевград,,urban,499.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Благоевград,oblast,Благоевград,,rural,377.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Благоевград,oblast,Благоевград,,total,1040.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Благоевград,oblast,Благоевград,,urban,644.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Благоевград,oblast,Благоевград,,rural,396.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Благоевград,oblast,Благоевград,,total,985.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Благоевград,oblast,Благоевград,,urban,592.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Благоевград,oblast,Благоевград,,rural,393.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Благоевград,oblast,Благоевград,,total,892.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Благоевград,oblast,Благоевград,,urban,536.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Благоевград,oblast,Благоевград,,rural,356.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Благоевград,oblast,Благоевград,,total,806.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Благоевград,oblast,Благоевград,,urban,481.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Благоевград,oblast,Благоевград,,rural,325.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Благоевград,oblast,Благоевград,,total,779.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Благоевград,oblast,Благоевград,,urban,459.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Благоевград,oblast,Благоевград,,rural,320.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Бургас,oblast,Бургас,,total,1485.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Бургас,oblast,Бургас,,urban,1133.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Бургас,oblast,Бургас,,rural,352.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Бургас,oblast,Бургас,,total,1411.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Бургас,oblast,Бургас,,urban,1016.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Бургас,oblast,Бургас,,rural,395.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Бургас,oblast,Бургас,,total,1357.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Бургас,oblast,Бургас,,urban,995.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Бургас,oblast,Бургас,,rural,362.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Бургас,oblast,Бургас,,total,1410.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Бургас,oblast,Бургас,,urban,1003.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Бургас,oblast,Бургас,,rural,407.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Бургас,oblast,Бургас,,total,1567.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Бургас,oblast,Бургас,,urban,1104.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Бургас,oblast,Бургас,,rural,463.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Бургас,oblast,Бургас,,total,1897.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Бургас,oblast,Бургас,,urban,1394.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Бургас,oblast,Бургас,,rural,503.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Бургас,oblast,Бургас,,total,1797.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Бургас,oblast,Бургас,,urban,1318.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Бургас,oblast,Бургас,,rural,479.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Бургас,oblast,Бургас,,total,1955.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Бургас,oblast,Бургас,,urban,1473.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Бургас,oblast,Бургас,,rural,482.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Бургас,oblast,Бургас,,total,1967.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Бургас,oblast,Бургас,,urban,1443.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Бургас,oblast,Бургас,,rural,524.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Бургас,oblast,Бургас,,total,1958.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Бургас,oblast,Бургас,,urban,1387.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Бургас,oblast,Бургас,,rural,571.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Бургас,oblast,Бургас,,total,1539.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Бургас,oblast,Бургас,,urban,1081.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Бургас,oblast,Бургас,,rural,458.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Бургас,oblast,Бургас,,total,1781.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Бургас,oblast,Бургас,,urban,1268.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Бургас,oblast,Бургас,,rural,513.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Бургас,oblast,Бургас,,total,1734.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Бургас,oblast,Бургас,,urban,1251.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Бургас,oblast,Бургас,,rural,483.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Бургас,oblast,Бургас,,total,1467.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Бургас,oblast,Бургас,,urban,1091.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Бургас,oblast,Бургас,,rural,376.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Бургас,oblast,Бургас,,total,1248.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Бургас,oblast,Бургас,,urban,908.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Бургас,oblast,Бургас,,rural,340.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Бургас,oblast,Бургас,,total,1271.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Бургас,oblast,Бургас,,urban,930.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Бургас,oblast,Бургас,,rural,341.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Варна,oblast,Варна,,total,1733.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Варна,oblast,Варна,,urban,1576.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Варна,oblast,Варна,,rural,157.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Варна,oblast,Варна,,total,1514.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Варна,oblast,Варна,,urban,1357.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Варна,oblast,Варна,,rural,157.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Варна,oblast,Варна,,total,1415.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Варна,oblast,Варна,,urban,1244.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Варна,oblast,Варна,,rural,171.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Варна,oblast,Варна,,total,1544.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Варна,oblast,Варна,,urban,1383.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Варна,oblast,Варна,,rural,161.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Варна,oblast,Варна,,total,1732.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Варна,oblast,Варна,,urban,1478.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Варна,oblast,Варна,,rural,254.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Варна,oblast,Варна,,total,2119.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Варна,oblast,Варна,,urban,1715.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Варна,oblast,Варна,,rural,404.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Варна,oblast,Варна,,total,1983.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Варна,oblast,Варна,,urban,1629.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Варна,oblast,Варна,,rural,354.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Варна,oblast,Варна,,total,2186.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Варна,oblast,Варна,,urban,1800.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Варна,oblast,Варна,,rural,386.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Варна,oblast,Варна,,total,2177.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Варна,oblast,Варна,,urban,1781.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Варна,oblast,Варна,,rural,396.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Варна,oblast,Варна,,total,2060.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Варна,oblast,Варна,,urban,1696.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Варна,oblast,Варна,,rural,364.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Варна,oblast,Варна,,total,1687.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Варна,oblast,Варна,,urban,1315.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Варна,oblast,Варна,,rural,372.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Варна,oblast,Варна,,total,1968.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Варна,oblast,Варна,,urban,1571.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Варна,oblast,Варна,,rural,397.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Варна,oblast,Варна,,total,1806.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Варна,oblast,Варна,,urban,1421.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Варна,oblast,Варна,,rural,385.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Варна,oblast,Варна,,total,1535.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Варна,oblast,Варна,,urban,1222.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Варна,oblast,Варна,,rural,313.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Варна,oblast,Варна,,total,1421.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Варна,oblast,Варна,,urban,1143.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Варна,oblast,Варна,,rural,278.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Варна,oblast,Варна,,total,1490.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Варна,oblast,Варна,,urban,1246.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Варна,oblast,Варна,,rural,244.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Велико Търново,oblast,Велико Търново,,total,711.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Велико Търново,oblast,Велико Търново,,urban,571.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Велико Търново,oblast,Велико Търново,,rural,140.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Велико Търново,oblast,Велико Търново,,total,653.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Велико Търново,oblast,Велико Търново,,urban,523.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Велико Търново,oblast,Велико Търново,,rural,130.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Велико Търново,oblast,Велико Търново,,total,644.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Велико Търново,oblast,Велико Търново,,urban,519.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Велико Търново,oblast,Велико Търново,,rural,125.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Велико Търново,oblast,Велико Търново,,total,685.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Велико Търново,oblast,Велико Търново,,urban,513.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Велико Търново,oblast,Велико Търново,,rural,172.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Велико Търново,oblast,Велико Търново,,total,765.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Велико Търново,oblast,Велико Търново,,urban,562.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Велико Търново,oblast,Велико Търново,,rural,203.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Велико Търново,oblast,Велико Търново,,total,903.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Велико Търново,oblast,Велико Търново,,urban,654.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Велико Търново,oblast,Велико Търново,,rural,249.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Велико Търново,oblast,Велико Търново,,total,866.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Велико Търново,oblast,Велико Търново,,urban,604.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Велико Търново,oblast,Велико Търново,,rural,262.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Велико Търново,oblast,Велико Търново,,total,863.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Велико Търново,oblast,Велико Търново,,urban,626.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Велико Търново,oblast,Велико Търново,,rural,237.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Велико Търново,oblast,Велико Търново,,total,807.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Велико Търново,oblast,Велико Търново,,urban,566.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Велико Търново,oblast,Велико Търново,,rural,241.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Велико Търново,oblast,Велико Търново,,total,855.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Велико Търново,oblast,Велико Търново,,urban,553.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Велико Търново,oblast,Велико Търново,,rural,302.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Велико Търново,oblast,Велико Търново,,total,648.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Велико Търново,oblast,Велико Търново,,urban,450.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Велико Търново,oblast,Велико Търново,,rural,198.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Велико Търново,oblast,Велико Търново,,total,752.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Велико Търново,oblast,Велико Търново,,urban,501.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Велико Търново,oblast,Велико Търново,,rural,251.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Велико Търново,oblast,Велико Търново,,total,707.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Велико Търново,oblast,Велико Търново,,urban,458.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Велико Търново,oblast,Велико Търново,,rural,249.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Велико Търново,oblast,Велико Търново,,total,556.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Велико Търново,oblast,Велико Търново,,urban,369.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Велико Търново,oblast,Велико Търново,,rural,187.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Велико Търново,oblast,Велико Търново,,total,530.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Велико Търново,oblast,Велико Търново,,urban,352.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Велико Търново,oblast,Велико Търново,,rural,178.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Велико Търново,oblast,Велико Търново,,total,494.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Велико Търново,oblast,Велико Търново,,urban,355.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Велико Търново,oblast,Велико Търново,,rural,139.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Видин,oblast,Видин,,total,220.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Видин,oblast,Видин,,urban,184.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Видин,oblast,Видин,,rural,36.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Видин,oblast,Видин,,total,159.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Видин,oblast,Видин,,urban,122.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Видин,oblast,Видин,,rural,37.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Видин,oblast,Видин,,total,158.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Видин,oblast,Видин,,urban,130.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Видин,oblast,Видин,,rural,28.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Видин,oblast,Видин,,total,146.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Видин,oblast,Видин,,urban,108.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Видин,oblast,Видин,,rural,38.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Видин,oblast,Видин,,total,162.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Видин,oblast,Видин,,urban,127.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Видин,oblast,Видин,,rural,35.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Видин,oblast,Видин,,total,223.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Видин,oblast,Видин,,urban,170.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Видин,oblast,Видин,,rural,53.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Видин,oblast,Видин,,total,263.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Видин,oblast,Видин,,urban,205.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Видин,oblast,Видин,,rural,58.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Видин,oblast,Видин,,total,280.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Видин,oblast,Видин,,urban,196.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Видин,oblast,Видин,,rural,84.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Видин,oblast,Видин,,total,303.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Видин,oblast,Видин,,urban,213.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Видин,oblast,Видин,,rural,90.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Видин,oblast,Видин,,total,258.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Видин,oblast,Видин,,urban,185.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Видин,oblast,Видин,,rural,73.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Видин,oblast,Видин,,total,188.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Видин,oblast,Видин,,urban,132.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Видин,oblast,Видин,,rural,56.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Видин,oblast,Видин,,total,283.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Видин,oblast,Видин,,urban,194.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Видин,oblast,Видин,,rural,89.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Видин,oblast,Видин,,total,258.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Видин,oblast,Видин,,urban,164.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Видин,oblast,Видин,,rural,94.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Видин,oblast,Видин,,total,217.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Видин,oblast,Видин,,urban,134.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Видин,oblast,Видин,,rural,83.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Видин,oblast,Видин,,total,171.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Видин,oblast,Видин,,urban,120.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Видин,oblast,Видин,,rural,51.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Видин,oblast,Видин,,total,179.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Видин,oblast,Видин,,urban,115.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Видин,oblast,Видин,,rural,64.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Враца,oblast,Враца,,total,409.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Враца,oblast,Враца,,urban,297.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Враца,oblast,Враца,,rural,112.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Враца,oblast,Враца,,total,342.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Враца,oblast,Враца,,urban,227.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Враца,oblast,Враца,,rural,115.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Враца,oblast,Враца,,total,333.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Враца,oblast,Враца,,urban,231.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Враца,oblast,Враца,,rural,102.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Враца,oblast,Враца,,total,304.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Враца,oblast,Враца,,urban,204.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Враца,oblast,Враца,,rural,100.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Враца,oblast,Враца,,total,352.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Враца,oblast,Враца,,urban,233.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Враца,oblast,Враца,,rural,119.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Враца,oblast,Враца,,total,361.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Враца,oblast,Враца,,urban,236.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Враца,oblast,Враца,,rural,125.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Враца,oblast,Враца,,total,367.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Враца,oblast,Враца,,urban,219.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Враца,oblast,Враца,,rural,148.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Враца,oblast,Враца,,total,399.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Враца,oblast,Враца,,urban,259.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Враца,oblast,Враца,,rural,140.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Враца,oblast,Враца,,total,451.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Враца,oblast,Враца,,urban,274.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Враца,oblast,Враца,,rural,177.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Враца,oblast,Враца,,total,451.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Враца,oblast,Враца,,urban,264.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Враца,oblast,Враца,,rural,187.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Враца,oblast,Враца,,total,329.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Враца,oblast,Враца,,urban,200.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Враца,oblast,Враца,,rural,129.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Враца,oblast,Враца,,total,442.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Враца,oblast,Враца,,urban,273.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Враца,oblast,Враца,,rural,169.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Враца,oblast,Враца,,total,390.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Враца,oblast,Враца,,urban,224.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Враца,oblast,Враца,,rural,166.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Враца,oblast,Враца,,total,376.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Враца,oblast,Враца,,urban,224.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Враца,oblast,Враца,,rural,152.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Враца,oblast,Враца,,total,351.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Враца,oblast,Враца,,urban,190.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Враца,oblast,Враца,,rural,161.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Враца,oblast,Враца,,total,371.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Враца,oblast,Враца,,urban,208.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Враца,oblast,Враца,,rural,163.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Габрово,oblast,Габрово,,total,321.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Габрово,oblast,Габрово,,urban,289.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Габрово,oblast,Габрово,,rural,32.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Габрово,oblast,Габрово,,total,270.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Габрово,oblast,Габрово,,urban,240.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Габрово,oblast,Габрово,,rural,30.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Габрово,oblast,Габрово,,total,263.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Габрово,oblast,Габрово,,urban,225.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Габрово,oblast,Габрово,,rural,38.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Габрово,oblast,Габрово,,total,251.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Габрово,oblast,Габрово,,urban,208.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Габрово,oblast,Габрово,,rural,43.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Габрово,oblast,Габрово,,total,291.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Габрово,oblast,Габрово,,urban,250.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Габрово,oblast,Габрово,,rural,41.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Габрово,oblast,Габрово,,total,307.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Габрово,oblast,Габрово,,urban,261.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Габрово,oblast,Габрово,,rural,46.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Габрово,oblast,Габрово,,total,311.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Габрово,oblast,Габрово,,urban,268.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Габрово,oblast,Габрово,,rural,43.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Габрово,oblast,Габрово,,total,330.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Габрово,oblast,Габрово,,urban,267.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Габрово,oblast,Габрово,,rural,63.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Габрово,oblast,Габрово,,total,319.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Габрово,oblast,Габрово,,urban,266.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Габрово,oblast,Габрово,,rural,53.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Габрово,oblast,Габрово,,total,362.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Габрово,oblast,Габрово,,urban,295.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Габрово,oblast,Габрово,,rural,67.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Габрово,oblast,Габрово,,total,250.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Габрово,oblast,Габрово,,urban,206.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Габрово,oblast,Габрово,,rural,44.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Габрово,oblast,Габрово,,total,331.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Габрово,oblast,Габрово,,urban,249.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Габрово,oblast,Габрово,,rural,82.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Габрово,oblast,Габрово,,total,329.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Габрово,oblast,Габрово,,urban,266.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Габрово,oblast,Габрово,,rural,63.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Габрово,oblast,Габрово,,total,238.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Габрово,oblast,Габрово,,urban,183.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Габрово,oblast,Габрово,,rural,55.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Габрово,oblast,Габрово,,total,242.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Габрово,oblast,Габрово,,urban,188.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Габрово,oblast,Габрово,,rural,54.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Габрово,oblast,Габрово,,total,249.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Габрово,oblast,Габрово,,urban,202.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Габрово,oblast,Габрово,,rural,47.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Добрич,oblast,Добрич,,total,495.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Добрич,oblast,Добрич,,urban,365.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Добрич,oblast,Добрич,,rural,130.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Добрич,oblast,Добрич,,total,505.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Добрич,oblast,Добрич,,urban,370.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Добрич,oblast,Добрич,,rural,135.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Добрич,oblast,Добрич,,total,594.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Добрич,oblast,Добрич,,urban,428.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Добрич,oblast,Добрич,,rural,166.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Добрич,oblast,Добрич,,total,591.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Добрич,oblast,Добрич,,urban,398.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Добрич,oblast,Добрич,,rural,193.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Добрич,oblast,Добрич,,total,785.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Добрич,oblast,Добрич,,urban,508.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Добрич,oblast,Добрич,,rural,277.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Добрич,oblast,Добрич,,total,923.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Добрич,oblast,Добрич,,urban,551.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Добрич,oblast,Добрич,,rural,372.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Добрич,oblast,Добрич,,total,909.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Добрич,oblast,Добрич,,urban,551.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Добрич,oblast,Добрич,,rural,358.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Добрич,oblast,Добрич,,total,886.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Добрич,oblast,Добрич,,urban,529.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Добрич,oblast,Добрич,,rural,357.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Добрич,oblast,Добрич,,total,944.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Добрич,oblast,Добрич,,urban,566.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Добрич,oblast,Добрич,,rural,378.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Добрич,oblast,Добрич,,total,816.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Добрич,oblast,Добрич,,urban,502.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Добрич,oblast,Добрич,,rural,314.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Добрич,oblast,Добрич,,total,716.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Добрич,oblast,Добрич,,urban,409.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Добрич,oblast,Добрич,,rural,307.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Добрич,oblast,Добрич,,total,797.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Добрич,oblast,Добрич,,urban,460.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Добрич,oblast,Добрич,,rural,337.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Добрич,oblast,Добрич,,total,731.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Добрич,oblast,Добрич,,urban,435.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Добрич,oblast,Добрич,,rural,296.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Добрич,oblast,Добрич,,total,528.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Добрич,oblast,Добрич,,urban,328.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Добрич,oblast,Добрич,,rural,200.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Добрич,oblast,Добрич,,total,473.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Добрич,oblast,Добрич,,urban,306.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Добрич,oblast,Добрич,,rural,167.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Добрич,oblast,Добрич,,total,474.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Добрич,oblast,Добрич,,urban,299.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Добрич,oblast,Добрич,,rural,175.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Кърджали,oblast,Кърджали,,total,647.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Кърджали,oblast,Кърджали,,urban,255.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Кърджали,oblast,Кърджали,,rural,392.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Кърджали,oblast,Кърджали,,total,608.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Кърджали,oblast,Кърджали,,urban,229.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Кърджали,oblast,Кърджали,,rural,379.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Кърджали,oblast,Кърджали,,total,610.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Кърджали,oblast,Кърджали,,urban,225.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Кърджали,oblast,Кърджали,,rural,385.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Кърджали,oblast,Кърджали,,total,647.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Кърджали,oblast,Кърджали,,urban,291.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Кърджали,oblast,Кърджали,,rural,356.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Кърджали,oblast,Кърджали,,total,724.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Кърджали,oblast,Кърджали,,urban,284.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Кърджали,oblast,Кърджали,,rural,440.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Кърджали,oblast,Кърджали,,total,760.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Кърджали,oblast,Кърджали,,urban,318.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Кърджали,oblast,Кърджали,,rural,442.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Кърджали,oblast,Кърджали,,total,753.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Кърджали,oblast,Кърджали,,urban,311.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Кърджали,oblast,Кърджали,,rural,442.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Кърджали,oblast,Кърджали,,total,695.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Кърджали,oblast,Кърджали,,urban,291.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Кърджали,oblast,Кърджали,,rural,404.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Кърджали,oblast,Кърджали,,total,758.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Кърджали,oblast,Кърджали,,urban,327.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Кърджали,oblast,Кърджали,,rural,431.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Кърджали,oblast,Кърджали,,total,743.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Кърджали,oblast,Кърджали,,urban,297.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Кърджали,oblast,Кърджали,,rural,446.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Кърджали,oblast,Кърджали,,total,624.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Кърджали,oblast,Кърджали,,urban,253.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Кърджали,oblast,Кърджали,,rural,371.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Кърджали,oblast,Кърджали,,total,689.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Кърджали,oblast,Кърджали,,urban,268.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Кърджали,oblast,Кърджали,,rural,421.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Кърджали,oblast,Кърджали,,total,609.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Кърджали,oblast,Кърджали,,urban,234.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Кърджали,oblast,Кърджали,,rural,375.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Кърджали,oblast,Кърджали,,total,523.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Кърджали,oblast,Кърджали,,urban,203.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Кърджали,oblast,Кърджали,,rural,320.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Кърджали,oblast,Кърджали,,total,504.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Кърджали,oblast,Кърджали,,urban,195.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Кърджали,oblast,Кърджали,,rural,309.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Кърджали,oblast,Кърджали,,total,480.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Кърджали,oblast,Кърджали,,urban,196.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Кърджали,oblast,Кърджали,,rural,284.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Кюстендил,oblast,Кюстендил,,total,408.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Кюстендил,oblast,Кюстендил,,urban,321.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Кюстендил,oblast,Кюстендил,,rural,87.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Кюстендил,oblast,Кюстендил,,total,343.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Кюстендил,oblast,Кюстендил,,urban,266.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Кюстендил,oblast,Кюстендил,,rural,77.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Кюстендил,oblast,Кюстендил,,total,304.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Кюстендил,oblast,Кюстендил,,urban,234.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Кюстендил,oblast,Кюстендил,,rural,70.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Кюстендил,oblast,Кюстендил,,total,262.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Кюстендил,oblast,Кюстендил,,urban,203.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Кюстендил,oblast,Кюстендил,,rural,59.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Кюстендил,oblast,Кюстендил,,total,350.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Кюстендил,oblast,Кюстендил,,urban,273.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Кюстендил,oblast,Кюстендил,,rural,77.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Кюстендил,oblast,Кюстендил,,total,334.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Кюстендил,oblast,Кюстендил,,urban,243.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Кюстендил,oblast,Кюстендил,,rural,91.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Кюстендил,oblast,Кюстендил,,total,289.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Кюстендил,oblast,Кюстендил,,urban,246.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Кюстендил,oblast,Кюстендил,,rural,43.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Кюстендил,oblast,Кюстендил,,total,371.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Кюстендил,oblast,Кюстендил,,urban,277.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Кюстендил,oblast,Кюстендил,,rural,94.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Кюстендил,oblast,Кюстендил,,total,360.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Кюстендил,oblast,Кюстендил,,urban,282.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Кюстендил,oblast,Кюстендил,,rural,78.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Кюстендил,oblast,Кюстендил,,total,336.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Кюстендил,oblast,Кюстендил,,urban,269.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Кюстендил,oblast,Кюстендил,,rural,67.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Кюстендил,oblast,Кюстендил,,total,289.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Кюстендил,oblast,Кюстендил,,urban,225.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Кюстендил,oblast,Кюстендил,,rural,64.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Кюстендил,oblast,Кюстендил,,total,306.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Кюстендил,oblast,Кюстендил,,urban,240.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Кюстендил,oblast,Кюстендил,,rural,66.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Кюстендил,oblast,Кюстендил,,total,320.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Кюстендил,oblast,Кюстендил,,urban,254.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Кюстендил,oblast,Кюстендил,,rural,66.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Кюстендил,oblast,Кюстендил,,total,320.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Кюстендил,oblast,Кюстендил,,urban,237.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Кюстендил,oblast,Кюстендил,,rural,83.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Кюстендил,oblast,Кюстендил,,total,318.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Кюстендил,oblast,Кюстендил,,urban,253.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Кюстендил,oblast,Кюстендил,,rural,65.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Кюстендил,oblast,Кюстендил,,total,280.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Кюстендил,oblast,Кюстендил,,urban,213.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Кюстендил,oblast,Кюстендил,,rural,67.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Ловеч,oblast,Ловеч,,total,271.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Ловеч,oblast,Ловеч,,urban,183.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Ловеч,oblast,Ловеч,,rural,88.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Ловеч,oblast,Ловеч,,total,278.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Ловеч,oblast,Ловеч,,urban,191.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Ловеч,oblast,Ловеч,,rural,87.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Ловеч,oblast,Ловеч,,total,217.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Ловеч,oblast,Ловеч,,urban,142.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Ловеч,oblast,Ловеч,,rural,75.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Ловеч,oblast,Ловеч,,total,247.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Ловеч,oblast,Ловеч,,urban,165.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Ловеч,oblast,Ловеч,,rural,82.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Ловеч,oblast,Ловеч,,total,287.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Ловеч,oblast,Ловеч,,urban,191.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Ловеч,oblast,Ловеч,,rural,96.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Ловеч,oblast,Ловеч,,total,344.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Ловеч,oblast,Ловеч,,urban,223.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Ловеч,oblast,Ловеч,,rural,121.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Ловеч,oblast,Ловеч,,total,331.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Ловеч,oblast,Ловеч,,urban,223.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Ловеч,oblast,Ловеч,,rural,108.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Ловеч,oblast,Ловеч,,total,399.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Ловеч,oblast,Ловеч,,urban,261.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Ловеч,oblast,Ловеч,,rural,138.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Ловеч,oblast,Ловеч,,total,332.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Ловеч,oblast,Ловеч,,urban,211.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Ловеч,oblast,Ловеч,,rural,121.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Ловеч,oblast,Ловеч,,total,390.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Ловеч,oblast,Ловеч,,urban,248.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Ловеч,oblast,Ловеч,,rural,142.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Ловеч,oblast,Ловеч,,total,273.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Ловеч,oblast,Ловеч,,urban,175.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Ловеч,oblast,Ловеч,,rural,98.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Ловеч,oblast,Ловеч,,total,351.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Ловеч,oblast,Ловеч,,urban,218.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Ловеч,oblast,Ловеч,,rural,133.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Ловеч,oblast,Ловеч,,total,318.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Ловеч,oblast,Ловеч,,urban,202.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Ловеч,oblast,Ловеч,,rural,116.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Ловеч,oblast,Ловеч,,total,286.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Ловеч,oblast,Ловеч,,urban,200.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Ловеч,oblast,Ловеч,,rural,86.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Ловеч,oblast,Ловеч,,total,278.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Ловеч,oblast,Ловеч,,urban,173.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Ловеч,oblast,Ловеч,,rural,105.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Ловеч,oblast,Ловеч,,total,287.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Ловеч,oblast,Ловеч,,urban,167.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Ловеч,oblast,Ловеч,,rural,120.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Монтана,oblast,Монтана,,total,348.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Монтана,oblast,Монтана,,urban,288.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Монтана,oblast,Монтана,,rural,60.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Монтана,oblast,Монтана,,total,280.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Монтана,oblast,Монтана,,urban,214.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Монтана,oblast,Монтана,,rural,66.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Монтана,oblast,Монтана,,total,278.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Монтана,oblast,Монтана,,urban,212.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Монтана,oblast,Монтана,,rural,66.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Монтана,oblast,Монтана,,total,280.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Монтана,oblast,Монтана,,urban,216.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Монтана,oblast,Монтана,,rural,64.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Монтана,oblast,Монтана,,total,444.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Монтана,oblast,Монтана,,urban,368.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Монтана,oblast,Монтана,,rural,76.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Монтана,oblast,Монтана,,total,507.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Монтана,oblast,Монтана,,urban,409.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Монтана,oblast,Монтана,,rural,98.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Монтана,oblast,Монтана,,total,483.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Монтана,oblast,Монтана,,urban,393.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Монтана,oblast,Монтана,,rural,90.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Монтана,oblast,Монтана,,total,546.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Монтана,oblast,Монтана,,urban,420.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Монтана,oblast,Монтана,,rural,126.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Монтана,oblast,Монтана,,total,574.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Монтана,oblast,Монтана,,urban,418.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Монтана,oblast,Монтана,,rural,156.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Монтана,oblast,Монтана,,total,521.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Монтана,oblast,Монтана,,urban,369.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Монтана,oblast,Монтана,,rural,152.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Монтана,oblast,Монтана,,total,382.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Монтана,oblast,Монтана,,urban,255.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Монтана,oblast,Монтана,,rural,127.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Монтана,oblast,Монтана,,total,497.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Монтана,oblast,Монтана,,urban,332.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Монтана,oblast,Монтана,,rural,165.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Монтана,oblast,Монтана,,total,438.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Монтана,oblast,Монтана,,urban,292.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Монтана,oblast,Монтана,,rural,146.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Монтана,oblast,Монтана,,total,362.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Монтана,oblast,Монтана,,urban,222.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Монтана,oblast,Монтана,,rural,140.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Монтана,oblast,Монтана,,total,313.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Монтана,oblast,Монтана,,urban,216.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Монтана,oblast,Монтана,,rural,97.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Монтана,oblast,Монтана,,total,276.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Монтана,oblast,Монтана,,urban,170.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Монтана,oblast,Монтана,,rural,106.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Пазарджик,oblast,Пазарджик,,total,846.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Пазарджик,oblast,Пазарджик,,urban,568.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Пазарджик,oblast,Пазарджик,,rural,278.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Пазарджик,oblast,Пазарджик,,total,731.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Пазарджик,oblast,Пазарджик,,urban,492.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Пазарджик,oblast,Пазарджик,,rural,239.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Пазарджик,oblast,Пазарджик,,total,706.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Пазарджик,oblast,Пазарджик,,urban,482.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Пазарджик,oblast,Пазарджик,,rural,224.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Пазарджик,oblast,Пазарджик,,total,746.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Пазарджик,oblast,Пазарджик,,urban,517.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Пазарджик,oblast,Пазарджик,,rural,229.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Пазарджик,oblast,Пазарджик,,total,895.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Пазарджик,oblast,Пазарджик,,urban,610.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Пазарджик,oblast,Пазарджик,,rural,285.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Пазарджик,oblast,Пазарджик,,total,1038.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Пазарджик,oblast,Пазарджик,,urban,720.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Пазарджик,oblast,Пазарджик,,rural,318.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Пазарджик,oblast,Пазарджик,,total,1095.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Пазарджик,oblast,Пазарджик,,urban,732.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Пазарджик,oblast,Пазарджик,,rural,363.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Пазарджик,oblast,Пазарджик,,total,1086.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Пазарджик,oblast,Пазарджик,,urban,701.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Пазарджик,oblast,Пазарджик,,rural,385.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Пазарджик,oblast,Пазарджик,,total,1100.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Пазарджик,oblast,Пазарджик,,urban,724.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Пазарджик,oblast,Пазарджик,,rural,376.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Пазарджик,oblast,Пазарджик,,total,1088.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Пазарджик,oblast,Пазарджик,,urban,725.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Пазарджик,oblast,Пазарджик,,rural,363.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Пазарджик,oblast,Пазарджик,,total,845.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Пазарджик,oblast,Пазарджик,,urban,562.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Пазарджик,oblast,Пазарджик,,rural,283.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Пазарджик,oblast,Пазарджик,,total,953.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Пазарджик,oblast,Пазарджик,,urban,624.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Пазарджик,oblast,Пазарджик,,rural,329.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Пазарджик,oblast,Пазарджик,,total,907.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Пазарджик,oblast,Пазарджик,,urban,595.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Пазарджик,oblast,Пазарджик,,rural,312.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Пазарджик,oblast,Пазарджик,,total,684.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Пазарджик,oblast,Пазарджик,,urban,413.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Пазарджик,oblast,Пазарджик,,rural,271.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Пазарджик,oblast,Пазарджик,,total,672.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Пазарджик,oblast,Пазарджик,,urban,384.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Пазарджик,oblast,Пазарджик,,rural,288.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Пазарджик,oblast,Пазарджик,,total,643.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Пазарджик,oblast,Пазарджик,,urban,378.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Пазарджик,oblast,Пазарджик,,rural,265.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Перник,oblast,Перник,,total,331.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Перник,oblast,Перник,,urban,270.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Перник,oblast,Перник,,rural,61.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Перник,oblast,Перник,,total,317.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Перник,oblast,Перник,,urban,259.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Перник,oblast,Перник,,rural,58.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Перник,oblast,Перник,,total,270.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Перник,oblast,Перник,,urban,237.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Перник,oblast,Перник,,rural,33.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Перник,oblast,Перник,,total,292.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Перник,oblast,Перник,,urban,243.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Перник,oblast,Перник,,rural,49.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Перник,oblast,Перник,,total,306.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Перник,oblast,Перник,,urban,249.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Перник,oblast,Перник,,rural,57.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Перник,oblast,Перник,,total,303.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Перник,oblast,Перник,,urban,242.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Перник,oblast,Перник,,rural,61.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Перник,oblast,Перник,,total,296.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Перник,oblast,Перник,,urban,243.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Перник,oblast,Перник,,rural,53.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Перник,oblast,Перник,,total,324.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Перник,oblast,Перник,,urban,271.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Перник,oblast,Перник,,rural,53.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Перник,oblast,Перник,,total,311.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Перник,oblast,Перник,,urban,248.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Перник,oblast,Перник,,rural,63.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Перник,oblast,Перник,,total,353.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Перник,oblast,Перник,,urban,285.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Перник,oblast,Перник,,rural,68.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Перник,oblast,Перник,,total,284.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Перник,oblast,Перник,,urban,234.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Перник,oblast,Перник,,rural,50.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Перник,oblast,Перник,,total,290.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Перник,oblast,Перник,,urban,227.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Перник,oblast,Перник,,rural,63.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Перник,oblast,Перник,,total,291.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Перник,oblast,Перник,,urban,240.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Перник,oblast,Перник,,rural,51.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Перник,oblast,Перник,,total,262.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Перник,oblast,Перник,,urban,211.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Перник,oblast,Перник,,rural,51.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Перник,oblast,Перник,,total,274.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Перник,oblast,Перник,,urban,220.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Перник,oblast,Перник,,rural,54.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Перник,oblast,Перник,,total,290.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Перник,oblast,Перник,,urban,243.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Перник,oblast,Перник,,rural,47.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Плевен,oblast,Плевен,,total,684.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Плевен,oblast,Плевен,,urban,548.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Плевен,oblast,Плевен,,rural,136.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Плевен,oblast,Плевен,,total,585.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Плевен,oblast,Плевен,,urban,481.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Плевен,oblast,Плевен,,rural,104.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Плевен,oblast,Плевен,,total,527.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Плевен,oblast,Плевен,,urban,411.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Плевен,oblast,Плевен,,rural,116.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Плевен,oblast,Плевен,,total,544.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Плевен,oblast,Плевен,,urban,408.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Плевен,oblast,Плевен,,rural,136.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Плевен,oblast,Плевен,,total,616.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Плевен,oblast,Плевен,,urban,459.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Плевен,oblast,Плевен,,rural,157.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Плевен,oblast,Плевен,,total,796.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Плевен,oblast,Плевен,,urban,537.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Плевен,oblast,Плевен,,rural,259.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Плевен,oblast,Плевен,,total,703.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Плевен,oblast,Плевен,,urban,512.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Плевен,oblast,Плевен,,rural,191.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Плевен,oblast,Плевен,,total,796.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Плевен,oblast,Плевен,,urban,574.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Плевен,oblast,Плевен,,rural,222.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Плевен,oblast,Плевен,,total,879.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Плевен,oblast,Плевен,,urban,571.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Плевен,oblast,Плевен,,rural,308.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Плевен,oblast,Плевен,,total,863.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Плевен,oblast,Плевен,,urban,574.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Плевен,oblast,Плевен,,rural,289.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Плевен,oblast,Плевен,,total,641.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Плевен,oblast,Плевен,,urban,427.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Плевен,oblast,Плевен,,rural,214.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Плевен,oblast,Плевен,,total,804.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Плевен,oblast,Плевен,,urban,523.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Плевен,oblast,Плевен,,rural,281.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Плевен,oblast,Плевен,,total,794.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Плевен,oblast,Плевен,,urban,485.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Плевен,oblast,Плевен,,rural,309.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Плевен,oblast,Плевен,,total,559.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Плевен,oblast,Плевен,,urban,381.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Плевен,oblast,Плевен,,rural,178.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Плевен,oblast,Плевен,,total,550.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Плевен,oblast,Плевен,,urban,358.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Плевен,oblast,Плевен,,rural,192.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Плевен,oblast,Плевен,,total,500.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Плевен,oblast,Плевен,,urban,335.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Плевен,oblast,Плевен,,rural,165.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Пловдив,oblast,Пловдив,,total,2483.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Пловдив,oblast,Пловдив,,urban,2034.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Пловдив,oblast,Пловдив,,rural,449.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Пловдив,oblast,Пловдив,,total,1977.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Пловдив,oblast,Пловдив,,urban,1589.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Пловдив,oblast,Пловдив,,rural,388.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Пловдив,oblast,Пловдив,,total,2151.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Пловдив,oblast,Пловдив,,urban,1735.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Пловдив,oblast,Пловдив,,rural,416.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Пловдив,oblast,Пловдив,,total,2197.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Пловдив,oblast,Пловдив,,urban,1806.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Пловдив,oblast,Пловдив,,rural,391.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Пловдив,oblast,Пловдив,,total,2603.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Пловдив,oblast,Пловдив,,urban,2111.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Пловдив,oblast,Пловдив,,rural,492.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Пловдив,oblast,Пловдив,,total,2917.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Пловдив,oblast,Пловдив,,urban,2418.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Пловдив,oblast,Пловдив,,rural,499.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Пловдив,oblast,Пловдив,,total,2801.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Пловдив,oblast,Пловдив,,urban,2243.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Пловдив,oblast,Пловдив,,rural,558.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Пловдив,oblast,Пловдив,,total,2955.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Пловдив,oblast,Пловдив,,urban,2365.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Пловдив,oblast,Пловдив,,rural,590.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Пловдив,oblast,Пловдив,,total,2933.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Пловдив,oblast,Пловдив,,urban,2316.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Пловдив,oblast,Пловдив,,rural,617.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Пловдив,oblast,Пловдив,,total,2874.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Пловдив,oblast,Пловдив,,urban,2224.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Пловдив,oblast,Пловдив,,rural,650.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Пловдив,oblast,Пловдив,,total,2322.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Пловдив,oblast,Пловдив,,urban,1797.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Пловдив,oblast,Пловдив,,rural,525.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Пловдив,oblast,Пловдив,,total,2803.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Пловдив,oblast,Пловдив,,urban,2163.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Пловдив,oblast,Пловдив,,rural,640.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Пловдив,oblast,Пловдив,,total,2655.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Пловдив,oblast,Пловдив,,urban,2045.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Пловдив,oblast,Пловдив,,rural,610.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Пловдив,oblast,Пловдив,,total,2177.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Пловдив,oblast,Пловдив,,urban,1697.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Пловдив,oblast,Пловдив,,rural,480.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Пловдив,oblast,Пловдив,,total,2015.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Пловдив,oblast,Пловдив,,urban,1543.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Пловдив,oblast,Пловдив,,rural,472.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Пловдив,oblast,Пловдив,,total,2000.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Пловдив,oblast,Пловдив,,urban,1522.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Пловдив,oblast,Пловдив,,rural,478.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Разград,oblast,Разград,,total,466.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Разград,oblast,Разград,,urban,205.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Разград,oblast,Разград,,rural,261.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Разград,oblast,Разград,,total,440.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Разград,oblast,Разград,,urban,171.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Разград,oblast,Разград,,rural,269.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Разград,oblast,Разград,,total,459.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Разград,oblast,Разград,,urban,175.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Разград,oblast,Разград,,rural,284.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Разград,oblast,Разград,,total,508.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Разград,oblast,Разград,,urban,161.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Разград,oblast,Разград,,rural,347.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Разград,oblast,Разград,,total,521.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Разград,oblast,Разград,,urban,205.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Разград,oblast,Разград,,rural,316.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Разград,oblast,Разград,,total,559.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Разград,oblast,Разград,,urban,210.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Разград,oblast,Разград,,rural,349.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Разград,oblast,Разград,,total,535.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Разград,oblast,Разград,,urban,208.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Разград,oblast,Разград,,rural,327.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Разград,oblast,Разград,,total,598.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Разград,oblast,Разград,,urban,223.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Разград,oblast,Разград,,rural,375.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Разград,oblast,Разград,,total,573.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Разград,oblast,Разград,,urban,201.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Разград,oblast,Разград,,rural,372.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Разград,oblast,Разград,,total,658.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Разград,oblast,Разград,,urban,247.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Разград,oblast,Разград,,rural,411.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Разград,oblast,Разград,,total,424.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Разград,oblast,Разград,,urban,144.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Разград,oblast,Разград,,rural,280.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Разград,oblast,Разград,,total,609.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Разград,oblast,Разград,,urban,218.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Разград,oblast,Разград,,rural,391.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Разград,oblast,Разград,,total,553.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Разград,oblast,Разград,,urban,202.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Разград,oblast,Разград,,rural,351.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Разград,oblast,Разград,,total,391.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Разград,oblast,Разград,,urban,141.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Разград,oblast,Разград,,rural,250.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Разград,oblast,Разград,,total,386.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Разград,oblast,Разград,,urban,149.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Разград,oblast,Разград,,rural,237.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Разград,oblast,Разград,,total,357.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Разград,oblast,Разград,,urban,123.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Разград,oblast,Разград,,rural,234.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Русе,oblast,Русе,,total,848.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Русе,oblast,Русе,,urban,681.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Русе,oblast,Русе,,rural,167.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Русе,oblast,Русе,,total,717.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Русе,oblast,Русе,,urban,600.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Русе,oblast,Русе,,rural,117.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Русе,oblast,Русе,,total,702.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Русе,oblast,Русе,,urban,563.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Русе,oblast,Русе,,rural,139.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Русе,oblast,Русе,,total,747.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Русе,oblast,Русе,,urban,610.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Русе,oblast,Русе,,rural,137.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Русе,oblast,Русе,,total,824.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Русе,oblast,Русе,,urban,663.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Русе,oblast,Русе,,rural,161.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Русе,oblast,Русе,,total,886.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Русе,oblast,Русе,,urban,680.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Русе,oblast,Русе,,rural,206.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Русе,oblast,Русе,,total,918.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Русе,oblast,Русе,,urban,682.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Русе,oblast,Русе,,rural,236.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Русе,oblast,Русе,,total,897.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Русе,oblast,Русе,,urban,674.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Русе,oblast,Русе,,rural,223.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Русе,oblast,Русе,,total,870.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Русе,oblast,Русе,,urban,665.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Русе,oblast,Русе,,rural,205.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Русе,oblast,Русе,,total,805.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Русе,oblast,Русе,,urban,625.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Русе,oblast,Русе,,rural,180.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Русе,oblast,Русе,,total,619.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Русе,oblast,Русе,,urban,468.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Русе,oblast,Русе,,rural,151.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Русе,oblast,Русе,,total,769.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Русе,oblast,Русе,,urban,563.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Русе,oblast,Русе,,rural,206.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Русе,oblast,Русе,,total,721.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Русе,oblast,Русе,,urban,544.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Русе,oblast,Русе,,rural,177.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Русе,oblast,Русе,,total,596.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Русе,oblast,Русе,,urban,448.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Русе,oblast,Русе,,rural,148.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Русе,oblast,Русе,,total,535.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Русе,oblast,Русе,,urban,406.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Русе,oblast,Русе,,rural,129.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Русе,oblast,Русе,,total,510.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Русе,oblast,Русе,,urban,377.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Русе,oblast,Русе,,rural,133.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Силистра,oblast,Силистра,,total,421.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Силистра,oblast,Силистра,,urban,193.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Силистра,oblast,Силистра,,rural,228.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Силистра,oblast,Силистра,,total,366.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Силистра,oblast,Силистра,,urban,165.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Силистра,oblast,Силистра,,rural,201.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Силистра,oblast,Силистра,,total,394.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Силистра,oblast,Силистра,,urban,168.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Силистра,oblast,Силистра,,rural,226.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Силистра,oblast,Силистра,,total,396.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Силистра,oblast,Силистра,,urban,166.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Силистра,oblast,Силистра,,rural,230.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Силистра,oblast,Силистра,,total,449.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Силистра,oblast,Силистра,,urban,170.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Силистра,oblast,Силистра,,rural,279.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Силистра,oblast,Силистра,,total,480.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Силистра,oblast,Силистра,,urban,167.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Силистра,oblast,Силистра,,rural,313.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Силистра,oblast,Силистра,,total,519.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Силистра,oblast,Силистра,,urban,189.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Силистра,oblast,Силистра,,rural,330.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Силистра,oblast,Силистра,,total,452.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Силистра,oblast,Силистра,,urban,172.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Силистра,oblast,Силистра,,rural,280.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Силистра,oblast,Силистра,,total,459.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Силистра,oblast,Силистра,,urban,162.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Силистра,oblast,Силистра,,rural,297.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Силистра,oblast,Силистра,,total,458.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Силистра,oblast,Силистра,,urban,164.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Силистра,oblast,Силистра,,rural,294.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Силистра,oblast,Силистра,,total,422.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Силистра,oblast,Силистра,,urban,140.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Силистра,oblast,Силистра,,rural,282.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Силистра,oblast,Силистра,,total,516.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Силистра,oblast,Силистра,,urban,194.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Силистра,oblast,Силистра,,rural,322.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Силистра,oblast,Силистра,,total,480.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Силистра,oblast,Силистра,,urban,156.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Силистра,oblast,Силистра,,rural,324.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Силистра,oblast,Силистра,,total,344.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Силистра,oblast,Силистра,,urban,116.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Силистра,oblast,Силистра,,rural,228.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Силистра,oblast,Силистра,,total,359.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Силистра,oblast,Силистра,,urban,119.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Силистра,oblast,Силистра,,rural,240.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Силистра,oblast,Силистра,,total,328.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Силистра,oblast,Силистра,,urban,113.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Силистра,oblast,Силистра,,rural,215.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Сливен,oblast,Сливен,,total,507.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Сливен,oblast,Сливен,,urban,396.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Сливен,oblast,Сливен,,rural,111.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Сливен,oblast,Сливен,,total,545.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Сливен,oblast,Сливен,,urban,399.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Сливен,oblast,Сливен,,rural,146.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Сливен,oblast,Сливен,,total,561.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Сливен,oblast,Сливен,,urban,399.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Сливен,oblast,Сливен,,rural,162.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Сливен,oblast,Сливен,,total,569.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Сливен,oblast,Сливен,,urban,429.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Сливен,oblast,Сливен,,rural,140.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Сливен,oblast,Сливен,,total,609.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Сливен,oblast,Сливен,,urban,424.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Сливен,oblast,Сливен,,rural,185.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Сливен,oblast,Сливен,,total,819.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Сливен,oblast,Сливен,,urban,527.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Сливен,oblast,Сливен,,rural,292.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Сливен,oblast,Сливен,,total,777.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Сливен,oblast,Сливен,,urban,539.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Сливен,oblast,Сливен,,rural,238.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Сливен,oblast,Сливен,,total,855.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Сливен,oblast,Сливен,,urban,615.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Сливен,oblast,Сливен,,rural,240.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Сливен,oblast,Сливен,,total,809.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Сливен,oblast,Сливен,,urban,523.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Сливен,oblast,Сливен,,rural,286.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Сливен,oblast,Сливен,,total,883.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Сливен,oblast,Сливен,,urban,604.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Сливен,oblast,Сливен,,rural,279.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Сливен,oblast,Сливен,,total,569.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Сливен,oblast,Сливен,,urban,385.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Сливен,oblast,Сливен,,rural,184.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Сливен,oblast,Сливен,,total,738.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Сливен,oblast,Сливен,,urban,495.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Сливен,oblast,Сливен,,rural,243.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Сливен,oblast,Сливен,,total,724.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Сливен,oblast,Сливен,,urban,480.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Сливен,oblast,Сливен,,rural,244.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Сливен,oblast,Сливен,,total,647.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Сливен,oblast,Сливен,,urban,448.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Сливен,oblast,Сливен,,rural,199.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Сливен,oblast,Сливен,,total,575.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Сливен,oblast,Сливен,,urban,378.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Сливен,oblast,Сливен,,rural,197.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Сливен,oblast,Сливен,,total,581.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Сливен,oblast,Сливен,,urban,365.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Сливен,oblast,Сливен,,rural,216.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Смолян,oblast,Смолян,,total,264.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Смолян,oblast,Смолян,,urban,160.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Смолян,oblast,Смолян,,rural,104.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Смолян,oblast,Смолян,,total,210.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Смолян,oblast,Смолян,,urban,133.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Смолян,oblast,Смолян,,rural,77.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Смолян,oblast,Смолян,,total,255.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Смолян,oblast,Смолян,,urban,139.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Смолян,oblast,Смолян,,rural,116.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Смолян,oblast,Смолян,,total,225.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Смолян,oblast,Смолян,,urban,129.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Смолян,oblast,Смолян,,rural,96.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Смолян,oblast,Смолян,,total,257.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Смолян,oblast,Смолян,,urban,147.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Смолян,oblast,Смолян,,rural,110.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Смолян,oblast,Смолян,,total,262.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Смолян,oblast,Смолян,,urban,140.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Смолян,oblast,Смолян,,rural,122.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Смолян,oblast,Смолян,,total,250.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Смолян,oblast,Смолян,,urban,124.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Смолян,oblast,Смолян,,rural,126.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Смолян,oblast,Смолян,,total,320.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Смолян,oblast,Смолян,,urban,199.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Смолян,oblast,Смолян,,rural,121.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Смолян,oblast,Смолян,,total,328.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Смолян,oblast,Смолян,,urban,188.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Смолян,oblast,Смолян,,rural,140.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Смолян,oblast,Смолян,,total,314.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Смолян,oblast,Смолян,,urban,183.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Смолян,oblast,Смолян,,rural,131.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Смолян,oblast,Смолян,,total,225.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Смолян,oblast,Смолян,,urban,130.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Смолян,oblast,Смолян,,rural,95.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Смолян,oblast,Смолян,,total,253.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Смолян,oblast,Смолян,,urban,156.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Смолян,oblast,Смолян,,rural,97.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Смолян,oblast,Смолян,,total,267.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Смолян,oblast,Смолян,,urban,163.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Смолян,oblast,Смолян,,rural,104.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Смолян,oblast,Смолян,,total,249.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Смолян,oblast,Смолян,,urban,126.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Смолян,oblast,Смолян,,rural,123.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Смолян,oblast,Смолян,,total,290.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Смолян,oblast,Смолян,,urban,169.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Смолян,oblast,Смолян,,rural,121.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Смолян,oblast,Смолян,,total,256.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Смолян,oblast,Смолян,,urban,148.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Смолян,oblast,Смолян,,rural,108.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,София,oblast,София,,total,598.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,София,oblast,София,,urban,436.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,София,oblast,София,,rural,162.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,София,oblast,София,,total,486.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,София,oblast,София,,urban,315.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,София,oblast,София,,rural,171.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,София,oblast,София,,total,560.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,София,oblast,София,,urban,391.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,София,oblast,София,,rural,169.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,София,oblast,София,,total,490.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,София,oblast,София,,urban,329.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,София,oblast,София,,rural,161.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,София,oblast,София,,total,541.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,София,oblast,София,,urban,348.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,София,oblast,София,,rural,193.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,София,oblast,София,,total,724.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,София,oblast,София,,urban,479.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,София,oblast,София,,rural,245.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,София,oblast,София,,total,621.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,София,oblast,София,,urban,405.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,София,oblast,София,,rural,216.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,София,oblast,София,,total,708.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,София,oblast,София,,urban,472.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,София,oblast,София,,rural,236.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,София,oblast,София,,total,714.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,София,oblast,София,,urban,463.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,София,oblast,София,,rural,251.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,София,oblast,София,,total,765.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,София,oblast,София,,urban,510.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,София,oblast,София,,rural,255.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,София,oblast,София,,total,619.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,София,oblast,София,,urban,377.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,София,oblast,София,,rural,242.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,София,oblast,София,,total,719.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,София,oblast,София,,urban,416.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,София,oblast,София,,rural,303.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,София,oblast,София,,total,753.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,София,oblast,София,,urban,453.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,София,oblast,София,,rural,300.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,София,oblast,София,,total,715.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,София,oblast,София,,urban,444.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,София,oblast,София,,rural,271.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,София,oblast,София,,total,695.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,София,oblast,София,,urban,415.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,София,oblast,София,,rural,280.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,София,oblast,София,,total,663.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,София,oblast,София,,urban,409.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,София,oblast,София,,rural,254.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,София (столица),oblast,София (столица),,total,5495.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,София (столица),oblast,София (столица),,urban,5343.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,София (столица),oblast,София (столица),,rural,152.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,София (столица),oblast,София (столица),,total,4799.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,София (столица),oblast,София (столица),,urban,4658.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,София (столица),oblast,София (столица),,rural,141.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,София (столица),oblast,София (столица),,total,4622.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,София (столица),oblast,София (столица),,urban,4491.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,София (столица),oblast,София (столица),,rural,131.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,София (столица),oblast,София (столица),,total,5023.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,София (столица),oblast,София (столица),,urban,4913.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,София (столица),oblast,София (столица),,rural,110.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,София (столица),oblast,София (столица),,total,5339.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,София (столица),oblast,София (столица),,urban,5217.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,София (столица),oblast,София (столица),,rural,122.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,София (столица),oblast,София (столица),,total,5535.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,София (столица),oblast,София (столица),,urban,5380.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,София (столица),oblast,София (столица),,rural,155.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,София (столица),oblast,София (столица),,total,5404.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,София (столица),oblast,София (столица),,urban,5252.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,София (столица),oblast,София (столица),,rural,152.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,София (столица),oblast,София (столица),,total,6053.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,София (столица),oblast,София (столица),,urban,5890.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,София (столица),oblast,София (столица),,rural,163.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,София (столица),oblast,София (столица),,total,6064.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,София (столица),oblast,София (столица),,urban,5892.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,София (столица),oblast,София (столица),,rural,172.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,София (столица),oblast,София (столица),,total,6292.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,София (столица),oblast,София (столица),,urban,6096.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,София (столица),oblast,София (столица),,rural,196.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,София (столица),oblast,София (столица),,total,4669.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,София (столица),oblast,София (столица),,urban,4524.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,София (столица),oblast,София (столица),,rural,145.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,София (столица),oblast,София (столица),,total,5413.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,София (столица),oblast,София (столица),,urban,5243.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,София (столица),oblast,София (столица),,rural,170.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,София (столица),oblast,София (столица),,total,5887.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,София (столица),oblast,София (столица),,urban,5711.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,София (столица),oblast,София (столица),,rural,176.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,София (столица),oblast,София (столица),,total,5288.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,София (столица),oblast,София (столица),,urban,5116.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,София (столица),oblast,София (столица),,rural,172.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,София (столица),oblast,София (столица),,total,5064.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,София (столица),oblast,София (столица),,urban,4924.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,София (столица),oblast,София (столица),,rural,140.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,София (столица),oblast,София (столица),,total,5257.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,София (столица),oblast,София (столица),,urban,5102.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,София (столица),oblast,София (столица),,rural,155.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Стара Загора,oblast,Стара Загора,,total,976.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Стара Загора,oblast,Стара Загора,,urban,800.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Стара Загора,oblast,Стара Загора,,rural,176.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Стара Загора,oblast,Стара Загора,,total,828.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Стара Загора,oblast,Стара Загора,,urban,679.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Стара Загора,oblast,Стара Загора,,rural,149.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Стара Загора,oblast,Стара Загора,,total,795.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Стара Загора,oblast,Стара Загора,,urban,666.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Стара Загора,oblast,Стара Загора,,rural,129.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Стара Загора,oblast,Стара Загора,,total,758.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Стара Загора,oblast,Стара Загора,,urban,601.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Стара Загора,oblast,Стара Загора,,rural,157.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Стара Загора,oblast,Стара Загора,,total,815.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Стара Загора,oblast,Стара Загора,,urban,634.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Стара Загора,oblast,Стара Загора,,rural,181.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Стара Загора,oblast,Стара Загора,,total,947.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Стара Загора,oblast,Стара Загора,,urban,724.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Стара Загора,oblast,Стара Загора,,rural,223.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Стара Загора,oblast,Стара Загора,,total,922.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Стара Загора,oblast,Стара Загора,,urban,685.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Стара Загора,oblast,Стара Загора,,rural,237.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Стара Загора,oblast,Стара Загора,,total,1051.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Стара Загора,oblast,Стара Загора,,urban,788.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Стара Загора,oblast,Стара Загора,,rural,263.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Стара Загора,oblast,Стара Загора,,total,1157.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Стара Загора,oblast,Стара Загора,,urban,853.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Стара Загора,oblast,Стара Загора,,rural,304.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Стара Загора,oblast,Стара Загора,,total,1235.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Стара Загора,oblast,Стара Загора,,urban,859.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Стара Загора,oblast,Стара Загора,,rural,376.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Стара Загора,oblast,Стара Загора,,total,846.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Стара Загора,oblast,Стара Загора,,urban,586.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Стара Загора,oblast,Стара Загора,,rural,260.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Стара Загора,oblast,Стара Загора,,total,1114.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Стара Загора,oblast,Стара Загора,,urban,722.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Стара Загора,oblast,Стара Загора,,rural,392.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Стара Загора,oblast,Стара Загора,,total,1064.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Стара Загора,oblast,Стара Загора,,urban,721.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Стара Загора,oblast,Стара Загора,,rural,343.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Стара Загора,oblast,Стара Загора,,total,843.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Стара Загора,oblast,Стара Загора,,urban,583.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Стара Загора,oblast,Стара Загора,,rural,260.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Стара Загора,oblast,Стара Загора,,total,821.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Стара Загора,oblast,Стара Загора,,urban,573.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Стара Загора,oblast,Стара Загора,,rural,248.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Стара Загора,oblast,Стара Загора,,total,868.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Стара Загора,oblast,Стара Загора,,urban,609.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Стара Загора,oblast,Стара Загора,,rural,259.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Търговище,oblast,Търговище,,total,416.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Търговище,oblast,Търговище,,urban,203.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Търговище,oblast,Търговище,,rural,213.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Търговище,oblast,Търговище,,total,397.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Търговище,oblast,Търговище,,urban,195.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Търговище,oblast,Търговище,,rural,202.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Търговище,oblast,Търговище,,total,414.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Търговище,oblast,Търговище,,urban,231.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Търговище,oblast,Търговище,,rural,183.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Търговище,oblast,Търговище,,total,424.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Търговище,oblast,Търговище,,urban,210.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Търговище,oblast,Търговище,,rural,214.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Търговище,oblast,Търговище,,total,521.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Търговище,oblast,Търговище,,urban,239.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Търговище,oblast,Търговище,,rural,282.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Търговище,oblast,Търговище,,total,552.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Търговище,oblast,Търговище,,urban,255.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Търговище,oblast,Търговище,,rural,297.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Търговище,oblast,Търговище,,total,513.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Търговище,oblast,Търговище,,urban,220.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Търговище,oblast,Търговище,,rural,293.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Търговище,oblast,Търговище,,total,515.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Търговище,oblast,Търговище,,urban,231.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Търговище,oblast,Търговище,,rural,284.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Търговище,oblast,Търговище,,total,538.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Търговище,oblast,Търговище,,urban,236.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Търговище,oblast,Търговище,,rural,302.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Търговище,oblast,Търговище,,total,532.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Търговище,oblast,Търговище,,urban,263.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Търговище,oblast,Търговище,,rural,269.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Търговище,oblast,Търговище,,total,353.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Търговище,oblast,Търговище,,urban,170.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Търговище,oblast,Търговище,,rural,183.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Търговище,oblast,Търговище,,total,503.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Търговище,oblast,Търговище,,urban,210.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Търговище,oblast,Търговище,,rural,293.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Търговище,oblast,Търговище,,total,447.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Търговище,oblast,Търговище,,urban,215.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Търговище,oblast,Търговище,,rural,232.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Търговище,oblast,Търговище,,total,353.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Търговище,oblast,Търговище,,urban,153.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Търговище,oblast,Търговище,,rural,200.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Търговище,oblast,Търговище,,total,318.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Търговище,oblast,Търговище,,urban,165.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Търговище,oblast,Търговище,,rural,153.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Търговище,oblast,Търговище,,total,309.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Търговище,oblast,Търговище,,urban,151.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Търговище,oblast,Търговище,,rural,158.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Хасково,oblast,Хасково,,total,672.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Хасково,oblast,Хасково,,urban,496.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Хасково,oblast,Хасково,,rural,176.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Хасково,oblast,Хасково,,total,614.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Хасково,oblast,Хасково,,urban,470.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Хасково,oblast,Хасково,,rural,144.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Хасково,oblast,Хасково,,total,596.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Хасково,oblast,Хасково,,urban,407.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Хасково,oblast,Хасково,,rural,189.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Хасково,oblast,Хасково,,total,596.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Хасково,oblast,Хасково,,urban,466.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Хасково,oblast,Хасково,,rural,130.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Хасково,oblast,Хасково,,total,652.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Хасково,oblast,Хасково,,urban,475.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Хасково,oblast,Хасково,,rural,177.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Хасково,oblast,Хасково,,total,735.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Хасково,oblast,Хасково,,urban,528.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Хасково,oblast,Хасково,,rural,207.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Хасково,oblast,Хасково,,total,742.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Хасково,oblast,Хасково,,urban,513.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Хасково,oblast,Хасково,,rural,229.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Хасково,oblast,Хасково,,total,700.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Хасково,oblast,Хасково,,urban,507.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Хасково,oblast,Хасково,,rural,193.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Хасково,oblast,Хасково,,total,769.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Хасково,oblast,Хасково,,urban,507.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Хасково,oblast,Хасково,,rural,262.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Хасково,oblast,Хасково,,total,878.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Хасково,oblast,Хасково,,urban,569.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Хасково,oblast,Хасково,,rural,309.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Хасково,oblast,Хасково,,total,609.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Хасково,oblast,Хасково,,urban,422.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Хасково,oblast,Хасково,,rural,187.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Хасково,oblast,Хасково,,total,693.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Хасково,oblast,Хасково,,urban,480.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Хасково,oblast,Хасково,,rural,213.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Хасково,oblast,Хасково,,total,717.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Хасково,oblast,Хасково,,urban,497.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Хасково,oblast,Хасково,,rural,220.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Хасково,oblast,Хасково,,total,551.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Хасково,oblast,Хасково,,urban,372.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Хасково,oblast,Хасково,,rural,179.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Хасково,oblast,Хасково,,total,595.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Хасково,oblast,Хасково,,urban,391.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Хасково,oblast,Хасково,,rural,204.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Хасково,oblast,Хасково,,total,562.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Хасково,oblast,Хасково,,urban,378.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Хасково,oblast,Хасково,,rural,184.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Шумен,oblast,Шумен,,total,642.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Шумен,oblast,Шумен,,urban,411.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Шумен,oblast,Шумен,,rural,231.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Шумен,oblast,Шумен,,total,568.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Шумен,oblast,Шумен,,urban,372.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Шумен,oblast,Шумен,,rural,196.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Шумен,oblast,Шумен,,total,606.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Шумен,oblast,Шумен,,urban,368.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Шумен,oblast,Шумен,,rural,238.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Шумен,oblast,Шумен,,total,647.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Шумен,oblast,Шумен,,urban,410.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Шумен,oblast,Шумен,,rural,237.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Шумен,oblast,Шумен,,total,689.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Шумен,oblast,Шумен,,urban,413.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Шумен,oblast,Шумен,,rural,276.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Шумен,oblast,Шумен,,total,782.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Шумен,oblast,Шумен,,urban,456.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Шумен,oblast,Шумен,,rural,326.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Шумен,oblast,Шумен,,total,802.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Шумен,oblast,Шумен,,urban,447.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Шумен,oblast,Шумен,,rural,355.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Шумен,oblast,Шумен,,total,816.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Шумен,oblast,Шумен,,urban,445.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Шумен,oblast,Шумен,,rural,371.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Шумен,oblast,Шумен,,total,822.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Шумен,oblast,Шумен,,urban,463.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Шумен,oblast,Шумен,,rural,359.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Шумен,oblast,Шумен,,total,754.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Шумен,oblast,Шумен,,urban,382.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Шумен,oblast,Шумен,,rural,372.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Шумен,oblast,Шумен,,total,569.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Шумен,oblast,Шумен,,urban,303.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Шумен,oblast,Шумен,,rural,266.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Шумен,oblast,Шумен,,total,755.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Шумен,oblast,Шумен,,urban,381.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Шумен,oblast,Шумен,,rural,374.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Шумен,oblast,Шумен,,total,699.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Шумен,oblast,Шумен,,urban,375.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Шумен,oblast,Шумен,,rural,324.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Шумен,oblast,Шумен,,total,509.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Шумен,oblast,Шумен,,urban,281.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Шумен,oblast,Шумен,,rural,228.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Шумен,oblast,Шумен,,total,520.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Шумен,oblast,Шумен,,urban,268.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Шумен,oblast,Шумен,,rural,252.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Шумен,oblast,Шумен,,total,517.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Шумен,oblast,Шумен,,urban,306.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Шумен,oblast,Шумен,,rural,211.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Ямбол,oblast,Ямбол,,total,360.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Ямбол,oblast,Ямбол,,urban,301.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2010,Ямбол,oblast,Ямбол,,rural,59.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Ямбол,oblast,Ямбол,,total,339.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Ямбол,oblast,Ямбол,,urban,267.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2011,Ямбол,oblast,Ямбол,,rural,72.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Ямбол,oblast,Ямбол,,total,353.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Ямбол,oblast,Ямбол,,urban,272.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2012,Ямбол,oblast,Ямбол,,rural,81.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Ямбол,oblast,Ямбол,,total,332.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Ямбол,oblast,Ямбол,,urban,254.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2013,Ямбол,oblast,Ямбол,,rural,78.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Ямбол,oblast,Ямбол,,total,409.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Ямбол,oblast,Ямбол,,urban,328.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2014,Ямбол,oblast,Ямбол,,rural,81.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Ямбол,oblast,Ямбол,,total,475.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Ямбол,oblast,Ямбол,,urban,385.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2015,Ямбол,oblast,Ямбол,,rural,90.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Ямбол,oblast,Ямбол,,total,430.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Ямбол,oblast,Ямбол,,urban,339.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2016,Ямбол,oblast,Ямбол,,rural,91.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Ямбол,oblast,Ямбол,,total,426.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Ямбол,oblast,Ямбол,,urban,334.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2017,Ямбол,oblast,Ямбол,,rural,92.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Ямбол,oblast,Ямбол,,total,448.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Ямбол,oblast,Ямбол,,urban,363.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2018,Ямбол,oblast,Ямбол,,rural,85.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Ямбол,oblast,Ямбол,,total,522.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Ямбол,oblast,Ямбол,,urban,373.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2019,Ямбол,oblast,Ямбол,,rural,149.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Ямбол,oblast,Ямбол,,total,355.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Ямбол,oblast,Ямбол,,urban,255.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2020,Ямбол,oblast,Ямбол,,rural,100.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Ямбол,oblast,Ямбол,,total,451.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Ямбол,oblast,Ямбол,,urban,342.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2021,Ямбол,oblast,Ямбол,,rural,109.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Ямбол,oblast,Ямбол,,total,429.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Ямбол,oblast,Ямбол,,urban,301.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2022,Ямбол,oblast,Ямбол,,rural,128.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Ямбол,oblast,Ямбол,,total,332.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Ямбол,oblast,Ямбол,,urban,226.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2023,Ямбол,oblast,Ямбол,,rural,106.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Ямбол,oblast,Ямбол,,total,319.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Ямбол,oblast,Ямбол,,urban,223.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2024,Ямбол,oblast,Ямбол,,rural,96.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Ямбол,oblast,Ямбол,,total,323.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Ямбол,oblast,Ямбол,,urban,201.0,Pop_4.1.1._Marriages_DR.xlsx
+marriages_by_residence,2025,Ямбол,oblast,Ямбол,,rural,122.0,Pop_4.1.1._Marriages_DR.xlsx

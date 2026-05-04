@@ -1,0 +1,1345 @@
+﻿dataset,year,territory_raw,territory_level,oblast,municipality,metric,value,source_file
+divorces_by_residence,2010,Благоевград,oblast,Благоевград,,total,340.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Благоевград,oblast,Благоевград,,urban,258.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Благоевград,oblast,Благоевград,,rural,82.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Благоевград,oblast,Благоевград,,total,328.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Благоевград,oblast,Благоевград,,urban,259.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Благоевград,oblast,Благоевград,,rural,69.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Благоевград,oblast,Благоевград,,total,418.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Благоевград,oblast,Благоевград,,urban,281.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Благоевград,oblast,Благоевград,,rural,137.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Благоевград,oblast,Благоевград,,total,383.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Благоевград,oblast,Благоевград,,urban,282.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Благоевград,oblast,Благоевград,,rural,101.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Благоевград,oblast,Благоевград,,total,375.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Благоевград,oblast,Благоевград,,urban,263.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Благоевград,oblast,Благоевград,,rural,112.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Благоевград,oblast,Благоевград,,total,373.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Благоевград,oblast,Благоевград,,urban,280.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Благоевград,oblast,Благоевград,,rural,93.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Благоевград,oblast,Благоевград,,total,395.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Благоевград,oblast,Благоевград,,urban,281.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Благоевград,oblast,Благоевград,,rural,114.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Благоевград,oblast,Благоевград,,total,476.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Благоевград,oblast,Благоевград,,urban,347.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Благоевград,oblast,Благоевград,,rural,129.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Благоевград,oblast,Благоевград,,total,374.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Благоевград,oblast,Благоевград,,urban,253.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Благоевград,oblast,Благоевград,,rural,121.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Благоевград,oblast,Благоевград,,total,395.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Благоевград,oblast,Благоевград,,urban,271.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Благоевград,oblast,Благоевград,,rural,124.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Благоевград,oblast,Благоевград,,total,340.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Благоевград,oblast,Благоевград,,urban,233.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Благоевград,oblast,Благоевград,,rural,107.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Благоевград,oblast,Благоевград,,total,393.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Благоевград,oblast,Благоевград,,urban,258.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Благоевград,oblast,Благоевград,,rural,135.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Благоевград,oblast,Благоевград,,total,353.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Благоевград,oblast,Благоевград,,urban,222.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Благоевград,oblast,Благоевград,,rural,131.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Благоевград,oblast,Благоевград,,total,381.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Благоевград,oblast,Благоевград,,urban,259.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Благоевград,oblast,Благоевград,,rural,122.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Благоевград,oblast,Благоевград,,total,316.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Благоевград,oblast,Благоевград,,urban,217.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Благоевград,oblast,Благоевград,,rural,99.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Благоевград,oblast,Благоевград,,total,358.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Благоевград,oblast,Благоевград,,urban,234.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Благоевград,oblast,Благоевград,,rural,124.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Бургас,oblast,Бургас,,total,656.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Бургас,oblast,Бургас,,urban,573.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Бургас,oblast,Бургас,,rural,83.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Бургас,oblast,Бургас,,total,664.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Бургас,oblast,Бургас,,urban,582.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Бургас,oblast,Бургас,,rural,82.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Бургас,oblast,Бургас,,total,654.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Бургас,oblast,Бургас,,urban,566.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Бургас,oblast,Бургас,,rural,88.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Бургас,oblast,Бургас,,total,731.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Бургас,oblast,Бургас,,urban,642.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Бургас,oblast,Бургас,,rural,89.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Бургас,oblast,Бургас,,total,705.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Бургас,oblast,Бургас,,urban,612.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Бургас,oblast,Бургас,,rural,93.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Бургас,oblast,Бургас,,total,636.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Бургас,oblast,Бургас,,urban,559.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Бургас,oblast,Бургас,,rural,77.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Бургас,oblast,Бургас,,total,636.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Бургас,oblast,Бургас,,urban,534.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Бургас,oblast,Бургас,,rural,102.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Бургас,oblast,Бургас,,total,683.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Бургас,oblast,Бургас,,urban,591.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Бургас,oblast,Бургас,,rural,92.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Бургас,oblast,Бургас,,total,672.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Бургас,oblast,Бургас,,urban,563.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Бургас,oblast,Бургас,,rural,109.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Бургас,oblast,Бургас,,total,685.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Бургас,oblast,Бургас,,urban,574.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Бургас,oblast,Бургас,,rural,111.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Бургас,oblast,Бургас,,total,577.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Бургас,oblast,Бургас,,urban,462.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Бургас,oblast,Бургас,,rural,115.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Бургас,oblast,Бургас,,total,616.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Бургас,oblast,Бургас,,urban,493.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Бургас,oblast,Бургас,,rural,123.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Бургас,oblast,Бургас,,total,620.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Бургас,oblast,Бургас,,urban,501.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Бургас,oblast,Бургас,,rural,119.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Бургас,oblast,Бургас,,total,571.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Бургас,oblast,Бургас,,urban,455.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Бургас,oblast,Бургас,,rural,116.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Бургас,oblast,Бургас,,total,574.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Бургас,oblast,Бургас,,urban,444.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Бургас,oblast,Бургас,,rural,130.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Бургас,oblast,Бургас,,total,559.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Бургас,oblast,Бургас,,urban,446.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Бургас,oblast,Бургас,,rural,113.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Варна,oblast,Варна,,total,788.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Варна,oblast,Варна,,urban,721.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Варна,oblast,Варна,,rural,67.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Варна,oblast,Варна,,total,730.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Варна,oblast,Варна,,urban,671.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Варна,oblast,Варна,,rural,59.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Варна,oblast,Варна,,total,854.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Варна,oblast,Варна,,urban,782.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Варна,oblast,Варна,,rural,72.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Варна,oblast,Варна,,total,852.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Варна,oblast,Варна,,urban,758.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Варна,oblast,Варна,,rural,94.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Варна,oblast,Варна,,total,836.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Варна,oblast,Варна,,urban,758.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Варна,oblast,Варна,,rural,78.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Варна,oblast,Варна,,total,819.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Варна,oblast,Варна,,urban,746.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Варна,oblast,Варна,,rural,73.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Варна,oblast,Варна,,total,807.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Варна,oblast,Варна,,urban,725.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Варна,oblast,Варна,,rural,82.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Варна,oblast,Варна,,total,785.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Варна,oblast,Варна,,urban,710.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Варна,oblast,Варна,,rural,75.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Варна,oblast,Варна,,total,762.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Варна,oblast,Варна,,urban,691.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Варна,oblast,Варна,,rural,71.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Варна,oblast,Варна,,total,791.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Варна,oblast,Варна,,urban,711.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Варна,oblast,Варна,,rural,80.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Варна,oblast,Варна,,total,688.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Варна,oblast,Варна,,urban,612.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Варна,oblast,Варна,,rural,76.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Варна,oblast,Варна,,total,826.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Варна,oblast,Варна,,urban,726.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Варна,oblast,Варна,,rural,100.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Варна,oblast,Варна,,total,692.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Варна,oblast,Варна,,urban,610.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Варна,oblast,Варна,,rural,82.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Варна,oblast,Варна,,total,663.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Варна,oblast,Варна,,urban,589.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Варна,oblast,Варна,,rural,74.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Варна,oblast,Варна,,total,663.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Варна,oblast,Варна,,urban,570.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Варна,oblast,Варна,,rural,93.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Варна,oblast,Варна,,total,588.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Варна,oblast,Варна,,urban,512.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Варна,oblast,Варна,,rural,76.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Велико Търново,oblast,Велико Търново,,total,367.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Велико Търново,oblast,Велико Търново,,urban,311.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Велико Търново,oblast,Велико Търново,,rural,56.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Велико Търново,oblast,Велико Търново,,total,361.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Велико Търново,oblast,Велико Търново,,urban,285.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Велико Търново,oblast,Велико Търново,,rural,76.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Велико Търново,oblast,Велико Търново,,total,348.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Велико Търново,oblast,Велико Търново,,urban,290.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Велико Търново,oblast,Велико Търново,,rural,58.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Велико Търново,oblast,Велико Търново,,total,355.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Велико Търново,oblast,Велико Търново,,urban,284.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Велико Търново,oblast,Велико Търново,,rural,71.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Велико Търново,oblast,Велико Търново,,total,328.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Велико Търново,oblast,Велико Търново,,urban,249.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Велико Търново,oblast,Велико Търново,,rural,79.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Велико Търново,oblast,Велико Търново,,total,347.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Велико Търново,oblast,Велико Търново,,urban,284.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Велико Търново,oblast,Велико Търново,,rural,63.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Велико Търново,oblast,Велико Търново,,total,333.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Велико Търново,oblast,Велико Търново,,urban,260.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Велико Търново,oblast,Велико Търново,,rural,73.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Велико Търново,oblast,Велико Търново,,total,320.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Велико Търново,oblast,Велико Търново,,urban,257.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Велико Търново,oblast,Велико Търново,,rural,63.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Велико Търново,oblast,Велико Търново,,total,338.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Велико Търново,oblast,Велико Търново,,urban,253.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Велико Търново,oblast,Велико Търново,,rural,85.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Велико Търново,oblast,Велико Търново,,total,349.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Велико Търново,oblast,Велико Търново,,urban,265.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Велико Търново,oblast,Велико Търново,,rural,84.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Велико Търново,oblast,Велико Търново,,total,307.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Велико Търново,oblast,Велико Търново,,urban,231.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Велико Търново,oblast,Велико Търново,,rural,76.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Велико Търново,oblast,Велико Търново,,total,297.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Велико Търново,oblast,Велико Търново,,urban,224.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Велико Търново,oblast,Велико Търново,,rural,73.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Велико Търново,oblast,Велико Търново,,total,302.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Велико Търново,oblast,Велико Търново,,urban,220.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Велико Търново,oblast,Велико Търново,,rural,82.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Велико Търново,oblast,Велико Търново,,total,295.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Велико Търново,oblast,Велико Търново,,urban,210.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Велико Търново,oblast,Велико Търново,,rural,85.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Велико Търново,oblast,Велико Търново,,total,277.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Велико Търново,oblast,Велико Търново,,urban,209.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Велико Търново,oblast,Велико Търново,,rural,68.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Велико Търново,oblast,Велико Търново,,total,263.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Велико Търново,oblast,Велико Търново,,urban,181.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Велико Търново,oblast,Велико Търново,,rural,82.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Видин,oblast,Видин,,total,139.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Видин,oblast,Видин,,urban,115.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Видин,oblast,Видин,,rural,24.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Видин,oblast,Видин,,total,123.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Видин,oblast,Видин,,urban,97.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Видин,oblast,Видин,,rural,26.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Видин,oblast,Видин,,total,136.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Видин,oblast,Видин,,urban,102.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Видин,oblast,Видин,,rural,34.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Видин,oblast,Видин,,total,133.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Видин,oblast,Видин,,urban,109.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Видин,oblast,Видин,,rural,24.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Видин,oblast,Видин,,total,122.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Видин,oblast,Видин,,urban,97.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Видин,oblast,Видин,,rural,25.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Видин,oblast,Видин,,total,119.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Видин,oblast,Видин,,urban,86.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Видин,oblast,Видин,,rural,33.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Видин,oblast,Видин,,total,112.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Видин,oblast,Видин,,urban,84.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Видин,oblast,Видин,,rural,28.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Видин,oblast,Видин,,total,117.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Видин,oblast,Видин,,urban,85.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Видин,oblast,Видин,,rural,32.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Видин,oblast,Видин,,total,127.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Видин,oblast,Видин,,urban,92.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Видин,oblast,Видин,,rural,35.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Видин,oblast,Видин,,total,123.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Видин,oblast,Видин,,urban,82.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Видин,oblast,Видин,,rural,41.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Видин,oblast,Видин,,total,100.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Видин,oblast,Видин,,urban,74.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Видин,oblast,Видин,,rural,26.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Видин,oblast,Видин,,total,106.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Видин,oblast,Видин,,urban,80.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Видин,oblast,Видин,,rural,26.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Видин,oblast,Видин,,total,100.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Видин,oblast,Видин,,urban,74.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Видин,oblast,Видин,,rural,26.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Видин,oblast,Видин,,total,119.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Видин,oblast,Видин,,urban,84.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Видин,oblast,Видин,,rural,35.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Видин,oblast,Видин,,total,107.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Видин,oblast,Видин,,urban,70.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Видин,oblast,Видин,,rural,37.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Видин,oblast,Видин,,total,95.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Видин,oblast,Видин,,urban,64.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Видин,oblast,Видин,,rural,31.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Враца,oblast,Враца,,total,218.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Враца,oblast,Враца,,urban,153.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Враца,oblast,Враца,,rural,65.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Враца,oblast,Враца,,total,271.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Враца,oblast,Враца,,urban,196.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Враца,oblast,Враца,,rural,75.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Враца,oblast,Враца,,total,265.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Враца,oblast,Враца,,urban,186.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Враца,oblast,Враца,,rural,79.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Враца,oblast,Враца,,total,276.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Враца,oblast,Враца,,urban,193.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Враца,oblast,Враца,,rural,83.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Враца,oblast,Враца,,total,284.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Враца,oblast,Враца,,urban,185.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Враца,oblast,Враца,,rural,99.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Враца,oblast,Враца,,total,258.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Враца,oblast,Враца,,urban,175.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Враца,oblast,Враца,,rural,83.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Враца,oblast,Враца,,total,239.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Враца,oblast,Враца,,urban,159.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Враца,oblast,Враца,,rural,80.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Враца,oblast,Враца,,total,266.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Враца,oblast,Враца,,urban,188.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Враца,oblast,Враца,,rural,78.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Враца,oblast,Враца,,total,281.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Враца,oblast,Враца,,urban,192.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Враца,oblast,Враца,,rural,89.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Враца,oblast,Враца,,total,254.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Враца,oblast,Враца,,urban,163.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Враца,oblast,Враца,,rural,91.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Враца,oblast,Враца,,total,225.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Враца,oblast,Враца,,urban,146.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Враца,oblast,Враца,,rural,79.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Враца,oblast,Враца,,total,238.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Враца,oblast,Враца,,urban,159.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Враца,oblast,Враца,,rural,79.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Враца,oblast,Враца,,total,253.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Враца,oblast,Враца,,urban,172.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Враца,oblast,Враца,,rural,81.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Враца,oblast,Враца,,total,228.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Враца,oblast,Враца,,urban,134.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Враца,oblast,Враца,,rural,94.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Враца,oblast,Враца,,total,200.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Враца,oblast,Враца,,urban,121.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Враца,oblast,Враца,,rural,79.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Враца,oblast,Враца,,total,214.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Враца,oblast,Враца,,urban,139.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Враца,oblast,Враца,,rural,75.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Габрово,oblast,Габрово,,total,187.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Габрово,oblast,Габрово,,urban,167.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Габрово,oblast,Габрово,,rural,20.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Габрово,oblast,Габрово,,total,183.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Габрово,oblast,Габрово,,urban,162.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Габрово,oblast,Габрово,,rural,21.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Габрово,oblast,Габрово,,total,274.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Габрово,oblast,Габрово,,urban,246.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Габрово,oblast,Габрово,,rural,28.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Габрово,oblast,Габрово,,total,183.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Габрово,oblast,Габрово,,urban,167.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Габрово,oblast,Габрово,,rural,16.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Габрово,oblast,Габрово,,total,199.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Габрово,oblast,Габрово,,urban,178.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Габрово,oblast,Габрово,,rural,21.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Габрово,oblast,Габрово,,total,171.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Габрово,oblast,Габрово,,urban,160.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Габрово,oblast,Габрово,,rural,11.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Габрово,oblast,Габрово,,total,165.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Габрово,oblast,Габрово,,urban,140.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Габрово,oblast,Габрово,,rural,25.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Габрово,oblast,Габрово,,total,166.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Габрово,oblast,Габрово,,urban,135.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Габрово,oblast,Габрово,,rural,31.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Габрово,oblast,Габрово,,total,185.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Габрово,oblast,Габрово,,urban,158.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Габрово,oblast,Габрово,,rural,27.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Габрово,oblast,Габрово,,total,178.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Габрово,oblast,Габрово,,urban,145.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Габрово,oblast,Габрово,,rural,33.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Габрово,oblast,Габрово,,total,136.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Габрово,oblast,Габрово,,urban,118.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Габрово,oblast,Габрово,,rural,18.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Габрово,oblast,Габрово,,total,150.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Габрово,oblast,Габрово,,urban,124.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Габрово,oblast,Габрово,,rural,26.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Габрово,oblast,Габрово,,total,138.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Габрово,oblast,Габрово,,urban,115.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Габрово,oblast,Габрово,,rural,23.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Габрово,oblast,Габрово,,total,127.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Габрово,oblast,Габрово,,urban,106.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Габрово,oblast,Габрово,,rural,21.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Габрово,oblast,Габрово,,total,119.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Габрово,oblast,Габрово,,urban,95.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Габрово,oblast,Габрово,,rural,24.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Габрово,oblast,Габрово,,total,110.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Габрово,oblast,Габрово,,urban,81.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Габрово,oblast,Габрово,,rural,29.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Добрич,oblast,Добрич,,total,305.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Добрич,oblast,Добрич,,urban,252.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Добрич,oblast,Добрич,,rural,53.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Добрич,oblast,Добрич,,total,282.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Добрич,oblast,Добрич,,urban,215.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Добрич,oblast,Добрич,,rural,67.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Добрич,oblast,Добрич,,total,327.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Добрич,oblast,Добрич,,urban,250.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Добрич,oblast,Добрич,,rural,77.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Добрич,oblast,Добрич,,total,280.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Добрич,oblast,Добрич,,urban,232.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Добрич,oblast,Добрич,,rural,48.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Добрич,oblast,Добрич,,total,246.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Добрич,oblast,Добрич,,urban,195.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Добрич,oblast,Добрич,,rural,51.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Добрич,oblast,Добрич,,total,247.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Добрич,oblast,Добрич,,urban,205.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Добрич,oblast,Добрич,,rural,42.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Добрич,oblast,Добрич,,total,247.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Добрич,oblast,Добрич,,urban,185.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Добрич,oblast,Добрич,,rural,62.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Добрич,oblast,Добрич,,total,263.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Добрич,oblast,Добрич,,urban,198.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Добрич,oblast,Добрич,,rural,65.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Добрич,oblast,Добрич,,total,235.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Добрич,oblast,Добрич,,urban,178.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Добрич,oblast,Добрич,,rural,57.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Добрич,oblast,Добрич,,total,286.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Добрич,oblast,Добрич,,urban,200.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Добрич,oblast,Добрич,,rural,86.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Добрич,oblast,Добрич,,total,264.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Добрич,oblast,Добрич,,urban,200.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Добрич,oblast,Добрич,,rural,64.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Добрич,oblast,Добрич,,total,252.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Добрич,oblast,Добрич,,urban,172.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Добрич,oblast,Добрич,,rural,80.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Добрич,oblast,Добрич,,total,276.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Добрич,oblast,Добрич,,urban,190.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Добрич,oblast,Добрич,,rural,86.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Добрич,oblast,Добрич,,total,197.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Добрич,oblast,Добрич,,urban,139.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Добрич,oblast,Добрич,,rural,58.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Добрич,oblast,Добрич,,total,207.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Добрич,oblast,Добрич,,urban,147.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Добрич,oblast,Добрич,,rural,60.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Добрич,oblast,Добрич,,total,200.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Добрич,oblast,Добрич,,urban,142.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Добрич,oblast,Добрич,,rural,58.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Кърджали,oblast,Кърджали,,total,146.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Кърджали,oblast,Кърджали,,urban,79.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Кърджали,oblast,Кърджали,,rural,67.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Кърджали,oblast,Кърджали,,total,124.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Кърджали,oblast,Кърджали,,urban,75.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Кърджали,oblast,Кърджали,,rural,49.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Кърджали,oblast,Кърджали,,total,146.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Кърджали,oblast,Кърджали,,urban,79.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Кърджали,oblast,Кърджали,,rural,67.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Кърджали,oblast,Кърджали,,total,128.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Кърджали,oblast,Кърджали,,urban,65.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Кърджали,oblast,Кърджали,,rural,63.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Кърджали,oblast,Кърджали,,total,144.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Кърджали,oblast,Кърджали,,urban,77.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Кърджали,oblast,Кърджали,,rural,67.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Кърджали,oblast,Кърджали,,total,142.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Кърджали,oblast,Кърджали,,urban,76.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Кърджали,oblast,Кърджали,,rural,66.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Кърджали,oblast,Кърджали,,total,154.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Кърджали,oblast,Кърджали,,urban,71.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Кърджали,oblast,Кърджали,,rural,83.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Кърджали,oblast,Кърджали,,total,155.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Кърджали,oblast,Кърджали,,urban,86.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Кърджали,oblast,Кърджали,,rural,69.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Кърджали,oblast,Кърджали,,total,154.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Кърджали,oblast,Кърджали,,urban,90.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Кърджали,oblast,Кърджали,,rural,64.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Кърджали,oblast,Кърджали,,total,165.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Кърджали,oblast,Кърджали,,urban,84.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Кърджали,oblast,Кърджали,,rural,81.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Кърджали,oblast,Кърджали,,total,160.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Кърджали,oblast,Кърджали,,urban,83.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Кърджали,oblast,Кърджали,,rural,77.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Кърджали,oblast,Кърджали,,total,194.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Кърджали,oblast,Кърджали,,urban,83.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Кърджали,oblast,Кърджали,,rural,111.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Кърджали,oblast,Кърджали,,total,174.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Кърджали,oblast,Кърджали,,urban,74.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Кърджали,oblast,Кърджали,,rural,100.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Кърджали,oblast,Кърджали,,total,130.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Кърджали,oblast,Кърджали,,urban,63.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Кърджали,oblast,Кърджали,,rural,67.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Кърджали,oblast,Кърджали,,total,153.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Кърджали,oblast,Кърджали,,urban,70.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Кърджали,oblast,Кърджали,,rural,83.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Кърджали,oblast,Кърджали,,total,128.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Кърджали,oblast,Кърджали,,urban,62.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Кърджали,oblast,Кърджали,,rural,66.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Кюстендил,oblast,Кюстендил,,total,179.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Кюстендил,oblast,Кюстендил,,urban,141.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Кюстендил,oblast,Кюстендил,,rural,38.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Кюстендил,oblast,Кюстендил,,total,164.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Кюстендил,oblast,Кюстендил,,urban,124.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Кюстендил,oblast,Кюстендил,,rural,40.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Кюстендил,oblast,Кюстендил,,total,193.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Кюстендил,oblast,Кюстендил,,urban,152.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Кюстендил,oblast,Кюстендил,,rural,41.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Кюстендил,oblast,Кюстендил,,total,193.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Кюстендил,oblast,Кюстендил,,urban,147.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Кюстендил,oblast,Кюстендил,,rural,46.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Кюстендил,oblast,Кюстендил,,total,205.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Кюстендил,oblast,Кюстендил,,urban,162.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Кюстендил,oblast,Кюстендил,,rural,43.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Кюстендил,oblast,Кюстендил,,total,183.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Кюстендил,oblast,Кюстендил,,urban,139.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Кюстендил,oblast,Кюстендил,,rural,44.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Кюстендил,oblast,Кюстендил,,total,198.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Кюстендил,oblast,Кюстендил,,urban,148.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Кюстендил,oblast,Кюстендил,,rural,50.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Кюстендил,oblast,Кюстендил,,total,176.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Кюстендил,oblast,Кюстендил,,urban,143.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Кюстендил,oblast,Кюстендил,,rural,33.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Кюстендил,oblast,Кюстендил,,total,187.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Кюстендил,oblast,Кюстендил,,urban,139.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Кюстендил,oblast,Кюстендил,,rural,48.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Кюстендил,oblast,Кюстендил,,total,191.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Кюстендил,oblast,Кюстендил,,urban,150.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Кюстендил,oblast,Кюстендил,,rural,41.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Кюстендил,oblast,Кюстендил,,total,154.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Кюстендил,oblast,Кюстендил,,urban,121.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Кюстендил,oblast,Кюстендил,,rural,33.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Кюстендил,oblast,Кюстендил,,total,168.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Кюстендил,oblast,Кюстендил,,urban,117.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Кюстендил,oblast,Кюстендил,,rural,51.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Кюстендил,oblast,Кюстендил,,total,160.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Кюстендил,oblast,Кюстендил,,urban,125.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Кюстендил,oblast,Кюстендил,,rural,35.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Кюстендил,oblast,Кюстендил,,total,172.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Кюстендил,oblast,Кюстендил,,urban,129.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Кюстендил,oblast,Кюстендил,,rural,43.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Кюстендил,oblast,Кюстендил,,total,161.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Кюстендил,oblast,Кюстендил,,urban,120.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Кюстендил,oblast,Кюстендил,,rural,41.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Кюстендил,oblast,Кюстендил,,total,145.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Кюстендил,oblast,Кюстендил,,urban,112.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Кюстендил,oblast,Кюстендил,,rural,33.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Ловеч,oblast,Ловеч,,total,155.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Ловеч,oblast,Ловеч,,urban,122.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Ловеч,oblast,Ловеч,,rural,33.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Ловеч,oblast,Ловеч,,total,168.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Ловеч,oblast,Ловеч,,urban,121.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Ловеч,oblast,Ловеч,,rural,47.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Ловеч,oblast,Ловеч,,total,155.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Ловеч,oblast,Ловеч,,urban,121.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Ловеч,oblast,Ловеч,,rural,34.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Ловеч,oblast,Ловеч,,total,149.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Ловеч,oblast,Ловеч,,urban,103.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Ловеч,oblast,Ловеч,,rural,46.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Ловеч,oblast,Ловеч,,total,157.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Ловеч,oblast,Ловеч,,urban,113.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Ловеч,oblast,Ловеч,,rural,44.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Ловеч,oblast,Ловеч,,total,162.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Ловеч,oblast,Ловеч,,urban,118.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Ловеч,oblast,Ловеч,,rural,44.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Ловеч,oblast,Ловеч,,total,141.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Ловеч,oblast,Ловеч,,urban,99.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Ловеч,oblast,Ловеч,,rural,42.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Ловеч,oblast,Ловеч,,total,168.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Ловеч,oblast,Ловеч,,urban,117.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Ловеч,oblast,Ловеч,,rural,51.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Ловеч,oblast,Ловеч,,total,180.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Ловеч,oblast,Ловеч,,urban,117.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Ловеч,oblast,Ловеч,,rural,63.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Ловеч,oblast,Ловеч,,total,193.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Ловеч,oblast,Ловеч,,urban,124.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Ловеч,oblast,Ловеч,,rural,69.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Ловеч,oblast,Ловеч,,total,160.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Ловеч,oblast,Ловеч,,urban,117.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Ловеч,oblast,Ловеч,,rural,43.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Ловеч,oblast,Ловеч,,total,160.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Ловеч,oblast,Ловеч,,urban,107.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Ловеч,oblast,Ловеч,,rural,53.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Ловеч,oblast,Ловеч,,total,168.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Ловеч,oblast,Ловеч,,urban,104.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Ловеч,oblast,Ловеч,,rural,64.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Ловеч,oblast,Ловеч,,total,137.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Ловеч,oblast,Ловеч,,urban,87.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Ловеч,oblast,Ловеч,,rural,50.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Ловеч,oblast,Ловеч,,total,139.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Ловеч,oblast,Ловеч,,urban,90.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Ловеч,oblast,Ловеч,,rural,49.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Ловеч,oblast,Ловеч,,total,137.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Ловеч,oblast,Ловеч,,urban,83.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Ловеч,oblast,Ловеч,,rural,54.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Монтана,oblast,Монтана,,total,183.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Монтана,oblast,Монтана,,urban,135.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Монтана,oblast,Монтана,,rural,48.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Монтана,oblast,Монтана,,total,161.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Монтана,oblast,Монтана,,urban,132.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Монтана,oblast,Монтана,,rural,29.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Монтана,oblast,Монтана,,total,184.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Монтана,oblast,Монтана,,urban,133.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Монтана,oblast,Монтана,,rural,51.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Монтана,oblast,Монтана,,total,183.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Монтана,oblast,Монтана,,urban,143.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Монтана,oblast,Монтана,,rural,40.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Монтана,oblast,Монтана,,total,184.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Монтана,oblast,Монтана,,urban,136.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Монтана,oblast,Монтана,,rural,48.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Монтана,oblast,Монтана,,total,214.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Монтана,oblast,Монтана,,urban,172.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Монтана,oblast,Монтана,,rural,42.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Монтана,oblast,Монтана,,total,182.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Монтана,oblast,Монтана,,urban,132.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Монтана,oblast,Монтана,,rural,50.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Монтана,oblast,Монтана,,total,170.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Монтана,oblast,Монтана,,urban,122.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Монтана,oblast,Монтана,,rural,48.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Монтана,oblast,Монтана,,total,202.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Монтана,oblast,Монтана,,urban,156.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Монтана,oblast,Монтана,,rural,46.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Монтана,oblast,Монтана,,total,181.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Монтана,oblast,Монтана,,urban,146.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Монтана,oblast,Монтана,,rural,35.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Монтана,oblast,Монтана,,total,162.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Монтана,oblast,Монтана,,urban,107.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Монтана,oblast,Монтана,,rural,55.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Монтана,oblast,Монтана,,total,194.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Монтана,oblast,Монтана,,urban,144.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Монтана,oblast,Монтана,,rural,50.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Монтана,oblast,Монтана,,total,196.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Монтана,oblast,Монтана,,urban,144.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Монтана,oblast,Монтана,,rural,52.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Монтана,oblast,Монтана,,total,172.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Монтана,oblast,Монтана,,urban,112.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Монтана,oblast,Монтана,,rural,60.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Монтана,oblast,Монтана,,total,158.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Монтана,oblast,Монтана,,urban,106.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Монтана,oblast,Монтана,,rural,52.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Монтана,oblast,Монтана,,total,147.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Монтана,oblast,Монтана,,urban,89.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Монтана,oblast,Монтана,,rural,58.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Пазарджик,oblast,Пазарджик,,total,293.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Пазарджик,oblast,Пазарджик,,urban,224.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Пазарджик,oblast,Пазарджик,,rural,69.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Пазарджик,oblast,Пазарджик,,total,329.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Пазарджик,oblast,Пазарджик,,urban,232.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Пазарджик,oblast,Пазарджик,,rural,97.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Пазарджик,oblast,Пазарджик,,total,562.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Пазарджик,oblast,Пазарджик,,urban,435.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Пазарджик,oblast,Пазарджик,,rural,127.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Пазарджик,oblast,Пазарджик,,total,310.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Пазарджик,oblast,Пазарджик,,urban,217.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Пазарджик,oblast,Пазарджик,,rural,93.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Пазарджик,oblast,Пазарджик,,total,294.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Пазарджик,oblast,Пазарджик,,urban,215.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Пазарджик,oblast,Пазарджик,,rural,79.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Пазарджик,oblast,Пазарджик,,total,290.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Пазарджик,oblast,Пазарджик,,urban,211.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Пазарджик,oblast,Пазарджик,,rural,79.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Пазарджик,oblast,Пазарджик,,total,319.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Пазарджик,oblast,Пазарджик,,urban,222.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Пазарджик,oblast,Пазарджик,,rural,97.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Пазарджик,oblast,Пазарджик,,total,308.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Пазарджик,oblast,Пазарджик,,urban,213.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Пазарджик,oblast,Пазарджик,,rural,95.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Пазарджик,oblast,Пазарджик,,total,315.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Пазарджик,oblast,Пазарджик,,urban,241.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Пазарджик,oblast,Пазарджик,,rural,74.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Пазарджик,oblast,Пазарджик,,total,306.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Пазарджик,oblast,Пазарджик,,urban,205.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Пазарджик,oblast,Пазарджик,,rural,101.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Пазарджик,oblast,Пазарджик,,total,281.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Пазарджик,oblast,Пазарджик,,urban,186.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Пазарджик,oblast,Пазарджик,,rural,95.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Пазарджик,oblast,Пазарджик,,total,305.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Пазарджик,oblast,Пазарджик,,urban,194.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Пазарджик,oblast,Пазарджик,,rural,111.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Пазарджик,oblast,Пазарджик,,total,313.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Пазарджик,oblast,Пазарджик,,urban,205.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Пазарджик,oblast,Пазарджик,,rural,108.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Пазарджик,oblast,Пазарджик,,total,286.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Пазарджик,oblast,Пазарджик,,urban,186.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Пазарджик,oblast,Пазарджик,,rural,100.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Пазарджик,oblast,Пазарджик,,total,260.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Пазарджик,oblast,Пазарджик,,urban,178.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Пазарджик,oblast,Пазарджик,,rural,82.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Пазарджик,oblast,Пазарджик,,total,225.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Пазарджик,oblast,Пазарджик,,urban,170.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Пазарджик,oblast,Пазарджик,,rural,55.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Перник,oblast,Перник,,total,198.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Перник,oblast,Перник,,urban,167.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Перник,oblast,Перник,,rural,31.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Перник,oblast,Перник,,total,181.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Перник,oblast,Перник,,urban,150.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Перник,oblast,Перник,,rural,31.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Перник,oblast,Перник,,total,297.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Перник,oblast,Перник,,urban,255.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Перник,oblast,Перник,,rural,42.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Перник,oblast,Перник,,total,200.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Перник,oblast,Перник,,urban,170.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Перник,oblast,Перник,,rural,30.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Перник,oblast,Перник,,total,158.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Перник,oblast,Перник,,urban,129.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Перник,oblast,Перник,,rural,29.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Перник,oblast,Перник,,total,155.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Перник,oblast,Перник,,urban,133.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Перник,oblast,Перник,,rural,22.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Перник,oblast,Перник,,total,163.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Перник,oblast,Перник,,urban,127.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Перник,oblast,Перник,,rural,36.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Перник,oblast,Перник,,total,139.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Перник,oblast,Перник,,urban,107.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Перник,oblast,Перник,,rural,32.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Перник,oblast,Перник,,total,139.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Перник,oblast,Перник,,urban,104.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Перник,oblast,Перник,,rural,35.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Перник,oblast,Перник,,total,156.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Перник,oblast,Перник,,urban,125.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Перник,oblast,Перник,,rural,31.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Перник,oblast,Перник,,total,173.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Перник,oblast,Перник,,urban,131.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Перник,oblast,Перник,,rural,42.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Перник,oblast,Перник,,total,183.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Перник,oblast,Перник,,urban,145.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Перник,oblast,Перник,,rural,38.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Перник,oblast,Перник,,total,157.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Перник,oblast,Перник,,urban,129.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Перник,oblast,Перник,,rural,28.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Перник,oblast,Перник,,total,165.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Перник,oblast,Перник,,urban,131.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Перник,oblast,Перник,,rural,34.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Перник,oblast,Перник,,total,156.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Перник,oblast,Перник,,urban,121.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Перник,oblast,Перник,,rural,35.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Перник,oblast,Перник,,total,130.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Перник,oblast,Перник,,urban,94.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Перник,oblast,Перник,,rural,36.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Плевен,oblast,Плевен,,total,409.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Плевен,oblast,Плевен,,urban,312.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Плевен,oblast,Плевен,,rural,97.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Плевен,oblast,Плевен,,total,421.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Плевен,oblast,Плевен,,urban,333.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Плевен,oblast,Плевен,,rural,88.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Плевен,oblast,Плевен,,total,450.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Плевен,oblast,Плевен,,urban,351.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Плевен,oblast,Плевен,,rural,99.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Плевен,oblast,Плевен,,total,423.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Плевен,oblast,Плевен,,urban,330.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Плевен,oblast,Плевен,,rural,93.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Плевен,oblast,Плевен,,total,380.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Плевен,oblast,Плевен,,urban,304.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Плевен,oblast,Плевен,,rural,76.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Плевен,oblast,Плевен,,total,379.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Плевен,oblast,Плевен,,urban,301.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Плевен,oblast,Плевен,,rural,78.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Плевен,oblast,Плевен,,total,379.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Плевен,oblast,Плевен,,urban,296.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Плевен,oblast,Плевен,,rural,83.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Плевен,oblast,Плевен,,total,333.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Плевен,oblast,Плевен,,urban,254.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Плевен,oblast,Плевен,,rural,79.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Плевен,oblast,Плевен,,total,358.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Плевен,oblast,Плевен,,urban,261.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Плевен,oblast,Плевен,,rural,97.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Плевен,oblast,Плевен,,total,415.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Плевен,oblast,Плевен,,urban,315.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Плевен,oblast,Плевен,,rural,100.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Плевен,oblast,Плевен,,total,333.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Плевен,oblast,Плевен,,urban,250.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Плевен,oblast,Плевен,,rural,83.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Плевен,oblast,Плевен,,total,375.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Плевен,oblast,Плевен,,urban,279.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Плевен,oblast,Плевен,,rural,96.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Плевен,oblast,Плевен,,total,350.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Плевен,oblast,Плевен,,urban,235.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Плевен,oblast,Плевен,,rural,115.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Плевен,oblast,Плевен,,total,345.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Плевен,oblast,Плевен,,urban,259.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Плевен,oblast,Плевен,,rural,86.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Плевен,oblast,Плевен,,total,310.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Плевен,oblast,Плевен,,urban,218.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Плевен,oblast,Плевен,,rural,92.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Плевен,oblast,Плевен,,total,315.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Плевен,oblast,Плевен,,urban,229.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Плевен,oblast,Плевен,,rural,86.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Пловдив,oblast,Пловдив,,total,1040.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Пловдив,oblast,Пловдив,,urban,885.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Пловдив,oblast,Пловдив,,rural,155.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Пловдив,oblast,Пловдив,,total,1071.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Пловдив,oblast,Пловдив,,urban,909.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Пловдив,oblast,Пловдив,,rural,162.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Пловдив,oblast,Пловдив,,total,950.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Пловдив,oblast,Пловдив,,urban,779.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Пловдив,oblast,Пловдив,,rural,171.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Пловдив,oblast,Пловдив,,total,1044.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Пловдив,oblast,Пловдив,,urban,868.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Пловдив,oblast,Пловдив,,rural,176.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Пловдив,oblast,Пловдив,,total,993.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Пловдив,oblast,Пловдив,,urban,817.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Пловдив,oblast,Пловдив,,rural,176.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Пловдив,oblast,Пловдив,,total,994.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Пловдив,oblast,Пловдив,,urban,809.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Пловдив,oblast,Пловдив,,rural,185.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Пловдив,oblast,Пловдив,,total,996.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Пловдив,oblast,Пловдив,,urban,824.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Пловдив,oblast,Пловдив,,rural,172.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Пловдив,oblast,Пловдив,,total,966.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Пловдив,oblast,Пловдив,,urban,772.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Пловдив,oblast,Пловдив,,rural,194.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Пловдив,oblast,Пловдив,,total,1072.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Пловдив,oblast,Пловдив,,urban,888.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Пловдив,oblast,Пловдив,,rural,184.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Пловдив,oblast,Пловдив,,total,1031.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Пловдив,oblast,Пловдив,,urban,842.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Пловдив,oblast,Пловдив,,rural,189.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Пловдив,oblast,Пловдив,,total,855.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Пловдив,oblast,Пловдив,,urban,691.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Пловдив,oblast,Пловдив,,rural,164.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Пловдив,oblast,Пловдив,,total,958.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Пловдив,oblast,Пловдив,,urban,773.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Пловдив,oblast,Пловдив,,rural,185.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Пловдив,oblast,Пловдив,,total,898.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Пловдив,oblast,Пловдив,,urban,718.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Пловдив,oblast,Пловдив,,rural,180.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Пловдив,oblast,Пловдив,,total,893.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Пловдив,oblast,Пловдив,,urban,718.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Пловдив,oblast,Пловдив,,rural,175.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Пловдив,oblast,Пловдив,,total,865.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Пловдив,oblast,Пловдив,,urban,684.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Пловдив,oblast,Пловдив,,rural,181.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Пловдив,oblast,Пловдив,,total,808.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Пловдив,oblast,Пловдив,,urban,628.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Пловдив,oblast,Пловдив,,rural,180.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Разград,oblast,Разград,,total,179.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Разград,oblast,Разград,,urban,87.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Разград,oblast,Разград,,rural,92.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Разград,oblast,Разград,,total,178.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Разград,oblast,Разград,,urban,96.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Разград,oblast,Разград,,rural,82.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Разград,oblast,Разград,,total,223.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Разград,oblast,Разград,,urban,123.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Разград,oblast,Разград,,rural,100.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Разград,oblast,Разград,,total,163.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Разград,oblast,Разград,,urban,93.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Разград,oblast,Разград,,rural,70.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Разград,oblast,Разград,,total,189.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Разград,oblast,Разград,,urban,91.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Разград,oblast,Разград,,rural,98.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Разград,oblast,Разград,,total,177.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Разград,oblast,Разград,,urban,83.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Разград,oblast,Разград,,rural,94.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Разград,oblast,Разград,,total,187.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Разград,oblast,Разград,,urban,93.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Разград,oblast,Разград,,rural,94.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Разград,oblast,Разград,,total,138.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Разград,oblast,Разград,,urban,73.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Разград,oblast,Разград,,rural,65.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Разград,oblast,Разград,,total,178.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Разград,oblast,Разград,,urban,89.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Разград,oblast,Разград,,rural,89.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Разград,oblast,Разград,,total,183.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Разград,oblast,Разград,,urban,91.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Разград,oblast,Разград,,rural,92.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Разград,oblast,Разград,,total,138.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Разград,oblast,Разград,,urban,66.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Разград,oblast,Разград,,rural,72.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Разград,oblast,Разград,,total,167.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Разград,oblast,Разград,,urban,79.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Разград,oblast,Разград,,rural,88.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Разград,oblast,Разград,,total,179.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Разград,oblast,Разград,,urban,87.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Разград,oblast,Разград,,rural,92.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Разград,oblast,Разград,,total,132.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Разград,oblast,Разград,,urban,67.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Разград,oblast,Разград,,rural,65.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Разград,oblast,Разград,,total,158.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Разград,oblast,Разград,,urban,75.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Разград,oblast,Разград,,rural,83.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Разград,oblast,Разград,,total,140.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Разград,oblast,Разград,,urban,71.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Разград,oblast,Разград,,rural,69.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Русе,oblast,Русе,,total,380.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Русе,oblast,Русе,,urban,319.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Русе,oblast,Русе,,rural,61.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Русе,oblast,Русе,,total,369.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Русе,oblast,Русе,,urban,320.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Русе,oblast,Русе,,rural,49.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Русе,oblast,Русе,,total,553.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Русе,oblast,Русе,,urban,476.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Русе,oblast,Русе,,rural,77.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Русе,oblast,Русе,,total,386.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Русе,oblast,Русе,,urban,330.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Русе,oblast,Русе,,rural,56.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Русе,oblast,Русе,,total,377.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Русе,oblast,Русе,,urban,326.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Русе,oblast,Русе,,rural,51.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Русе,oblast,Русе,,total,334.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Русе,oblast,Русе,,urban,284.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Русе,oblast,Русе,,rural,50.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Русе,oblast,Русе,,total,370.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Русе,oblast,Русе,,urban,301.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Русе,oblast,Русе,,rural,69.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Русе,oblast,Русе,,total,371.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Русе,oblast,Русе,,urban,302.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Русе,oblast,Русе,,rural,69.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Русе,oblast,Русе,,total,387.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Русе,oblast,Русе,,urban,316.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Русе,oblast,Русе,,rural,71.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Русе,oblast,Русе,,total,376.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Русе,oblast,Русе,,urban,317.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Русе,oblast,Русе,,rural,59.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Русе,oblast,Русе,,total,295.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Русе,oblast,Русе,,urban,245.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Русе,oblast,Русе,,rural,50.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Русе,oblast,Русе,,total,354.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Русе,oblast,Русе,,urban,291.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Русе,oblast,Русе,,rural,63.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Русе,oblast,Русе,,total,303.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Русе,oblast,Русе,,urban,253.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Русе,oblast,Русе,,rural,50.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Русе,oblast,Русе,,total,281.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Русе,oblast,Русе,,urban,226.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Русе,oblast,Русе,,rural,55.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Русе,oblast,Русе,,total,226.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Русе,oblast,Русе,,urban,173.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Русе,oblast,Русе,,rural,53.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Русе,oblast,Русе,,total,243.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Русе,oblast,Русе,,urban,197.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Русе,oblast,Русе,,rural,46.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Силистра,oblast,Силистра,,total,172.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Силистра,oblast,Силистра,,urban,94.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Силистра,oblast,Силистра,,rural,78.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Силистра,oblast,Силистра,,total,157.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Силистра,oblast,Силистра,,urban,85.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Силистра,oblast,Силистра,,rural,72.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Силистра,oblast,Силистра,,total,173.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Силистра,oblast,Силистра,,urban,92.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Силистра,oblast,Силистра,,rural,81.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Силистра,oblast,Силистра,,total,143.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Силистра,oblast,Силистра,,urban,69.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Силистра,oblast,Силистра,,rural,74.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Силистра,oblast,Силистра,,total,152.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Силистра,oblast,Силистра,,urban,81.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Силистра,oblast,Силистра,,rural,71.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Силистра,oblast,Силистра,,total,163.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Силистра,oblast,Силистра,,urban,86.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Силистра,oblast,Силистра,,rural,77.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Силистра,oblast,Силистра,,total,154.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Силистра,oblast,Силистра,,urban,80.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Силистра,oblast,Силистра,,rural,74.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Силистра,oblast,Силистра,,total,166.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Силистра,oblast,Силистра,,urban,81.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Силистра,oblast,Силистра,,rural,85.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Силистра,oblast,Силистра,,total,159.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Силистра,oblast,Силистра,,urban,71.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Силистра,oblast,Силистра,,rural,88.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Силистра,oblast,Силистра,,total,172.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Силистра,oblast,Силистра,,urban,83.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Силистра,oblast,Силистра,,rural,89.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Силистра,oblast,Силистра,,total,163.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Силистра,oblast,Силистра,,urban,79.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Силистра,oblast,Силистра,,rural,84.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Силистра,oblast,Силистра,,total,142.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Силистра,oblast,Силистра,,urban,73.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Силистра,oblast,Силистра,,rural,69.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Силистра,oblast,Силистра,,total,149.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Силистра,oblast,Силистра,,urban,70.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Силистра,oblast,Силистра,,rural,79.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Силистра,oblast,Силистра,,total,124.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Силистра,oblast,Силистра,,urban,53.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Силистра,oblast,Силистра,,rural,71.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Силистра,oblast,Силистра,,total,155.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Силистра,oblast,Силистра,,urban,75.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Силистра,oblast,Силистра,,rural,80.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Силистра,oblast,Силистра,,total,142.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Силистра,oblast,Силистра,,urban,61.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Силистра,oblast,Силистра,,rural,81.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Сливен,oblast,Сливен,,total,282.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Сливен,oblast,Сливен,,urban,228.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Сливен,oblast,Сливен,,rural,54.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Сливен,oblast,Сливен,,total,243.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Сливен,oblast,Сливен,,urban,199.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Сливен,oblast,Сливен,,rural,44.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Сливен,oblast,Сливен,,total,250.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Сливен,oblast,Сливен,,urban,186.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Сливен,oblast,Сливен,,rural,64.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Сливен,oblast,Сливен,,total,228.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Сливен,oblast,Сливен,,urban,181.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Сливен,oblast,Сливен,,rural,47.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Сливен,oblast,Сливен,,total,282.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Сливен,oblast,Сливен,,urban,231.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Сливен,oblast,Сливен,,rural,51.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Сливен,oblast,Сливен,,total,277.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Сливен,oblast,Сливен,,urban,221.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Сливен,oblast,Сливен,,rural,56.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Сливен,oblast,Сливен,,total,279.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Сливен,oblast,Сливен,,urban,235.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Сливен,oblast,Сливен,,rural,44.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Сливен,oblast,Сливен,,total,243.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Сливен,oblast,Сливен,,urban,193.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Сливен,oblast,Сливен,,rural,50.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Сливен,oblast,Сливен,,total,242.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Сливен,oblast,Сливен,,urban,178.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Сливен,oblast,Сливен,,rural,64.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Сливен,oblast,Сливен,,total,262.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Сливен,oblast,Сливен,,urban,202.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Сливен,oblast,Сливен,,rural,60.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Сливен,oblast,Сливен,,total,221.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Сливен,oblast,Сливен,,urban,172.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Сливен,oblast,Сливен,,rural,49.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Сливен,oblast,Сливен,,total,232.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Сливен,oblast,Сливен,,urban,169.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Сливен,oblast,Сливен,,rural,63.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Сливен,oblast,Сливен,,total,219.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Сливен,oblast,Сливен,,urban,158.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Сливен,oblast,Сливен,,rural,61.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Сливен,oblast,Сливен,,total,222.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Сливен,oblast,Сливен,,urban,162.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Сливен,oblast,Сливен,,rural,60.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Сливен,oblast,Сливен,,total,190.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Сливен,oblast,Сливен,,urban,148.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Сливен,oblast,Сливен,,rural,42.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Сливен,oblast,Сливен,,total,182.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Сливен,oblast,Сливен,,urban,131.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Сливен,oblast,Сливен,,rural,51.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Смолян,oblast,Смолян,,total,97.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Смолян,oblast,Смолян,,urban,72.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Смолян,oblast,Смолян,,rural,25.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Смолян,oblast,Смолян,,total,95.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Смолян,oblast,Смолян,,urban,63.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Смолян,oblast,Смолян,,rural,32.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Смолян,oblast,Смолян,,total,71.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Смолян,oblast,Смолян,,urban,57.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Смолян,oblast,Смолян,,rural,14.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Смолян,oblast,Смолян,,total,84.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Смолян,oblast,Смолян,,urban,57.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Смолян,oblast,Смолян,,rural,27.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Смолян,oblast,Смолян,,total,89.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Смолян,oblast,Смолян,,urban,64.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Смолян,oblast,Смолян,,rural,25.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Смолян,oblast,Смолян,,total,75.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Смолян,oblast,Смолян,,urban,55.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Смолян,oblast,Смолян,,rural,20.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Смолян,oblast,Смолян,,total,91.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Смолян,oblast,Смолян,,urban,67.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Смолян,oblast,Смолян,,rural,24.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Смолян,oblast,Смолян,,total,90.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Смолян,oblast,Смолян,,urban,65.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Смолян,oblast,Смолян,,rural,25.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Смолян,oblast,Смолян,,total,87.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Смолян,oblast,Смолян,,urban,62.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Смолян,oblast,Смолян,,rural,25.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Смолян,oblast,Смолян,,total,81.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Смолян,oblast,Смолян,,urban,56.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Смолян,oblast,Смолян,,rural,25.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Смолян,oblast,Смолян,,total,86.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Смолян,oblast,Смолян,,urban,56.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Смолян,oblast,Смолян,,rural,30.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Смолян,oblast,Смолян,,total,92.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Смолян,oblast,Смолян,,urban,53.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Смолян,oblast,Смолян,,rural,39.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Смолян,oblast,Смолян,,total,78.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Смолян,oblast,Смолян,,urban,51.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Смолян,oblast,Смолян,,rural,27.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Смолян,oblast,Смолян,,total,70.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Смолян,oblast,Смолян,,urban,47.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Смолян,oblast,Смолян,,rural,23.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Смолян,oblast,Смолян,,total,72.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Смолян,oblast,Смолян,,urban,48.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Смолян,oblast,Смолян,,rural,24.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Смолян,oblast,Смолян,,total,64.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Смолян,oblast,Смолян,,urban,39.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Смолян,oblast,Смолян,,rural,25.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,София,oblast,София,,total,308.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,София,oblast,София,,urban,214.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,София,oblast,София,,rural,94.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,София,oblast,София,,total,254.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,София,oblast,София,,urban,175.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,София,oblast,София,,rural,79.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,София,oblast,София,,total,307.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,София,oblast,София,,urban,186.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,София,oblast,София,,rural,121.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,София,oblast,София,,total,340.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,София,oblast,София,,urban,221.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,София,oblast,София,,rural,119.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,София,oblast,София,,total,301.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,София,oblast,София,,urban,199.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,София,oblast,София,,rural,102.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,София,oblast,София,,total,341.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,София,oblast,София,,urban,240.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,София,oblast,София,,rural,101.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,София,oblast,София,,total,327.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,София,oblast,София,,urban,210.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,София,oblast,София,,rural,117.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,София,oblast,София,,total,339.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,София,oblast,София,,urban,220.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,София,oblast,София,,rural,119.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,София,oblast,София,,total,329.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,София,oblast,София,,urban,211.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,София,oblast,София,,rural,118.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,София,oblast,София,,total,332.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,София,oblast,София,,urban,197.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,София,oblast,София,,rural,135.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,София,oblast,София,,total,309.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,София,oblast,София,,urban,188.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,София,oblast,София,,rural,121.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,София,oblast,София,,total,348.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,София,oblast,София,,urban,205.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,София,oblast,София,,rural,143.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,София,oblast,София,,total,287.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,София,oblast,София,,urban,170.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,София,oblast,София,,rural,117.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,София,oblast,София,,total,251.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,София,oblast,София,,urban,146.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,София,oblast,София,,rural,105.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,София,oblast,София,,total,293.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,София,oblast,София,,urban,172.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,София,oblast,София,,rural,121.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,София,oblast,София,,total,261.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,София,oblast,София,,urban,161.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,София,oblast,София,,rural,100.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,София (столица),oblast,София (столица),,total,2538.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,София (столица),oblast,София (столица),,urban,2444.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,София (столица),oblast,София (столица),,rural,94.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,София (столица),oblast,София (столица),,total,2358.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,София (столица),oblast,София (столица),,urban,2290.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,София (столица),oblast,София (столица),,rural,68.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,София (столица),oblast,София (столица),,total,2471.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,София (столица),oblast,София (столица),,urban,2381.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,София (столица),oblast,София (столица),,rural,90.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,София (столица),oblast,София (столица),,total,2347.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,София (столица),oblast,София (столица),,urban,2277.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,София (столица),oblast,София (столица),,rural,70.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,София (столица),oblast,София (столица),,total,2183.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,София (столица),oblast,София (столица),,urban,2099.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,София (столица),oblast,София (столица),,rural,84.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,София (столица),oblast,София (столица),,total,2253.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,София (столица),oblast,София (столица),,urban,2163.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,София (столица),oblast,София (столица),,rural,90.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,София (столица),oblast,София (столица),,total,2404.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,София (столица),oblast,София (столица),,urban,2317.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,София (столица),oblast,София (столица),,rural,87.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,София (столица),oblast,София (столица),,total,2213.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,София (столица),oblast,София (столица),,urban,2138.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,София (столица),oblast,София (столица),,rural,75.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,София (столица),oblast,София (столица),,total,2340.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,София (столица),oblast,София (столица),,urban,2248.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,София (столица),oblast,София (столица),,rural,92.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,София (столица),oblast,София (столица),,total,2308.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,София (столица),oblast,София (столица),,urban,2216.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,София (столица),oblast,София (столица),,rural,92.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,София (столица),oblast,София (столица),,total,1782.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,София (столица),oblast,София (столица),,urban,1712.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,София (столица),oblast,София (столица),,rural,70.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,София (столица),oblast,София (столица),,total,2021.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,София (столица),oblast,София (столица),,urban,1927.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,София (столица),oblast,София (столица),,rural,94.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,София (столица),oblast,София (столица),,total,1959.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,София (столица),oblast,София (столица),,urban,1884.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,София (столица),oblast,София (столица),,rural,75.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,София (столица),oblast,София (столица),,total,1980.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,София (столица),oblast,София (столица),,urban,1886.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,София (столица),oblast,София (столица),,rural,94.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,София (столица),oblast,София (столица),,total,1858.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,София (столица),oblast,София (столица),,urban,1778.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,София (столица),oblast,София (столица),,rural,80.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,София (столица),oblast,София (столица),,total,1831.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,София (столица),oblast,София (столица),,urban,1745.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,София (столица),oblast,София (столица),,rural,86.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Стара Загора,oblast,Стара Загора,,total,602.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Стара Загора,oblast,Стара Загора,,urban,509.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Стара Загора,oblast,Стара Загора,,rural,93.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Стара Загора,oblast,Стара Загора,,total,575.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Стара Загора,oblast,Стара Загора,,urban,471.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Стара Загора,oblast,Стара Загора,,rural,104.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Стара Загора,oblast,Стара Загора,,total,732.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Стара Загора,oblast,Стара Загора,,urban,617.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Стара Загора,oblast,Стара Загора,,rural,115.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Стара Загора,oblast,Стара Загора,,total,539.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Стара Загора,oblast,Стара Загора,,urban,448.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Стара Загора,oblast,Стара Загора,,rural,91.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Стара Загора,oblast,Стара Загора,,total,527.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Стара Загора,oblast,Стара Загора,,urban,432.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Стара Загора,oblast,Стара Загора,,rural,95.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Стара Загора,oblast,Стара Загора,,total,463.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Стара Загора,oblast,Стара Загора,,urban,365.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Стара Загора,oblast,Стара Загора,,rural,98.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Стара Загора,oblast,Стара Загора,,total,461.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Стара Загора,oblast,Стара Загора,,urban,374.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Стара Загора,oblast,Стара Загора,,rural,87.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Стара Загора,oblast,Стара Загора,,total,515.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Стара Загора,oblast,Стара Загора,,urban,407.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Стара Загора,oblast,Стара Загора,,rural,108.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Стара Загора,oblast,Стара Загора,,total,463.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Стара Загора,oblast,Стара Загора,,urban,366.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Стара Загора,oblast,Стара Загора,,rural,97.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Стара Загора,oblast,Стара Загора,,total,512.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Стара Загора,oblast,Стара Загора,,urban,396.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Стара Загора,oblast,Стара Загора,,rural,116.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Стара Загора,oblast,Стара Загора,,total,402.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Стара Загора,oblast,Стара Загора,,urban,291.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Стара Загора,oblast,Стара Загора,,rural,111.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Стара Загора,oblast,Стара Загора,,total,431.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Стара Загора,oblast,Стара Загора,,urban,321.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Стара Загора,oblast,Стара Загора,,rural,110.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Стара Загора,oblast,Стара Загора,,total,436.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Стара Загора,oblast,Стара Загора,,urban,319.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Стара Загора,oblast,Стара Загора,,rural,117.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Стара Загора,oblast,Стара Загора,,total,409.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Стара Загора,oblast,Стара Загора,,urban,302.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Стара Загора,oblast,Стара Загора,,rural,107.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Стара Загора,oblast,Стара Загора,,total,406.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Стара Загора,oblast,Стара Загора,,urban,294.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Стара Загора,oblast,Стара Загора,,rural,112.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Стара Загора,oblast,Стара Загора,,total,370.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Стара Загора,oblast,Стара Загора,,urban,264.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Стара Загора,oblast,Стара Загора,,rural,106.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Търговище,oblast,Търговище,,total,145.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Търговище,oblast,Търговище,,urban,105.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Търговище,oblast,Търговище,,rural,40.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Търговище,oblast,Търговище,,total,128.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Търговище,oblast,Търговище,,urban,92.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Търговище,oblast,Търговище,,rural,36.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Търговище,oblast,Търговище,,total,133.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Търговище,oblast,Търговище,,urban,81.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Търговище,oblast,Търговище,,rural,52.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Търговище,oblast,Търговище,,total,152.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Търговище,oblast,Търговище,,urban,104.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Търговище,oblast,Търговище,,rural,48.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Търговище,oblast,Търговище,,total,130.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Търговище,oblast,Търговище,,urban,83.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Търговище,oblast,Търговище,,rural,47.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Търговище,oblast,Търговище,,total,154.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Търговище,oblast,Търговище,,urban,107.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Търговище,oblast,Търговище,,rural,47.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Търговище,oblast,Търговище,,total,137.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Търговище,oblast,Търговище,,urban,91.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Търговище,oblast,Търговище,,rural,46.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Търговище,oblast,Търговище,,total,155.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Търговище,oblast,Търговище,,urban,101.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Търговище,oblast,Търговище,,rural,54.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Търговище,oblast,Търговище,,total,122.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Търговище,oblast,Търговище,,urban,79.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Търговище,oblast,Търговище,,rural,43.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Търговище,oblast,Търговище,,total,161.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Търговище,oblast,Търговище,,urban,98.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Търговище,oblast,Търговище,,rural,63.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Търговище,oblast,Търговище,,total,110.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Търговище,oblast,Търговище,,urban,66.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Търговище,oblast,Търговище,,rural,44.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Търговище,oblast,Търговище,,total,141.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Търговище,oblast,Търговище,,urban,82.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Търговище,oblast,Търговище,,rural,59.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Търговище,oblast,Търговище,,total,140.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Търговище,oblast,Търговище,,urban,82.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Търговище,oblast,Търговище,,rural,58.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Търговище,oblast,Търговище,,total,128.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Търговище,oblast,Търговище,,urban,77.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Търговище,oblast,Търговище,,rural,51.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Търговище,oblast,Търговище,,total,116.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Търговище,oblast,Търговище,,urban,68.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Търговище,oblast,Търговище,,rural,48.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Търговище,oblast,Търговище,,total,113.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Търговище,oblast,Търговище,,urban,66.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Търговище,oblast,Търговище,,rural,47.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Хасково,oblast,Хасково,,total,302.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Хасково,oblast,Хасково,,urban,250.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Хасково,oblast,Хасково,,rural,52.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Хасково,oblast,Хасково,,total,276.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Хасково,oblast,Хасково,,urban,213.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Хасково,oblast,Хасково,,rural,63.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Хасково,oblast,Хасково,,total,375.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Хасково,oblast,Хасково,,urban,308.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Хасково,oblast,Хасково,,rural,67.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Хасково,oblast,Хасково,,total,304.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Хасково,oblast,Хасково,,urban,245.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Хасково,oblast,Хасково,,rural,59.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Хасково,oblast,Хасково,,total,305.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Хасково,oblast,Хасково,,urban,243.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Хасково,oblast,Хасково,,rural,62.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Хасково,oblast,Хасково,,total,328.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Хасково,oblast,Хасково,,urban,256.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Хасково,oblast,Хасково,,rural,72.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Хасково,oblast,Хасково,,total,283.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Хасково,oblast,Хасково,,urban,226.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Хасково,oblast,Хасково,,rural,57.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Хасково,oblast,Хасково,,total,305.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Хасково,oblast,Хасково,,urban,243.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Хасково,oblast,Хасково,,rural,62.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Хасково,oblast,Хасково,,total,304.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Хасково,oblast,Хасково,,urban,237.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Хасково,oblast,Хасково,,rural,67.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Хасково,oblast,Хасково,,total,358.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Хасково,oblast,Хасково,,urban,284.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Хасково,oblast,Хасково,,rural,74.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Хасково,oblast,Хасково,,total,259.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Хасково,oblast,Хасково,,urban,198.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Хасково,oblast,Хасково,,rural,61.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Хасково,oblast,Хасково,,total,286.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Хасково,oblast,Хасково,,urban,207.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Хасково,oblast,Хасково,,rural,79.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Хасково,oblast,Хасково,,total,251.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Хасково,oblast,Хасково,,urban,181.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Хасково,oblast,Хасково,,rural,70.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Хасково,oblast,Хасково,,total,256.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Хасково,oblast,Хасково,,urban,187.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Хасково,oblast,Хасково,,rural,69.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Хасково,oblast,Хасково,,total,211.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Хасково,oblast,Хасково,,urban,156.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Хасково,oblast,Хасково,,rural,55.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Хасково,oblast,Хасково,,total,232.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Хасково,oblast,Хасково,,urban,164.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Хасково,oblast,Хасково,,rural,68.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Шумен,oblast,Шумен,,total,230.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Шумен,oblast,Шумен,,urban,175.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Шумен,oblast,Шумен,,rural,55.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Шумен,oblast,Шумен,,total,216.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Шумен,oblast,Шумен,,urban,165.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Шумен,oblast,Шумен,,rural,51.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Шумен,oblast,Шумен,,total,255.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Шумен,oblast,Шумен,,urban,200.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Шумен,oblast,Шумен,,rural,55.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Шумен,oblast,Шумен,,total,229.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Шумен,oblast,Шумен,,urban,185.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Шумен,oblast,Шумен,,rural,44.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Шумен,oblast,Шумен,,total,237.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Шумен,oblast,Шумен,,urban,180.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Шумен,oblast,Шумен,,rural,57.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Шумен,oblast,Шумен,,total,250.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Шумен,oblast,Шумен,,urban,172.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Шумен,oblast,Шумен,,rural,78.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Шумен,oblast,Шумен,,total,257.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Шумен,oblast,Шумен,,urban,177.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Шумен,oblast,Шумен,,rural,80.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Шумен,oblast,Шумен,,total,222.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Шумен,oblast,Шумен,,urban,165.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Шумен,oblast,Шумен,,rural,57.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Шумен,oblast,Шумен,,total,236.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Шумен,oblast,Шумен,,urban,163.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Шумен,oblast,Шумен,,rural,73.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Шумен,oblast,Шумен,,total,226.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Шумен,oblast,Шумен,,urban,159.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Шумен,oblast,Шумен,,rural,67.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Шумен,oblast,Шумен,,total,197.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Шумен,oblast,Шумен,,urban,133.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Шумен,oblast,Шумен,,rural,64.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Шумен,oblast,Шумен,,total,250.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Шумен,oblast,Шумен,,urban,162.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Шумен,oblast,Шумен,,rural,88.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Шумен,oblast,Шумен,,total,232.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Шумен,oblast,Шумен,,urban,145.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Шумен,oblast,Шумен,,rural,87.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Шумен,oblast,Шумен,,total,212.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Шумен,oblast,Шумен,,urban,135.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Шумен,oblast,Шумен,,rural,77.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Шумен,oblast,Шумен,,total,182.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Шумен,oblast,Шумен,,urban,115.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Шумен,oblast,Шумен,,rural,67.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Шумен,oblast,Шумен,,total,183.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Шумен,oblast,Шумен,,urban,118.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Шумен,oblast,Шумен,,rural,65.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Ямбол,oblast,Ямбол,,total,174.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Ямбол,oblast,Ямбол,,urban,142.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2010,Ямбол,oblast,Ямбол,,rural,32.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Ямбол,oblast,Ямбол,,total,171.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Ямбол,oblast,Ямбол,,urban,137.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2011,Ямбол,oblast,Ямбол,,rural,34.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Ямбол,oblast,Ямбол,,total,191.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Ямбол,oblast,Ямбол,,urban,146.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2012,Ямбол,oblast,Ямбол,,rural,45.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Ямбол,oblast,Ямбол,,total,170.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Ямбол,oblast,Ямбол,,urban,138.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2013,Ямбол,oblast,Ямбол,,rural,32.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Ямбол,oblast,Ямбол,,total,202.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Ямбол,oblast,Ямбол,,urban,161.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2014,Ямбол,oblast,Ямбол,,rural,41.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Ямбол,oblast,Ямбол,,total,179.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Ямбол,oblast,Ямбол,,urban,143.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2015,Ямбол,oblast,Ямбол,,rural,36.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Ямбол,oblast,Ямбол,,total,187.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Ямбол,oblast,Ямбол,,urban,145.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2016,Ямбол,oblast,Ямбол,,rural,42.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Ямбол,oblast,Ямбол,,total,163.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Ямбол,oblast,Ямбол,,urban,125.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2017,Ямбол,oblast,Ямбол,,rural,38.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Ямбол,oblast,Ямбол,,total,168.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Ямбол,oblast,Ямбол,,urban,121.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2018,Ямбол,oblast,Ямбол,,rural,47.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Ямбол,oblast,Ямбол,,total,189.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Ямбол,oblast,Ямбол,,urban,147.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2019,Ямбол,oblast,Ямбол,,rural,42.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Ямбол,oblast,Ямбол,,total,138.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Ямбол,oblast,Ямбол,,urban,107.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2020,Ямбол,oblast,Ямбол,,rural,31.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Ямбол,oblast,Ямбол,,total,142.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Ямбол,oblast,Ямбол,,urban,110.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2021,Ямбол,oblast,Ямбол,,rural,32.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Ямбол,oblast,Ямбол,,total,142.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Ямбол,oblast,Ямбол,,urban,108.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2022,Ямбол,oblast,Ямбол,,rural,34.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Ямбол,oblast,Ямбол,,total,142.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Ямбол,oblast,Ямбол,,urban,100.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2023,Ямбол,oblast,Ямбол,,rural,42.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Ямбол,oblast,Ямбол,,total,118.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Ямбол,oblast,Ямбол,,urban,85.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2024,Ямбол,oblast,Ямбол,,rural,33.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Ямбол,oblast,Ямбол,,total,115.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Ямбол,oblast,Ямбол,,urban,76.0,Pop_4.2.1._Divorces_DR.xlsx
+divorces_by_residence,2025,Ямбол,oblast,Ямбол,,rural,39.0,Pop_4.2.1._Divorces_DR.xlsx
