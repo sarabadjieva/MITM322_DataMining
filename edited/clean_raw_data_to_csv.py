@@ -1,252 +1,134 @@
 from pathlib import Path
+from text_utils import normalize_text, to_number, find_years_in_row
+from territory_utils import classify_territory_t
 import re
 import json
-import unicodedata
 import pandas as pd
-import numpy as np
-import openpyxl as pyxl
+import clean_workbook_municipality as clean_wb
+import file_configs as fconfig
+import const_vals as c_vals
 
 BASE_DIR = Path('.')
 OUTPUT_DIR = Path('output')
 OUTPUT_DIR.mkdir(exist_ok=True)
 
-FILE_CONFIGS = {
-    'Pop_1.2.1._birth_DR.xlsx': {
-        'dataset': 'births_by_sex',
-        'mode': 'wide_years_triplets',
-        'entity_col': 'territory'
-    },
-    'Pop_1.2.2._birth_DR.xlsx': {
-        'dataset': 'births_marital_status_residence',
-        'mode': 'sheet_per_year_blocks',
-        'entity_col': 'territory'
-    },
-    'Pop_1.2.3._birth_DR.xlsx': {
-        'dataset': 'births_by_mother_age',
-        'mode': 'sheet_per_year_blocks',
-        'entity_col': 'territory'
-    },
-    'Pop_4.1.1._Marriages_DR.xlsx': {
-        'dataset': 'marriages_by_residence',
-        'mode': 'wide_years_triplets',
-        'entity_col': 'territory'
-    },
-    'Pop_4.1.2._Marriages_DR.xlsx': {
-        'dataset': 'marriages_age_matrix',
-        'mode': 'sheet_per_year_matrix',
-        'entity_col': 'female_age_group'
-    },
-    'Pop_4.1.5._Marriages_DR.xlsx': {
-        'dataset': 'marriages_by_age_sex',
-        'mode': 'wide_years_pairs',
-        'entity_col': 'age_group'
-    },
-    'Pop_4.2.1._Divorces_DR.xlsx': {
-        'dataset': 'divorces_by_residence',
-        'mode': 'wide_years_triplets',
-        'entity_col': 'territory'
-    },
-    'Pop_4.2.2._Divorces_DR.xlsx': {
-        'dataset': 'divorces_age_matrix',
-        'mode': 'sheet_per_year_matrix',
-        'entity_col': 'female_age_group'
-    },
-    'Pop_4.2.5._Divorces_DR.xlsx': {
-        'dataset': 'divorces_by_age_sex',
-        'mode': 'wide_years_pairs',
-        'entity_col': 'age_group'
-    },
-}
-
-NULL_MARKERS = {'-', '..', '…', '...', '—', '', 'nan', 'None', None}
-AREA_TOTAL_LABELS = {'Общо за страната', 'България'}
-AREA_MAJOR_HINTS = {
-    'София (столица)', 'София', 'Благоевград', 'Бургас', 'Варна', 'Велико Търново', 'Видин', 'Враца',
-    'Габрово', 'Добрич', 'Кърджали', 'Кюстендил', 'Ловеч', 'Монтана', 'Пазарджик', 'Перник', 'Плевен',
-    'Пловдив', 'Разград', 'Русе', 'Силистра', 'Сливен', 'Смолян', 'София', 'Стара Загора', 'Търговище',
-    'Хасково', 'Шумен', 'Ямбол'
-}
-
-
-def normalize_text(v):
-    if isinstance(v, (pd.Series, list, tuple, np.ndarray)):
-        return None
-    if pd.isna(v):
-        return None
-    s = str(v).replace('\xa0', ' ').strip()
-    if s in NULL_MARKERS:
-        return None
-    s = re.sub(r'\s+', ' ', s)
-    return s
-
-
-def slugify(text):
-    text = normalize_text(text) or 'value'
-    text = unicodedata.normalize('NFKD', text)
-    text = ''.join(ch for ch in text if not unicodedata.combining(ch))
-    text = text.lower()
-    text = re.sub(r'[^a-zA-Z0-9а-яА-Я]+', '_', text, flags=re.UNICODE)
-    text = re.sub(r'_+', '_', text).strip('_')
-    return text or 'value'
-
-
-def to_number(v):
-    s = normalize_text(v)
-    if s is None:
-        return np.nan
-    s = s.replace(',', '')
-    try:
-        return float(s)
-    except Exception:
-        return np.nan
-
-
-def find_years_in_row(row):
-    years = {}
-    for idx, val in enumerate(row):
-        s = normalize_text(val)
-        if s and re.fullmatch(r'(19|20)\d{2}', s):
-            years[idx] = int(s)
-    return years
-
-
-def classify_territory(name, current_oblast=None):
-    name = normalize_text(name)
-    if not name:
-        return None, current_oblast, None
-    if name in AREA_TOTAL_LABELS:
-        return 'country', None, None
-    if name in AREA_MAJOR_HINTS or name == 'София (столица)':
-        return 'oblast', name, None
-    if current_oblast:
-        return 'municipality', current_oblast, name
-    return 'unknown', None, name
-
-
 def read_excel_raw(path, sheet_name=0):
     return pd.read_excel(path, sheet_name=sheet_name, header=None, dtype=object)
 
-
-def parse_wide_years_triplets(path, dataset):
-    df = read_excel_raw(path)
-    year_row_idx = None
-    years = None
-    for i in range(min(10, len(df))):
+def find_year_row(df: pd.DataFrame, max_rows: int = 10) -> tuple[int, dict[int, int]]:
+    year_row_idx, years = None, None
+    for i in range(min(max_rows, len(df))):
         yrs = find_years_in_row(df.iloc[i].tolist())
         if len(yrs) >= 3:
-            year_row_idx = i
-            years = yrs
-            break
-    if year_row_idx is None:
-        raise ValueError(f'Не може да се намери ред с години в {path.name}')
+            return i, yrs
+    raise ValueError("Cannot find year row")
 
-    data_start = year_row_idx + 3
+def extract_year(value):
+    m = re.search(r"(19|20)\d{2}", str(value))
+    return int(m.group()) if m else None
+
+def find_data_start_by_country(df, year_row_idx, max_search=50):
+    # търсим в следващите N реда след реда с годините
+    for i in range(year_row_idx + 1, min(year_row_idx + 1 + max_search, len(df))):
+        name = normalize_text(df.iloc[i, 0])
+        if name in c_vals.TOTAL_LABELS:  # "Общо за страната", "България", "Общо"
+            return i
+    # fallback – ако не намерим, пазим старото поведение
+    return year_row_idx + 3
+
+def parse_wide_years_triplets(path: Path, dataset: str) -> pd.DataFrame:
+    df = read_excel_raw(path)
+
+    # find row with years
+    year_row_idx, years = find_year_row(df)
+    data_start = find_data_start_by_country(df, year_row_idx)
     records = []
-    current_oblast = None
-
     ordered = sorted(years.items(), key=lambda x: x[0])
+
+    # get metric names for this dataset
+    metrics = fconfig.TRIPLET_METRICS.get(dataset, fconfig.TRIPLET_METRICS["_default"])
+
     for r in range(data_start, len(df)):
         row = df.iloc[r].tolist()
         name = normalize_text(row[0])
         if not name:
             continue
-        territory_level, oblast, municipality = classify_territory(name, current_oblast)
-        if territory_level == 'oblast':
-            current_oblast = oblast
-        elif territory_level == 'country':
-            current_oblast = None
-        elif territory_level == 'unknown' and current_oblast is None:
-            continue
+
+        t = classify_territory_t(name)
 
         for col_idx, year in ordered:
-            vals = row[col_idx:col_idx+3]
+            vals = row[col_idx:col_idx + 3]
             if len(vals) < 3:
                 continue
-            total, v2, v3 = [to_number(x) for x in vals]
-            if pd.isna(total) and pd.isna(v2) and pd.isna(v3):
+
+            numbers = [to_number(x) for x in vals]
+            if all(pd.isna(x) for x in numbers):
                 continue
-            if dataset == 'births_by_sex':
-                measures = [('total', total), ('male', v2), ('female', v3)]
-            elif dataset == 'marriages_by_residence' or dataset == 'divorces_by_residence':
-                measures = [('total', total), ('urban', v2), ('rural', v3)]
-            else:
-                measures = [('value1', total), ('value2', v2), ('value3', v3)]
-            for metric, value in measures:
+
+            for metric_name, value in zip(metrics, numbers):
                 records.append({
-                    'dataset': dataset,
-                    'year': year,
-                    'territory_raw': name,
-                    'territory_level': territory_level,
-                    'oblast': oblast,
-                    'municipality': municipality,
-                    'metric': metric,
-                    'value': value,
-                    'source_file': path.name,
+                    "dataset": dataset,
+                    "year": year,
+                    "territory_raw": name,
+                    "territory_level": t.level,
+                    "metric": metric_name,
+                    "value": value,
+                    "source_file": path.name,
                 })
+
     return pd.DataFrame(records)
 
-
-def parse_wide_years_pairs(path, dataset):
+def parse_wide_years_pairs(path: Path, dataset: str) -> pd.DataFrame:
     df = read_excel_raw(path)
-    year_row_idx = None
-    years = None
-    for i in range(min(10, len(df))):
-        yrs = find_years_in_row(df.iloc[i].tolist())
-        if len(yrs) >= 3:
-            year_row_idx = i
-            years = yrs
-            break
-    if year_row_idx is None:
-        raise ValueError(f'Не може да се намери ред с години в {path.name}')
+
+    # find row with years
+    year_row_idx, years = find_year_row(df)
 
     data_start = year_row_idx + 3
     ordered = sorted(years.items(), key=lambda x: x[0])
     records = []
     current_group = None
 
-    for r in range(data_start, len(df)):
+    metrics = fconfig.PAIR_METRICS.get(dataset, fconfig.PAIR_METRICS["_default"])
+
+    for r in range(data_start - 1, len(df)):
         row = df.iloc[r].tolist()
         label = normalize_text(row[0])
         if not label:
             continue
-        if label in AREA_TOTAL_LABELS or label in AREA_MAJOR_HINTS or label == 'Общо за страната':
+
+        if (label in c_vals.TOTAL_LABELS
+                or label in c_vals.AREA_LABELS
+                or label.isupper()):
             current_group = label
             continue
 
         for col_idx, year in ordered:
-            vals = row[col_idx:col_idx+2]
+            vals = row[col_idx:col_idx + 2]
             if len(vals) < 2:
                 continue
-            male, female = [to_number(x) for x in vals]
-            if pd.isna(male) and pd.isna(female):
+            numbers = [to_number(x) for x in vals]
+            if all(pd.isna(x) for x in numbers):
                 continue
-            records.append({
-                'dataset': dataset,
-                'group_name': current_group,
-                'age_group': label,
-                'year': year,
-                'metric': 'male',
-                'value': male,
-                'source_file': path.name,
-            })
-            records.append({
-                'dataset': dataset,
-                'group_name': current_group,
-                'age_group': label,
-                'year': year,
-                'metric': 'female',
-                'value': female,
-                'source_file': path.name,
-            })
-    return pd.DataFrame(records)
 
+            for metric_name, value in zip(metrics, numbers):
+                records.append({
+                    "dataset": dataset,
+                    "group_name": current_group,
+                    "age_group": label,
+                    "year": year,
+                    "metric": metric_name,
+                    "value": value,
+                    "source_file": path.name,
+                })
+
+    return pd.DataFrame(records)
 
 def parse_sheet_per_year_blocks(path, dataset):
     xls = pd.ExcelFile(path)
     records = []
     for sheet in xls.sheet_names:
-        year_match = re.search(r'(19|20)\d{2}', str(sheet))
-        year = int(year_match.group()) if year_match else None
+        year = extract_year(sheet)
         df = read_excel_raw(path, sheet)
         header_row = None
         for i in range(min(8, len(df))):
@@ -273,19 +155,12 @@ def parse_sheet_per_year_blocks(path, dataset):
         data.columns = cols
         data = data.dropna(how='all')
         first_col = data.columns[0]
-        current_oblast = None
 
         for _, row in data.iterrows():
             name = normalize_text(row[first_col])
             if not name:
                 continue
-            territory_level, oblast, municipality = classify_territory(name, current_oblast)
-            if territory_level == 'oblast':
-                current_oblast = oblast
-            elif territory_level == 'country':
-                current_oblast = None
-            elif territory_level == 'unknown' and current_oblast is None:
-                continue
+            t = classify_territory_t(name)
 
             for col in data.columns[1:]:
                 if not col:
@@ -297,9 +172,7 @@ def parse_sheet_per_year_blocks(path, dataset):
                     'dataset': dataset,
                     'year': year,
                     'territory_raw': name,
-                    'territory_level': territory_level,
-                    'oblast': oblast,
-                    'municipality': municipality,
+                    'territory_level': t.level,
                     'measure': col,
                     'value': value,
                     'source_file': path.name,
@@ -313,8 +186,7 @@ def parse_sheet_per_year_matrix(path, dataset):
     records = []
 
     for sheet in xls.sheet_names:
-        year_match = re.search(r'(19|20)\d{2}', str(sheet))
-        year = int(year_match.group()) if year_match else None
+        year = extract_year(sheet)
         df = read_excel_raw(path, sheet)
 
         if dataset == 'divorces_age_matrix':
@@ -380,7 +252,7 @@ def parse_sheet_per_year_matrix(path, dataset):
     return pd.DataFrame(records)
 
 
-def clean_dataframe(df):
+def normalize_output_dataframe(df):
     if df.empty:
         return df
     for col in df.columns:
@@ -396,54 +268,61 @@ def export_outputs(df, dataset):
     df.to_csv(csv_path, index=False, encoding='utf-8-sig')
     return csv_path
 
+PARSERS = {
+    "wide_years_triplets": parse_wide_years_triplets,
+    "wide_years_pairs": parse_wide_years_pairs,
+    "sheet_per_year_blocks": parse_sheet_per_year_blocks,
+    "sheet_per_year_matrix": parse_sheet_per_year_matrix,
+}
+
+def run_etl_for_file(path: Path, cfg: dict, keep_only_oblasti: bool) -> pd.DataFrame:
+    mode = cfg["mode"]
+    dataset = cfg["dataset"]
+    parser = PARSERS[mode]
+
+    if keep_only_oblasti:
+        tmp_path = clean_wb.clean_workbook_keep_only_oblasti(path, inplace=True)
+    else:
+        tmp_path = path
+
+    df = parser(tmp_path, dataset)
+    df = normalize_output_dataframe(df)
+    return df
 
 def main():
     manifest = []
-    #combined = []
 
-    for filename, cfg in FILE_CONFIGS.items():
+    for filename, cfg in fconfig.FILE_CONFIGS.items():
         path = BASE_DIR / filename
         if not path.exists():
-            manifest.append({'file': filename, 'status': 'missing'})
+            manifest.append({"file": filename, "status": "missing"})
             continue
 
-        mode = cfg['mode']
-        dataset = cfg['dataset']
+        dataset = cfg["dataset"]
+        mode = cfg["mode"]
+        clean_muni_flag = cfg.get("clean_municipality", "false")
 
-        if mode == 'wide_years_triplets':
-            df = parse_wide_years_triplets(path, dataset)
-        elif mode == 'wide_years_pairs':
-            df = parse_wide_years_pairs(path, dataset)
-        elif mode == 'sheet_per_year_blocks':
-            df = parse_sheet_per_year_blocks(path, dataset)
-        elif mode == 'sheet_per_year_matrix':
-            df = parse_sheet_per_year_matrix(path, dataset)
+        if clean_muni_flag == "true":
+            df_all = run_etl_for_file(path, cfg, keep_only_oblasti=True)
+            df_all = df_all[df_all["territory_level"].isin(["country", "oblast"])]
         else:
-            raise ValueError(f'Непознат режим: {mode}')
+            df_all = run_etl_for_file(path, cfg, keep_only_oblasti=False)
 
-        df = clean_dataframe(df)
-        out = export_outputs(df, dataset)
+        df_all = normalize_output_dataframe(df_all)
+
+        out = export_outputs(df_all, dataset)
 
         manifest.append({
-            'file': filename,
-            'dataset': dataset,
-            'mode': mode,
-            'rows': int(len(df)),
-            'output_csv': str(out)
+            "file": filename,
+            "dataset": dataset,
+            "mode": mode,
+            "rows": int(len(df_all)),
+            "output_csv": str(out),
+            "clean_municipality": clean_muni_flag,
         })
 
-        #if not df.empty:
-        #    tmp = df.copy()
-        #    tmp['dataset_name'] = dataset
-        #    combined.append(tmp)
-
-    manifest_path = OUTPUT_DIR / 'etl_manifest.json'
-    manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding='utf-8')
-
-    #if combined:
-    #    combined_df = pd.concat(combined, ignore_index=True, sort=False)
-    #    combined_df.to_csv(OUTPUT_DIR / 'demography_master.csv', index=False, encoding='utf-8-sig')
-
+    manifest_path = OUTPUT_DIR / "etl_manifest.json"
+    manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
 
 if __name__ == '__main__':
     main()
