@@ -22,25 +22,21 @@ def is_oblast_row(name):
     canon = canonical_area_name(name)
     return canon in cvals.AREA_LABELS
 
-def classify_territory_t(name, current_oblast=None) -> Territory:
-    level, oblast, municipality = classify_territory(name, current_oblast)
-    return Territory(level, oblast, municipality)
-
-def classify_territory(name, current_oblast=None):
+def classify_territory(name, current_oblast=None) -> Territory:
     name = normalize_text(name)
     if not name:
-        return None, current_oblast, None
+        return Territory(None, current_oblast, None)
 
     if name in cvals.TOTAL_LABELS:
-        return "country", None, None
+        return Territory("country", None, None)
 
     if current_oblast is None and name in cvals.AREA_LABELS:
-        return "oblast", name, None
+        return Territory("oblast", name, None)
 
     if current_oblast is not None and name in cvals.AREA_LABELS:
-        return "municipality", current_oblast, name
+        return Territory("municipality", current_oblast, name)
 
     if current_oblast:
-        return "municipality", current_oblast, name
+        return Territory("municipality", current_oblast, name)
 
-    return "unknown", None, name
+    return Territory("unknown", None, name)

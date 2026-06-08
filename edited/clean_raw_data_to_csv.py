@@ -1,166 +1,190 @@
 from pathlib import Path
-from text_utils import normalize_text, to_number, find_years_in_row
-from territory_utils import classify_territory_t
-import re
+from text_utils import normalize_text, to_number, extract_year
+from territory_utils import classify_territory
+from file_configs import ParseMode, TRIPLET_METRICS, PAIR_METRICS, FILE_CONFIGS
+from territory_filters import keep_only_oblasti
+from parser_utils import find_header_row, find_year_row, find_data_start_by_country, extract_metric_records, \
+    make_unique_columns
 import json
 import pandas as pd
-import clean_workbook_municipality as clean_wb
-import file_configs as fconfig
 import const_vals as c_vals
+import records as recs
 
-BASE_DIR = Path('.')
-OUTPUT_DIR = Path('output')
+CURRENT_DIR = Path(__file__).resolve().parent
+RAW_DIR = CURRENT_DIR.parent / "raw"
+OUTPUT_DIR = CURRENT_DIR / "output"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 def read_excel_raw(path, sheet_name=0):
     return pd.read_excel(path, sheet_name=sheet_name, header=None, dtype=object)
 
-def find_year_row(df: pd.DataFrame, max_rows: int = 10) -> tuple[int, dict[int, int]]:
-    year_row_idx, years = None, None
-    for i in range(min(max_rows, len(df))):
-        yrs = find_years_in_row(df.iloc[i].tolist())
-        if len(yrs) >= 3:
-            return i, yrs
-    raise ValueError("Cannot find year row")
+def parse_wide_years_triplets(
+        path: Path,
+        dataset: str,
+        filter_oblasti: bool = False
+) -> pd.DataFrame:
 
-def extract_year(value):
-    m = re.search(r"(19|20)\d{2}", str(value))
-    return int(m.group()) if m else None
-
-def find_data_start_by_country(df, year_row_idx, max_search=50):
-    # търсим в следващите N реда след реда с годините
-    for i in range(year_row_idx + 1, min(year_row_idx + 1 + max_search, len(df))):
-        name = normalize_text(df.iloc[i, 0])
-        if name in c_vals.TOTAL_LABELS:  # "Общо за страната", "България", "Общо"
-            return i
-    # fallback – ако не намерим, пазим старото поведение
-    return year_row_idx + 3
-
-def parse_wide_years_triplets(path: Path, dataset: str) -> pd.DataFrame:
     df = read_excel_raw(path)
 
-    # find row with years
     year_row_idx, years = find_year_row(df)
-    data_start = find_data_start_by_country(df, year_row_idx)
-    records = []
-    ordered = sorted(years.items(), key=lambda x: x[0])
 
-    # get metric names for this dataset
-    metrics = fconfig.TRIPLET_METRICS.get(dataset, fconfig.TRIPLET_METRICS["_default"])
+    data_start = find_data_start_by_country(
+        df,
+        year_row_idx
+    )
+
+    if filter_oblasti:
+        header = df.iloc[:data_start]
+
+        data = df.iloc[data_start:]
+
+        data = keep_only_oblasti(data)
+
+        df = pd.concat([header, data])
+
+    ordered = sorted(
+        years.items(),
+        key=lambda x: x[0]
+    )
+
+    metrics = TRIPLET_METRICS.get(
+        dataset,
+        TRIPLET_METRICS["_default"]
+    )
+
+    records = []
 
     for r in range(data_start, len(df)):
         row = df.iloc[r].tolist()
+
         name = normalize_text(row[0])
+
         if not name:
             continue
 
-        t = classify_territory_t(name)
+        for year, metric_name, value in extract_metric_records(
+                row,
+                ordered,
+                metrics):
 
-        for col_idx, year in ordered:
-            vals = row[col_idx:col_idx + 3]
-            if len(vals) < 3:
-                continue
+            records.append(
+                recs.make_territory_metric_record(
+                    year=year,
+                    territory_raw=name,
+                    territory_level=classify_territory(name).level,
+                    metric=metric_name,
+                    value=value,
+                )
+            )
 
-            numbers = [to_number(x) for x in vals]
-            if all(pd.isna(x) for x in numbers):
-                continue
+    return pd.DataFrame(
+        [r.to_dict() for r in records]
+    )
 
-            for metric_name, value in zip(metrics, numbers):
-                records.append({
-                    "dataset": dataset,
-                    "year": year,
-                    "territory_raw": name,
-                    "territory_level": t.level,
-                    "metric": metric_name,
-                    "value": value,
-                    "source_file": path.name,
-                })
+def parse_wide_years_pairs(
+        path: Path,
+        dataset: str
+) -> pd.DataFrame:
 
-    return pd.DataFrame(records)
-
-def parse_wide_years_pairs(path: Path, dataset: str) -> pd.DataFrame:
     df = read_excel_raw(path)
 
-    # find row with years
     year_row_idx, years = find_year_row(df)
 
     data_start = year_row_idx + 3
-    ordered = sorted(years.items(), key=lambda x: x[0])
-    records = []
+
+    ordered = sorted(
+        years.items(),
+        key=lambda x: x[0]
+    )
+
+    metrics = PAIR_METRICS.get(
+        dataset,
+        PAIR_METRICS["_default"]
+    )
+
     current_group = None
 
-    metrics = fconfig.PAIR_METRICS.get(dataset, fconfig.PAIR_METRICS["_default"])
+    records = []
 
     for r in range(data_start - 1, len(df)):
         row = df.iloc[r].tolist()
+
         label = normalize_text(row[0])
+
         if not label:
             continue
 
-        if (label in c_vals.TOTAL_LABELS
-                or label in c_vals.AREA_LABELS
-                or label.isupper()):
+        if (
+            label in c_vals.TOTAL_LABELS
+            or label in c_vals.AREA_LABELS
+            or label.isupper()
+        ):
             current_group = label
             continue
 
-        for col_idx, year in ordered:
-            vals = row[col_idx:col_idx + 2]
-            if len(vals) < 2:
-                continue
-            numbers = [to_number(x) for x in vals]
-            if all(pd.isna(x) for x in numbers):
-                continue
+        for year, metric_name, value in extract_metric_records(
+                row,
+                ordered,
+                metrics):
+            records.append(
+                recs.make_age_metric_record(
+                    group_name=current_group,
+                    age_group=label,
+                    year=year,
+                    metric=metric_name,
+                    value=value,
+                )
+            )
 
-            for metric_name, value in zip(metrics, numbers):
-                records.append({
-                    "dataset": dataset,
-                    "group_name": current_group,
-                    "age_group": label,
-                    "year": year,
-                    "metric": metric_name,
-                    "value": value,
-                    "source_file": path.name,
-                })
+    return pd.DataFrame(
+        [r.to_dict() for r in records]
+    )
 
-    return pd.DataFrame(records)
-
-def parse_sheet_per_year_blocks(path, dataset):
+def parse_sheet_per_year_blocks(path, dataset, filter_oblasti=False):
     xls = pd.ExcelFile(path)
     records = []
     for sheet in xls.sheet_names:
         year = extract_year(sheet)
         df = read_excel_raw(path, sheet)
-        header_row = None
-        for i in range(min(8, len(df))):
-            row_text = ' | '.join([str(x) for x in df.iloc[i].tolist() if pd.notna(x)])
-            if 'Области' in row_text or 'Общини' in row_text or 'Възраст на майката' in row_text:
-                header_row = i
-                break
-        if header_row is None:
-            continue
+        header_row = find_header_row(
+            df,
+            [
+                lambda x: "Области" in x,
+                lambda x: "Общини" in x,
+                lambda x: "Възраст на майката" in x,
+            ]
+        )
 
         h1 = [normalize_text(x) for x in df.iloc[header_row].tolist()]
         h2 = [normalize_text(x) for x in df.iloc[header_row + 1].tolist()] if header_row + 1 < len(df) else [None] * len(h1)
 
-        cols = []
-        seen = {}
+        raw_cols = []
+
         for a, b in zip(h1, h2):
-            parts = [p for p in [a, b] if p]
-            col = ' | '.join(parts) if parts else None
-            key = col or 'unnamed'
-            seen[key] = seen.get(key, 0) + 1
-            cols.append(f'{key}__{seen[key]}' if seen[key] > 1 else key)
+            parts = [p for p in (a, b) if p]
+
+            raw_cols.append(
+                " | ".join(parts)
+                if parts
+                else None
+            )
+
+        cols = make_unique_columns(raw_cols)
 
         data = df.iloc[header_row + 2:].copy()
         data.columns = cols
         data = data.dropna(how='all')
+
+        if filter_oblasti:
+            data = keep_only_oblasti(data)
+
         first_col = data.columns[0]
 
         for _, row in data.iterrows():
             name = normalize_text(row[first_col])
             if not name:
                 continue
-            t = classify_territory_t(name)
+            t = classify_territory(name)
 
             for col in data.columns[1:]:
                 if not col:
@@ -168,18 +192,19 @@ def parse_sheet_per_year_blocks(path, dataset):
                 value = to_number(row[col])
                 if pd.isna(value):
                     continue
-                records.append({
-                    'dataset': dataset,
-                    'year': year,
-                    'territory_raw': name,
-                    'territory_level': t.level,
-                    'measure': col,
-                    'value': value,
-                    'source_file': path.name,
-                    'sheet_name': str(sheet),
-                })
-    return pd.DataFrame(records)
+                records.append(
+                    recs.make_territory_measure_record(
+                        year=year,
+                        territory_raw=name,
+                        territory_level=t.level,
+                        measure=col,
+                        value=value
+                    )
+                )
 
+    return pd.DataFrame(
+        [r.to_dict() for r in records]
+    )
 
 def parse_sheet_per_year_matrix(path, dataset):
     xls = pd.ExcelFile(path)
@@ -200,23 +225,18 @@ def parse_sheet_per_year_matrix(path, dataset):
             df.iloc[3, 0] = merged_a4_a5
             df.iloc[4, 0] = None
 
-        header_row = None
-        for i in range(min(8, len(df))):
-            row_text = ' | '.join([str(x) for x in df.iloc[i].tolist() if pd.notna(x)])
-            if 'Възраст на жените' in row_text and 'Общо' in row_text:
-                header_row = i
-                break
-        if header_row is None:
-            continue
+        header_row = find_header_row(
+            df,
+            [
+                lambda x: "Общо" in x,
+                lambda x: "Възраст на жените" in x,
+            ]
+        )
 
-        colnames = [normalize_text(x) for x in df.iloc[header_row + 1].tolist()]
-        seen = {}
-        newcols = []
-        for c in colnames:
-            key = c or 'unnamed'
-            seen[key] = seen.get(key, 0) + 1
-            newcols.append(f'{key}__{seen[key]}' if seen[key] > 1 else key)
-        colnames = newcols
+        colnames = [normalize_text(x)
+                    for x in df.iloc[header_row + 1].tolist()]
+
+        colnames = make_unique_columns(colnames)
 
         colnames[0] = 'female_age_group'
         if len(colnames) > 1:
@@ -239,18 +259,19 @@ def parse_sheet_per_year_matrix(path, dataset):
                 if pd.isna(value):
                     continue
                 male_age = col
-                records.append({
-                    'dataset': dataset,
-                    'year': year,
-                    'residence_group': current_residence,
-                    'female_age_group': female_age,
-                    'male_age_group': male_age,
-                    'value': value,
-                    'source_file': path.name,
-                    'sheet_name': str(sheet),
-                })
-    return pd.DataFrame(records)
+                records.append(
+                    recs.make_age_matrix_record(
+                        year=year,
+                        residence_group=current_residence,
+                        female_age_group=female_age,
+                        male_age_group=male_age,
+                        value=value,
+                    )
+                )
 
+    return pd.DataFrame(
+        [r.to_dict() for r in records]
+    )
 
 def normalize_output_dataframe(df):
     if df.empty:
@@ -262,63 +283,55 @@ def normalize_output_dataframe(df):
         df['value'] = pd.to_numeric(df['value'], errors='coerce')
     return df
 
-
-def export_outputs(df, dataset):
-    csv_path = OUTPUT_DIR / f'{dataset}_clean.csv'
-    df.to_csv(csv_path, index=False, encoding='utf-8-sig')
-    return csv_path
-
 PARSERS = {
-    "wide_years_triplets": parse_wide_years_triplets,
-    "wide_years_pairs": parse_wide_years_pairs,
-    "sheet_per_year_blocks": parse_sheet_per_year_blocks,
-    "sheet_per_year_matrix": parse_sheet_per_year_matrix,
+    ParseMode.WIDE_YEARS_TRIPLETS: parse_wide_years_triplets,
+    ParseMode.WIDE_YEARS_PAIRS: parse_wide_years_pairs,
+    ParseMode.SHEET_PER_YEAR_BLOCKS: parse_sheet_per_year_blocks,
+    ParseMode.SHEET_PER_YEAR_MATRIX: parse_sheet_per_year_matrix,
 }
 
-def run_etl_for_file(path: Path, cfg: dict, keep_only_oblasti: bool) -> pd.DataFrame:
-    mode = cfg["mode"]
-    dataset = cfg["dataset"]
-    parser = PARSERS[mode]
+def run_etl_for_file(path: Path, cfg) -> pd.DataFrame:
+    parser = PARSERS[cfg.mode]
 
-    if keep_only_oblasti:
-        tmp_path = clean_wb.clean_workbook_keep_only_oblasti(path, inplace=True)
+    if cfg.mode in {
+        ParseMode.WIDE_YEARS_TRIPLETS,
+        ParseMode.SHEET_PER_YEAR_BLOCKS,
+    }:
+        df = parser(
+            path,
+            cfg.dataset,
+            filter_oblasti=cfg.clean_municipality
+        )
     else:
-        tmp_path = path
+        df = parser(
+            path,
+            cfg.dataset
+        )
+    return normalize_output_dataframe(df)
 
-    df = parser(tmp_path, dataset)
-    df = normalize_output_dataframe(df)
-    return df
 
 def main():
     manifest = []
 
-    for filename, cfg in fconfig.FILE_CONFIGS.items():
-        path = BASE_DIR / filename
+    for filename, cfg in FILE_CONFIGS.items():
+        path = RAW_DIR / filename
         if not path.exists():
             manifest.append({"file": filename, "status": "missing"})
             continue
 
-        dataset = cfg["dataset"]
-        mode = cfg["mode"]
-        clean_muni_flag = cfg.get("clean_municipality", "false")
+        dataset = cfg.dataset
 
-        if clean_muni_flag == "true":
-            df_all = run_etl_for_file(path, cfg, keep_only_oblasti=True)
-            df_all = df_all[df_all["territory_level"].isin(["country", "oblast"])]
-        else:
-            df_all = run_etl_for_file(path, cfg, keep_only_oblasti=False)
-
-        df_all = normalize_output_dataframe(df_all)
-
-        out = export_outputs(df_all, dataset)
+        df_all = run_etl_for_file(
+            path,
+            cfg
+        )
 
         manifest.append({
             "file": filename,
-            "dataset": dataset,
-            "mode": mode,
+            "dataset": cfg.dataset,
+            "mode": cfg.mode.value,
             "rows": int(len(df_all)),
-            "output_csv": str(out),
-            "clean_municipality": clean_muni_flag,
+            "clean_municipality": cfg.clean_municipality,
         })
 
     manifest_path = OUTPUT_DIR / "etl_manifest.json"
