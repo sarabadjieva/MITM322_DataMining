@@ -1,6 +1,9 @@
-import const_vals as cvals
-from text_utils import normalize_text
 from dataclasses import dataclass
+from functools import cache
+
+from src.text_utils import normalize_text
+from src.const_vals import ALIASES, TOTAL_LABELS, AREA_LABELS
+
 
 @dataclass
 class Territory:
@@ -8,28 +11,33 @@ class Territory:
     district: str | None
     municipality: str | None
 
+
 def canonical_area_name(name):
     name = normalize_text(name)
     if not name:
         return None
-    return cvals.ALIASES.get(name, name)
+    return ALIASES.get(name, name)
+
 
 def is_total_row(name):
     name = normalize_text(name)
-    return name in cvals.TOTAL_LABELS
+    return bool(name and name in TOTAL_LABELS)
 
+
+@cache
 def classify_territory(name, current_district=None) -> Territory:
     name = normalize_text(name)
+
     if not name:
         return Territory(None, current_district, None)
 
-    if name in cvals.TOTAL_LABELS:
+    if name in TOTAL_LABELS:
         return Territory("country", None, None)
 
-    if current_district is None and name in cvals.AREA_LABELS:
+    if current_district is None and name in AREA_LABELS:
         return Territory("district", name, None)
 
-    if current_district is not None and name in cvals.AREA_LABELS:
+    if current_district is not None and name in AREA_LABELS:
         return Territory("municipality", current_district, name)
 
     if current_district:
