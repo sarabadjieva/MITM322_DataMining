@@ -1,10 +1,38 @@
+import numpy as np
 import pandas as pd
 
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 
-def cluster_regions(regional, n_clusters=3, max_k=9):
-    features = regional.groupby("territory_raw")[["marriages", "births"]].mean()
+
+def compute_trend(group: pd.DataFrame, value_col: str) -> float:
+    series = group[["year", value_col]].dropna().sort_values("year")
+    if len(series) < 2:
+        return 0.0
+
+    x = series["year"].to_numpy(dtype=float)
+    y = series[value_col].to_numpy(dtype=float)
+
+    slope = np.polyfit(x, y, 1)[0]
+    return float(slope)
+
+
+def cluster_regions(regional, n_clusters=5, max_k=9):
+    grouped = regional.groupby("territory_raw")
+
+    features = pd.DataFrame({
+        "marriages_mean": grouped["marriages"].mean(),
+        "births_mean": grouped["births"].mean(),
+        "marriages_std": grouped["marriages"].std().fillna(0),
+        "births_std": grouped["births"].std().fillna(0),
+    })
+
+    features["marriages_trend"] = grouped.apply(
+        lambda g: compute_trend(g, "marriages")
+    )
+    features["births_trend"] = grouped.apply(
+        lambda g: compute_trend(g, "births")
+    )
 
     scaler = StandardScaler()
     x_scaled = scaler.fit_transform(features)

@@ -1,13 +1,13 @@
 from dataclasses import dataclass
-
 import pandas as pd
+
 
 @dataclass
 class AnalysisResults:
-    trend: pd.DataFrame
-    lags: pd.DataFrame
-    regional: pd.DataFrame
-    correlations: pd.DataFrame
+    trend: dict[str, pd.DataFrame]
+    lags: dict[str, pd.DataFrame]
+    regional: dict[str, pd.DataFrame]
+    correlations: dict[str, pd.DataFrame]
     outside_share: pd.DataFrame
-    clusters: pd.DataFrame
-    inertia: pd.DataFrame
+    clusters: dict[str, pd.DataFrame]
+    inertia: dict[str, pd.DataFrame]
