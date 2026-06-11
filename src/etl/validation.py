@@ -2,7 +2,8 @@ import pandas as pd
 
 
 REQUIRED_COLUMNS = {
-    "births_by_mother_age": {"year", "territory_raw", "territory_level", "measure", "value"},
+    "births_by_mother_age": {"year", "territory_raw", "territory_level", "metric", "value"},
+    "births_marital_status_residence": {"year", "territory_raw", "territory_level", "metric", "value"},
     "marriages_by_age_sex": {"group_name", "age_group", "year", "metric", "value"},
     "births_by_sex": {"year", "territory_raw", "territory_level", "metric", "value"},
     "marriages_by_residence": {"year", "territory_raw", "territory_level", "metric", "value"},

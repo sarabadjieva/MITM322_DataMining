@@ -44,3 +44,13 @@ def classify_territory(name, current_district=None) -> Territory:
         return Territory("municipality", current_district, name)
 
     return Territory("unknown", None, name)
+
+
+def territory_metric_row(year, name, metric, value):
+    return {
+        "year": year,
+        "territory_raw": name,
+        "territory_level": classify_territory(name).level,
+        "metric": metric,
+        "value": value,
+    }

@@ -14,10 +14,7 @@ class FileConfig:
     clean_municipality: bool = False
 
 
-TRIPLET_METRICS = {
-    "marriages_by_residence": ["total", "urban", "rural"],
-    "_default": ["value1", "value2", "value3"],
-}
+METRIC_SEQUENCE = ["total", "urban", "rural"]
 
 
 FILE_CONFIGS = {

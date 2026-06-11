@@ -27,6 +27,18 @@ def normalize_output_dataframe(df: pd.DataFrame) -> pd.DataFrame:
 
     return df
 
+
+def export_multiple_outputs(dfs: dict[str, pd.DataFrame], dataset: str) -> dict[str, Path]:
+    exported = {}
+
+    for suffix, df in dfs.items():
+        csv_path = OUTPUT_DIR / f"{dataset}_{suffix}_clean.csv"
+        df.to_csv(csv_path, index=False, encoding="utf-8-sig")
+        exported[suffix] = csv_path
+
+    return exported
+
+
 def export_output(df: pd.DataFrame, dataset: str) -> Path:
     csv_path = OUTPUT_DIR / f"{dataset}_clean.csv"
     df.to_csv(csv_path, index=False, encoding="utf-8-sig")

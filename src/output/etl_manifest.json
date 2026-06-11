@@ -1,0 +1,26 @@
+[
+  {
+    "file": "Pop_1.2.2._birth_DR.xlsx",
+    "dataset": "births_marital_status_residence",
+    "mode": "sheet_per_year_blocks",
+    "outputs": {
+      "marital": {
+        "filename": "births_marital_status_residence_marital_clean.csv",
+        "rows": 1392
+      },
+      "nonmarital": {
+        "filename": "births_marital_status_residence_nonmarital_clean.csv",
+        "rows": 1392
+      }
+    },
+    "clean_municipality": true
+  },
+  {
+    "file": "Pop_4.1.1._Marriages_DR.xlsx",
+    "dataset": "marriages_by_residence",
+    "mode": "wide_years_triplets",
+    "rows": 1392,
+    "output_file": "marriages_by_residence_clean.csv",
+    "clean_municipality": false
+  }
+]

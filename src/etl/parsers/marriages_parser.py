@@ -1,21 +1,11 @@
 import pandas as pd
 from pathlib import Path
 
-from src.etl.file_configs import TRIPLET_METRICS
+from src.etl.file_configs import METRIC_SEQUENCE
 from src.etl.helpers.parser_utils import find_year_row, find_data_start_by_country, extract_metric_records
 from src.etl.helpers.territory_filters import keep_only_districts
-from src.etl.helpers.territory_utils import classify_territory
+from src.etl.helpers.territory_utils import territory_metric_row
 from src.etl.helpers.text_utils import normalize_text
-
-
-def territory_metric_row(year, name, metric, value):
-    return {
-        "year": year,
-        "territory_raw": name,
-        "territory_level": classify_territory(name).level,
-        "metric": metric,
-        "value": value,
-    }
 
 
 def parse_marriages(path: Path, dataset: str, filter_districts: bool = False) -> pd.DataFrame:
@@ -29,7 +19,6 @@ def parse_marriages(path: Path, dataset: str, filter_districts: bool = False) ->
         df = pd.concat([header, data])
 
     ordered_years = sorted(years.items(), key=lambda item: item[0])
-    metrics = TRIPLET_METRICS.get(dataset, TRIPLET_METRICS["_default"])
     rows = []
 
     for row_idx in range(data_start, len(df)):
@@ -38,7 +27,7 @@ def parse_marriages(path: Path, dataset: str, filter_districts: bool = False) ->
         if not name:
             continue
 
-        for year, metric_name, value in extract_metric_records(row, ordered_years, metrics):
+        for year, metric_name, value in extract_metric_records(row, ordered_years, METRIC_SEQUENCE):
             rows.append(territory_metric_row(year, name, metric_name, value))
 
     return pd.DataFrame(rows)

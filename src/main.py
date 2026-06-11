@@ -18,8 +18,8 @@ def main():
     if args.mode in {"etl", "all"}:
         run_all()
 
-    if args.mode in {"analysis", "all"}:
-        run_analysis()
+    #if args.mode in {"analysis", "all"}:
+     #   run_analysis()
 
 if __name__ == "__main__":
     main()

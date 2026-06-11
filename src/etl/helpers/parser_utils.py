@@ -32,18 +32,6 @@ def find_data_start_by_country(df, year_row_idx, max_search=50):
     return year_row_idx + 3
 
 
-def make_unique_columns(columns):
-    seen = {}
-    result = []
-
-    for col in columns:
-        key = col or "unnamed"
-        seen[key] = seen.get(key, 0) + 1
-        result.append(f"{key}__{seen[key]}" if seen[key] > 1 else key)
-
-    return result
-
-
 def iter_year_blocks(row, ordered_years, block_size):
     for col_idx, year in ordered_years:
         values = row[col_idx : col_idx + block_size]
