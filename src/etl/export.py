@@ -1,6 +1,6 @@
 import json
 import pandas as pd
-from src.text_utils import normalize_text
+from src.etl.helpers.text_utils import normalize_text
 from pathlib import Path
 
 

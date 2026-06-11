@@ -1,7 +1,7 @@
 import pandas as pd
 
-from src.const_vals import TOTAL_LABELS
-from src.text_utils import find_years_in_row, normalize_text, to_number
+from src.etl.helpers.const_vals import TOTAL_LABELS
+from src.etl.helpers.text_utils import find_years_in_row, normalize_text, to_number
 
 
 def row_to_text(row) -> str:

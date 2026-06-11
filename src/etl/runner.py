@@ -1,16 +1,16 @@
 import pandas as pd
 
 from src.etl.export import export_output, normalize_output_dataframe, export_manifest
-from src.etl.parsers.sheet_parser import parse_sheet_per_year_blocks
-from src.etl.parsers.triplet_parser import parse_wide_years_triplets
+from src.etl.parsers.births_parser import parse_births
+from src.etl.parsers.marriages_parser import parse_marriages
 from src.etl.validation import validate_output_dataframe
-from src.file_configs import ParseMode, FILE_CONFIGS
+from src.etl.file_configs import ParseMode, FILE_CONFIGS
 from pathlib import Path
 
 
 PARSERS = {
-    ParseMode.WIDE_YEARS_TRIPLETS: parse_wide_years_triplets,
-    ParseMode.SHEET_PER_YEAR_BLOCKS: parse_sheet_per_year_blocks,
+    ParseMode.MARRIAGES: parse_marriages,
+    ParseMode.BIRTHS: parse_births,
 }
 
 SRC_DIR = Path(__file__).resolve().parent.parent

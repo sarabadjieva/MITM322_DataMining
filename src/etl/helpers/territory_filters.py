@@ -1,6 +1,6 @@
-from src.text_utils import normalize_text
-from src.territory_utils import canonical_area_name, is_total_row
-from src.const_vals import AREA_LABELS
+from src.etl.helpers.text_utils import normalize_text
+from src.etl.helpers.territory_utils import canonical_area_name, is_total_row
+from src.etl.helpers.const_vals import AREA_LABELS
 
 def keep_only_districts(data_df):
     keep_rows = []

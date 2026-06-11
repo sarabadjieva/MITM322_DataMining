@@ -1,11 +1,11 @@
 import pandas as pd
 from pathlib import Path
 
-from src.file_configs import TRIPLET_METRICS
-from src.parser_utils import find_year_row, find_data_start_by_country, extract_metric_records
-from src.territory_filters import keep_only_districts
-from src.territory_utils import classify_territory
-from src.text_utils import normalize_text
+from src.etl.file_configs import TRIPLET_METRICS
+from src.etl.helpers.parser_utils import find_year_row, find_data_start_by_country, extract_metric_records
+from src.etl.helpers.territory_filters import keep_only_districts
+from src.etl.helpers.territory_utils import classify_territory
+from src.etl.helpers.text_utils import normalize_text
 
 
 def territory_metric_row(year, name, metric, value):
@@ -18,7 +18,7 @@ def territory_metric_row(year, name, metric, value):
     }
 
 
-def parse_wide_years_triplets(path: Path, dataset: str, filter_districts: bool = False) -> pd.DataFrame:
+def parse_marriages(path: Path, dataset: str, filter_districts: bool = False) -> pd.DataFrame:
     df = pd.read_excel(path, header=None, dtype=object)
     year_row_idx, years = find_year_row(df)
     data_start = find_data_start_by_country(df, year_row_idx)

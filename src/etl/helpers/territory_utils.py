@@ -1,8 +1,8 @@
 from dataclasses import dataclass
 from functools import cache
 
-from src.text_utils import normalize_text
-from src.const_vals import ALIASES, TOTAL_LABELS, AREA_LABELS
+from src.etl.helpers.text_utils import normalize_text
+from src.etl.helpers.const_vals import ALIASES, TOTAL_LABELS, AREA_LABELS
 
 
 @dataclass
