@@ -1,16 +1,10 @@
 import pandas as pd
 
+from src.etl.file_configs import REQUIRED_OUTPUT_COLUMNS
 
-REQUIRED_COLUMNS = {
-    "births_by_mother_age": {"year", "territory_raw", "territory_level", "metric", "value"},
-    "births_marital_status_residence": {"year", "territory_raw", "territory_level", "metric", "value"},
-    "marriages_by_age_sex": {"group_name", "age_group", "year", "metric", "value"},
-    "births_by_sex": {"year", "territory_raw", "territory_level", "metric", "value"},
-    "marriages_by_residence": {"year", "territory_raw", "territory_level", "metric", "value"},
-}
 
 def validate_output_dataframe(df: pd.DataFrame, dataset: str) -> pd.DataFrame:
-    expected = REQUIRED_COLUMNS.get(dataset)
+    expected = REQUIRED_OUTPUT_COLUMNS
     if expected and not expected.issubset(df.columns):
         missing = expected - set(df.columns)
         raise ValueError(f"{dataset}: missing columns {missing}")

@@ -83,19 +83,20 @@ def outside_marriage_share(births_marital, births_nonmarital):
 
     return share.sort_values("year").reset_index(drop=True)
 
-
-def lag_correlations(trend_dict, max_lag=5):
+def lag_correlations_period(trend_dict, start_year, end_year, max_lag=5):
     result = {}
 
     for birth_type, trend in trend_dict.items():
+        sub = trend[(trend["year"] >= start_year) & (trend["year"] <= end_year)].copy()
+
         rows = []
         for lag in range(max_lag + 1):
-            corr = trend["value_marriages"].corr(trend["value_births"].shift(-lag))
+            corr = sub["value_marriages"].corr(sub["value_births"].shift(-lag))
             rows.append({"lag": lag, "correlation": corr})
+
         result[birth_type] = pd.DataFrame(rows)
 
     return result
-
 
 def regional_correlations(regional_dict):
     result = {}

@@ -17,7 +17,7 @@ def compute_trend(group: pd.DataFrame, value_col: str) -> float:
     return float(slope)
 
 
-def cluster_regions(regional, n_clusters=5, max_k=9):
+def cluster_regions(regional, n_clusters=9, max_k=20):
     grouped = regional.groupby("territory_raw")
 
     features = pd.DataFrame({
@@ -37,14 +37,15 @@ def cluster_regions(regional, n_clusters=5, max_k=9):
     scaler = StandardScaler()
     x_scaled = scaler.fit_transform(features)
 
-    inertia = []
-    for k in range(1, max_k + 1):
+    inertias = []
+    K = range(1, max_k + 1)
+    for k in K:
         model = KMeans(n_clusters=k, random_state=42, n_init=10)
         model.fit(x_scaled)
-        inertia.append({"k": k, "inertia": model.inertia_})
+        inertias.append({"k": k, "inertia": model.inertia_})
 
     final_model = KMeans(n_clusters=n_clusters, random_state=42, n_init=10)
     features = features.copy()
     features["cluster"] = final_model.fit_predict(x_scaled)
 
-    return features, pd.DataFrame(inertia)
+    return features, pd.DataFrame(inertias)

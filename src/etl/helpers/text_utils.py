@@ -6,28 +6,27 @@ import pandas as pd
 
 from src.etl.helpers.const_vals import NULL_MARKERS
 
-WHITESPACE_RE = re.compile(r"\s+")
-YEAR_RE = re.compile(r"(19|20)\d{2}")
+YEAR_RE = re.compile(r"\b(?:19|20)\d{2}\b")
 
 
 def extract_year(value: Any) -> int | None:
-    match = YEAR_RE.search(str(value))
-    return int(match.group()) if match else None
-
-
-def is_missing_text(value: Any) -> bool:
-    if isinstance(value, (pd.Series, list, tuple, np.ndarray)):
-        return True
-    return pd.isna(value)
+    if match := YEAR_RE.search(str(value)):
+        return int(match.group())
+    return None
 
 
 def normalize_text(value: Any) -> str | None:
-    if is_missing_text(value):
+    if isinstance(value, (pd.Series, list, tuple, np.ndarray)):
         return None
+
+    if pd.isna(value):
+        return None
+
     text = str(value).replace("\xa0", " ").strip()
     if text in NULL_MARKERS:
         return None
-    return WHITESPACE_RE.sub(" ", text)
+
+    return " ".join(text.split())
 
 
 def to_number(value: Any) -> float:

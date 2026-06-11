@@ -3,31 +3,9 @@ from pathlib import Path
 from collections import defaultdict
 
 from src.etl.file_configs import METRIC_SEQUENCE
-from src.etl.helpers.parser_utils import find_header_row
-from src.etl.helpers.territory_filters import keep_only_districts
-from src.etl.helpers.territory_utils import territory_metric_row
-from src.etl.helpers.text_utils import normalize_text, extract_year, to_number
-
-HEADER_PREDICATES = (
-    lambda text: "Области" in text,
-    lambda text: "Общини" in text,
-)
-
-
-def build_sheet_labels(df, header_row):
-    header_1 = [normalize_text(x) for x in df.iloc[header_row].tolist()]
-    header_2 = (
-        [normalize_text(x) for x in df.iloc[header_row + 1].tolist()]
-        if header_row + 1 < len(df)
-        else [None] * len(header_1)
-    )
-
-    labels = []
-    for left, right in zip(header_1, header_2):
-        parts = [part for part in (left, right) if part]
-        labels.append(" | ".join(parts) if parts else None)
-
-    return labels
+from src.etl.helpers.births_parser_utils import find_header_row, build_sheet_labels
+from src.etl.helpers.territory_utils import territory_metric_row, keep_only_districts
+from src.etl.helpers.text_utils import normalize_text, to_number, extract_year
 
 
 def base_measure_name(label: str) -> str | None:
@@ -66,7 +44,7 @@ def resolve_birth_column_mapping(labels: list[str]) -> dict[int, tuple[str, str]
     return resolved
 
 
-def parse_births(path: Path, dataset: str, filter_districts: bool = False) -> dict[str, pd.DataFrame]:
+def parse_births(path: Path, filter_districts: bool = False) -> dict[str, pd.DataFrame]:
     xls = pd.ExcelFile(path)
     buckets = {
         "marital": [],
@@ -76,7 +54,7 @@ def parse_births(path: Path, dataset: str, filter_districts: bool = False) -> di
     for sheet_name in xls.sheet_names:
         year = extract_year(sheet_name)
         df = pd.read_excel(path, sheet_name=sheet_name, header=None, dtype=object)
-        header_row = find_header_row(df, HEADER_PREDICATES)
+        header_row = find_header_row(df)
         if header_row is None or year is None:
             continue
 

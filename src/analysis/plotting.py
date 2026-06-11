@@ -1,5 +1,7 @@
 import matplotlib.pyplot as plt
 
+from src.analysis.result import AnalysisResults
+
 
 def plot_national_trend(trend_dict):
     fig, axes = plt.subplots(1, 2, figsize=(16, 6), sharey=True)
@@ -25,6 +27,34 @@ def plot_lag_analysis(lag_dict):
         ax.set_title(f"Lag Analysis: {birth_type.capitalize()} Births")
         ax.set_xlabel("Lag (years)")
         ax.set_ylabel("Correlation")
+
+    plt.tight_layout()
+    plt.show()
+
+
+def plot_lag_pre_post(lags_pre, lags_post):
+    import matplotlib.pyplot as plt
+
+    fig, axes = plt.subplots(2, 2, figsize=(14, 10), sharey=True)
+
+    birth_types = ["marital", "nonmarital"]
+    titles = {
+        "marital": "Marital Births",
+        "nonmarital": "Nonmarital Births",
+    }
+
+    for row, birth_type in enumerate(birth_types):
+        pre_df = lags_pre[birth_type]
+        post_df = lags_post[birth_type]
+
+        axes[row, 0].bar(pre_df["lag"], pre_df["correlation"], color="steelblue")
+        axes[row, 0].set_title(f"{titles[birth_type]} — Pre-COVID (2010–2019)")
+        axes[row, 0].set_xlabel("Lag (years)")
+        axes[row, 0].set_ylabel("Correlation")
+
+        axes[row, 1].bar(post_df["lag"], post_df["correlation"], color="darkorange")
+        axes[row, 1].set_title(f"{titles[birth_type]} — Post-COVID (2020–2025)")
+        axes[row, 1].set_xlabel("Lag (years)")
 
     plt.tight_layout()
     plt.show()
@@ -85,8 +115,17 @@ def plot_clusters(clusters_dict):
         ax.set_ylabel(f"Average {birth_type.capitalize()} Births")
 
 
-        ax.set_xscale("log")
-        ax.set_yscale("log")
+        #ax.set_xscale("log")
+        #ax.set_yscale("log")
 
     plt.tight_layout()
     plt.show()
+
+def plot_results(results: AnalysisResults):
+    plot_national_trend(results.trend)
+    plot_lag_analysis(results.lags)
+    plot_lag_pre_post(results.pre_covid_lags, results.post_covid_lags)
+    plot_top_regions(results.correlations)
+    plot_outside_share(results.outside_share)
+    plot_elbow(results.inertia)
+    plot_clusters(results.clusters)

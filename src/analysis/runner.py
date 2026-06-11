@@ -2,20 +2,12 @@ import pandas as pd
 from pathlib import Path
 
 from src.analysis.clustering import cluster_regions
-from src.analysis.plotting import (
-    plot_national_trend,
-    plot_lag_analysis,
-    plot_top_regions,
-    plot_outside_share,
-    plot_elbow,
-    plot_clusters,
-)
+from src.analysis.plotting import plot_results
 from src.analysis.metrics import (
     national_trend,
     regional_dataset,
     outside_marriage_share,
-    lag_correlations,
-    regional_correlations,
+    regional_correlations, lag_correlations_period,
 )
 from src.analysis.result import AnalysisResults
 
@@ -52,7 +44,9 @@ def run_analysis_pipeline(
 
     return AnalysisResults(
         trend=trend,
-        lags=lag_correlations(trend),
+        lags=lag_correlations_period(trend, 2010, 2025),
+        pre_covid_lags=lag_correlations_period(trend, 2010, 2019),
+        post_covid_lags=lag_correlations_period(trend, 2019, 2025),
         regional=regional,
         correlations=regional_correlations(regional),
         outside_share=outside_marriage_share(births_marital, births_nonmarital),
@@ -70,9 +64,4 @@ def run_analysis():
         births_nonmarital=data["births_nonmarital"],
     )
 
-    plot_national_trend(results.trend)
-    plot_lag_analysis(results.lags)
-    plot_top_regions(results.correlations)
-    plot_outside_share(results.outside_share)
-    plot_elbow(results.inertia)
-    plot_clusters(results.clusters)
+    plot_results(results)

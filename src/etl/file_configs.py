@@ -1,10 +1,18 @@
 from dataclasses import dataclass
 from enum import Enum
+from pathlib import Path
 
+SRC_DIR = Path(__file__).resolve().parent.parent
+RAW_DIR = SRC_DIR.parent / "data"
+ETL_OUTPUT_DIR = SRC_DIR / "output"
+ETL_OUTPUT_DIR.mkdir(exist_ok=True)
 
-class ParseMode(str, Enum):
-    MARRIAGES = "wide_years_triplets"
-    BIRTHS = "sheet_per_year_blocks"
+METRIC_SEQUENCE = ["total", "urban", "rural"]
+REQUIRED_OUTPUT_COLUMNS = {"year", "territory_raw", "territory_level", "metric", "value"}
+
+class ParseMode(Enum):
+    MARRIAGES = 0
+    BIRTHS = 1
 
 
 @dataclass(frozen=True)
@@ -12,9 +20,6 @@ class FileConfig:
     dataset: str
     mode: ParseMode
     clean_municipality: bool = False
-
-
-METRIC_SEQUENCE = ["total", "urban", "rural"]
 
 
 FILE_CONFIGS = {

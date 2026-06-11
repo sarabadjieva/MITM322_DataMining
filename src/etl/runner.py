@@ -1,20 +1,9 @@
-import pandas as pd
-
 from src.etl.export import export_output, normalize_output_dataframe, export_manifest, export_multiple_outputs
 from src.etl.parsers.births_parser import parse_births
 from src.etl.parsers.marriages_parser import parse_marriages
 from src.etl.validation import validate_output_dataframe
-from src.etl.file_configs import ParseMode, FILE_CONFIGS
+from src.etl.file_configs import ParseMode, FILE_CONFIGS, RAW_DIR
 from pathlib import Path
-
-
-PARSERS = {
-    ParseMode.MARRIAGES: parse_marriages,
-    ParseMode.BIRTHS: parse_births,
-}
-
-SRC_DIR = Path(__file__).resolve().parent.parent
-RAW_DIR = SRC_DIR.parent / "data"
 
 
 def normalize_and_validate(result, dataset: str):
@@ -31,16 +20,24 @@ def normalize_and_validate(result, dataset: str):
 
 
 def run_etl_for_file(path: Path, config):
-    parser = PARSERS[config.mode]
-    result = parser(path, config.dataset, filter_districts=config.clean_municipality)
+    match config.mode:
+        case ParseMode.MARRIAGES:
+            result = parse_marriages(path)
+
+        case ParseMode.BIRTHS:
+            result = parse_births(path, config.clean_municipality)
+
+        case _:
+            raise ValueError(f"Unsupported mode: {config.mode}")
+
     return normalize_and_validate(result, config.dataset)
 
 
-def run_all(file_configs=FILE_CONFIGS, raw_dir: Path = RAW_DIR):
+def run_all():
     manifest = []
 
-    for filename, config in file_configs.items():
-        path = raw_dir / filename
+    for filename, config in FILE_CONFIGS.items():
+        path = RAW_DIR / filename
         if not path.exists():
             manifest.append({"file": filename, "status": "missing"})
             continue
@@ -53,10 +50,9 @@ def run_all(file_configs=FILE_CONFIGS, raw_dir: Path = RAW_DIR):
                 {
                     "file": filename,
                     "dataset": config.dataset,
-                    "mode": config.mode.value,
                     "outputs": {
                         key: {
-                            "filename": exported_path.name,
+                            "output_file": exported_path.name,
                             "rows": int(len(result[key])),
                         }
                         for key, exported_path in exported.items()
@@ -70,7 +66,6 @@ def run_all(file_configs=FILE_CONFIGS, raw_dir: Path = RAW_DIR):
                 {
                     "file": filename,
                     "dataset": config.dataset,
-                    "mode": config.mode.value,
                     "rows": int(len(result)),
                     "output_file": exported_path.name,
                     "clean_municipality": config.clean_municipality,
