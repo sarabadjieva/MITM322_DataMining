@@ -45,11 +45,11 @@ FILE_CONFIGS = {
         mode=ParseMode.WIDE_YEARS_TRIPLETS,
         clean_municipality=True
     ),
-    #'Pop_1.2.2._birth_DR.xlsx': {
-    #    'dataset': 'births_marital_status_residence',
-    #    'mode': 'sheet_per_year_blocks',
-    #    'clean_municipality': 'true'
-    #},
+    'Birth/Pop_1.2.2._birth_DR.xlsx': FileConfig(
+        dataset='births_marital_status_residence',
+        mode=ParseMode.SHEET_PER_YEAR_BLOCKS,
+        clean_municipality=True
+    ),
     "Marriages/Pop_4.1.1._Marriages_DR.xlsx": FileConfig(
         dataset='marriages_by_residence',
         mode=ParseMode.WIDE_YEARS_TRIPLETS
