@@ -27,33 +27,33 @@ PAIR_METRICS = {
 }
 
 FILE_CONFIGS = {
-    'Birth/Pop_1.2.3._birth_DR.xlsx': FileConfig(
-        dataset='births_by_mother_age',
-        mode=ParseMode.SHEET_PER_YEAR_BLOCKS,
+    #'Birth/Pop_1.2.3._birth_DR.xlsx': FileConfig(
+    #    dataset='births_by_mother_age',
+    #    mode=ParseMode.SHEET_PER_YEAR_BLOCKS,
+    #    clean_municipality=True
+    #),
+    #"Marriages/Pop_4.1.5._Marriages_DR.xlsx": FileConfig(
+    #    dataset="marriages_by_age_sex",
+    #    mode=ParseMode.WIDE_YEARS_PAIRS
+    #),
+    #"Divorces/Pop_4.2.5._Divorces_DR.xlsx": FileConfig(
+    #    dataset="divorces_by_age_sex",
+    #    mode=ParseMode.WIDE_YEARS_PAIRS
+    #),
+    'Birth/Pop_1.2.1._birth_DR.xlsx': FileConfig(
+        dataset='births_by_sex',
+        mode=ParseMode.WIDE_YEARS_TRIPLETS,
         clean_municipality=True
     ),
-    "Marriages/Pop_4.1.5._Marriages_DR.xlsx": FileConfig(
-        dataset="marriages_by_age_sex",
-        mode=ParseMode.WIDE_YEARS_PAIRS
-    ),
-    "Divorces/Pop_4.2.5._Divorces_DR.xlsx": FileConfig(
-        dataset="divorces_by_age_sex",
-        mode=ParseMode.WIDE_YEARS_PAIRS
-    ),
-    #'Pop_1.2.1._birth_DR.xlsx': {
-    #    'dataset': 'births_by_sex',
-    #    'mode': 'wide_years_triplets',
-    #    'clean_municipality': 'true'
-    #},
     #'Pop_1.2.2._birth_DR.xlsx': {
     #    'dataset': 'births_marital_status_residence',
     #    'mode': 'sheet_per_year_blocks',
     #    'clean_municipality': 'true'
     #},
-    #'Pop_4.1.1._Marriages_DR.xlsx': {
-    #    'dataset': 'marriages_by_residence',
-    #    'mode': 'wide_years_triplets'
-    #},
+    "Marriages/Pop_4.1.1._Marriages_DR.xlsx": FileConfig(
+        dataset='marriages_by_residence',
+        mode=ParseMode.WIDE_YEARS_TRIPLETS
+    ),
     #'Pop_4.1.2._Marriages_DR.xlsx': {
     #    'dataset': 'marriages_age_matrix',
     #    'mode': 'sheet_per_year_matrix'

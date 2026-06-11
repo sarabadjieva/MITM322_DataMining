@@ -117,80 +117,11 @@ marriages_broad AS (
         CAST(year AS INTEGER),
         TRIM(group_name),
         age_group
-),
-
-divorces_broad AS (
-    SELECT
-        'divorces' AS dataset_type,
-        CAST(year AS INTEGER) AS year,
-        TRIM(group_name) AS territory,
-
-        CASE
-            WHEN TRIM(age_group) IN (
-                '18',
-                '18 - 19',
-                '18-19',
-                '20 - 24',
-                '20-24'
-            ) THEN 'under_25'
-
-            WHEN TRIM(age_group) IN (
-                '25 - 29',
-                '25-29',
-                '30 - 34',
-                '30-34'
-            ) THEN '25_34'
-
-            WHEN TRIM(age_group) IN (
-                '35 - 39',
-                '35-39',
-                '40 - 49',
-                '40-49',
-                '50 - 59',
-                '50-59',
-                '60',
-                '60+'
-            ) THEN '35_plus'
-
-            ELSE NULL
-        END AS age_group,
-
-        SUM(CAST(value AS REAL)) AS total_count
-
-    FROM divorces_by_age_sex_clean
-
-    WHERE LOWER(TRIM(group_name)) = LOWER('Общо за страната')
-      AND TRIM(age_group) IN (
-            '18',
-            '18 - 19',
-            '18-19',
-            '20 - 24',
-            '20-24',
-            '25 - 29',
-            '25-29',
-            '30 - 34',
-            '30-34',
-            '35 - 39',
-            '35-39',
-            '40 - 49',
-            '40-49',
-            '50 - 59',
-            '50-59',
-            '60',
-            '60+'
-      )
-
-    GROUP BY
-        CAST(year AS INTEGER),
-        TRIM(group_name),
-        age_group
 )
 
 SELECT * FROM births_broad
 UNION ALL
 SELECT * FROM marriages_broad
-UNION ALL
-SELECT * FROM divorces_broad
 
 ORDER BY
     dataset_type,

@@ -1,5 +1,5 @@
-from edited.const_vals import TOTAL_LABELS
-from edited.text_utils import find_years_in_row, normalize_text, to_number
+from src.const_vals import TOTAL_LABELS
+from src.text_utils import find_years_in_row, normalize_text, to_number
 import pandas as pd
 
 def find_header_row(df, predicates, max_rows=8):

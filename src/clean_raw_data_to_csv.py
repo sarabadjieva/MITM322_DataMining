@@ -11,7 +11,7 @@ import const_vals as c_vals
 import records as recs
 
 CURRENT_DIR = Path(__file__).resolve().parent
-RAW_DIR = CURRENT_DIR.parent / "raw"
+RAW_DIR = CURRENT_DIR.parent / "data"
 OUTPUT_DIR = CURRENT_DIR / "output"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
@@ -309,6 +309,10 @@ def run_etl_for_file(path: Path, cfg) -> pd.DataFrame:
         )
     return normalize_output_dataframe(df)
 
+def export_outputs(df, dataset):
+    csv_path = OUTPUT_DIR / f'{dataset}_clean.csv'
+    df.to_csv(csv_path, index=False, encoding='utf-8-sig')
+    return csv_path
 
 def main():
     manifest = []
@@ -325,6 +329,8 @@ def main():
             path,
             cfg
         )
+
+        export_outputs(df_all, dataset)
 
         manifest.append({
             "file": filename,
