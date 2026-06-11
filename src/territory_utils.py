@@ -5,7 +5,7 @@ from dataclasses import dataclass
 @dataclass
 class Territory:
     level: str | None
-    oblast: str | None
+    district: str | None
     municipality: str | None
 
 def canonical_area_name(name):
@@ -18,25 +18,21 @@ def is_total_row(name):
     name = normalize_text(name)
     return name in cvals.TOTAL_LABELS
 
-def is_oblast_row(name):
-    canon = canonical_area_name(name)
-    return canon in cvals.AREA_LABELS
-
-def classify_territory(name, current_oblast=None) -> Territory:
+def classify_territory(name, current_district=None) -> Territory:
     name = normalize_text(name)
     if not name:
-        return Territory(None, current_oblast, None)
+        return Territory(None, current_district, None)
 
     if name in cvals.TOTAL_LABELS:
         return Territory("country", None, None)
 
-    if current_oblast is None and name in cvals.AREA_LABELS:
-        return Territory("oblast", name, None)
+    if current_district is None and name in cvals.AREA_LABELS:
+        return Territory("district", name, None)
 
-    if current_oblast is not None and name in cvals.AREA_LABELS:
-        return Territory("municipality", current_oblast, name)
+    if current_district is not None and name in cvals.AREA_LABELS:
+        return Territory("municipality", current_district, name)
 
-    if current_oblast:
-        return Territory("municipality", current_oblast, name)
+    if current_district:
+        return Territory("municipality", current_district, name)
 
     return Territory("unknown", None, name)
