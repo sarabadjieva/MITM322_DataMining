@@ -10,11 +10,11 @@ def filter_metric(df, metric, level):
     return df[(df["metric"] == metric) & (df["territory_level"] == level)].copy()
 
 
-def outside_marriage_share(births_marital, births_nonmarital):
-    country_marital = filter_metric(births_marital, "total", COUNTRY_LEVEL).rename(
+def outside_marriage_share(births_marital, births_nonmarital, metric):
+    country_marital = filter_metric(births_marital, metric, COUNTRY_LEVEL).rename(
         columns={"value": "value_marital"}
     )
-    country_nonmarital = filter_metric(births_nonmarital, "total", COUNTRY_LEVEL).rename(
+    country_nonmarital = filter_metric(births_nonmarital, metric, COUNTRY_LEVEL).rename(
         columns={"value": "value_nonmarital"}
     )
 
@@ -32,11 +32,7 @@ def outside_marriage_share(births_marital, births_nonmarital):
 def lag_correlations_period(trend_dict: TrendDatasets, start_year, end_year, max_lag=5):
     result = {}
 
-    for birth_type, trend in {
-        "marital": trend_dict.marital,
-        "nonmarital": trend_dict.nonmarital,
-        "total": trend_dict.total,
-    }.items():
+    for birth_type, trend in trend_dict.items():
         sub = trend[(trend["year"] >= start_year) & (trend["year"] <= end_year)].copy()
 
         rows = []
@@ -51,11 +47,7 @@ def lag_correlations_period(trend_dict: TrendDatasets, start_year, end_year, max
 def regional_correlations(regional_dict: TrendDatasets):
     result = {}
 
-    for birth_type, trend in {
-        "marital": regional_dict.marital,
-        "nonmarital": regional_dict.nonmarital,
-        "total": regional_dict.total,
-    }.items():
+    for birth_type, trend in regional_dict.items():
         rows = []
         for region, group in trend.groupby("territory_raw"):
             rows.append(

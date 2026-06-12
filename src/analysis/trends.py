@@ -3,27 +3,24 @@ import pandas as pd
 from src.analysis.metrics import filter_metric
 from src.analysis.result import TrendDatasets, RawDatasets
 
-# promqna brok brakove prez godinite
-# promqna na dql/procent na nonmarital
-# districts s nai-burz rastej na nonmarital
-
 COUNTRY_LEVEL = "country"
 REGION_LEVEL = "district"
 
-def build_trend_dataset(raw_datasets: RawDatasets, level, join_cols):
-    marriages_df = filter_metric(raw_datasets.marriages, "total", level).rename(
+
+def build_trend_dataset(raw_datasets: RawDatasets, metric, level, join_cols):
+    marriages_df = filter_metric(raw_datasets.marriages, metric, level).rename(
         columns={"value": "marriages"}
     )
 
-    births_marital_df = filter_metric(raw_datasets.marital, "total", level).rename(
+    births_marital_df = filter_metric(raw_datasets.marital, metric, level).rename(
         columns={"value": "births"}
     )
 
-    births_nonmarital_df = filter_metric(raw_datasets.nonmarital, "total", level).rename(
+    births_nonmarital_df = filter_metric(raw_datasets.nonmarital, metric, level).rename(
         columns={"value": "births"}
     )
 
-    births_all_df = filter_metric(raw_datasets.all_births, "total", level).rename(
+    births_all_df = filter_metric(raw_datasets.all_births, metric, level).rename(
         columns={"value": "births"}
     )
 
@@ -48,17 +45,19 @@ def build_trend_dataset(raw_datasets: RawDatasets, level, join_cols):
     return TrendDatasets(trend_marital, trend_nonmarital, trend_shared)
 
 
-def build_national_datasets(raw_datasets: RawDatasets) -> TrendDatasets:
+def build_national_datasets(raw_datasets: RawDatasets, metric) -> TrendDatasets:
     return build_trend_dataset(
         raw_datasets,
+        metric=metric,
         level=COUNTRY_LEVEL,
         join_cols=["year"],
     )
 
 
-def build_regional_datasets(raw_datasets: RawDatasets) -> TrendDatasets:
+def build_regional_datasets(raw_datasets: RawDatasets, metric) -> TrendDatasets:
     return build_trend_dataset(
         raw_datasets,
+        metric=metric,
         level=REGION_LEVEL,
         join_cols=["year", "territory_raw"],
     )

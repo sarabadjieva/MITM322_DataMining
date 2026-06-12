@@ -4,10 +4,11 @@ from pathlib import Path
 from src.analysis.clustering import cluster_regions
 from src.analysis.plotting import plot_results
 from src.analysis.metrics import (
+    lag_correlations_period,
     outside_marriage_share,
-    regional_correlations, lag_correlations_period,
+    regional_correlations,
 )
-from src.analysis.result import AnalysisResults, RawDatasets
+from src.analysis.result import AnalysisResults, RawDatasets, RESIDENCE_METRICS
 from src.analysis.trends import build_national_datasets, build_regional_datasets
 
 SRC_DIR = Path(__file__).resolve().parent.parent
@@ -29,39 +30,53 @@ def load_data(output_dir=OUTPUT_DIR):
     }
 
 
-def run_analysis_pipeline(raw_datasets) -> AnalysisResults:
-    trend = build_national_datasets(raw_datasets)
-    regional = build_regional_datasets(raw_datasets)
+def run_analysis_pipeline(raw_datasets, metric="total") -> AnalysisResults:
+    if metric not in RESIDENCE_METRICS:
+        raise ValueError(f"Unsupported metric: {metric}")
+
+    trend = build_national_datasets(raw_datasets, metric)
+    regional = build_regional_datasets(raw_datasets, metric)
 
     clusters = {}
     inertia = {}
 
-    for birth_type, regional_df in {
-        "marital": regional.marital,
-        "nonmarital": regional.nonmarital,
-        "total": regional.total,
-    }.items():
+    for birth_type, regional_df in regional.items():
         features, inertia_df = cluster_regions(regional_df)
         clusters[birth_type] = features
         inertia[birth_type] = inertia_df
 
     return AnalysisResults(
+        metric=metric,
         trend=trend,
         lags=lag_correlations_period(trend, 2010, 2025),
         pre_covid_lags=lag_correlations_period(trend, 2010, 2019),
         post_covid_lags=lag_correlations_period(trend, 2019, 2025),
         regional=regional,
         correlations=regional_correlations(regional),
-        outside_share=outside_marriage_share(raw_datasets.marital, raw_datasets.nonmarital),
+        outside_share=outside_marriage_share(
+            raw_datasets.marital,
+            raw_datasets.nonmarital,
+            metric,
+        ),
         clusters=clusters,
         inertia=inertia,
     )
 
 
-def run_analysis():
+def run_analysis(metrics=RESIDENCE_METRICS):
     data = load_data()
 
-    raw_datasets = RawDatasets(data["marriages"],data["births_marital"],data["births_nonmarital"],data["births_all"])
-    results = run_analysis_pipeline(raw_datasets)
+    raw_datasets = RawDatasets(
+        data["marriages"],
+        data["births_marital"],
+        data["births_nonmarital"],
+        data["births_all"],
+    )
 
-    plot_results(results)
+    results_by_metric = {}
+    for metric in metrics:
+        results = run_analysis_pipeline(raw_datasets, metric)
+        results_by_metric[metric] = results
+        plot_results(results)
+
+    return results_by_metric
