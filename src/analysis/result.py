@@ -1,9 +1,6 @@
 from dataclasses import dataclass
 import pandas as pd
 
-BIRTH_TYPES = ("marital", "nonmarital", "total")
-RESIDENCE_METRICS = ("total", "rural", "urban")
-
 
 @dataclass
 class RawDatasets:
@@ -36,6 +33,12 @@ class AnalysisResults:
     post_covid_lags: dict[str, pd.DataFrame]
     regional: TrendDatasets
     correlations: dict[str, pd.DataFrame]
-    outside_share: pd.DataFrame
+    nonmarital_share: pd.DataFrame
     clusters: dict[str, pd.DataFrame]
     inertia: dict[str, pd.DataFrame]
+
+
+@dataclass
+class MultiMetricAnalysisResults:
+    by_metric: dict[str, AnalysisResults]
+    nonmarital_share_by_metric: pd.DataFrame

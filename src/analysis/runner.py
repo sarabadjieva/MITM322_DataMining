@@ -1,33 +1,15 @@
-import pandas as pd
-from pathlib import Path
-
 from src.analysis.clustering import cluster_regions
-from src.analysis.plotting import plot_results
+from src.analysis.constants import RESIDENCE_METRICS
+from src.analysis.data import load_raw_datasets
+from src.analysis.plotting import plot_nonmarital_share_by_metric, plot_results
 from src.analysis.metrics import (
     lag_correlations_period,
-    outside_marriage_share,
+    nonmarital_birth_share,
+    nonmarital_birth_share_by_metric,
     regional_correlations,
 )
-from src.analysis.result import AnalysisResults, RawDatasets, RESIDENCE_METRICS
+from src.analysis.result import AnalysisResults, MultiMetricAnalysisResults, RawDatasets
 from src.analysis.trends import build_national_datasets, build_regional_datasets
-
-SRC_DIR = Path(__file__).resolve().parent.parent
-OUTPUT_DIR = SRC_DIR / "output"
-
-
-def load_data(output_dir=OUTPUT_DIR):
-    return {
-        "marriages": pd.read_csv(f"{output_dir}/marriages_by_residence_clean.csv"),
-        "births_marital": pd.read_csv(
-            f"{output_dir}/births_marital_status_residence_marital_clean.csv"
-        ),
-        "births_nonmarital": pd.read_csv(
-            f"{output_dir}/births_marital_status_residence_nonmarital_clean.csv"
-        ),
-        "births_all": pd.read_csv(
-            f"{output_dir}/births_marital_status_residence_all_clean.csv"
-        ),
-    }
 
 
 def run_analysis_pipeline(raw_datasets, metric="total") -> AnalysisResults:
@@ -53,7 +35,7 @@ def run_analysis_pipeline(raw_datasets, metric="total") -> AnalysisResults:
         post_covid_lags=lag_correlations_period(trend, 2019, 2025),
         regional=regional,
         correlations=regional_correlations(regional),
-        outside_share=outside_marriage_share(
+        nonmarital_share=nonmarital_birth_share(
             raw_datasets.marital,
             raw_datasets.nonmarital,
             metric,
@@ -63,20 +45,34 @@ def run_analysis_pipeline(raw_datasets, metric="total") -> AnalysisResults:
     )
 
 
-def run_analysis(metrics=RESIDENCE_METRICS):
-    data = load_data()
+def build_analysis_results(metrics=RESIDENCE_METRICS):
+    raw_datasets = load_raw_datasets()
 
-    raw_datasets = RawDatasets(
-        data["marriages"],
-        data["births_marital"],
-        data["births_nonmarital"],
-        data["births_all"],
+    nonmarital_share_by_metric = nonmarital_birth_share_by_metric(
+        raw_datasets.marital,
+        raw_datasets.nonmarital,
+        metrics=metrics,
     )
 
     results_by_metric = {}
     for metric in metrics:
         results = run_analysis_pipeline(raw_datasets, metric)
         results_by_metric[metric] = results
-        plot_results(results)
 
-    return results_by_metric
+    return MultiMetricAnalysisResults(
+        by_metric=results_by_metric,
+        nonmarital_share_by_metric=nonmarital_share_by_metric,
+    )
+
+
+def plot_analysis_results(results: MultiMetricAnalysisResults):
+    plot_nonmarital_share_by_metric(results.nonmarital_share_by_metric)
+
+    for result in results.by_metric.values():
+        plot_results(result)
+
+
+def run_analysis(metrics=RESIDENCE_METRICS):
+    results = build_analysis_results(metrics)
+    plot_analysis_results(results)
+    return results

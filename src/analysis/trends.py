@@ -1,10 +1,8 @@
 import pandas as pd
 
+from src.analysis.constants import COUNTRY_LEVEL, REGION_LEVEL
 from src.analysis.metrics import filter_metric
 from src.analysis.result import TrendDatasets, RawDatasets
-
-COUNTRY_LEVEL = "country"
-REGION_LEVEL = "district"
 
 
 def build_trend_dataset(raw_datasets: RawDatasets, metric, level, join_cols):

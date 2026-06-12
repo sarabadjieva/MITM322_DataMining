@@ -1,33 +1,57 @@
 import pandas as pd
 
+from src.analysis.constants import COUNTRY_LEVEL, RESIDENCE_METRICS
 from src.analysis.result import TrendDatasets
 
-COUNTRY_LEVEL = "country"
-REGION_LEVEL = "district"
 
 
 def filter_metric(df, metric, level):
     return df[(df["metric"] == metric) & (df["territory_level"] == level)].copy()
 
 
-def outside_marriage_share(births_marital, births_nonmarital, metric):
-    country_marital = filter_metric(births_marital, metric, COUNTRY_LEVEL).rename(
+def nonmarital_birth_share(births_marital, births_nonmarital, metric, level=COUNTRY_LEVEL):
+    marital = filter_metric(births_marital, metric, level).rename(
         columns={"value": "value_marital"}
     )
-    country_nonmarital = filter_metric(births_nonmarital, metric, COUNTRY_LEVEL).rename(
+    nonmarital = filter_metric(births_nonmarital, metric, level).rename(
         columns={"value": "value_nonmarital"}
     )
 
     share = pd.merge(
-        country_marital[["year", "value_marital"]],
-        country_nonmarital[["year", "value_nonmarital"]],
+        marital[["year", "value_marital"]],
+        nonmarital[["year", "value_nonmarital"]],
         on="year",
+    ).sort_values("year")
+
+    share["metric"] = metric
+    share["value_total"] = share["value_marital"] + share["value_nonmarital"]
+    share["nonmarital_share"] = (share["value_nonmarital"] / share["value_total"]) * 100
+    share["share_change_pp"] = share["nonmarital_share"].diff()
+    share["share_change_pct"] = share["nonmarital_share"].pct_change() * 100
+    share["period_change_pp"] = share["nonmarital_share"] - share["nonmarital_share"].iloc[0]
+
+    return share.reset_index(drop=True)
+
+
+def nonmarital_birth_share_by_metric(
+    births_marital,
+    births_nonmarital,
+    metrics=RESIDENCE_METRICS,
+    level=COUNTRY_LEVEL,
+):
+    return pd.concat(
+        [
+            nonmarital_birth_share(
+                births_marital,
+                births_nonmarital,
+                metric,
+                level=level,
+            )
+            for metric in metrics
+        ],
+        ignore_index=True,
     )
 
-    share["value_total"] = share["value_marital"] + share["value_nonmarital"]
-    share["outside_share"] = (share["value_nonmarital"] / share["value_total"]) * 100
-
-    return share.sort_values("year").reset_index(drop=True)
 
 def lag_correlations_period(trend_dict: TrendDatasets, start_year, end_year, max_lag=5):
     result = {}

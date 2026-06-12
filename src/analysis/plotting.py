@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 
-from src.analysis.result import AnalysisResults, BIRTH_TYPES, TrendDatasets
+from src.analysis.constants import BIRTH_TYPES
+from src.analysis.result import AnalysisResults, TrendDatasets
 
 
 def metric_title(metric):
@@ -74,13 +75,24 @@ def plot_top_regions(corr_dict, metric, top_n=15):
     plt.show()
 
 
-def plot_outside_share(share, metric):
-    plt.figure(figsize=(12, 6))
-    plt.plot(share["year"], share["outside_share"], marker="o")
-    plt.title(f"{metric_title(metric)} Share of Births Outside Marriage")
-    plt.xlabel("Year")
-    plt.ylabel("%")
-    plt.grid(True)
+def plot_nonmarital_share_by_metric(share_by_metric):
+    fig, ax = plt.subplots(figsize=(12, 6))
+
+    for metric, group in share_by_metric.groupby("metric"):
+        group = group.sort_values("year")
+        ax.plot(
+            group["year"],
+            group["nonmarital_share"],
+            marker="o",
+            linewidth=2,
+            label=metric.capitalize(),
+        )
+
+    ax.set_title("Share of Births Outside Marriage by Residence")
+    ax.set_xlabel("Year")
+    ax.set_ylabel("%")
+    ax.grid(True, alpha=0.3)
+    ax.legend()
     plt.tight_layout()
     plt.show()
 
@@ -126,6 +138,5 @@ def plot_results(results: AnalysisResults):
     plot_lag_analysis(results.lags, results.metric)
     plot_lag_pre_post(results.pre_covid_lags, results.post_covid_lags, results.metric)
     plot_top_regions(results.correlations, results.metric)
-    plot_outside_share(results.outside_share, results.metric)
     plot_elbow(results.inertia, results.metric)
     plot_clusters(results.clusters, results.metric)
