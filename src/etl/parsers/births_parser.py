@@ -19,6 +19,8 @@ def base_measure_name(label: str) -> str | None:
     if label.startswith("извънбрачни") or label.startswith("извън-брачни"):
         return "извънбрачни"
 
+    if "всичко" in label:
+        return "всичко"
     return None
 
 
@@ -31,7 +33,13 @@ def resolve_birth_column_mapping(labels: list[str]) -> dict[int, tuple[str, str]
         if base_name is None:
             continue
 
-        group = "marital" if base_name == "брачни" else "nonmarital"
+        if base_name == "брачни":
+            group = "marital"
+        elif base_name == "извънбрачни":
+            group = "nonmarital"
+        else:
+            group = "all"
+
         occurrence_idx = counters[group]
         counters[group] += 1
 
@@ -49,6 +57,7 @@ def parse_births(path: Path, filter_districts: bool = False) -> dict[str, pd.Dat
     buckets = {
         "marital": [],
         "nonmarital": [],
+        "all": [],
     }
 
     for sheet_name in xls.sheet_names:

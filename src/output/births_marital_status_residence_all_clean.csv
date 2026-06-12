@@ -1,0 +1,1393 @@
+﻿year,territory_raw,territory_level,metric,value
+2010,България,country,total,75513.0
+2010,България,country,urban,57077.0
+2010,България,country,rural,18436.0
+2010,Благоевград,district,total,3360.0
+2010,Благоевград,district,urban,2073.0
+2010,Благоевград,district,rural,1287.0
+2010,Бургас,district,total,4508.0
+2010,Бургас,district,urban,3374.0
+2010,Бургас,district,rural,1134.0
+2010,Варна,district,total,5350.0
+2010,Варна,district,urban,4544.0
+2010,Варна,district,rural,806.0
+2010,Велико Търново,district,total,2379.0
+2010,Велико Търново,district,urban,1738.0
+2010,Велико Търново,district,rural,641.0
+2010,Видин,district,total,829.0
+2010,Видин,district,urban,584.0
+2010,Видин,district,rural,245.0
+2010,Враца,district,total,1622.0
+2010,Враца,district,urban,932.0
+2010,Враца,district,rural,690.0
+2010,Габрово,district,total,1030.0
+2010,Габрово,district,urban,861.0
+2010,Габрово,district,rural,169.0
+2010,Добрич,district,total,1827.0
+2010,Добрич,district,urban,1215.0
+2010,Добрич,district,rural,612.0
+2010,Кърджали,district,total,1608.0
+2010,Кърджали,district,urban,684.0
+2010,Кърджали,district,rural,924.0
+2010,Кюстендил,district,total,1097.0
+2010,Кюстендил,district,urban,889.0
+2010,Кюстендил,district,rural,208.0
+2010,Ловеч,district,total,1273.0
+2010,Ловеч,district,urban,807.0
+2010,Ловеч,district,rural,466.0
+2010,Монтана,district,total,1278.0
+2010,Монтана,district,urban,901.0
+2010,Монтана,district,rural,377.0
+2010,Пазарджик,district,total,2913.0
+2010,Пазарджик,district,urban,1896.0
+2010,Пазарджик,district,rural,1017.0
+2010,Перник,district,total,1097.0
+2010,Перник,district,urban,984.0
+2010,Перник,district,rural,113.0
+2010,Плевен,district,total,2548.0
+2010,Плевен,district,urban,1722.0
+2010,Плевен,district,rural,826.0
+2010,Пловдив,district,total,7197.0
+2010,Пловдив,district,urban,5647.0
+2010,Пловдив,district,rural,1550.0
+2010,Разград,district,total,1135.0
+2010,Разград,district,urban,537.0
+2010,Разград,district,rural,598.0
+2010,Русе,district,total,2178.0
+2010,Русе,district,urban,1762.0
+2010,Русе,district,rural,416.0
+2010,Силистра,district,total,1127.0
+2010,Силистра,district,urban,462.0
+2010,Силистра,district,rural,665.0
+2010,Сливен,district,total,2532.0
+2010,Сливен,district,urban,1582.0
+2010,Сливен,district,rural,950.0
+2010,Смолян,district,total,1026.0
+2010,Смолян,district,urban,660.0
+2010,Смолян,district,rural,366.0
+2010,София (столица),district,total,14886.0
+2010,София (столица),district,urban,14404.0
+2010,София (столица),district,rural,482.0
+2010,София,district,total,2151.0
+2010,София,district,urban,1509.0
+2010,София,district,rural,642.0
+2010,Стара Загора,district,total,3562.0
+2010,Стара Загора,district,urban,2582.0
+2010,Стара Загора,district,rural,980.0
+2010,Търговище,district,total,1356.0
+2010,Търговище,district,urban,669.0
+2010,Търговище,district,rural,687.0
+2010,Хасково,district,total,2387.0
+2010,Хасково,district,urban,1835.0
+2010,Хасково,district,rural,552.0
+2010,Шумен,district,total,1916.0
+2010,Шумен,district,urban,1208.0
+2010,Шумен,district,rural,708.0
+2010,Ямбол,district,total,1341.0
+2010,Ямбол,district,urban,1016.0
+2010,Ямбол,district,rural,325.0
+2011,България,country,total,70846.0
+2011,България,country,urban,53396.0
+2011,България,country,rural,17450.0
+2011,Благоевград,district,total,3169.0
+2011,Благоевград,district,urban,1999.0
+2011,Благоевград,district,rural,1170.0
+2011,Бургас,district,total,4281.0
+2011,Бургас,district,urban,3153.0
+2011,Бургас,district,rural,1128.0
+2011,Варна,district,total,4948.0
+2011,Варна,district,urban,4255.0
+2011,Варна,district,rural,693.0
+2011,Велико Търново,district,total,2280.0
+2011,Велико Търново,district,urban,1707.0
+2011,Велико Търново,district,rural,573.0
+2011,Видин,district,total,752.0
+2011,Видин,district,urban,542.0
+2011,Видин,district,rural,210.0
+2011,Враца,district,total,1594.0
+2011,Враца,district,urban,948.0
+2011,Враца,district,rural,646.0
+2011,Габрово,district,total,993.0
+2011,Габрово,district,urban,817.0
+2011,Габрово,district,rural,176.0
+2011,Добрич,district,total,1843.0
+2011,Добрич,district,urban,1223.0
+2011,Добрич,district,rural,620.0
+2011,Кърджали,district,total,1446.0
+2011,Кърджали,district,urban,667.0
+2011,Кърджали,district,rural,779.0
+2011,Кюстендил,district,total,1085.0
+2011,Кюстендил,district,urban,896.0
+2011,Кюстендил,district,rural,189.0
+2011,Ловеч,district,total,1220.0
+2011,Ловеч,district,urban,787.0
+2011,Ловеч,district,rural,433.0
+2011,Монтана,district,total,1264.0
+2011,Монтана,district,urban,878.0
+2011,Монтана,district,rural,386.0
+2011,Пазарджик,district,total,2749.0
+2011,Пазарджик,district,urban,1808.0
+2011,Пазарджик,district,rural,941.0
+2011,Перник,district,total,1005.0
+2011,Перник,district,urban,869.0
+2011,Перник,district,rural,136.0
+2011,Плевен,district,total,2394.0
+2011,Плевен,district,urban,1613.0
+2011,Плевен,district,rural,781.0
+2011,Пловдив,district,total,6827.0
+2011,Пловдив,district,urban,5357.0
+2011,Пловдив,district,rural,1470.0
+2011,Разград,district,total,1055.0
+2011,Разград,district,urban,438.0
+2011,Разград,district,rural,617.0
+2011,Русе,district,total,1855.0
+2011,Русе,district,urban,1474.0
+2011,Русе,district,rural,381.0
+2011,Силистра,district,total,1043.0
+2011,Силистра,district,urban,427.0
+2011,Силистра,district,rural,616.0
+2011,Сливен,district,total,2471.0
+2011,Сливен,district,urban,1522.0
+2011,Сливен,district,rural,949.0
+2011,Смолян,district,total,788.0
+2011,Смолян,district,urban,469.0
+2011,Смолян,district,rural,319.0
+2011,София (столица),district,total,13742.0
+2011,София (столица),district,urban,13306.0
+2011,София (столица),district,rural,436.0
+2011,София,district,total,2119.0
+2011,София,district,urban,1464.0
+2011,София,district,rural,655.0
+2011,Стара Загора,district,total,3308.0
+2011,Стара Загора,district,urban,2358.0
+2011,Стара Загора,district,rural,950.0
+2011,Търговище,district,total,1248.0
+2011,Търговище,district,urban,611.0
+2011,Търговище,district,rural,637.0
+2011,Хасково,district,total,2232.0
+2011,Хасково,district,urban,1697.0
+2011,Хасково,district,rural,535.0
+2011,Шумен,district,total,1832.0
+2011,Шумен,district,urban,1145.0
+2011,Шумен,district,rural,687.0
+2011,Ямбол,district,total,1303.0
+2011,Ямбол,district,urban,966.0
+2011,Ямбол,district,rural,337.0
+2012,България,country,total,69121.0
+2012,България,country,urban,51658.0
+2012,България,country,rural,17463.0
+2012,Благоевград,district,total,3044.0
+2012,Благоевград,district,urban,1896.0
+2012,Благоевград,district,rural,1148.0
+2012,Бургас,district,total,4170.0
+2012,Бургас,district,urban,3061.0
+2012,Бургас,district,rural,1109.0
+2012,Варна,district,total,4732.0
+2012,Варна,district,urban,3975.0
+2012,Варна,district,rural,757.0
+2012,Велико Търново,district,total,2300.0
+2012,Велико Търново,district,urban,1679.0
+2012,Велико Търново,district,rural,621.0
+2012,Видин,district,total,713.0
+2012,Видин,district,urban,522.0
+2012,Видин,district,rural,191.0
+2012,Враца,district,total,1526.0
+2012,Враца,district,urban,850.0
+2012,Враца,district,rural,676.0
+2012,Габрово,district,total,876.0
+2012,Габрово,district,urban,726.0
+2012,Габрово,district,rural,150.0
+2012,Добрич,district,total,1689.0
+2012,Добрич,district,urban,1113.0
+2012,Добрич,district,rural,576.0
+2012,Кърджали,district,total,1435.0
+2012,Кърджали,district,urban,637.0
+2012,Кърджали,district,rural,798.0
+2012,Кюстендил,district,total,1015.0
+2012,Кюстендил,district,urban,824.0
+2012,Кюстендил,district,rural,191.0
+2012,Ловеч,district,total,1195.0
+2012,Ловеч,district,urban,749.0
+2012,Ловеч,district,rural,446.0
+2012,Монтана,district,total,1249.0
+2012,Монтана,district,urban,827.0
+2012,Монтана,district,rural,422.0
+2012,Пазарджик,district,total,2663.0
+2012,Пазарджик,district,urban,1720.0
+2012,Пазарджик,district,rural,943.0
+2012,Перник,district,total,959.0
+2012,Перник,district,urban,837.0
+2012,Перник,district,rural,122.0
+2012,Плевен,district,total,2296.0
+2012,Плевен,district,urban,1555.0
+2012,Плевен,district,rural,741.0
+2012,Пловдив,district,total,6694.0
+2012,Пловдив,district,urban,5183.0
+2012,Пловдив,district,rural,1511.0
+2012,Разград,district,total,1142.0
+2012,Разград,district,urban,480.0
+2012,Разград,district,rural,662.0
+2012,Русе,district,total,1891.0
+2012,Русе,district,urban,1514.0
+2012,Русе,district,rural,377.0
+2012,Силистра,district,total,1024.0
+2012,Силистра,district,urban,409.0
+2012,Силистра,district,rural,615.0
+2012,Сливен,district,total,2349.0
+2012,Сливен,district,urban,1418.0
+2012,Сливен,district,rural,931.0
+2012,Смолян,district,total,784.0
+2012,Смолян,district,urban,471.0
+2012,Смолян,district,rural,313.0
+2012,София (столица),district,total,13597.0
+2012,София (столица),district,urban,13156.0
+2012,София (столица),district,rural,441.0
+2012,София,district,total,2092.0
+2012,София,district,urban,1450.0
+2012,София,district,rural,642.0
+2012,Стара Загора,district,total,3246.0
+2012,Стара Загора,district,urban,2347.0
+2012,Стара Загора,district,rural,899.0
+2012,Търговище,district,total,1214.0
+2012,Търговище,district,urban,605.0
+2012,Търговище,district,rural,609.0
+2012,Хасково,district,total,2190.0
+2012,Хасково,district,urban,1637.0
+2012,Хасково,district,rural,553.0
+2012,Шумен,district,total,1777.0
+2012,Шумен,district,urban,1089.0
+2012,Шумен,district,rural,688.0
+2012,Ямбол,district,total,1259.0
+2012,Ямбол,district,urban,928.0
+2012,Ямбол,district,rural,331.0
+2013,България,country,total,66578.0
+2013,България,country,urban,49526.0
+2013,България,country,rural,17052.0
+2013,Благоевград,district,total,2883.0
+2013,Благоевград,district,urban,1794.0
+2013,Благоевград,district,rural,1089.0
+2013,Бургас,district,total,4158.0
+2013,Бургас,district,urban,3006.0
+2013,Бургас,district,rural,1152.0
+2013,Варна,district,total,4546.0
+2013,Варна,district,urban,3840.0
+2013,Варна,district,rural,706.0
+2013,Велико Търново,district,total,2234.0
+2013,Велико Търново,district,urban,1634.0
+2013,Велико Търново,district,rural,600.0
+2013,Видин,district,total,656.0
+2013,Видин,district,urban,472.0
+2013,Видин,district,rural,184.0
+2013,Враца,district,total,1388.0
+2013,Враца,district,urban,785.0
+2013,Враца,district,rural,603.0
+2013,Габрово,district,total,849.0
+2013,Габрово,district,urban,703.0
+2013,Габрово,district,rural,146.0
+2013,Добрич,district,total,1614.0
+2013,Добрич,district,urban,1108.0
+2013,Добрич,district,rural,506.0
+2013,Кърджали,district,total,1435.0
+2013,Кърджали,district,urban,634.0
+2013,Кърджали,district,rural,801.0
+2013,Кюстендил,district,total,916.0
+2013,Кюстендил,district,urban,739.0
+2013,Кюстендил,district,rural,177.0
+2013,Ловеч,district,total,1028.0
+2013,Ловеч,district,urban,647.0
+2013,Ловеч,district,rural,381.0
+2013,Монтана,district,total,1193.0
+2013,Монтана,district,urban,777.0
+2013,Монтана,district,rural,416.0
+2013,Пазарджик,district,total,2617.0
+2013,Пазарджик,district,urban,1675.0
+2013,Пазарджик,district,rural,942.0
+2013,Перник,district,total,942.0
+2013,Перник,district,urban,818.0
+2013,Перник,district,rural,124.0
+2013,Плевен,district,total,2154.0
+2013,Плевен,district,urban,1434.0
+2013,Плевен,district,rural,720.0
+2013,Пловдив,district,total,6484.0
+2013,Пловдив,district,urban,4962.0
+2013,Пловдив,district,rural,1522.0
+2013,Разград,district,total,998.0
+2013,Разград,district,urban,428.0
+2013,Разград,district,rural,570.0
+2013,Русе,district,total,1847.0
+2013,Русе,district,urban,1435.0
+2013,Русе,district,rural,412.0
+2013,Силистра,district,total,1025.0
+2013,Силистра,district,urban,409.0
+2013,Силистра,district,rural,616.0
+2013,Сливен,district,total,2347.0
+2013,Сливен,district,urban,1370.0
+2013,Сливен,district,rural,977.0
+2013,Смолян,district,total,769.0
+2013,Смолян,district,urban,491.0
+2013,Смолян,district,rural,278.0
+2013,София (столица),district,total,13107.0
+2013,София (столица),district,urban,12652.0
+2013,София (столица),district,rural,455.0
+2013,София,district,total,1996.0
+2013,София,district,urban,1353.0
+2013,София,district,rural,643.0
+2013,Стара Загора,district,total,3139.0
+2013,Стара Загора,district,urban,2231.0
+2013,Стара Загора,district,rural,908.0
+2013,Търговище,district,total,1105.0
+2013,Търговище,district,urban,516.0
+2013,Търговище,district,rural,589.0
+2013,Хасково,district,total,2096.0
+2013,Хасково,district,urban,1579.0
+2013,Хасково,district,rural,517.0
+2013,Шумен,district,total,1781.0
+2013,Шумен,district,urban,1093.0
+2013,Шумен,district,rural,688.0
+2013,Ямбол,district,total,1271.0
+2013,Ямбол,district,urban,941.0
+2013,Ямбол,district,rural,330.0
+2014,България,country,total,67585.0
+2014,България,country,urban,50704.0
+2014,България,country,rural,16881.0
+2014,Благоевград,district,total,2950.0
+2014,Благоевград,district,urban,1875.0
+2014,Благоевград,district,rural,1075.0
+2014,Бургас,district,total,4211.0
+2014,Бургас,district,urban,3113.0
+2014,Бургас,district,rural,1098.0
+2014,Варна,district,total,4667.0
+2014,Варна,district,urban,3942.0
+2014,Варна,district,rural,725.0
+2014,Велико Търново,district,total,2187.0
+2014,Велико Търново,district,urban,1616.0
+2014,Велико Търново,district,rural,571.0
+2014,Видин,district,total,658.0
+2014,Видин,district,urban,472.0
+2014,Видин,district,rural,186.0
+2014,Враца,district,total,1502.0
+2014,Враца,district,urban,868.0
+2014,Враца,district,rural,634.0
+2014,Габрово,district,total,775.0
+2014,Габрово,district,urban,646.0
+2014,Габрово,district,rural,129.0
+2014,Добрич,district,total,1562.0
+2014,Добрич,district,urban,1016.0
+2014,Добрич,district,rural,546.0
+2014,Кърджали,district,total,1423.0
+2014,Кърджали,district,urban,664.0
+2014,Кърджали,district,rural,759.0
+2014,Кюстендил,district,total,986.0
+2014,Кюстендил,district,urban,786.0
+2014,Кюстендил,district,rural,200.0
+2014,Ловеч,district,total,1068.0
+2014,Ловеч,district,urban,707.0
+2014,Ловеч,district,rural,361.0
+2014,Монтана,district,total,1187.0
+2014,Монтана,district,urban,798.0
+2014,Монтана,district,rural,389.0
+2014,Пазарджик,district,total,2592.0
+2014,Пазарджик,district,urban,1672.0
+2014,Пазарджик,district,rural,920.0
+2014,Перник,district,total,939.0
+2014,Перник,district,urban,803.0
+2014,Перник,district,rural,136.0
+2014,Плевен,district,total,2232.0
+2014,Плевен,district,urban,1434.0
+2014,Плевен,district,rural,798.0
+2014,Пловдив,district,total,6636.0
+2014,Пловдив,district,urban,5104.0
+2014,Пловдив,district,rural,1532.0
+2014,Разград,district,total,1041.0
+2014,Разград,district,urban,442.0
+2014,Разград,district,rural,599.0
+2014,Русе,district,total,1873.0
+2014,Русе,district,urban,1520.0
+2014,Русе,district,rural,353.0
+2014,Силистра,district,total,998.0
+2014,Силистра,district,urban,404.0
+2014,Силистра,district,rural,594.0
+2014,Сливен,district,total,2395.0
+2014,Сливен,district,urban,1413.0
+2014,Сливен,district,rural,982.0
+2014,Смолян,district,total,738.0
+2014,Смолян,district,urban,462.0
+2014,Смолян,district,rural,276.0
+2014,София (столица),district,total,13799.0
+2014,София (столица),district,urban,13350.0
+2014,София (столица),district,rural,449.0
+2014,София,district,total,2080.0
+2014,София,district,urban,1427.0
+2014,София,district,rural,653.0
+2014,Стара Загора,district,total,3099.0
+2014,Стара Загора,district,urban,2262.0
+2014,Стара Загора,district,rural,837.0
+2014,Търговище,district,total,1071.0
+2014,Търговище,district,urban,513.0
+2014,Търговище,district,rural,558.0
+2014,Хасково,district,total,2061.0
+2014,Хасково,district,urban,1549.0
+2014,Хасково,district,rural,512.0
+2014,Шумен,district,total,1619.0
+2014,Шумен,district,urban,971.0
+2014,Шумен,district,rural,648.0
+2014,Ямбол,district,total,1236.0
+2014,Ямбол,district,urban,875.0
+2014,Ямбол,district,rural,361.0
+2015,България,country,total,65950.0
+2015,България,country,urban,49486.0
+2015,България,country,rural,16464.0
+2015,Благоевград,district,total,2993.0
+2015,Благоевград,district,urban,1913.0
+2015,Благоевград,district,rural,1080.0
+2015,Бургас,district,total,4115.0
+2015,Бургас,district,urban,3068.0
+2015,Бургас,district,rural,1047.0
+2015,Варна,district,total,4394.0
+2015,Варна,district,urban,3720.0
+2015,Варна,district,rural,674.0
+2015,Велико Търново,district,total,2132.0
+2015,Велико Търново,district,urban,1556.0
+2015,Велико Търново,district,rural,576.0
+2015,Видин,district,total,565.0
+2015,Видин,district,urban,396.0
+2015,Видин,district,rural,169.0
+2015,Враца,district,total,1407.0
+2015,Враца,district,urban,783.0
+2015,Враца,district,rural,624.0
+2015,Габрово,district,total,794.0
+2015,Габрово,district,urban,668.0
+2015,Габрово,district,rural,126.0
+2015,Добрич,district,total,1478.0
+2015,Добрич,district,urban,1024.0
+2015,Добрич,district,rural,454.0
+2015,Кърджали,district,total,1390.0
+2015,Кърджали,district,urban,612.0
+2015,Кърджали,district,rural,778.0
+2015,Кюстендил,district,total,926.0
+2015,Кюстендил,district,urban,734.0
+2015,Кюстендил,district,rural,192.0
+2015,Ловеч,district,total,1082.0
+2015,Ловеч,district,urban,701.0
+2015,Ловеч,district,rural,381.0
+2015,Монтана,district,total,1118.0
+2015,Монтана,district,urban,712.0
+2015,Монтана,district,rural,406.0
+2015,Пазарджик,district,total,2467.0
+2015,Пазарджик,district,urban,1604.0
+2015,Пазарджик,district,rural,863.0
+2015,Перник,district,total,879.0
+2015,Перник,district,urban,739.0
+2015,Перник,district,rural,140.0
+2015,Плевен,district,total,2217.0
+2015,Плевен,district,urban,1430.0
+2015,Плевен,district,rural,787.0
+2015,Пловдив,district,total,6668.0
+2015,Пловдив,district,urban,5179.0
+2015,Пловдив,district,rural,1489.0
+2015,Разград,district,total,961.0
+2015,Разград,district,urban,444.0
+2015,Разград,district,rural,517.0
+2015,Русе,district,total,1778.0
+2015,Русе,district,urban,1433.0
+2015,Русе,district,rural,345.0
+2015,Силистра,district,total,956.0
+2015,Силистра,district,urban,355.0
+2015,Силистра,district,rural,601.0
+2015,Сливен,district,total,2413.0
+2015,Сливен,district,urban,1446.0
+2015,Сливен,district,rural,967.0
+2015,Смолян,district,total,735.0
+2015,Смолян,district,urban,457.0
+2015,Смолян,district,rural,278.0
+2015,София (столица),district,total,13452.0
+2015,София (столица),district,urban,13030.0
+2015,София (столица),district,rural,422.0
+2015,София,district,total,1946.0
+2015,София,district,urban,1315.0
+2015,София,district,rural,631.0
+2015,Стара Загора,district,total,3083.0
+2015,Стара Загора,district,urban,2236.0
+2015,Стара Загора,district,rural,847.0
+2015,Търговище,district,total,1081.0
+2015,Търговище,district,urban,531.0
+2015,Търговище,district,rural,550.0
+2015,Хасково,district,total,2164.0
+2015,Хасково,district,urban,1589.0
+2015,Хасково,district,rural,575.0
+2015,Шумен,district,total,1600.0
+2015,Шумен,district,urban,996.0
+2015,Шумен,district,rural,604.0
+2015,Ямбол,district,total,1156.0
+2015,Ямбол,district,urban,815.0
+2015,Ямбол,district,rural,341.0
+2016,България,country,total,64984.0
+2016,България,country,urban,48733.0
+2016,България,country,rural,16251.0
+2016,Благоевград,district,total,2836.0
+2016,Благоевград,district,urban,1816.0
+2016,Благоевград,district,rural,1020.0
+2016,Бургас,district,total,3951.0
+2016,Бургас,district,urban,2962.0
+2016,Бургас,district,rural,989.0
+2016,Варна,district,total,4524.0
+2016,Варна,district,urban,3795.0
+2016,Варна,district,rural,729.0
+2016,Велико Търново,district,total,2141.0
+2016,Велико Търново,district,urban,1615.0
+2016,Велико Търново,district,rural,526.0
+2016,Видин,district,total,556.0
+2016,Видин,district,urban,369.0
+2016,Видин,district,rural,187.0
+2016,Враца,district,total,1453.0
+2016,Враца,district,urban,840.0
+2016,Враца,district,rural,613.0
+2016,Габрово,district,total,727.0
+2016,Габрово,district,urban,599.0
+2016,Габрово,district,rural,128.0
+2016,Добрич,district,total,1466.0
+2016,Добрич,district,urban,983.0
+2016,Добрич,district,rural,483.0
+2016,Кърджали,district,total,1399.0
+2016,Кърджали,district,urban,653.0
+2016,Кърджали,district,rural,746.0
+2016,Кюстендил,district,total,859.0
+2016,Кюстендил,district,urban,655.0
+2016,Кюстендил,district,rural,204.0
+2016,Ловеч,district,total,964.0
+2016,Ловеч,district,urban,613.0
+2016,Ловеч,district,rural,351.0
+2016,Монтана,district,total,1106.0
+2016,Монтана,district,urban,716.0
+2016,Монтана,district,rural,390.0
+2016,Пазарджик,district,total,2403.0
+2016,Пазарджик,district,urban,1520.0
+2016,Пазарджик,district,rural,883.0
+2016,Перник,district,total,950.0
+2016,Перник,district,urban,810.0
+2016,Перник,district,rural,140.0
+2016,Плевен,district,total,2182.0
+2016,Плевен,district,urban,1393.0
+2016,Плевен,district,rural,789.0
+2016,Пловдив,district,total,6363.0
+2016,Пловдив,district,urban,4907.0
+2016,Пловдив,district,rural,1456.0
+2016,Разград,district,total,932.0
+2016,Разград,district,urban,418.0
+2016,Разград,district,rural,514.0
+2016,Русе,district,total,1772.0
+2016,Русе,district,urban,1435.0
+2016,Русе,district,rural,337.0
+2016,Силистра,district,total,997.0
+2016,Силистра,district,urban,393.0
+2016,Силистра,district,rural,604.0
+2016,Сливен,district,total,2327.0
+2016,Сливен,district,urban,1437.0
+2016,Сливен,district,rural,890.0
+2016,Смолян,district,total,778.0
+2016,Смолян,district,urban,459.0
+2016,Смолян,district,rural,319.0
+2016,София (столица),district,total,13489.0
+2016,София (столица),district,urban,13029.0
+2016,София (столица),district,rural,460.0
+2016,София,district,total,2045.0
+2016,София,district,urban,1351.0
+2016,София,district,rural,694.0
+2016,Стара Загора,district,total,3025.0
+2016,Стара Загора,district,urban,2185.0
+2016,Стара Загора,district,rural,840.0
+2016,Търговище,district,total,971.0
+2016,Търговище,district,urban,483.0
+2016,Търговище,district,rural,488.0
+2016,Хасково,district,total,2033.0
+2016,Хасково,district,urban,1478.0
+2016,Хасково,district,rural,555.0
+2016,Шумен,district,total,1568.0
+2016,Шумен,district,urban,989.0
+2016,Шумен,district,rural,579.0
+2016,Ямбол,district,total,1167.0
+2016,Ямбол,district,urban,830.0
+2016,Ямбол,district,rural,337.0
+2017,България,country,total,63955.0
+2017,България,country,urban,48005.0
+2017,България,country,rural,15950.0
+2017,Благоевград,district,total,2702.0
+2017,Благоевград,district,urban,1737.0
+2017,Благоевград,district,rural,965.0
+2017,Бургас,district,total,3913.0
+2017,Бургас,district,urban,2921.0
+2017,Бургас,district,rural,992.0
+2017,Варна,district,total,4413.0
+2017,Варна,district,urban,3751.0
+2017,Варна,district,rural,662.0
+2017,Велико Търново,district,total,2087.0
+2017,Велико Търново,district,urban,1537.0
+2017,Велико Търново,district,rural,550.0
+2017,Видин,district,total,572.0
+2017,Видин,district,urban,376.0
+2017,Видин,district,rural,196.0
+2017,Враца,district,total,1320.0
+2017,Враца,district,urban,748.0
+2017,Враца,district,rural,572.0
+2017,Габрово,district,total,727.0
+2017,Габрово,district,urban,611.0
+2017,Габрово,district,rural,116.0
+2017,Добрич,district,total,1400.0
+2017,Добрич,district,urban,950.0
+2017,Добрич,district,rural,450.0
+2017,Кърджали,district,total,1372.0
+2017,Кърджали,district,urban,658.0
+2017,Кърджали,district,rural,714.0
+2017,Кюстендил,district,total,877.0
+2017,Кюстендил,district,urban,693.0
+2017,Кюстендил,district,rural,184.0
+2017,Ловеч,district,total,1009.0
+2017,Ловеч,district,urban,666.0
+2017,Ловеч,district,rural,343.0
+2017,Монтана,district,total,1019.0
+2017,Монтана,district,urban,643.0
+2017,Монтана,district,rural,376.0
+2017,Пазарджик,district,total,2347.0
+2017,Пазарджик,district,urban,1481.0
+2017,Пазарджик,district,rural,866.0
+2017,Перник,district,total,922.0
+2017,Перник,district,urban,796.0
+2017,Перник,district,rural,126.0
+2017,Плевен,district,total,2112.0
+2017,Плевен,district,urban,1378.0
+2017,Плевен,district,rural,734.0
+2017,Пловдив,district,total,6410.0
+2017,Пловдив,district,urban,4901.0
+2017,Пловдив,district,rural,1509.0
+2017,Разград,district,total,882.0
+2017,Разград,district,urban,391.0
+2017,Разград,district,rural,491.0
+2017,Русе,district,total,1688.0
+2017,Русе,district,urban,1321.0
+2017,Русе,district,rural,367.0
+2017,Силистра,district,total,928.0
+2017,Силистра,district,urban,370.0
+2017,Силистра,district,rural,558.0
+2017,Сливен,district,total,2372.0
+2017,Сливен,district,urban,1396.0
+2017,Сливен,district,rural,976.0
+2017,Смолян,district,total,741.0
+2017,Смолян,district,urban,438.0
+2017,Смолян,district,rural,303.0
+2017,София (столица),district,total,13597.0
+2017,София (столица),district,urban,13128.0
+2017,София (столица),district,rural,469.0
+2017,София,district,total,1968.0
+2017,София,district,urban,1283.0
+2017,София,district,rural,685.0
+2017,Стара Загора,district,total,3067.0
+2017,Стара Загора,district,urban,2175.0
+2017,Стара Загора,district,rural,892.0
+2017,Търговище,district,total,938.0
+2017,Търговище,district,urban,485.0
+2017,Търговище,district,rural,453.0
+2017,Хасково,district,total,2027.0
+2017,Хасково,district,urban,1503.0
+2017,Хасково,district,rural,524.0
+2017,Шумен,district,total,1409.0
+2017,Шумен,district,urban,840.0
+2017,Шумен,district,rural,569.0
+2017,Ямбол,district,total,1136.0
+2017,Ямбол,district,urban,828.0
+2017,Ямбол,district,rural,308.0
+2018,България,country,total,62197.0
+2018,България,country,urban,46877.0
+2018,България,country,rural,15320.0
+2018,Благоевград,district,total,2676.0
+2018,Благоевград,district,urban,1723.0
+2018,Благоевград,district,rural,953.0
+2018,Бургас,district,total,3724.0
+2018,Бургас,district,urban,2773.0
+2018,Бургас,district,rural,951.0
+2018,Варна,district,total,4275.0
+2018,Варна,district,urban,3616.0
+2018,Варна,district,rural,659.0
+2018,Велико Търново,district,total,1901.0
+2018,Велико Търново,district,urban,1396.0
+2018,Велико Търново,district,rural,505.0
+2018,Видин,district,total,586.0
+2018,Видин,district,urban,403.0
+2018,Видин,district,rural,183.0
+2018,Враца,district,total,1375.0
+2018,Враца,district,urban,822.0
+2018,Враца,district,rural,553.0
+2018,Габрово,district,total,741.0
+2018,Габрово,district,urban,608.0
+2018,Габрово,district,rural,133.0
+2018,Добрич,district,total,1293.0
+2018,Добрич,district,urban,887.0
+2018,Добрич,district,rural,406.0
+2018,Кърджали,district,total,1380.0
+2018,Кърджали,district,urban,623.0
+2018,Кърджали,district,rural,757.0
+2018,Кюстендил,district,total,831.0
+2018,Кюстендил,district,urban,661.0
+2018,Кюстендил,district,rural,170.0
+2018,Ловеч,district,total,1028.0
+2018,Ловеч,district,urban,662.0
+2018,Ловеч,district,rural,366.0
+2018,Монтана,district,total,1004.0
+2018,Монтана,district,urban,671.0
+2018,Монтана,district,rural,333.0
+2018,Пазарджик,district,total,2414.0
+2018,Пазарджик,district,urban,1528.0
+2018,Пазарджик,district,rural,886.0
+2018,Перник,district,total,933.0
+2018,Перник,district,urban,812.0
+2018,Перник,district,rural,121.0
+2018,Плевен,district,total,1945.0
+2018,Плевен,district,urban,1278.0
+2018,Плевен,district,rural,667.0
+2018,Пловдив,district,total,6337.0
+2018,Пловдив,district,urban,4872.0
+2018,Пловдив,district,rural,1465.0
+2018,Разград,district,total,942.0
+2018,Разград,district,urban,407.0
+2018,Разград,district,rural,535.0
+2018,Русе,district,total,1687.0
+2018,Русе,district,urban,1365.0
+2018,Русе,district,rural,322.0
+2018,Силистра,district,total,819.0
+2018,Силистра,district,urban,311.0
+2018,Силистра,district,rural,508.0
+2018,Сливен,district,total,2258.0
+2018,Сливен,district,urban,1397.0
+2018,Сливен,district,rural,861.0
+2018,Смолян,district,total,671.0
+2018,Смолян,district,urban,410.0
+2018,Смолян,district,rural,261.0
+2018,София (столица),district,total,13060.0
+2018,София (столица),district,urban,12598.0
+2018,София (столица),district,rural,462.0
+2018,София,district,total,1988.0
+2018,София,district,urban,1350.0
+2018,София,district,rural,638.0
+2018,Стара Загора,district,total,2938.0
+2018,Стара Загора,district,urban,2120.0
+2018,Стара Загора,district,rural,818.0
+2018,Търговище,district,total,947.0
+2018,Търговище,district,urban,495.0
+2018,Търговище,district,rural,452.0
+2018,Хасково,district,total,1819.0
+2018,Хасково,district,urban,1327.0
+2018,Хасково,district,rural,492.0
+2018,Шумен,district,total,1451.0
+2018,Шумен,district,urban,886.0
+2018,Шумен,district,rural,565.0
+2018,Ямбол,district,total,1174.0
+2018,Ямбол,district,urban,876.0
+2018,Ямбол,district,rural,298.0
+2019,България,country,total,61538.0
+2019,България,country,urban,45991.0
+2019,България,country,rural,15547.0
+2019,Благоевград,district,total,2794.0
+2019,Благоевград,district,urban,1763.0
+2019,Благоевград,district,rural,1031.0
+2019,Бургас,district,total,3766.0
+2019,Бургас,district,urban,2826.0
+2019,Бургас,district,rural,940.0
+2019,Варна,district,total,4284.0
+2019,Варна,district,urban,3619.0
+2019,Варна,district,rural,665.0
+2019,Велико Търново,district,total,1743.0
+2019,Велико Търново,district,urban,1283.0
+2019,Велико Търново,district,rural,460.0
+2019,Видин,district,total,548.0
+2019,Видин,district,urban,352.0
+2019,Видин,district,rural,196.0
+2019,Враца,district,total,1348.0
+2019,Враца,district,urban,760.0
+2019,Враца,district,rural,588.0
+2019,Габрово,district,total,751.0
+2019,Габрово,district,urban,606.0
+2019,Габрово,district,rural,145.0
+2019,Добрич,district,total,1356.0
+2019,Добрич,district,urban,920.0
+2019,Добрич,district,rural,436.0
+2019,Кърджали,district,total,1405.0
+2019,Кърджали,district,urban,608.0
+2019,Кърджали,district,rural,797.0
+2019,Кюстендил,district,total,873.0
+2019,Кюстендил,district,urban,669.0
+2019,Кюстендил,district,rural,204.0
+2019,Ловеч,district,total,969.0
+2019,Ловеч,district,urban,602.0
+2019,Ловеч,district,rural,367.0
+2019,Монтана,district,total,936.0
+2019,Монтана,district,urban,575.0
+2019,Монтана,district,rural,361.0
+2019,Пазарджик,district,total,2310.0
+2019,Пазарджик,district,urban,1464.0
+2019,Пазарджик,district,rural,846.0
+2019,Перник,district,total,872.0
+2019,Перник,district,urban,753.0
+2019,Перник,district,rural,119.0
+2019,Плевен,district,total,2002.0
+2019,Плевен,district,urban,1277.0
+2019,Плевен,district,rural,725.0
+2019,Пловдив,district,total,6200.0
+2019,Пловдив,district,urban,4776.0
+2019,Пловдив,district,rural,1424.0
+2019,Разград,district,total,876.0
+2019,Разград,district,urban,398.0
+2019,Разград,district,rural,478.0
+2019,Русе,district,total,1508.0
+2019,Русе,district,urban,1212.0
+2019,Русе,district,rural,296.0
+2019,Силистра,district,total,896.0
+2019,Силистра,district,urban,349.0
+2019,Силистра,district,rural,547.0
+2019,Сливен,district,total,2291.0
+2019,Сливен,district,urban,1337.0
+2019,Сливен,district,rural,954.0
+2019,Смолян,district,total,646.0
+2019,Смолян,district,urban,407.0
+2019,Смолян,district,rural,239.0
+2019,София (столица),district,total,13075.0
+2019,София (столица),district,urban,12637.0
+2019,София (столица),district,rural,438.0
+2019,София,district,total,2056.0
+2019,София,district,urban,1357.0
+2019,София,district,rural,699.0
+2019,Стара Загора,district,total,2794.0
+2019,Стара Загора,district,urban,2010.0
+2019,Стара Загора,district,rural,784.0
+2019,Търговище,district,total,902.0
+2019,Търговище,district,urban,452.0
+2019,Търговище,district,rural,450.0
+2019,Хасково,district,total,1825.0
+2019,Хасково,district,urban,1343.0
+2019,Хасково,district,rural,482.0
+2019,Шумен,district,total,1414.0
+2019,Шумен,district,urban,852.0
+2019,Шумен,district,rural,562.0
+2019,Ямбол,district,total,1098.0
+2019,Ямбол,district,urban,784.0
+2019,Ямбол,district,rural,314.0
+2020,България,country,total,59086.0
+2020,България,country,urban,43829.0
+2020,България,country,rural,15257.0
+2020,Благоевград,district,total,2655.0
+2020,Благоевград,district,urban,1648.0
+2020,Благоевград,district,rural,1007.0
+2020,Бургас,district,total,3492.0
+2020,Бургас,district,urban,2575.0
+2020,Бургас,district,rural,917.0
+2020,Варна,district,total,4219.0
+2020,Варна,district,urban,3543.0
+2020,Варна,district,rural,676.0
+2020,Велико Търново,district,total,1662.0
+2020,Велико Търново,district,urban,1197.0
+2020,Велико Търново,district,rural,465.0
+2020,Видин,district,total,473.0
+2020,Видин,district,urban,293.0
+2020,Видин,district,rural,180.0
+2020,Враца,district,total,1334.0
+2020,Враца,district,urban,737.0
+2020,Враца,district,rural,597.0
+2020,Габрово,district,total,622.0
+2020,Габрово,district,urban,489.0
+2020,Габрово,district,rural,133.0
+2020,Добрич,district,total,1224.0
+2020,Добрич,district,urban,819.0
+2020,Добрич,district,rural,405.0
+2020,Кърджали,district,total,1171.0
+2020,Кърджали,district,urban,536.0
+2020,Кърджали,district,rural,635.0
+2020,Кюстендил,district,total,793.0
+2020,Кюстендил,district,urban,594.0
+2020,Кюстендил,district,rural,199.0
+2020,Ловеч,district,total,982.0
+2020,Ловеч,district,urban,593.0
+2020,Ловеч,district,rural,389.0
+2020,Монтана,district,total,923.0
+2020,Монтана,district,urban,580.0
+2020,Монтана,district,rural,343.0
+2020,Пазарджик,district,total,2123.0
+2020,Пазарджик,district,urban,1274.0
+2020,Пазарджик,district,rural,849.0
+2020,Перник,district,total,803.0
+2020,Перник,district,urban,699.0
+2020,Перник,district,rural,104.0
+2020,Плевен,district,total,1923.0
+2020,Плевен,district,urban,1203.0
+2020,Плевен,district,rural,720.0
+2020,Пловдив,district,total,6062.0
+2020,Пловдив,district,urban,4558.0
+2020,Пловдив,district,rural,1504.0
+2020,Разград,district,total,803.0
+2020,Разград,district,urban,356.0
+2020,Разград,district,rural,447.0
+2020,Русе,district,total,1505.0
+2020,Русе,district,urban,1194.0
+2020,Русе,district,rural,311.0
+2020,Силистра,district,total,796.0
+2020,Силистра,district,urban,308.0
+2020,Силистра,district,rural,488.0
+2020,Сливен,district,total,2144.0
+2020,Сливен,district,urban,1260.0
+2020,Сливен,district,rural,884.0
+2020,Смолян,district,total,631.0
+2020,Смолян,district,urban,393.0
+2020,Смолян,district,rural,238.0
+2020,София (столица),district,total,13108.0
+2020,София (столица),district,urban,12640.0
+2020,София (столица),district,rural,468.0
+2020,София,district,total,2079.0
+2020,София,district,urban,1319.0
+2020,София,district,rural,760.0
+2020,Стара Загора,district,total,2773.0
+2020,Стара Загора,district,urban,1916.0
+2020,Стара Загора,district,rural,857.0
+2020,Търговище,district,total,793.0
+2020,Търговище,district,urban,428.0
+2020,Търговище,district,rural,365.0
+2020,Хасково,district,total,1670.0
+2020,Хасково,district,urban,1188.0
+2020,Хасково,district,rural,482.0
+2020,Шумен,district,total,1225.0
+2020,Шумен,district,urban,707.0
+2020,Шумен,district,rural,518.0
+2020,Ямбол,district,total,1098.0
+2020,Ямбол,district,urban,782.0
+2020,Ямбол,district,rural,316.0
+2021,България,country,total,58678.0
+2021,България,country,urban,43692.0
+2021,България,country,rural,14986.0
+2021,Благоевград,district,total,2595.0
+2021,Благоевград,district,urban,1678.0
+2021,Благоевград,district,rural,917.0
+2021,Бургас,district,total,3399.0
+2021,Бургас,district,urban,2508.0
+2021,Бургас,district,rural,891.0
+2021,Варна,district,total,4184.0
+2021,Варна,district,urban,3509.0
+2021,Варна,district,rural,675.0
+2021,Велико Търново,district,total,1728.0
+2021,Велико Търново,district,urban,1207.0
+2021,Велико Търново,district,rural,521.0
+2021,Видин,district,total,528.0
+2021,Видин,district,urban,324.0
+2021,Видин,district,rural,204.0
+2021,Враца,district,total,1242.0
+2021,Враца,district,urban,714.0
+2021,Враца,district,rural,528.0
+2021,Габрово,district,total,610.0
+2021,Габрово,district,urban,478.0
+2021,Габрово,district,rural,132.0
+2021,Добрич,district,total,1144.0
+2021,Добрич,district,urban,741.0
+2021,Добрич,district,rural,403.0
+2021,Кърджали,district,total,1029.0
+2021,Кърджали,district,urban,483.0
+2021,Кърджали,district,rural,546.0
+2021,Кюстендил,district,total,761.0
+2021,Кюстендил,district,urban,595.0
+2021,Кюстендил,district,rural,166.0
+2021,Ловеч,district,total,965.0
+2021,Ловеч,district,urban,597.0
+2021,Ловеч,district,rural,368.0
+2021,Монтана,district,total,953.0
+2021,Монтана,district,urban,609.0
+2021,Монтана,district,rural,344.0
+2021,Пазарджик,district,total,2057.0
+2021,Пазарджик,district,urban,1242.0
+2021,Пазарджик,district,rural,815.0
+2021,Перник,district,total,853.0
+2021,Перник,district,urban,737.0
+2021,Перник,district,rural,116.0
+2021,Плевен,district,total,1786.0
+2021,Плевен,district,urban,1098.0
+2021,Плевен,district,rural,688.0
+2021,Пловдив,district,total,6212.0
+2021,Пловдив,district,urban,4668.0
+2021,Пловдив,district,rural,1544.0
+2021,Разград,district,total,800.0
+2021,Разград,district,urban,352.0
+2021,Разград,district,rural,448.0
+2021,Русе,district,total,1545.0
+2021,Русе,district,urban,1203.0
+2021,Русе,district,rural,342.0
+2021,Силистра,district,total,786.0
+2021,Силистра,district,urban,299.0
+2021,Силистра,district,rural,487.0
+2021,Сливен,district,total,2166.0
+2021,Сливен,district,urban,1276.0
+2021,Сливен,district,rural,890.0
+2021,Смолян,district,total,587.0
+2021,Смолян,district,urban,382.0
+2021,Смолян,district,rural,205.0
+2021,София (столица),district,total,13135.0
+2021,София (столица),district,urban,12658.0
+2021,София (столица),district,rural,477.0
+2021,София,district,total,2113.0
+2021,София,district,urban,1315.0
+2021,София,district,rural,798.0
+2021,Стара Загора,district,total,2726.0
+2021,Стара Загора,district,urban,1860.0
+2021,Стара Загора,district,rural,866.0
+2021,Търговище,district,total,804.0
+2021,Търговище,district,urban,437.0
+2021,Търговище,district,rural,367.0
+2021,Хасково,district,total,1678.0
+2021,Хасково,district,urban,1230.0
+2021,Хасково,district,rural,448.0
+2021,Шумен,district,total,1225.0
+2021,Шумен,district,urban,749.0
+2021,Шумен,district,rural,476.0
+2021,Ямбол,district,total,1067.0
+2021,Ямбол,district,urban,743.0
+2021,Ямбол,district,rural,324.0
+2022,България,country,total,56596.0
+2022,България,country,urban,41986.0
+2022,България,country,rural,14610.0
+2022,Благоевград,district,total,2409.0
+2022,Благоевград,district,urban,1516.0
+2022,Благоевград,district,rural,893.0
+2022,Бургас,district,total,3221.0
+2022,Бургас,district,urban,2388.0
+2022,Бургас,district,rural,833.0
+2022,Варна,district,total,3980.0
+2022,Варна,district,urban,3299.0
+2022,Варна,district,rural,681.0
+2022,Велико Търново,district,total,1574.0
+2022,Велико Търново,district,urban,1097.0
+2022,Велико Търново,district,rural,477.0
+2022,Видин,district,total,500.0
+2022,Видин,district,urban,326.0
+2022,Видин,district,rural,174.0
+2022,Враца,district,total,1235.0
+2022,Враца,district,urban,697.0
+2022,Враца,district,rural,538.0
+2022,Габрово,district,total,685.0
+2022,Габрово,district,urban,528.0
+2022,Габрово,district,rural,157.0
+2022,Добрич,district,total,1082.0
+2022,Добрич,district,urban,751.0
+2022,Добрич,district,rural,331.0
+2022,Кърджали,district,total,1098.0
+2022,Кърджали,district,urban,507.0
+2022,Кърджали,district,rural,591.0
+2022,Кюстендил,district,total,813.0
+2022,Кюстендил,district,urban,630.0
+2022,Кюстендил,district,rural,183.0
+2022,Ловеч,district,total,1001.0
+2022,Ловеч,district,urban,601.0
+2022,Ловеч,district,rural,400.0
+2022,Монтана,district,total,890.0
+2022,Монтана,district,urban,549.0
+2022,Монтана,district,rural,341.0
+2022,Пазарджик,district,total,2004.0
+2022,Пазарджик,district,urban,1247.0
+2022,Пазарджик,district,rural,757.0
+2022,Перник,district,total,778.0
+2022,Перник,district,urban,662.0
+2022,Перник,district,rural,116.0
+2022,Плевен,district,total,1838.0
+2022,Плевен,district,urban,1125.0
+2022,Плевен,district,rural,713.0
+2022,Пловдив,district,total,6107.0
+2022,Пловдив,district,urban,4615.0
+2022,Пловдив,district,rural,1492.0
+2022,Разград,district,total,772.0
+2022,Разград,district,urban,351.0
+2022,Разград,district,rural,421.0
+2022,Русе,district,total,1343.0
+2022,Русе,district,urban,1057.0
+2022,Русе,district,rural,286.0
+2022,Силистра,district,total,772.0
+2022,Силистра,district,urban,301.0
+2022,Силистра,district,rural,471.0
+2022,Сливен,district,total,2091.0
+2022,Сливен,district,urban,1195.0
+2022,Сливен,district,rural,896.0
+2022,Смолян,district,total,482.0
+2022,Смолян,district,urban,312.0
+2022,Смолян,district,rural,170.0
+2022,София (столица),district,total,12778.0
+2022,София (столица),district,urban,12250.0
+2022,София (столица),district,rural,528.0
+2022,София,district,total,2018.0
+2022,София,district,urban,1305.0
+2022,София,district,rural,713.0
+2022,Стара Загора,district,total,2448.0
+2022,Стара Загора,district,urban,1687.0
+2022,Стара Загора,district,rural,761.0
+2022,Търговище,district,total,801.0
+2022,Търговище,district,urban,444.0
+2022,Търговище,district,rural,357.0
+2022,Хасково,district,total,1627.0
+2022,Хасково,district,urban,1147.0
+2022,Хасково,district,rural,480.0
+2022,Шумен,district,total,1215.0
+2022,Шумен,district,urban,711.0
+2022,Шумен,district,rural,504.0
+2022,Ямбол,district,total,1034.0
+2022,Ямбол,district,urban,688.0
+2022,Ямбол,district,rural,346.0
+2023,България,country,total,57197.0
+2023,България,country,urban,42388.0
+2023,България,country,rural,14809.0
+2023,Благоевград,district,total,2530.0
+2023,Благоевград,district,urban,1576.0
+2023,Благоевград,district,rural,954.0
+2023,Бургас,district,total,3376.0
+2023,Бургас,district,urban,2513.0
+2023,Бургас,district,rural,863.0
+2023,Варна,district,total,3857.0
+2023,Варна,district,urban,3229.0
+2023,Варна,district,rural,628.0
+2023,Велико Търново,district,total,1587.0
+2023,Велико Търново,district,urban,1129.0
+2023,Велико Търново,district,rural,458.0
+2023,Видин,district,total,517.0
+2023,Видин,district,urban,316.0
+2023,Видин,district,rural,201.0
+2023,Враца,district,total,1265.0
+2023,Враца,district,urban,673.0
+2023,Враца,district,rural,592.0
+2023,Габрово,district,total,650.0
+2023,Габрово,district,urban,540.0
+2023,Габрово,district,rural,110.0
+2023,Добрич,district,total,1145.0
+2023,Добрич,district,urban,726.0
+2023,Добрич,district,rural,419.0
+2023,Кърджали,district,total,1191.0
+2023,Кърджали,district,urban,575.0
+2023,Кърджали,district,rural,616.0
+2023,Кюстендил,district,total,769.0
+2023,Кюстендил,district,urban,626.0
+2023,Кюстендил,district,rural,143.0
+2023,Ловеч,district,total,951.0
+2023,Ловеч,district,urban,586.0
+2023,Ловеч,district,rural,365.0
+2023,Монтана,district,total,894.0
+2023,Монтана,district,urban,549.0
+2023,Монтана,district,rural,345.0
+2023,Пазарджик,district,total,2143.0
+2023,Пазарджик,district,urban,1332.0
+2023,Пазарджик,district,rural,811.0
+2023,Перник,district,total,716.0
+2023,Перник,district,urban,595.0
+2023,Перник,district,rural,121.0
+2023,Плевен,district,total,1809.0
+2023,Плевен,district,urban,1138.0
+2023,Плевен,district,rural,671.0
+2023,Пловдив,district,total,6118.0
+2023,Пловдив,district,urban,4672.0
+2023,Пловдив,district,rural,1446.0
+2023,Разград,district,total,783.0
+2023,Разград,district,urban,344.0
+2023,Разград,district,rural,439.0
+2023,Русе,district,total,1379.0
+2023,Русе,district,urban,1073.0
+2023,Русе,district,rural,306.0
+2023,Силистра,district,total,776.0
+2023,Силистра,district,urban,289.0
+2023,Силистра,district,rural,487.0
+2023,Сливен,district,total,2123.0
+2023,Сливен,district,urban,1226.0
+2023,Сливен,district,rural,897.0
+2023,Смолян,district,total,471.0
+2023,Смолян,district,urban,295.0
+2023,Смолян,district,rural,176.0
+2023,София (столица),district,total,12708.0
+2023,София (столица),district,urban,12234.0
+2023,София (столица),district,rural,474.0
+2023,София,district,total,2043.0
+2023,София,district,urban,1274.0
+2023,София,district,rural,769.0
+2023,Стара Загора,district,total,2689.0
+2023,Стара Загора,district,urban,1847.0
+2023,Стара Загора,district,rural,842.0
+2023,Търговище,district,total,800.0
+2023,Търговище,district,urban,453.0
+2023,Търговище,district,rural,347.0
+2023,Хасково,district,total,1617.0
+2023,Хасково,district,urban,1148.0
+2023,Хасково,district,rural,469.0
+2023,Шумен,district,total,1237.0
+2023,Шумен,district,urban,703.0
+2023,Шумен,district,rural,534.0
+2023,Ямбол,district,total,1053.0
+2023,Ямбол,district,urban,727.0
+2023,Ямбол,district,rural,326.0
+2024,България,country,total,53428.0
+2024,България,country,urban,39483.0
+2024,България,country,rural,13945.0
+2024,Благоевград,district,total,2303.0
+2024,Благоевград,district,urban,1432.0
+2024,Благоевград,district,rural,871.0
+2024,Бургас,district,total,3037.0
+2024,Бургас,district,urban,2239.0
+2024,Бургас,district,rural,798.0
+2024,Варна,district,total,3632.0
+2024,Варна,district,urban,3076.0
+2024,Варна,district,rural,556.0
+2024,Велико Търново,district,total,1398.0
+2024,Велико Търново,district,urban,983.0
+2024,Велико Търново,district,rural,415.0
+2024,Видин,district,total,507.0
+2024,Видин,district,urban,302.0
+2024,Видин,district,rural,205.0
+2024,Враца,district,total,1233.0
+2024,Враца,district,urban,671.0
+2024,Враца,district,rural,562.0
+2024,Габрово,district,total,599.0
+2024,Габрово,district,urban,455.0
+2024,Габрово,district,rural,144.0
+2024,Добрич,district,total,993.0
+2024,Добрич,district,urban,639.0
+2024,Добрич,district,rural,354.0
+2024,Кърджали,district,total,927.0
+2024,Кърджали,district,urban,421.0
+2024,Кърджали,district,rural,506.0
+2024,Кюстендил,district,total,735.0
+2024,Кюстендил,district,urban,571.0
+2024,Кюстендил,district,rural,164.0
+2024,Ловеч,district,total,955.0
+2024,Ловеч,district,urban,562.0
+2024,Ловеч,district,rural,393.0
+2024,Монтана,district,total,870.0
+2024,Монтана,district,urban,508.0
+2024,Монтана,district,rural,362.0
+2024,Пазарджик,district,total,1943.0
+2024,Пазарджик,district,urban,1202.0
+2024,Пазарджик,district,rural,741.0
+2024,Перник,district,total,674.0
+2024,Перник,district,urban,556.0
+2024,Перник,district,rural,118.0
+2024,Плевен,district,total,1704.0
+2024,Плевен,district,urban,1002.0
+2024,Плевен,district,rural,702.0
+2024,Пловдив,district,total,5804.0
+2024,Пловдив,district,urban,4326.0
+2024,Пловдив,district,rural,1478.0
+2024,Разград,district,total,642.0
+2024,Разград,district,urban,314.0
+2024,Разград,district,rural,328.0
+2024,Русе,district,total,1277.0
+2024,Русе,district,urban,1008.0
+2024,Русе,district,rural,269.0
+2024,Силистра,district,total,681.0
+2024,Силистра,district,urban,259.0
+2024,Силистра,district,rural,422.0
+2024,Сливен,district,total,2117.0
+2024,Сливен,district,urban,1229.0
+2024,Сливен,district,rural,888.0
+2024,Смолян,district,total,479.0
+2024,Смолян,district,urban,292.0
+2024,Смолян,district,rural,187.0
+2024,София (столица),district,total,12025.0
+2024,София (столица),district,urban,11589.0
+2024,София (столица),district,rural,436.0
+2024,София,district,total,1927.0
+2024,София,district,urban,1249.0
+2024,София,district,rural,678.0
+2024,Стара Загора,district,total,2546.0
+2024,Стара Загора,district,urban,1749.0
+2024,Стара Загора,district,rural,797.0
+2024,Търговище,district,total,754.0
+2024,Търговище,district,urban,405.0
+2024,Търговище,district,rural,349.0
+2024,Хасково,district,total,1529.0
+2024,Хасково,district,urban,1075.0
+2024,Хасково,district,rural,454.0
+2024,Шумен,district,total,1077.0
+2024,Шумен,district,urban,641.0
+2024,Шумен,district,rural,436.0
+2024,Ямбол,district,total,1060.0
+2024,Ямбол,district,urban,728.0
+2024,Ямбол,district,rural,332.0
+2025,България,country,total,50241.0
+2025,България,country,urban,37182.0
+2025,България,country,rural,13059.0
+2025,Благоевград,district,total,2220.0
+2025,Благоевград,district,urban,1334.0
+2025,Благоевград,district,rural,886.0
+2025,Бургас,district,total,2827.0
+2025,Бургас,district,urban,2107.0
+2025,Бургас,district,rural,720.0
+2025,Варна,district,total,3461.0
+2025,Варна,district,urban,2892.0
+2025,Варна,district,rural,569.0
+2025,Велико Търново,district,total,1303.0
+2025,Велико Търново,district,urban,903.0
+2025,Велико Търново,district,rural,400.0
+2025,Видин,district,total,439.0
+2025,Видин,district,urban,265.0
+2025,Видин,district,rural,174.0
+2025,Враца,district,total,1139.0
+2025,Враца,district,urban,586.0
+2025,Враца,district,rural,553.0
+2025,Габрово,district,total,558.0
+2025,Габрово,district,urban,448.0
+2025,Габрово,district,rural,110.0
+2025,Добрич,district,total,913.0
+2025,Добрич,district,urban,596.0
+2025,Добрич,district,rural,317.0
+2025,Кърджали,district,total,754.0
+2025,Кърджали,district,urban,396.0
+2025,Кърджали,district,rural,358.0
+2025,Кюстендил,district,total,677.0
+2025,Кюстендил,district,urban,534.0
+2025,Кюстендил,district,rural,143.0
+2025,Ловеч,district,total,871.0
+2025,Ловеч,district,urban,532.0
+2025,Ловеч,district,rural,339.0
+2025,Монтана,district,total,829.0
+2025,Монтана,district,urban,489.0
+2025,Монтана,district,rural,340.0
+2025,Пазарджик,district,total,1758.0
+2025,Пазарджик,district,urban,1050.0
+2025,Пазарджик,district,rural,708.0
+2025,Перник,district,total,724.0
+2025,Перник,district,urban,634.0
+2025,Перник,district,rural,90.0
+2025,Плевен,district,total,1620.0
+2025,Плевен,district,urban,984.0
+2025,Плевен,district,rural,636.0
+2025,Пловдив,district,total,5392.0
+2025,Пловдив,district,urban,4007.0
+2025,Пловдив,district,rural,1385.0
+2025,Разград,district,total,626.0
+2025,Разград,district,urban,268.0
+2025,Разград,district,rural,358.0
+2025,Русе,district,total,1097.0
+2025,Русе,district,urban,857.0
+2025,Русе,district,rural,240.0
+2025,Силистра,district,total,632.0
+2025,Силистра,district,urban,242.0
+2025,Силистра,district,rural,390.0
+2025,Сливен,district,total,2009.0
+2025,Сливен,district,urban,1128.0
+2025,Сливен,district,rural,881.0
+2025,Смолян,district,total,410.0
+2025,Смолян,district,urban,270.0
+2025,Смолян,district,rural,140.0
+2025,София (столица),district,total,11562.0
+2025,София (столица),district,urban,11122.0
+2025,София (столица),district,rural,440.0
+2025,София,district,total,1843.0
+2025,София,district,urban,1168.0
+2025,София,district,rural,675.0
+2025,Стара Загора,district,total,2389.0
+2025,Стара Загора,district,urban,1628.0
+2025,Стара Загора,district,rural,761.0
+2025,Търговище,district,total,619.0
+2025,Търговище,district,urban,335.0
+2025,Търговище,district,rural,284.0
+2025,Хасково,district,total,1576.0
+2025,Хасково,district,urban,1112.0
+2025,Хасково,district,rural,464.0
+2025,Шумен,district,total,1008.0
+2025,Шумен,district,urban,614.0
+2025,Шумен,district,rural,394.0
+2025,Ямбол,district,total,985.0
+2025,Ямбол,district,urban,681.0
+2025,Ямбол,district,rural,304.0

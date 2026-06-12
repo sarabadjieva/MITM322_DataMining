@@ -10,6 +10,10 @@
       "nonmarital": {
         "output_file": "births_marital_status_residence_nonmarital_clean.csv",
         "rows": 1392
+      },
+      "all": {
+        "output_file": "births_marital_status_residence_all_clean.csv",
+        "rows": 1392
       }
     },
     "clean_municipality": true
