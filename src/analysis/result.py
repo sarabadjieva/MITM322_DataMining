@@ -3,8 +3,23 @@ import pandas as pd
 
 
 @dataclass
+class RawDatasets:
+    marriages: pd.DataFrame
+    marital: pd.DataFrame
+    nonmarital: pd.DataFrame
+    all_births: pd.DataFrame
+
+
+@dataclass
+class TrendDatasets:
+    marital: pd.DataFrame
+    nonmarital: pd.DataFrame
+    total: pd.DataFrame
+
+
+@dataclass
 class AnalysisResults:
-    trend: dict[str, pd.DataFrame]
+    trend: TrendDatasets
     lags: dict[str, pd.DataFrame]
     pre_covid_lags: dict[str, pd.DataFrame]
     post_covid_lags: dict[str, pd.DataFrame]

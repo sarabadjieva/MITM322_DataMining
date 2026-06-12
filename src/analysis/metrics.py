@@ -1,67 +1,13 @@
 import pandas as pd
 
+from src.analysis.result import TrendDatasets
+
 COUNTRY_LEVEL = "country"
 REGION_LEVEL = "district"
 
 
 def filter_metric(df, metric, level):
     return df[(df["metric"] == metric) & (df["territory_level"] == level)].copy()
-
-
-def national_trend(marriages, births_marital, births_nonmarital):
-    bg_marriages = filter_metric(marriages, "total", COUNTRY_LEVEL)[["year", "value"]]
-    bg_births_marital = filter_metric(births_marital, "total", COUNTRY_LEVEL)[["year", "value"]]
-    bg_births_nonmarital = filter_metric(births_nonmarital, "total", COUNTRY_LEVEL)[["year", "value"]]
-
-    trend_marital = pd.merge(
-        bg_marriages,
-        bg_births_marital,
-        on="year",
-        suffixes=("_marriages", "_births"),
-    )
-
-    trend_nonmarital = pd.merge(
-        bg_marriages,
-        bg_births_nonmarital,
-        on="year",
-        suffixes=("_marriages", "_births"),
-    )
-
-    return {
-        "marital": trend_marital,
-        "nonmarital": trend_nonmarital,
-    }
-
-
-def regional_dataset(marriages, births_marital, births_nonmarital):
-    regional_marriages = filter_metric(marriages, "total", REGION_LEVEL).rename(
-        columns={"value": "marriages"}
-    )
-
-    regional_births_marital = filter_metric(births_marital, "total", REGION_LEVEL).rename(
-        columns={"value": "births"}
-    )
-
-    regional_births_nonmarital = filter_metric(births_nonmarital, "total", REGION_LEVEL).rename(
-        columns={"value": "births"}
-    )
-
-    regional_marital = pd.merge(
-        regional_marriages[["year", "territory_raw", "marriages"]],
-        regional_births_marital[["year", "territory_raw", "births"]],
-        on=["year", "territory_raw"],
-    )
-
-    regional_nonmarital = pd.merge(
-        regional_marriages[["year", "territory_raw", "marriages"]],
-        regional_births_nonmarital[["year", "territory_raw", "births"]],
-        on=["year", "territory_raw"],
-    )
-
-    return {
-        "marital": regional_marital,
-        "nonmarital": regional_nonmarital,
-    }
 
 
 def outside_marriage_share(births_marital, births_nonmarital):
@@ -83,27 +29,35 @@ def outside_marriage_share(births_marital, births_nonmarital):
 
     return share.sort_values("year").reset_index(drop=True)
 
-def lag_correlations_period(trend_dict, start_year, end_year, max_lag=5):
+def lag_correlations_period(trend_dict: TrendDatasets, start_year, end_year, max_lag=5):
     result = {}
 
-    for birth_type, trend in trend_dict.items():
+    for birth_type, trend in {
+        "marital": trend_dict.marital,
+        "nonmarital": trend_dict.nonmarital,
+        "total": trend_dict.total,
+    }.items():
         sub = trend[(trend["year"] >= start_year) & (trend["year"] <= end_year)].copy()
 
         rows = []
         for lag in range(max_lag + 1):
-            corr = sub["value_marriages"].corr(sub["value_births"].shift(-lag))
+            corr = sub["marriages"].corr(sub["births"].shift(-lag))
             rows.append({"lag": lag, "correlation": corr})
 
         result[birth_type] = pd.DataFrame(rows)
 
     return result
 
-def regional_correlations(regional_dict):
+def regional_correlations(regional_dict: TrendDatasets):
     result = {}
 
-    for birth_type, regional in regional_dict.items():
+    for birth_type, trend in {
+        "marital": regional_dict.marital,
+        "nonmarital": regional_dict.nonmarital,
+        "total": regional_dict.total,
+    }.items():
         rows = []
-        for region, group in regional.groupby("territory_raw"):
+        for region, group in trend.groupby("territory_raw"):
             rows.append(
                 {
                     "region": region,

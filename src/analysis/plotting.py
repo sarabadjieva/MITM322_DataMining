@@ -1,26 +1,46 @@
 import matplotlib.pyplot as plt
 
-from src.analysis.result import AnalysisResults
+from src.analysis.result import AnalysisResults, TrendDatasets
 
 
-def plot_national_trend(trend_dict):
-    fig, axes = plt.subplots(1, 2, figsize=(16, 6), sharey=True)
+# def plot_national_trend(trend_dict):
+#     fig, axes = plt.subplots(1, 3, figsize=(16, 6), sharey=True)
+#
+#     for ax, (birth_type, trend) in zip(axes, trend_dict.items()):
+#         ax.plot(trend["year"], trend["marriages"], marker="o", label="Marriages")
+#         ax.plot(trend["year"], trend["births"], marker="o", label=f"{birth_type.capitalize()} births")
+#         ax.set_title(f"Marriages vs {birth_type.capitalize()} Births")
+#         ax.set_xlabel("Year")
+#         ax.set_ylabel("Count")
+#         ax.grid(True)
+#         ax.legend()
+#
+#     plt.tight_layout()
+#     plt.show()
 
-    for ax, (birth_type, trend) in zip(axes, trend_dict.items()):
-        ax.plot(trend["year"], trend["value_marriages"], marker="o", label="Marriages")
-        ax.plot(trend["year"], trend["value_births"], marker="o", label=f"{birth_type.capitalize()} births")
-        ax.set_title(f"Marriages vs {birth_type.capitalize()} Births")
-        ax.set_xlabel("Year")
-        ax.set_ylabel("Count")
-        ax.grid(True)
-        ax.legend()
+def plot_national_trend(trend_dict: TrendDatasets):
+    marital = trend_dict.marital.sort_values("year")
+    nonmarital = trend_dict.nonmarital.sort_values("year")
+    shared = trend_dict.total.sort_values("year")
 
+    fig, ax = plt.subplots(figsize=(12, 6))
+
+    ax.plot(marital["year"],marital["marriages"],marker="o",linewidth=2,label="Marriages")
+    ax.plot(marital["year"],marital["births"],marker="o",linewidth=2,label="Marital births")
+    ax.plot(nonmarital["year"],nonmarital["births"],marker="o",linewidth=2,label="Nonmarital births")
+    ax.plot(shared["year"],shared["births"],marker="o",linewidth=2,label="Total births")
+
+    ax.set_title("Marriages and Births Over Time")
+    ax.set_xlabel("Year")
+    ax.set_ylabel("Count")
+    ax.grid(True, alpha=0.3)
+    ax.legend()
     plt.tight_layout()
     plt.show()
 
 
 def plot_lag_analysis(lag_dict):
-    fig, axes = plt.subplots(1, 2, figsize=(14, 5), sharey=True)
+    fig, axes = plt.subplots(1, 3, figsize=(14, 5), sharey=True)
 
     for ax, (birth_type, lag_df) in zip(axes, lag_dict.items()):
         ax.bar(lag_df["lag"], lag_df["correlation"])
@@ -35,7 +55,7 @@ def plot_lag_analysis(lag_dict):
 def plot_lag_pre_post(lags_pre, lags_post):
     import matplotlib.pyplot as plt
 
-    fig, axes = plt.subplots(2, 2, figsize=(14, 10), sharey=True)
+    fig, axes = plt.subplots(2, 3, figsize=(14, 10), sharey=True)
 
     birth_types = ["marital", "nonmarital"]
     titles = {
@@ -61,7 +81,7 @@ def plot_lag_pre_post(lags_pre, lags_post):
 
 
 def plot_top_regions(corr_dict, top_n=15):
-    fig, axes = plt.subplots(1, 2, figsize=(16, 8), sharex=True)
+    fig, axes = plt.subplots(1, 3, figsize=(16, 8), sharex=True)
 
     for ax, (birth_type, corr_df) in zip(axes, corr_dict.items()):
         top = corr_df.head(top_n).sort_values("correlation")
@@ -85,7 +105,7 @@ def plot_outside_share(share):
 
 
 def plot_elbow(inertia_dict):
-    fig, axes = plt.subplots(1, 2, figsize=(14, 5), sharey=True)
+    fig, axes = plt.subplots(1, 3, figsize=(14, 5), sharey=True)
 
     for ax, (birth_type, inertia_df) in zip(axes, inertia_dict.items()):
         ax.plot(inertia_df["k"], inertia_df["inertia"], marker="o")
@@ -98,7 +118,7 @@ def plot_elbow(inertia_dict):
 
 
 def plot_clusters(clusters_dict):
-    fig, axes = plt.subplots(1, 2, figsize=(16, 8), sharex=False, sharey=False)
+    fig, axes = plt.subplots(1, 3, figsize=(16, 8), sharex=False, sharey=False)
 
     for ax, (birth_type, features) in zip(axes, clusters_dict.items()):
         ax.scatter(features["marriages_mean"], features["births_mean"], c=features["cluster"])

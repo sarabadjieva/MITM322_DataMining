@@ -22,9 +22,9 @@ def cluster_regions(regional, n_clusters=9, max_k=20):
 
     features = pd.DataFrame({
         "marriages_mean": grouped["marriages"].mean(),
+        # marital and nonmarital
         "births_mean": grouped["births"].mean(),
-        "marriages_std": grouped["marriages"].std().fillna(0),
-        "births_std": grouped["births"].std().fillna(0),
+        # percent nonmarital
     })
 
     features["marriages_trend"] = grouped.apply(
