@@ -17,35 +17,58 @@ def compute_trend(group: pd.DataFrame, value_col: str) -> float:
     return float(slope)
 
 
-def cluster_regions(regional, n_clusters=9, max_k=20):
-    grouped = regional.groupby("territory_raw")
+def build_regional_cluster_features(regional):
+    marital = regional.marital.rename(columns={"births": "marital_births"})
+    nonmarital = regional.nonmarital.rename(columns={"births": "nonmarital_births"})
 
-    features = pd.DataFrame({
-        "marriages_mean": grouped["marriages"].mean(),
-        # marital and nonmarital
-        "births_mean": grouped["births"].mean(),
-        # percent nonmarital
-    })
-
-    features["marriages_trend"] = grouped.apply(
-        lambda g: compute_trend(g, "marriages")
+    merged = pd.merge(
+        marital[["year", "territory_raw", "marriages", "marital_births"]],
+        nonmarital[["year", "territory_raw", "nonmarital_births"]],
+        on=["year", "territory_raw"],
     )
-    features["births_trend"] = grouped.apply(
-        lambda g: compute_trend(g, "births")
+    merged["total_births"] = merged["marital_births"] + merged["nonmarital_births"]
+    merged["percent_nonmarital_births"] = (
+        merged["nonmarital_births"] / merged["total_births"]
+    ) * 100
+
+    grouped = merged.groupby("territory_raw")
+    features = pd.DataFrame(
+        {
+            "mean_marriages": grouped["marriages"].mean(),
+            "mean_marital_births": grouped["marital_births"].mean(),
+            "mean_nonmarital_births": grouped["nonmarital_births"].mean(),
+            "percent_nonmarital_births": grouped["percent_nonmarital_births"].mean(),
+        }
     )
 
-    scaler = StandardScaler()
-    x_scaled = scaler.fit_transform(features)
+    features["marriages_trend"] = grouped.apply(lambda g: compute_trend(g, "marriages"))
+    features["marital_births_trend"] = grouped.apply(lambda g: compute_trend(g, "marital_births"))
+    features["nonmarital_births_trend"] = grouped.apply(
+        lambda g: compute_trend(g, "nonmarital_births")
+    )
 
-    inertias = []
-    K = range(1, max_k + 1)
-    for k in K:
+    return features
+
+
+def build_elbow_diagnostics(x_scaled, max_k):
+    rows = []
+    for k in range(1, max_k + 1):
         model = KMeans(n_clusters=k, random_state=42, n_init=10)
         model.fit(x_scaled)
-        inertias.append({"k": k, "inertia": model.inertia_})
+        rows.append({"k": k, "inertia": model.inertia_})
 
-    final_model = KMeans(n_clusters=n_clusters, random_state=42, n_init=10)
+    return pd.DataFrame(rows)
+
+
+def cluster_regions(regional, n_clusters=3, max_k=10):
+    features = build_regional_cluster_features(regional)
+    x_scaled = StandardScaler().fit_transform(features)
+
+    max_k = min(max_k, len(features))
+    elbow_diagnostics = build_elbow_diagnostics(x_scaled, max_k)
+
+    model = KMeans(n_clusters=n_clusters, random_state=42, n_init=10)
     features = features.copy()
-    features["cluster"] = final_model.fit_predict(x_scaled)
+    features["cluster"] = model.fit_predict(x_scaled)
 
-    return features, pd.DataFrame(inertias)
+    return features, elbow_diagnostics

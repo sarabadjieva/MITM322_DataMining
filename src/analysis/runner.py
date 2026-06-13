@@ -1,78 +1,60 @@
 from src.analysis.clustering import cluster_regions
-from src.analysis.constants import RESIDENCE_METRICS
+from src.analysis.helpers import RESIDENCE_METRICS
 from src.analysis.data import load_raw_datasets
-from src.analysis.plotting import plot_nonmarital_share_by_metric, plot_results
-from src.analysis.metrics import (
-    lag_correlations_period,
-    nonmarital_birth_share,
-    nonmarital_birth_share_by_metric,
-    regional_correlations,
-)
-from src.analysis.result import AnalysisResults, MultiMetricAnalysisResults, RawDatasets
-from src.analysis.trends import build_national_datasets, build_regional_datasets
+from src.analysis.nonmarital_birth_share import nonmarital_birth_share
+from src.analysis.plotting import plot_results
+from src.analysis.correlations import lag_correlations_period, regional_correlations
+from src.analysis.classes import AnalysisResults, RawDatasets
+from src.analysis.sets_builder import build_national_datasets, build_regional_datasets
 
 
-def run_analysis_pipeline(raw_datasets, metric="total") -> AnalysisResults:
+def run_analysis_pipeline(
+    raw_datasets: RawDatasets,
+    metric="total",
+) -> AnalysisResults:
     if metric not in RESIDENCE_METRICS:
         raise ValueError(f"Unsupported metric: {metric}")
 
-    trend = build_national_datasets(raw_datasets, metric)
+    national = build_national_datasets(raw_datasets, metric)
     regional = build_regional_datasets(raw_datasets, metric)
 
-    clusters = {}
-    inertia = {}
-
-    for birth_type, regional_df in regional.items():
-        features, inertia_df = cluster_regions(regional_df)
-        clusters[birth_type] = features
-        inertia[birth_type] = inertia_df
+    cluster_features, cluster_diagnostics = cluster_regions(regional)
 
     return AnalysisResults(
         metric=metric,
-        trend=trend,
-        lags=lag_correlations_period(trend, 2010, 2025),
-        pre_covid_lags=lag_correlations_period(trend, 2010, 2019),
-        post_covid_lags=lag_correlations_period(trend, 2019, 2025),
-        regional=regional,
+        national_sets=national,
+        regional_sets=regional,
+        lags=lag_correlations_period(national, 2010, 2025),
+        pre_covid_lags=lag_correlations_period(national, 2010, 2019),
+        post_covid_lags=lag_correlations_period(national, 2019, 2025),
         correlations=regional_correlations(regional),
         nonmarital_share=nonmarital_birth_share(
             raw_datasets.marital,
             raw_datasets.nonmarital,
             metric,
         ),
-        clusters=clusters,
-        inertia=inertia,
+        clusters={"kmeans": cluster_features},
+        inertia={"kmeans": cluster_diagnostics},
     )
 
 
-def build_analysis_results(metrics=RESIDENCE_METRICS):
+def build_analysis_results():
     raw_datasets = load_raw_datasets()
 
-    nonmarital_share_by_metric = nonmarital_birth_share_by_metric(
-        raw_datasets.marital,
-        raw_datasets.nonmarital,
-        metrics=metrics,
-    )
+    results = []
 
-    results_by_metric = {}
-    for metric in metrics:
-        results = run_analysis_pipeline(raw_datasets, metric)
-        results_by_metric[metric] = results
+    for metric in RESIDENCE_METRICS:
+        curr_results = run_analysis_pipeline(raw_datasets, metric)
+        results.append(curr_results)
 
-    return MultiMetricAnalysisResults(
-        by_metric=results_by_metric,
-        nonmarital_share_by_metric=nonmarital_share_by_metric,
-    )
+    return results
 
 
-def plot_analysis_results(results: MultiMetricAnalysisResults):
-    plot_nonmarital_share_by_metric(results.nonmarital_share_by_metric)
-
-    for result in results.by_metric.values():
+def plot_analysis_results(results):
+    for result in results:
         plot_results(result)
 
 
-def run_analysis(metrics=RESIDENCE_METRICS):
-    results = build_analysis_results(metrics)
+def run_analysis():
+    results = build_analysis_results()
     plot_analysis_results(results)
-    return results

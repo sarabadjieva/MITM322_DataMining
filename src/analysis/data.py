@@ -1,8 +1,8 @@
-from pathlib import Path
-
 import pandas as pd
 
-from src.analysis.result import RawDatasets
+from pathlib import Path
+from src.analysis.classes import RawDatasets
+
 
 SRC_DIR = Path(__file__).resolve().parent.parent
 OUTPUT_DIR = SRC_DIR / "output"

@@ -1,11 +1,20 @@
 import matplotlib.pyplot as plt
 
-from src.analysis.constants import BIRTH_TYPES
-from src.analysis.result import AnalysisResults, TrendDatasets
+from src.analysis.helpers import BIRTH_TYPES
+from src.analysis.classes import AnalysisResults, TrendDatasets
 
 
 def metric_title(metric):
     return metric.capitalize()
+
+
+def show_plot():
+    plt.tight_layout()
+    plt.show()
+
+
+def first_frame(dataframes):
+    return next(iter(dataframes.values()))
 
 
 def plot_national_trend(trend_dict: TrendDatasets, metric):
@@ -25,8 +34,7 @@ def plot_national_trend(trend_dict: TrendDatasets, metric):
     ax.set_ylabel("Count")
     ax.grid(True, alpha=0.3)
     ax.legend()
-    plt.tight_layout()
-    plt.show()
+    show_plot()
 
 
 def plot_lag_analysis(lag_dict, metric):
@@ -39,8 +47,7 @@ def plot_lag_analysis(lag_dict, metric):
         ax.set_xlabel("Lag (years)")
         ax.set_ylabel("Correlation")
 
-    plt.tight_layout()
-    plt.show()
+    show_plot()
 
 
 def plot_lag_pre_post(lags_pre, lags_post, metric):
@@ -58,8 +65,7 @@ def plot_lag_pre_post(lags_pre, lags_post, metric):
         axes[row, 1].set_title(f"{title} - Post-COVID (2019-2025)")
         axes[row, 1].set_xlabel("Lag (years)")
 
-    plt.tight_layout()
-    plt.show()
+    show_plot()
 
 
 def plot_top_regions(corr_dict, metric, top_n=15):
@@ -71,72 +77,108 @@ def plot_top_regions(corr_dict, metric, top_n=15):
         ax.set_title(f"{metric_title(metric)} Top Regions: {birth_type.capitalize()} Births")
         ax.set_xlabel("Correlation")
 
-    plt.tight_layout()
-    plt.show()
+    show_plot()
 
 
-def plot_nonmarital_share_by_metric(share_by_metric):
+def plot_nonmarital_share(share, metric):
     fig, ax = plt.subplots(figsize=(12, 6))
 
-    for metric, group in share_by_metric.groupby("metric"):
-        group = group.sort_values("year")
-        ax.plot(
-            group["year"],
-            group["nonmarital_share"],
-            marker="o",
-            linewidth=2,
-            label=metric.capitalize(),
-        )
-
-    ax.set_title("Share of Births Outside Marriage by Residence")
+    ax.plot(share["year"], share["nonmarital_share"], marker="o", linewidth=2)
+    ax.set_title(f"{metric_title(metric)} Share of Non-Marital Births")
     ax.set_xlabel("Year")
     ax.set_ylabel("%")
     ax.grid(True, alpha=0.3)
-    ax.legend()
-    plt.tight_layout()
-    plt.show()
+
+    show_plot()
 
 
 def plot_elbow(inertia_dict, metric):
-    fig, axes = plt.subplots(1, len(BIRTH_TYPES), figsize=(14, 5), sharey=True)
+    diagnostics = first_frame(inertia_dict)
+    if diagnostics.empty:
+        return
 
-    for ax, birth_type in zip(axes, BIRTH_TYPES):
-        inertia_df = inertia_dict[birth_type]
-        ax.plot(inertia_df["k"], inertia_df["inertia"], marker="o")
-        ax.set_title(f"{metric_title(metric)} Elbow: {birth_type.capitalize()} Births")
-        ax.set_xlabel("Number of Clusters")
-        ax.set_ylabel("Inertia")
+    fig, ax = plt.subplots(figsize=(8, 5))
+    ax.plot(diagnostics["k"], diagnostics["inertia"], marker="o")
+    ax.set_title(f"{metric_title(metric)} Elbow Method - Choose Number of Clusters")
+    ax.set_xlabel("Number of Clusters")
+    ax.set_ylabel("Inertia")
+    ax.set_xticks(diagnostics["k"])
+    ax.grid(True, alpha=0.3)
 
-    plt.tight_layout()
-    plt.show()
+    show_plot()
 
 
 def plot_clusters(clusters_dict, metric):
-    fig, axes = plt.subplots(1, len(BIRTH_TYPES), figsize=(16, 8), sharex=False, sharey=False)
+    features = first_frame(clusters_dict)
+    fig, ax = plt.subplots(figsize=(10, 8))
 
-    for ax, birth_type in zip(axes, BIRTH_TYPES):
-        features = clusters_dict[birth_type]
-        ax.scatter(features["marriages_mean"], features["births_mean"], c=features["cluster"])
+    ax.scatter(
+        features["mean_marriages"],
+        features["percent_nonmarital_births"],
+        c=features["cluster"],
+    )
 
-        for region in features.index:
-            ax.annotate(
-                region,
-                (features.loc[region, "marriages_mean"], features.loc[region, "births_mean"]),
-                fontsize=8,
-            )
+    for region in features.index:
+        ax.annotate(
+            region,
+            (
+                features.loc[region, "mean_marriages"],
+                features.loc[region, "percent_nonmarital_births"],
+            ),
+            fontsize=8,
+        )
 
-        ax.set_title(f"{metric_title(metric)} Regional Clusters: {birth_type.capitalize()} Births")
-        ax.set_xlabel("Average Marriages")
-        ax.set_ylabel(f"Average {birth_type.capitalize()} Births")
+    ax.set_title(f"{metric_title(metric)} Regional Clusters")
+    ax.set_xlabel("Mean Marriages")
+    ax.set_ylabel("% Non-Marital Births")
 
-    plt.tight_layout()
-    plt.show()
+    show_plot()
+
+
+def plot_anomalies(anomalies, metric):
+    fig, ax = plt.subplots(figsize=(10, 8))
+
+    normal = anomalies[~anomalies["is_anomaly"]]
+    outliers = anomalies[anomalies["is_anomaly"]]
+
+    ax.scatter(
+        normal["mean_marriages"],
+        normal["percent_nonmarital_births"],
+        c=normal["cluster"],
+        alpha=0.7,
+        label="Normal",
+    )
+    ax.scatter(
+        outliers["mean_marriages"],
+        outliers["percent_nonmarital_births"],
+        color="red",
+        edgecolor="black",
+        label="Anomaly",
+    )
+
+    for region in outliers.index:
+        ax.annotate(
+            region,
+            (
+                outliers.loc[region, "mean_marriages"],
+                outliers.loc[region, "percent_nonmarital_births"],
+            ),
+            fontsize=8,
+        )
+
+    ax.set_title(f"{metric_title(metric)} Regional Anomalies")
+    ax.set_xlabel("Mean Marriages")
+    ax.set_ylabel("% Non-Marital Births")
+    ax.legend()
+    show_plot()
 
 
 def plot_results(results: AnalysisResults):
-    plot_national_trend(results.trend, results.metric)
-    plot_lag_analysis(results.lags, results.metric)
-    plot_lag_pre_post(results.pre_covid_lags, results.post_covid_lags, results.metric)
-    plot_top_regions(results.correlations, results.metric)
-    plot_elbow(results.inertia, results.metric)
-    plot_clusters(results.clusters, results.metric)
+    # plot_national_trend(results.national_sets, results.metric)
+    # plot_lag_analysis(results.lags, results.metric)
+    # plot_lag_pre_post(results.pre_covid_lags, results.post_covid_lags, results.metric)
+    # plot_top_regions(results.correlations, results.metric)
+    plot_nonmarital_share(results.nonmarital_share, results.metric)
+    # plot_elbow(results.inertia, results.metric)
+    # plot_clusters(results.clusters, results.metric)
+    # plot_anomalies(results.anomalies, results.metric)
