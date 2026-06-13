@@ -3,7 +3,7 @@ from src.analysis.helpers import RESIDENCE_METRICS
 from src.analysis.data import load_raw_datasets
 from src.analysis.nonmarital_birth_share import nonmarital_birth_share
 from src.analysis.plotting import plot_results
-from src.analysis.correlations import lag_correlations_period, regional_correlations
+from src.analysis.correlations import lag_correlations_period, regional_lag_matrix
 from src.analysis.classes import AnalysisResults, RawDatasets
 from src.analysis.sets_builder import build_national_datasets, build_regional_datasets
 
@@ -25,9 +25,7 @@ def run_analysis_pipeline(
         national_sets=national,
         regional_sets=regional,
         lags=lag_correlations_period(national, 2010, 2025),
-        pre_covid_lags=lag_correlations_period(national, 2010, 2019),
-        post_covid_lags=lag_correlations_period(national, 2019, 2025),
-        correlations=regional_correlations(regional),
+        regional_lags=regional_lag_matrix(regional),
         nonmarital_share=nonmarital_birth_share(
             raw_datasets.marital,
             raw_datasets.nonmarital,

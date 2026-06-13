@@ -4,7 +4,11 @@ import pandas as pd
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 
+from src.analysis.classes import TrendDatasets
 
+
+# Compute the linear trend as the slope of the best-fit line (value vs. year).
+# Positive slope = increasing over time, negative slope = decreasing, near 0 = stable.
 def compute_trend(group: pd.DataFrame, value_col: str) -> float:
     series = group[["year", value_col]].dropna().sort_values("year")
     if len(series) < 2:
@@ -17,7 +21,7 @@ def compute_trend(group: pd.DataFrame, value_col: str) -> float:
     return float(slope)
 
 
-def build_regional_cluster_features(regional):
+def build_regional_cluster_features(regional: TrendDatasets):
     marital = regional.marital.rename(columns={"births": "marital_births"})
     nonmarital = regional.nonmarital.rename(columns={"births": "nonmarital_births"})
 
@@ -26,7 +30,7 @@ def build_regional_cluster_features(regional):
         nonmarital[["year", "territory_raw", "nonmarital_births"]],
         on=["year", "territory_raw"],
     )
-    merged["total_births"] = merged["marital_births"] + merged["nonmarital_births"]
+    merged["total_births"] = regional.total["births"]
     merged["percent_nonmarital_births"] = (
         merged["nonmarital_births"] / merged["total_births"]
     ) * 100
@@ -60,7 +64,7 @@ def build_elbow_diagnostics(x_scaled, max_k):
     return pd.DataFrame(rows)
 
 
-def cluster_regions(regional, n_clusters=3, max_k=10):
+def cluster_regions(regional, n_clusters=5, max_k=10):
     features = build_regional_cluster_features(regional)
     x_scaled = StandardScaler().fit_transform(features)
 

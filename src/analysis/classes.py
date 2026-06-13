@@ -28,11 +28,9 @@ class TrendDatasets:
 class AnalysisResults:
     metric: str
     national_sets: TrendDatasets
-    lags: dict[str, pd.DataFrame]
-    pre_covid_lags: dict[str, pd.DataFrame]
-    post_covid_lags: dict[str, pd.DataFrame]
     regional_sets: TrendDatasets
-    correlations: dict[str, pd.DataFrame]
+    lags: dict[str, pd.DataFrame]
+    regional_lags: dict[str, pd.DataFrame]
     nonmarital_share: pd.DataFrame
     clusters: dict[str, pd.DataFrame]
     inertia: dict[str, pd.DataFrame]

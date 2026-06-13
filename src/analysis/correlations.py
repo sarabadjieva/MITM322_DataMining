@@ -18,18 +18,21 @@ def lag_correlations_period(trend_dict: TrendDatasets, start_year, end_year, max
 
     return result
 
-def regional_correlations(regional_dict: TrendDatasets):
+
+def regional_lag_matrix(regional_dict: TrendDatasets, max_lag=5):
     result = {}
 
     for birth_type, trend in regional_dict.items():
         rows = []
         for region, group in trend.groupby("territory_raw"):
-            rows.append(
-                {
-                    "region": region,
-                    "correlation": group["marriages"].corr(group["births"]),
-                }
-            )
-        result[birth_type] = pd.DataFrame(rows).sort_values("correlation", ascending=False)
+            group_sorted = group.sort_values("year")
+            row = {"region": region}
+            for lag in range(max_lag + 1):
+                corr = group_sorted["marriages"].corr(group_sorted["births"].shift(-lag))
+                row[f"{lag}"] = corr
+            rows.append(row)
+
+        df = pd.DataFrame(rows).set_index("region")
+        result[birth_type] = df
 
     return result
