@@ -1,78 +1,55 @@
-import numpy as np
 import pandas as pd
+from scipy.cluster.hierarchy import linkage, fcluster
 
-from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 
-from src.analysis.classes import TrendDatasets
+from src.analysis.correlations import regional_lag_matrix
+from src.analysis.helpers import REGION_LEVEL, Features
+from src.analysis.nonmarital_birth_share import nonmarital_birth_share
 
 
-# Compute the linear trend as the slope of the best-fit line (value vs. year).
-# Positive slope = increasing over time, negative slope = decreasing, near 0 = stable.
-def compute_trend(group: pd.DataFrame, value_col: str) -> float:
-    series = group[["year", value_col]].dropna().sort_values("year")
-    if len(series) < 2:
-        return 0.0
+def build_correlation_cluster_features(regional, max_lag=5):
+    correlations = regional_lag_matrix(regional, max_lag=max_lag)
 
-    x = series["year"].to_numpy(dtype=float)
-    y = series[value_col].to_numpy(dtype=float)
+    marital = correlations["marital"]
+    nonmarital = correlations["nonmarital"]
 
-    slope = np.polyfit(x, y, 1)[0]
-    return float(slope)
+    features = pd.DataFrame(index=marital.index)
 
+    abs_marital = marital.abs()
 
-def build_regional_cluster_features(regional: TrendDatasets):
-    marital = regional.marital.rename(columns={"births": "marital_births"})
-    nonmarital = regional.nonmarital.rename(columns={"births": "nonmarital_births"})
-
-    merged = pd.merge(
-        marital[["year", "territory_raw", "marriages", "marital_births"]],
-        nonmarital[["year", "territory_raw", "nonmarital_births"]],
-        on=["year", "territory_raw"],
-    )
-    merged["total_births"] = regional.total["births"]
-    merged["percent_nonmarital_births"] = (
-        merged["nonmarital_births"] / merged["total_births"]
-    ) * 100
-
-    grouped = merged.groupby("territory_raw")
-    features = pd.DataFrame(
-        {
-            "mean_marriages": grouped["marriages"].mean(),
-            "mean_marital_births": grouped["marital_births"].mean(),
-            "mean_nonmarital_births": grouped["nonmarital_births"].mean(),
-            "percent_nonmarital_births": grouped["percent_nonmarital_births"].mean(),
-        }
+    features[Features.MARITAL_BEST_LAG] = abs_marital.idxmax(axis=1).astype(int)
+    features[Features.MARITAL_BEST_CORR] = marital.apply(
+        lambda row: row.loc[row.abs().idxmax()],
+        axis=1
     )
 
-    features["marriages_trend"] = grouped.apply(lambda g: compute_trend(g, "marriages"))
-    features["marital_births_trend"] = grouped.apply(lambda g: compute_trend(g, "marital_births"))
-    features["nonmarital_births_trend"] = grouped.apply(
-        lambda g: compute_trend(g, "nonmarital_births")
+    abs_nonmarital = nonmarital.abs()
+
+    features[Features.NONMARITAL_BEST_LAG] = abs_nonmarital.idxmax(axis=1).astype(int)
+    features[Features.NONMARITAL_BEST_CORR] = nonmarital.apply(
+        lambda row: row.loc[row.abs().idxmax()],
+        axis=1
     )
 
-    return features
+    share = nonmarital_birth_share(regional, REGION_LEVEL)
+    share = share.groupby("territory_raw")[Features.NONMARITAL_SHARE].mean()
+    features = features.join(share)
+
+    return features.fillna(features.mean())
 
 
-def build_elbow_diagnostics(x_scaled, max_k):
-    rows = []
-    for k in range(1, max_k + 1):
-        model = KMeans(n_clusters=k, random_state=42, n_init=10)
-        model.fit(x_scaled)
-        rows.append({"k": k, "inertia": model.inertia_})
-
-    return pd.DataFrame(rows)
-
-
-def cluster_regions(regional, n_clusters=5, max_k=10):
-    features = build_regional_cluster_features(regional)
+def cluster_regions(regional, n_clusters=4):
+    features = build_correlation_cluster_features(regional)
     x_scaled = StandardScaler().fit_transform(features)
 
-    max_k = min(max_k, len(features))
-    elbow_diagnostics = build_elbow_diagnostics(x_scaled, max_k)
+    linkage_matrix = linkage(x_scaled, method="ward")
 
-    model = KMeans(n_clusters=n_clusters, random_state=42, n_init=10)
-    features = features.copy()
-    features["cluster"] = model.fit_predict(x_scaled)
+    result = features.copy()
+    result["cluster"] = fcluster(
+        linkage_matrix,
+        t=n_clusters,
+        criterion="maxclust",
+    )
 
-    return features, elbow_diagnostics
+    return result, linkage_matrix

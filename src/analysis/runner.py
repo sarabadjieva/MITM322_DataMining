@@ -18,7 +18,7 @@ def run_analysis_pipeline(
     national = build_national_datasets(raw_datasets, metric)
     regional = build_regional_datasets(raw_datasets, metric)
 
-    cluster_features, cluster_diagnostics = cluster_regions(regional)
+    clusters, linkage_matrix = cluster_regions(regional)
 
     return AnalysisResults(
         metric=metric,
@@ -26,26 +26,19 @@ def run_analysis_pipeline(
         regional_sets=regional,
         lags=lag_correlations_period(national, 2010, 2025),
         regional_lags=regional_lag_matrix(regional),
-        nonmarital_share=nonmarital_birth_share(
-            raw_datasets.marital,
-            raw_datasets.nonmarital,
-            metric,
-        ),
-        clusters={"kmeans": cluster_features},
-        inertia={"kmeans": cluster_diagnostics},
+        nonmarital_share=nonmarital_birth_share(national),
+        clusters=clusters,
+        linkage_matrix=linkage_matrix
     )
 
 
 def build_analysis_results():
     raw_datasets = load_raw_datasets()
 
-    results = []
-
-    for metric in RESIDENCE_METRICS:
-        curr_results = run_analysis_pipeline(raw_datasets, metric)
-        results.append(curr_results)
-
-    return results
+    return [
+        run_analysis_pipeline(raw_datasets, metric)
+        for metric in RESIDENCE_METRICS
+    ]
 
 
 def plot_analysis_results(results):

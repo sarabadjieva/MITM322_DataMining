@@ -33,5 +33,5 @@ class AnalysisResults:
     lags: dict[str, pd.DataFrame]
     regional_lags: dict[str, pd.DataFrame]
     nonmarital_share: pd.DataFrame
-    clusters: dict[str, pd.DataFrame]
-    inertia: dict[str, pd.DataFrame]
+    clusters: pd.DataFrame
+    linkage_matrix: dict[str, pd.DataFrame]

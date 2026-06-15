@@ -1,26 +1,22 @@
 import pandas as pd
-from src.analysis.helpers import filter_metric, COUNTRY_LEVEL
+
+from src.analysis.classes import TrendDatasets
+from src.analysis.helpers import COUNTRY_LEVEL
 
 
-def nonmarital_birth_share(births_marital, births_nonmarital, metric, level=COUNTRY_LEVEL):
-    marital = filter_metric(births_marital, metric, level).rename(
-        columns={"value": "value_marital"}
-    )
-    nonmarital = filter_metric(births_nonmarital, metric, level).rename(
-        columns={"value": "value_nonmarital"}
-    )
+def nonmarital_birth_share(trend_data: TrendDatasets, level=COUNTRY_LEVEL):
+    marital_df = trend_data.marital.rename(columns={"births": "marital_births"})
+    nonmarital_df = trend_data.nonmarital.rename(columns={"births": "nonmarital_births"})
 
+    join_cols = ["year"] if level is COUNTRY_LEVEL else ["year", "territory_raw"]
     share = pd.merge(
-        marital[["year", "value_marital"]],
-        nonmarital[["year", "value_nonmarital"]],
-        on="year",
-    ).sort_values("year")
+        marital_df[join_cols + ["marital_births"]],
+        nonmarital_df[join_cols + ["nonmarital_births"]],
+        on=join_cols,
+        how="inner",
+    )
 
-    share["metric"] = metric
-    share["value_total"] = share["value_marital"] + share["value_nonmarital"]
-    share["nonmarital_share"] = (share["value_nonmarital"] / share["value_total"]) * 100
-    share["share_change_pp"] = share["nonmarital_share"].diff()
-    share["share_change_pct"] = share["nonmarital_share"].pct_change() * 100
-    share["period_change_pp"] = share["nonmarital_share"] - share["nonmarital_share"].iloc[0]
+    share["total_births"] = share["marital_births"] + share["nonmarital_births"]
+    share["nonmarital_share"] = (share["nonmarital_births"] / share["total_births"] * 100)
 
     return share.reset_index(drop=True)
