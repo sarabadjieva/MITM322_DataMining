@@ -6,17 +6,15 @@ from src.etl.file_configs import ParseMode, FILE_CONFIGS, RAW_DIR
 from pathlib import Path
 
 
+def clean_output(df, dataset):
+    return validate_output_dataframe(normalize_output_dataframe(df), dataset)
+
+
 def normalize_and_validate(result, dataset: str):
     if isinstance(result, dict):
-        cleaned = {}
-        for key, df in result.items():
-            df = normalize_output_dataframe(df)
-            df = validate_output_dataframe(df, dataset)
-            cleaned[key] = df
-        return cleaned
+        return {key: clean_output(df, dataset) for key, df in result.items()}
 
-    result = normalize_output_dataframe(result)
-    return validate_output_dataframe(result, dataset)
+    return clean_output(result, dataset)
 
 
 def run_etl_for_file(path: Path, config):
@@ -44,33 +42,26 @@ def run_all():
 
         result = run_etl_for_file(path, config)
 
+        manifest_entry = {
+            "file": filename,
+            "dataset": config.dataset,
+            "clean_municipality": config.clean_municipality,
+        }
+
         if isinstance(result, dict):
             exported = export_multiple_outputs(result, config.dataset)
-            manifest.append(
-                {
-                    "file": filename,
-                    "dataset": config.dataset,
-                    "outputs": {
-                        key: {
-                            "output_file": exported_path.name,
-                            "rows": int(len(result[key])),
-                        }
-                        for key, exported_path in exported.items()
-                    },
-                    "clean_municipality": config.clean_municipality,
-                }
-            )
+            manifest_entry["outputs"] = {
+                key: {"output_file": path.name, "rows": int(len(result[key]))}
+                for key, path in exported.items()
+            }
         else:
             exported_path = export_output(result, config.dataset)
-            manifest.append(
-                {
-                    "file": filename,
-                    "dataset": config.dataset,
-                    "rows": int(len(result)),
-                    "output_file": exported_path.name,
-                    "clean_municipality": config.clean_municipality,
-                }
+            manifest_entry.update(
+                rows=int(len(result)),
+                output_file=exported_path.name,
             )
+
+        manifest.append(manifest_entry)
 
     export_manifest(manifest)
     return manifest
