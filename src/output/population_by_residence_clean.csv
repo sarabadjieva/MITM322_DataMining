@@ -1,0 +1,1393 @@
+﻿year,territory_raw,territory_level,metric,value
+2010,България,country,total,7534289.0
+2010,България,country,urban,5388142.0
+2010,България,country,rural,2146147.0
+2011,България,country,total,7348328.0
+2011,България,country,urban,5336366.0
+2011,България,country,rural,2011962.0
+2012,България,country,total,7305888.0
+2012,България,country,urban,5316384.0
+2012,България,country,rural,1989504.0
+2013,България,country,total,7265115.0
+2013,България,country,urban,5299772.0
+2013,България,country,rural,1965343.0
+2014,България,country,total,7223937.0
+2014,България,country,urban,5279577.0
+2014,България,country,rural,1944360.0
+2015,България,country,total,7177991.0
+2015,България,country,urban,5247331.0
+2015,България,country,rural,1930660.0
+2016,България,country,total,7127821.5
+2016,България,country,urban,5215783.5
+2016,България,country,rural,1912038.0
+2017,България,country,total,7075946.5
+2017,България,country,urban,5193070.0
+2017,България,country,rural,1882876.5
+2018,България,country,total,7025036.5
+2018,България,country,urban,5170442.0
+2018,България,country,rural,1854594.5
+2019,България,country,total,6975760.5
+2019,България,country,urban,5142268.0
+2019,България,country,rural,1833492.5
+2020,България,country,total,6934015.0
+2020,България,country,urban,5084296.5
+2020,България,country,rural,1849718.5
+2021,България,country,total,6877742.5
+2021,България,country,urban,5021841.0
+2021,България,country,rural,1855901.5
+2022,България,country,total,6465097.0
+2022,България,country,urban,4752787.0
+2022,България,country,rural,1712311.0
+2023,България,country,total,6446595.5
+2023,България,country,urban,4742585.5
+2023,България,country,rural,1704010.0
+2024,България,country,total,6441420.5
+2024,България,country,urban,4741286.0
+2024,България,country,rural,1700134.5
+2025,България,country,total,6430283.5
+2025,България,country,urban,4744898.5
+2025,България,country,rural,1685385.0
+2010,Благоевград,district,total,326877.0
+2010,Благоевград,district,urban,192857.0
+2010,Благоевград,district,rural,134020.0
+2011,Благоевград,district,total,322876.0
+2011,Благоевград,district,urban,190992.0
+2011,Благоевград,district,rural,131884.0
+2012,Благоевград,district,total,321093.0
+2012,Благоевград,district,urban,190303.0
+2012,Благоевград,district,rural,130790.0
+2013,Благоевград,district,total,319135.0
+2013,Благоевград,district,urban,189630.0
+2013,Благоевград,district,rural,129505.0
+2014,Благоевград,district,total,316843.0
+2014,Благоевград,district,urban,188688.0
+2014,Благоевград,district,rural,128155.0
+2015,Благоевград,district,total,314204.0
+2015,Благоевград,district,urban,187049.0
+2015,Благоевград,district,rural,127155.0
+2016,Благоевград,district,total,311576.0
+2016,Благоевград,district,urban,185527.5
+2016,Благоевград,district,rural,126048.5
+2017,Благоевград,district,total,309101.5
+2017,Благоевград,district,urban,184637.5
+2017,Благоевград,district,rural,124464.0
+2018,Благоевград,district,total,306502.5
+2018,Благоевград,district,urban,183679.0
+2018,Благоевград,district,rural,122823.5
+2019,Благоевград,district,total,303908.5
+2019,Благоевград,district,urban,182640.0
+2019,Благоевград,district,rural,121268.5
+2020,Благоевград,district,total,301916.0
+2020,Благоевград,district,urban,181825.0
+2020,Благоевград,district,rural,120091.0
+2021,Благоевград,district,total,299694.5
+2021,Благоевград,district,urban,180980.5
+2021,Благоевград,district,rural,118714.0
+2022,Благоевград,district,total,289189.0
+2022,Благоевград,district,urban,172481.0
+2022,Благоевград,district,rural,116708.0
+2023,Благоевград,district,total,287619.0
+2023,Благоевград,district,urban,172243.5
+2023,Благоевград,district,rural,115375.5
+2024,Благоевград,district,total,286705.0
+2024,Благоевград,district,urban,172246.5
+2024,Благоевград,district,rural,114458.5
+2025,Благоевград,district,total,285988.5
+2025,Благоевград,district,urban,173009.0
+2025,Благоевград,district,rural,112979.5
+2010,Бургас,district,total,421786.0
+2010,Бургас,district,urban,310371.0
+2010,Бургас,district,rural,111415.0
+2011,Бургас,district,total,415428.0
+2011,Бургас,district,urban,310902.0
+2011,Бургас,district,rural,104526.0
+2012,Бургас,district,total,414550.0
+2012,Бургас,district,urban,310283.0
+2012,Бургас,district,rural,104267.0
+2013,Бургас,district,total,414320.0
+2013,Бургас,district,urban,310180.0
+2013,Бургас,district,rural,104140.0
+2014,Бургас,district,total,414335.0
+2014,Бургас,district,urban,310321.0
+2014,Бургас,district,rural,104014.0
+2015,Бургас,district,total,414034.0
+2015,Бургас,district,urban,312632.0
+2015,Бургас,district,rural,101402.0
+2016,Бургас,district,total,413284.0
+2016,Бургас,district,urban,314742.0
+2016,Бургас,district,rural,98542.0
+2017,Бургас,district,total,412131.5
+2017,Бургас,district,urban,314266.5
+2017,Бургас,district,rural,97865.0
+2018,Бургас,district,total,410955.0
+2018,Бургас,district,urban,313801.0
+2018,Бургас,district,rural,97154.0
+2019,Бургас,district,total,409798.0
+2019,Бургас,district,urban,313349.0
+2019,Бургас,district,rural,96449.0
+2020,Бургас,district,total,409507.5
+2020,Бургас,district,urban,312189.5
+2020,Бургас,district,rural,97318.0
+2021,Бургас,district,total,409227.0
+2021,Бургас,district,urban,311173.0
+2021,Бургас,district,rural,98054.0
+2022,Бургас,district,total,378810.0
+2022,Бургас,district,urban,289158.0
+2022,Бургас,district,rural,89652.0
+2023,Бургас,district,total,381521.0
+2023,Бургас,district,urban,291555.5
+2023,Бургас,district,rural,89965.5
+2024,Бургас,district,total,386682.5
+2024,Бургас,district,urban,295926.0
+2024,Бургас,district,rural,90756.5
+2025,Бургас,district,total,390209.5
+2025,Бургас,district,urban,299430.5
+2025,Бургас,district,rural,90779.0
+2010,Варна,district,total,465283.0
+2010,Варна,district,urban,380137.0
+2010,Варна,district,rural,85146.0
+2011,Варна,district,total,474560.0
+2011,Варна,district,urban,396691.0
+2011,Варна,district,rural,77869.0
+2012,Варна,district,total,473880.0
+2012,Варна,district,urban,396537.0
+2012,Варна,district,rural,77343.0
+2013,Варна,district,total,473745.0
+2013,Варна,district,urban,396816.0
+2013,Варна,district,rural,76929.0
+2014,Варна,district,total,473940.0
+2014,Варна,district,urban,397046.0
+2014,Варна,district,rural,76894.0
+2015,Варна,district,total,473365.0
+2015,Варна,district,urban,395815.5
+2015,Варна,district,rural,77549.5
+2016,Варна,district,total,472790.0
+2016,Варна,district,urban,394979.0
+2016,Варна,district,rural,77811.0
+2017,Варна,district,total,472387.0
+2017,Варна,district,urban,395326.5
+2017,Варна,district,rural,77060.5
+2018,Варна,district,total,471686.0
+2018,Варна,district,urban,395542.0
+2018,Варна,district,rural,76144.0
+2019,Варна,district,total,470568.5
+2019,Варна,district,urban,395195.5
+2019,Варна,district,rural,75373.0
+2020,Варна,district,total,470004.5
+2020,Варна,district,urban,392855.5
+2020,Варна,district,rural,77149.0
+2021,Варна,district,total,469369.0
+2021,Варна,district,urban,390698.5
+2021,Варна,district,rural,78670.5
+2022,Варна,district,total,431025.0
+2022,Варна,district,urban,362695.0
+2022,Варна,district,rural,68331.0
+2023,Варна,district,total,432519.0
+2023,Варна,district,urban,364435.5
+2023,Варна,district,rural,68083.5
+2024,Варна,district,total,435856.0
+2024,Варна,district,urban,367897.0
+2024,Варна,district,rural,67959.0
+2025,Варна,district,total,439026.5
+2025,Варна,district,urban,371622.0
+2025,Варна,district,rural,67404.5
+2010,Велико Търново,district,total,273397.0
+2010,Велико Търново,district,urban,186117.0
+2010,Велико Търново,district,rural,87280.0
+2011,Велико Търново,district,total,257558.0
+2011,Велико Търново,district,urban,178625.0
+2011,Велико Търново,district,rural,78933.0
+2012,Велико Търново,district,total,254929.0
+2012,Велико Търново,district,urban,177280.0
+2012,Велико Търново,district,rural,77649.0
+2013,Велико Търново,district,total,252353.0
+2013,Велико Търново,district,urban,176071.0
+2013,Велико Търново,district,rural,76282.0
+2014,Велико Търново,district,total,249454.0
+2014,Велико Търново,district,urban,174400.0
+2014,Велико Търново,district,rural,75054.0
+2015,Велико Търново,district,total,246394.0
+2015,Велико Търново,district,urban,172271.0
+2015,Велико Търново,district,rural,74123.0
+2016,Велико Търново,district,total,243632.5
+2016,Велико Търново,district,urban,170542.0
+2016,Велико Търново,district,rural,73090.5
+2017,Велико Търново,district,total,240695.5
+2017,Велико Търново,district,urban,169148.5
+2017,Велико Търново,district,rural,71547.0
+2018,Велико Търново,district,total,237420.0
+2018,Велико Търново,district,urban,167481.5
+2018,Велико Търново,district,rural,69938.5
+2019,Велико Търново,district,total,234138.0
+2019,Велико Търново,district,urban,165536.5
+2019,Велико Търново,district,rural,68601.5
+2020,Велико Търново,district,total,231143.0
+2020,Велико Търново,district,urban,162362.0
+2020,Велико Търново,district,rural,68781.0
+2021,Велико Търново,district,total,227696.0
+2021,Велико Търново,district,urban,159022.0
+2021,Велико Търново,district,rural,68674.0
+2022,Велико Търново,district,total,205214.0
+2022,Велико Търново,district,urban,142877.0
+2022,Велико Търново,district,rural,62338.0
+2023,Велико Търново,district,total,203132.5
+2023,Велико Търново,district,urban,141820.5
+2023,Велико Търново,district,rural,61312.0
+2024,Велико Търново,district,total,201322.5
+2024,Велико Търново,district,urban,140773.5
+2024,Велико Търново,district,rural,60549.0
+2025,Велико Търново,district,total,199608.0
+2025,Велико Търново,district,urban,140052.5
+2025,Велико Търново,district,rural,59555.5
+2010,Видин,district,total,106952.0
+2010,Видин,district,urban,65828.0
+2010,Видин,district,rural,41124.0
+2011,Видин,district,total,100341.0
+2011,Видин,district,urban,63514.0
+2011,Видин,district,rural,36827.0
+2012,Видин,district,total,98514.0
+2012,Видин,district,urban,62692.0
+2012,Видин,district,rural,35822.0
+2013,Видин,district,total,96506.0
+2013,Видин,district,urban,61764.0
+2013,Видин,district,rural,34742.0
+2014,Видин,district,total,94414.0
+2014,Видин,district,urban,60658.0
+2014,Видин,district,rural,33756.0
+2015,Видин,district,total,92298.0
+2015,Видин,district,urban,59102.5
+2015,Видин,district,rural,33195.5
+2016,Видин,district,total,90051.0
+2016,Видин,district,urban,57502.5
+2016,Видин,district,rural,32548.5
+2017,Видин,district,total,87897.0
+2017,Видин,district,urban,56459.0
+2017,Видин,district,rural,31438.0
+2018,Видин,district,total,85896.0
+2018,Видин,district,urban,55499.5
+2018,Видин,district,rural,30396.5
+2019,Видин,district,total,83850.0
+2019,Видин,district,urban,54386.5
+2019,Видин,district,rural,29463.5
+2020,Видин,district,total,82023.5
+2020,Видин,district,urban,53106.5
+2020,Видин,district,rural,28917.0
+2021,Видин,district,total,80013.0
+2021,Видин,district,urban,51790.5
+2021,Видин,district,rural,28222.5
+2022,Видин,district,total,73496.0
+2022,Видин,district,urban,46694.0
+2022,Видин,district,rural,26802.0
+2023,Видин,district,total,72263.5
+2023,Видин,district,urban,45778.0
+2023,Видин,district,rural,26485.5
+2024,Видин,district,total,71157.5
+2024,Видин,district,urban,44900.5
+2024,Видин,district,rural,26257.0
+2025,Видин,district,total,70003.5
+2025,Видин,district,urban,44337.5
+2025,Видин,district,rural,25666.0
+2010,Враца,district,total,195192.0
+2010,Враца,district,urban,112552.0
+2010,Враца,district,rural,82640.0
+2011,Враца,district,total,185881.0
+2011,Враца,district,urban,109398.0
+2011,Враца,district,rural,76483.0
+2012,Враца,district,total,183118.0
+2012,Враца,district,urban,107800.0
+2012,Враца,district,rural,75318.0
+2013,Враца,district,total,179985.0
+2013,Враца,district,urban,106198.0
+2013,Враца,district,rural,73787.0
+2014,Враца,district,total,176782.0
+2014,Враца,district,urban,104246.0
+2014,Враца,district,rural,72536.0
+2015,Враца,district,total,173588.0
+2015,Враца,district,urban,101313.5
+2015,Враца,district,rural,72274.5
+2016,Враца,district,total,170367.0
+2016,Враца,district,urban,98787.0
+2016,Враца,district,rural,71580.0
+2017,Враца,district,total,167186.0
+2017,Враца,district,urban,97523.0
+2017,Враца,district,rural,69663.0
+2018,Враца,district,total,164097.0
+2018,Враца,district,urban,96301.0
+2018,Враца,district,rural,67796.0
+2019,Враца,district,total,161009.5
+2019,Враца,district,urban,94800.0
+2019,Враца,district,rural,66209.5
+2020,Враца,district,total,158553.5
+2020,Враца,district,urban,93272.0
+2020,Враца,district,rural,65281.5
+2021,Враца,district,total,155668.5
+2021,Враца,district,urban,91636.5
+2021,Враца,district,rural,64032.0
+2022,Враца,district,total,149952.0
+2022,Враца,district,urban,89647.0
+2022,Враца,district,rural,60305.0
+2023,Враца,district,total,148246.5
+2023,Враца,district,urban,88156.5
+2023,Враца,district,rural,60090.0
+2024,Враца,district,total,146810.5
+2024,Враца,district,urban,86856.5
+2024,Враца,district,rural,59954.0
+2025,Враца,district,total,145252.0
+2025,Враца,district,urban,86177.5
+2025,Враца,district,rural,59074.5
+2010,Габрово,district,total,128875.0
+2010,Габрово,district,urban,103278.0
+2010,Габрово,district,rural,25597.0
+2011,Габрово,district,total,122116.0
+2011,Габрово,district,urban,99817.0
+2011,Габрово,district,rural,22299.0
+2012,Габрово,district,total,120680.0
+2012,Габрово,district,urban,98812.0
+2012,Габрово,district,rural,21868.0
+2013,Габрово,district,total,119121.0
+2013,Габрово,district,urban,97664.0
+2013,Габрово,district,rural,21457.0
+2014,Габрово,district,total,117311.0
+2014,Габрово,district,urban,96200.0
+2014,Габрово,district,rural,21111.0
+2015,Габрово,district,total,115311.5
+2015,Габрово,district,urban,94446.5
+2015,Габрово,district,rural,20865.0
+2016,Габрово,district,total,113303.0
+2016,Габрово,district,urban,92696.5
+2016,Габрово,district,rural,20606.5
+2017,Габрово,district,total,111294.0
+2017,Габрово,district,urban,91095.5
+2017,Габрово,district,rural,20198.5
+2018,Габрово,district,total,109329.0
+2018,Габрово,district,urban,89543.5
+2018,Габрово,district,rural,19785.5
+2019,Габрово,district,total,107501.0
+2019,Габрово,district,urban,88032.5
+2019,Габрово,district,rural,19468.5
+2020,Габрово,district,total,106193.0
+2020,Габрово,district,urban,85905.5
+2020,Габрово,district,rural,20287.5
+2021,Габрово,district,total,104596.0
+2021,Габрово,district,urban,83561.0
+2021,Габрово,district,rural,21035.0
+2022,Габрово,district,total,96683.0
+2022,Габрово,district,urban,76945.0
+2022,Габрово,district,rural,19738.0
+2023,Габрово,district,total,95409.5
+2023,Габрово,district,urban,75931.5
+2023,Габрово,district,rural,19478.0
+2024,Габрово,district,total,94339.5
+2024,Габрово,district,urban,74988.5
+2024,Габрово,district,rural,19351.0
+2025,Габрово,district,total,93269.5
+2025,Габрово,district,urban,74103.5
+2025,Габрово,district,rural,19166.0
+2010,Добрич,district,total,198564.0
+2010,Добрич,district,urban,133156.0
+2010,Добрич,district,rural,65408.0
+2011,Добрич,district,total,188975.0
+2011,Добрич,district,urban,130155.0
+2011,Добрич,district,rural,58820.0
+2012,Добрич,district,total,187266.0
+2012,Добрич,district,urban,129194.0
+2012,Добрич,district,rural,58072.0
+2013,Добрич,district,total,185562.0
+2013,Добрич,district,urban,128183.0
+2013,Добрич,district,rural,57379.0
+2014,Добрич,district,total,183744.0
+2014,Добрич,district,urban,126951.0
+2014,Добрич,district,rural,56793.0
+2015,Добрич,district,total,181704.5
+2015,Добрич,district,urban,125235.0
+2015,Добрич,district,rural,56469.5
+2016,Добрич,district,total,179519.5
+2016,Добрич,district,urban,123632.5
+2016,Добрич,district,rural,55887.0
+2017,Добрич,district,total,177291.5
+2017,Добрич,district,urban,122358.5
+2017,Добрич,district,rural,54933.0
+2018,Добрич,district,total,174988.0
+2018,Добрич,district,urban,120962.5
+2018,Добрич,district,rural,54025.5
+2019,Добрич,district,total,172820.0
+2019,Добрич,district,urban,119375.5
+2019,Добрич,district,rural,53444.5
+2020,Добрич,district,total,171053.5
+2020,Добрич,district,urban,117743.0
+2020,Добрич,district,rural,53310.5
+2021,Добрич,district,total,168806.0
+2021,Добрич,district,urban,115864.0
+2021,Добрич,district,rural,52942.0
+2022,Добрич,district,total,148106.0
+2022,Добрич,district,urban,105227.0
+2022,Добрич,district,rural,42879.0
+2023,Добрич,district,total,146921.5
+2023,Добрич,district,urban,103443.0
+2023,Добрич,district,rural,43478.5
+2024,Добрич,district,total,145921.0
+2024,Добрич,district,urban,101919.0
+2024,Добрич,district,rural,44002.0
+2025,Добрич,district,total,144532.5
+2025,Добрич,district,urban,100718.5
+2025,Добрич,district,rural,43814.0
+2010,Кърджали,district,total,154145.0
+2010,Кърджали,district,urban,64590.0
+2010,Кърджали,district,rural,89555.0
+2011,Кърджали,district,total,152474.0
+2011,Кърджали,district,urban,63261.0
+2011,Кърджали,district,rural,89213.0
+2012,Кърджали,district,total,151675.0
+2012,Кърджали,district,urban,63050.0
+2012,Кърджали,district,rural,88625.0
+2013,Кърджали,district,total,150973.0
+2013,Кърджали,district,urban,62967.0
+2013,Кърджали,district,rural,88006.0
+2014,Кърджали,district,total,151329.0
+2014,Кърджали,district,urban,62932.0
+2014,Кърджали,district,rural,88397.0
+2015,Кърджали,district,total,151686.0
+2015,Кърджали,district,urban,62529.0
+2015,Кърджали,district,rural,89157.0
+2016,Кърджали,district,total,151078.0
+2016,Кърджали,district,urban,62188.0
+2016,Кърджали,district,rural,88890.0
+2017,Кърджали,district,total,150975.0
+2017,Кърджали,district,urban,62394.5
+2017,Кърджали,district,rural,88580.5
+2018,Кърджали,district,total,151993.0
+2018,Кърджали,district,urban,62806.5
+2018,Кърджали,district,rural,89186.5
+2019,Кърджали,district,total,155538.5
+2019,Кърджали,district,urban,63436.0
+2019,Кърджали,district,rural,92102.5
+2020,Кърджали,district,total,159492.5
+2020,Кърджали,district,urban,64271.0
+2020,Кърджали,district,rural,95221.5
+2021,Кърджали,district,total,160902.5
+2021,Кърджали,district,urban,64626.0
+2021,Кърджали,district,rural,96276.5
+2022,Кърджали,district,total,141651.0
+2022,Кърджали,district,urban,59353.0
+2022,Кърджали,district,rural,82299.0
+2023,Кърджали,district,total,144535.0
+2023,Кърджали,district,urban,59977.5
+2023,Кърджали,district,rural,84557.5
+2024,Кърджали,district,total,148020.0
+2024,Кърджали,district,urban,60575.0
+2024,Кърджали,district,rural,87445.0
+2025,Кърджали,district,total,150753.0
+2025,Кърджали,district,urban,61215.0
+2025,Кърджали,district,rural,89538.0
+2010,Кюстендил,district,total,144329.0
+2010,Кюстендил,district,urban,98171.0
+2010,Кюстендил,district,rural,46158.0
+2011,Кюстендил,district,total,135938.0
+2011,Кюстендил,district,urban,93176.0
+2011,Кюстендил,district,rural,42762.0
+2012,Кюстендил,district,total,133902.0
+2012,Кюстендил,district,urban,92209.0
+2012,Кюстендил,district,rural,41693.0
+2013,Кюстендил,district,total,131557.0
+2013,Кюстендил,district,urban,90993.0
+2013,Кюстендил,district,rural,40564.0
+2014,Кюстендил,district,total,129135.0
+2014,Кюстендил,district,urban,89552.0
+2014,Кюстендил,district,rural,39583.0
+2015,Кюстендил,district,total,126991.5
+2015,Кюстендил,district,urban,87954.0
+2015,Кюстендил,district,rural,39037.5
+2016,Кюстендил,district,total,124722.5
+2016,Кюстендил,district,urban,86338.5
+2016,Кюстендил,district,rural,38384.0
+2017,Кюстендил,district,total,122265.0
+2017,Кюстендил,district,urban,84961.5
+2017,Кюстендил,district,rural,37303.5
+2018,Кюстендил,district,total,120070.0
+2018,Кюстендил,district,urban,83779.5
+2018,Кюстендил,district,rural,36290.5
+2019,Кюстендил,district,total,117978.0
+2019,Кюстендил,district,urban,82557.0
+2019,Кюстендил,district,rural,35421.0
+2020,Кюстендил,district,total,116767.0
+2020,Кюстендил,district,urban,81404.0
+2020,Кюстендил,district,rural,35363.0
+2021,Кюстендил,district,total,115029.5
+2021,Кюстендил,district,urban,79977.5
+2021,Кюстендил,district,rural,35052.0
+2022,Кюстендил,district,total,109503.0
+2022,Кюстендил,district,urban,74988.0
+2022,Кюстендил,district,rural,34515.0
+2023,Кюстендил,district,total,108188.0
+2023,Кюстендил,district,urban,74098.0
+2023,Кюстендил,district,rural,34090.0
+2024,Кюстендил,district,total,106902.0
+2024,Кюстендил,district,urban,73248.0
+2024,Кюстендил,district,rural,33654.0
+2025,Кюстендил,district,total,105435.5
+2025,Кюстендил,district,urban,72513.5
+2025,Кюстендил,district,rural,32922.0
+2010,Ловеч,district,total,149555.0
+2010,Ловеч,district,urban,92675.0
+2010,Ловеч,district,rural,56880.0
+2011,Ловеч,district,total,140581.0
+2011,Ловеч,district,urban,87271.0
+2011,Ловеч,district,rural,53310.0
+2012,Ловеч,district,total,138663.0
+2012,Ловеч,district,urban,86368.0
+2012,Ловеч,district,rural,52295.0
+2013,Ловеч,district,total,136649.0
+2013,Ловеч,district,urban,85353.0
+2013,Ловеч,district,rural,51296.0
+2014,Ловеч,district,total,134546.0
+2014,Ловеч,district,urban,84170.0
+2014,Ловеч,district,rural,50376.0
+2015,Ловеч,district,total,132503.0
+2015,Ловеч,district,urban,82900.0
+2015,Ловеч,district,rural,49603.0
+2016,Ловеч,district,total,130357.5
+2016,Ловеч,district,urban,81577.0
+2016,Ловеч,district,rural,48780.5
+2017,Ловеч,district,total,128091.5
+2017,Ловеч,district,urban,80320.5
+2017,Ловеч,district,rural,47771.0
+2018,Ловеч,district,total,125917.0
+2018,Ловеч,district,urban,79139.5
+2018,Ловеч,district,rural,46777.5
+2019,Ловеч,district,total,123709.5
+2019,Ловеч,district,urban,77884.5
+2019,Ловеч,district,rural,45825.0
+2020,Ловеч,district,total,122518.0
+2020,Ловеч,district,urban,76430.0
+2020,Ловеч,district,rural,46088.0
+2021,Ловеч,district,total,121135.0
+2021,Ловеч,district,urban,74861.0
+2021,Ловеч,district,rural,46274.0
+2022,Ловеч,district,total,114251.0
+2022,Ловеч,district,urban,70636.0
+2022,Ловеч,district,rural,43616.0
+2023,Ловеч,district,total,112790.5
+2023,Ловеч,district,urban,69652.5
+2023,Ловеч,district,rural,43138.0
+2024,Ловеч,district,total,111524.0
+2024,Ловеч,district,urban,68737.5
+2024,Ловеч,district,rural,42786.5
+2025,Ловеч,district,total,110134.5
+2025,Ловеч,district,urban,67888.0
+2025,Ловеч,district,rural,42246.5
+2010,Монтана,district,total,154482.0
+2010,Монтана,district,urban,97883.0
+2010,Монтана,district,rural,56599.0
+2011,Монтана,district,total,147123.0
+2011,Монтана,district,urban,93848.0
+2011,Монтана,district,rural,53275.0
+2012,Монтана,district,total,144823.0
+2012,Монтана,district,urban,92716.0
+2012,Монтана,district,rural,52107.0
+2013,Монтана,district,total,142629.0
+2013,Монтана,district,urban,91596.0
+2013,Монтана,district,rural,51033.0
+2014,Монтана,district,total,140473.0
+2014,Монтана,district,urban,90299.0
+2014,Монтана,district,rural,50174.0
+2015,Монтана,district,total,138269.0
+2015,Монтана,district,urban,88292.0
+2015,Монтана,district,rural,49977.0
+2016,Монтана,district,total,135928.5
+2016,Монтана,district,urban,86381.5
+2016,Монтана,district,rural,49547.0
+2017,Монтана,district,total,133441.5
+2017,Монтана,district,urban,85186.0
+2017,Монтана,district,rural,48255.5
+2018,Монтана,district,total,130925.5
+2018,Монтана,district,urban,84016.5
+2018,Монтана,district,rural,46909.0
+2019,Монтана,district,total,128319.0
+2019,Монтана,district,urban,82550.5
+2019,Монтана,district,rural,45768.5
+2020,Монтана,district,total,126198.0
+2020,Монтана,district,urban,80753.0
+2020,Монтана,district,rural,45445.0
+2021,Монтана,district,total,123787.0
+2021,Монтана,district,urban,78980.0
+2021,Монтана,district,rural,44807.0
+2022,Монтана,district,total,117143.0
+2022,Монтана,district,urban,75089.0
+2022,Монтана,district,rural,42054.0
+2023,Монтана,district,total,115349.0
+2023,Монтана,district,urban,73659.0
+2023,Монтана,district,rural,41690.0
+2024,Монтана,district,total,113631.5
+2024,Монтана,district,urban,72250.0
+2024,Монтана,district,rural,41381.5
+2025,Монтана,district,total,111853.5
+2025,Монтана,district,urban,71246.5
+2025,Монтана,district,rural,40607.0
+2010,Пазарджик,district,total,289262.0
+2010,Пазарджик,district,urban,179784.0
+2010,Пазарджик,district,rural,109478.0
+2011,Пазарджик,district,total,274786.0
+2011,Пазарджик,district,urban,170843.0
+2011,Пазарджик,district,rural,103943.0
+2012,Пазарджик,district,total,272762.0
+2012,Пазарджик,district,urban,169773.0
+2012,Пазарджик,district,rural,102989.0
+2013,Пазарджик,district,total,270504.0
+2013,Пазарджик,district,urban,168677.0
+2013,Пазарджик,district,rural,101827.0
+2014,Пазарджик,district,total,267918.0
+2014,Пазарджик,district,urban,167292.0
+2014,Пазарджик,district,rural,100626.0
+2015,Пазарджик,district,total,265089.5
+2015,Пазарджик,district,urban,165502.5
+2015,Пазарджик,district,rural,99587.0
+2016,Пазарджик,district,total,262222.0
+2016,Пазарджик,district,urban,163759.5
+2016,Пазарджик,district,rural,98462.5
+2017,Пазарджик,district,total,259389.5
+2017,Пазарджик,district,urban,162390.0
+2017,Пазарджик,district,rural,96999.5
+2018,Пазарджик,district,total,256722.0
+2018,Пазарджик,district,urban,161060.0
+2018,Пазарджик,district,rural,95662.0
+2019,Пазарджик,district,total,254127.5
+2019,Пазарджик,district,urban,159614.0
+2019,Пазарджик,district,rural,94513.5
+2020,Пазарджик,district,total,252038.0
+2020,Пазарджик,district,urban,158114.0
+2020,Пазарджик,district,rural,93924.0
+2021,Пазарджик,district,total,249330.0
+2021,Пазарджик,district,urban,156239.0
+2021,Пазарджик,district,rural,93091.0
+2022,Пазарджик,district,total,226917.0
+2022,Пазарджик,district,urban,139264.0
+2022,Пазарджик,district,rural,87654.0
+2023,Пазарджик,district,total,225735.0
+2023,Пазарджик,district,urban,138739.0
+2023,Пазарджик,district,rural,86996.0
+2024,Пазарджик,district,total,224377.5
+2024,Пазарджик,district,urban,138203.0
+2024,Пазарджик,district,rural,86174.5
+2025,Пазарджик,district,total,222335.0
+2025,Пазарджик,district,urban,137180.5
+2025,Пазарджик,district,rural,85154.5
+2010,Перник,district,total,135471.0
+2010,Перник,district,urban,102937.0
+2010,Перник,district,rural,32534.0
+2011,Перник,district,total,132842.0
+2011,Перник,district,urban,104610.0
+2011,Перник,district,rural,28232.0
+2012,Перник,district,total,131113.0
+2012,Перник,district,urban,103419.0
+2012,Перник,district,rural,27694.0
+2013,Перник,district,total,129468.0
+2013,Перник,district,urban,102236.0
+2013,Перник,district,rural,27232.0
+2014,Перник,district,total,127872.0
+2014,Перник,district,urban,100916.0
+2014,Перник,district,rural,26956.0
+2015,Перник,district,total,126252.0
+2015,Перник,district,urban,99309.5
+2015,Перник,district,rural,26942.5
+2016,Перник,district,total,124613.0
+2016,Перник,district,urban,97840.5
+2016,Перник,district,rural,26772.5
+2017,Перник,district,total,123095.5
+2017,Перник,district,urban,96981.5
+2017,Перник,district,rural,26114.0
+2018,Перник,district,total,121650.5
+2018,Перник,district,urban,96253.5
+2018,Перник,district,rural,25397.0
+2019,Перник,district,total,120035.0
+2019,Перник,district,urban,95303.5
+2019,Перник,district,rural,24731.5
+2020,Перник,district,total,119808.0
+2020,Перник,district,urban,94267.5
+2020,Перник,district,rural,25540.5
+2021,Перник,district,total,119224.5
+2021,Перник,district,urban,92973.0
+2021,Перник,district,rural,26251.5
+2022,Перник,district,total,112515.0
+2022,Перник,district,urban,88078.0
+2022,Перник,district,rural,24437.0
+2023,Перник,district,total,111389.0
+2023,Перник,district,urban,87132.0
+2023,Перник,district,rural,24257.0
+2024,Перник,district,total,110459.0
+2024,Перник,district,urban,86338.0
+2024,Перник,district,rural,24121.0
+2025,Перник,district,total,109378.5
+2025,Перник,district,urban,85688.5
+2025,Перник,district,rural,23690.0
+2010,Плевен,district,total,288543.0
+2010,Плевен,district,urban,189484.0
+2010,Плевен,district,rural,99059.0
+2011,Плевен,district,total,268490.0
+2011,Плевен,district,urban,178578.0
+2011,Плевен,district,rural,89912.0
+2012,Плевен,district,total,264917.0
+2012,Плевен,district,urban,176282.0
+2012,Плевен,district,rural,88635.0
+2013,Плевен,district,total,261166.0
+2013,Плевен,district,urban,174040.0
+2013,Плевен,district,rural,87126.0
+2014,Плевен,district,total,257556.0
+2014,Плевен,district,urban,171854.0
+2014,Плевен,district,rural,85702.0
+2015,Плевен,district,total,253867.5
+2015,Плевен,district,urban,168991.5
+2015,Плевен,district,rural,84876.0
+2016,Плевен,district,total,250062.0
+2016,Плевен,district,urban,166140.0
+2016,Плевен,district,rural,83922.0
+2017,Плевен,district,total,246173.5
+2017,Плевен,district,urban,164025.5
+2017,Плевен,district,rural,82148.0
+2018,Плевен,district,total,242294.5
+2018,Плевен,district,urban,161998.0
+2018,Плевен,district,rural,80296.5
+2019,Плевен,district,total,238342.5
+2019,Плевен,district,urban,159595.5
+2019,Плевен,district,rural,78747.0
+2020,Плевен,district,total,234871.5
+2020,Плевен,district,urban,156009.0
+2020,Плевен,district,rural,78862.5
+2021,Плевен,district,total,230869.0
+2021,Плевен,district,urban,152491.0
+2021,Плевен,district,rural,78378.0
+2022,Плевен,district,total,221928.0
+2022,Плевен,district,urban,149519.0
+2022,Плевен,district,rural,72410.0
+2023,Плевен,district,total,219113.5
+2023,Плевен,district,urban,147617.0
+2023,Плевен,district,rural,71496.5
+2024,Плевен,district,total,216603.5
+2024,Плевен,district,urban,145891.5
+2024,Плевен,district,rural,70712.0
+2025,Плевен,district,total,214108.0
+2025,Плевен,district,urban,144568.0
+2025,Плевен,district,rural,69540.0
+2010,Пловдив,district,total,698992.0
+2010,Пловдив,district,urban,520776.0
+2010,Пловдив,district,rural,178216.0
+2011,Пловдив,district,total,682091.0
+2011,Пловдив,district,urban,506907.0
+2011,Пловдив,district,rural,175184.0
+2012,Пловдив,district,total,679872.0
+2012,Пловдив,district,urban,506201.0
+2012,Пловдив,district,rural,173671.0
+2013,Пловдив,district,total,678528.0
+2013,Пловдив,district,urban,506519.0
+2013,Пловдив,district,rural,172009.0
+2014,Пловдив,district,total,676892.0
+2014,Пловдив,district,urban,506496.0
+2014,Пловдив,district,rural,170396.0
+2015,Пловдив,district,total,674434.5
+2015,Пловдив,district,urban,505208.0
+2015,Пловдив,district,rural,169226.5
+2016,Пловдив,district,total,672428.0
+2016,Пловдив,district,urban,504522.5
+2016,Пловдив,district,rural,167905.5
+2017,Пловдив,district,total,670684.5
+2017,Пловдив,district,urban,505008.5
+2017,Пловдив,district,rural,165676.0
+2018,Пловдив,district,total,669065.0
+2018,Пловдив,district,urban,505486.5
+2018,Пловдив,district,rural,163578.5
+2019,Пловдив,district,total,667567.5
+2019,Пловдив,district,urban,505410.5
+2019,Пловдив,district,rural,162157.0
+2020,Пловдив,district,total,666599.5
+2020,Пловдив,district,urban,501948.5
+2020,Пловдив,district,rural,164651.0
+2021,Пловдив,district,total,664652.5
+2021,Пловдив,district,urban,498246.0
+2021,Пловдив,district,rural,166406.5
+2022,Пловдив,district,total,631638.0
+2022,Пловдив,district,urban,468860.0
+2022,Пловдив,district,rural,162779.0
+2023,Пловдив,district,total,632551.0
+2023,Пловдив,district,urban,471009.5
+2023,Пловдив,district,rural,161541.5
+2024,Пловдив,district,total,634608.0
+2024,Пловдив,district,urban,473839.0
+2024,Пловдив,district,rural,160769.0
+2025,Пловдив,district,total,636960.0
+2025,Пловдив,district,urban,477334.5
+2025,Пловдив,district,rural,159625.5
+2010,Разград,district,total,131489.0
+2010,Разград,district,urban,60853.0
+2010,Разград,district,rural,70636.0
+2011,Разград,district,total,124484.0
+2011,Разград,district,urban,58938.0
+2011,Разград,district,rural,65546.0
+2012,Разград,district,total,122883.0
+2012,Разград,district,urban,58136.0
+2012,Разград,district,rural,64747.0
+2013,Разград,district,total,121380.0
+2013,Разград,district,urban,57376.0
+2013,Разград,district,rural,64004.0
+2014,Разград,district,total,119821.0
+2014,Разград,district,urban,56610.0
+2014,Разград,district,rural,63211.0
+2015,Разград,district,total,118144.5
+2015,Разград,district,urban,55752.0
+2015,Разград,district,rural,62392.5
+2016,Разград,district,total,116321.5
+2016,Разград,district,urban,54846.0
+2016,Разград,district,rural,61475.5
+2017,Разград,district,total,114558.0
+2017,Разград,district,urban,54061.5
+2017,Разград,district,rural,60496.5
+2018,Разград,district,total,112971.5
+2018,Разград,district,urban,53346.5
+2018,Разград,district,rural,59625.0
+2019,Разград,district,total,111509.0
+2019,Разград,district,urban,52580.5
+2019,Разград,district,rural,58928.5
+2020,Разград,district,total,110299.5
+2020,Разград,district,urban,51659.5
+2020,Разград,district,rural,58640.0
+2021,Разград,district,total,108787.0
+2021,Разград,district,urban,50657.5
+2021,Разград,district,rural,58129.5
+2022,Разград,district,total,101568.0
+2022,Разград,district,urban,48585.0
+2022,Разград,district,rural,52984.0
+2023,Разград,district,total,100901.5
+2023,Разград,district,urban,48010.0
+2023,Разград,district,rural,52891.5
+2024,Разград,district,total,100077.5
+2024,Разград,district,urban,47420.5
+2024,Разград,district,rural,52657.0
+2025,Разград,district,total,98771.0
+2025,Разград,district,urban,46801.0
+2025,Разград,district,rural,51970.0
+2010,Русе,district,total,247907.0
+2010,Русе,district,urban,188562.0
+2010,Русе,district,rural,59345.0
+2011,Русе,district,total,234622.0
+2011,Русе,district,urban,180009.0
+2011,Русе,district,rural,54613.0
+2012,Русе,district,total,232674.0
+2012,Русе,district,urban,178981.0
+2012,Русе,district,rural,53693.0
+2013,Русе,district,total,230682.0
+2013,Русе,district,urban,177935.0
+2013,Русе,district,rural,52747.0
+2014,Русе,district,total,228735.0
+2014,Русе,district,urban,176887.0
+2014,Русе,district,rural,51848.0
+2015,Русе,district,total,226679.5
+2015,Русе,district,urban,175475.5
+2015,Русе,district,rural,51204.0
+2016,Русе,district,total,224581.5
+2016,Русе,district,urban,174079.0
+2016,Русе,district,rural,50502.5
+2017,Русе,district,total,222412.5
+2017,Русе,district,urban,172908.5
+2017,Русе,district,rural,49504.0
+2018,Русе,district,total,219946.0
+2018,Русе,district,urban,171473.0
+2018,Русе,district,rural,48473.0
+2019,Русе,district,total,217016.5
+2019,Русе,district,urban,169576.5
+2019,Русе,district,rural,47440.0
+2020,Русе,district,total,214103.0
+2020,Русе,district,urban,165716.5
+2020,Русе,district,rural,48386.5
+2021,Русе,district,total,210906.5
+2021,Русе,district,urban,161852.5
+2021,Русе,district,rural,49054.0
+2022,Русе,district,total,190969.0
+2022,Русе,district,urban,148303.0
+2022,Русе,district,rural,42666.0
+2023,Русе,district,total,188726.5
+2023,Русе,district,urban,146967.5
+2023,Русе,district,rural,41759.0
+2024,Русе,district,total,186961.5
+2024,Русе,district,urban,145730.0
+2024,Русе,district,rural,41231.5
+2025,Русе,district,total,185172.0
+2025,Русе,district,urban,144538.0
+2025,Русе,district,rural,40634.0
+2010,Силистра,district,total,126743.0
+2010,Силистра,district,urban,57203.0
+2010,Силистра,district,rural,69540.0
+2011,Силистра,district,total,119013.0
+2011,Силистра,district,urban,53754.0
+2011,Силистра,district,rural,65259.0
+2012,Силистра,district,total,117823.0
+2012,Силистра,district,urban,53167.0
+2012,Силистра,district,rural,64656.0
+2013,Силистра,district,total,116626.0
+2013,Силистра,district,urban,52478.0
+2013,Силистра,district,rural,64148.0
+2014,Силистра,district,total,115354.0
+2014,Силистра,district,urban,51774.0
+2014,Силистра,district,rural,63580.0
+2015,Силистра,district,total,113959.0
+2015,Силистра,district,urban,50867.5
+2015,Силистра,district,rural,63091.5
+2016,Силистра,district,total,112602.5
+2016,Силистра,district,urban,49963.0
+2016,Силистра,district,rural,62639.5
+2017,Силистра,district,total,111259.5
+2017,Силистра,district,urban,49264.0
+2017,Силистра,district,rural,61995.5
+2018,Силистра,district,total,109916.5
+2018,Силистра,district,urban,48645.0
+2018,Силистра,district,rural,61271.5
+2019,Силистра,district,total,108644.5
+2019,Силистра,district,urban,48081.5
+2019,Силистра,district,rural,60563.0
+2020,Силистра,district,total,107435.0
+2020,Силистра,district,urban,47265.5
+2020,Силистра,district,rural,60169.5
+2021,Силистра,district,total,105860.5
+2021,Силистра,district,urban,46289.5
+2021,Силистра,district,rural,59571.0
+2022,Силистра,district,total,96220.0
+2022,Силистра,district,urban,43094.0
+2022,Силистра,district,rural,53126.0
+2023,Силистра,district,total,95176.5
+2023,Силистра,district,urban,42493.5
+2023,Силистра,district,rural,52683.0
+2024,Силистра,district,total,94144.0
+2024,Силистра,district,urban,41914.5
+2024,Силистра,district,rural,52229.5
+2025,Силистра,district,total,92957.0
+2025,Силистра,district,urban,41344.5
+2025,Силистра,district,rural,51612.5
+2010,Сливен,district,total,203429.0
+2010,Сливен,district,urban,134122.0
+2010,Сливен,district,rural,69307.0
+2011,Сливен,district,total,197176.0
+2011,Сливен,district,urban,130583.0
+2011,Сливен,district,rural,66593.0
+2012,Сливен,district,total,196028.0
+2012,Сливен,district,urban,129605.0
+2012,Сливен,district,rural,66423.0
+2013,Сливен,district,total,194635.0
+2013,Сливен,district,urban,128658.0
+2013,Сливен,district,rural,65977.0
+2014,Сливен,district,total,193284.0
+2014,Сливен,district,urban,127708.0
+2014,Сливен,district,rural,65576.0
+2015,Сливен,district,total,191914.5
+2015,Сливен,district,urban,126430.5
+2015,Сливен,district,rural,65484.0
+2016,Сливен,district,total,190486.5
+2016,Сливен,district,urban,125191.5
+2016,Сливен,district,rural,65295.0
+2017,Сливен,district,total,189110.5
+2017,Сливен,district,urban,124453.5
+2017,Сливен,district,rural,64657.0
+2018,Сливен,district,total,187464.0
+2018,Сливен,district,urban,123509.5
+2018,Сливен,district,rural,63954.5
+2019,Сливен,district,total,185307.0
+2019,Сливен,district,urban,121971.5
+2019,Сливен,district,rural,63335.5
+2020,Сливен,district,total,183335.0
+2020,Сливен,district,urban,120028.0
+2020,Сливен,district,rural,63307.0
+2021,Сливен,district,total,181304.5
+2021,Сливен,district,urban,118208.5
+2021,Сливен,district,rural,63096.0
+2022,Сливен,district,total,171039.0
+2022,Сливен,district,urban,111838.0
+2022,Сливен,district,rural,59201.0
+2023,Сливен,district,total,170317.0
+2023,Сливен,district,urban,111038.0
+2023,Сливен,district,rural,59279.0
+2024,Сливен,district,total,169675.0
+2024,Сливен,district,urban,110311.5
+2024,Сливен,district,rural,59363.5
+2025,Сливен,district,total,168783.0
+2025,Сливен,district,urban,109754.5
+2025,Сливен,district,rural,59028.5
+2010,Смолян,district,total,123699.0
+2010,Смолян,district,urban,67772.0
+2010,Смолян,district,rural,55927.0
+2011,Смолян,district,total,121171.0
+2011,Смолян,district,urban,66455.0
+2011,Смолян,district,rural,54716.0
+2012,Смолян,district,total,119604.0
+2012,Смолян,district,urban,65673.0
+2012,Смолян,district,rural,53931.0
+2013,Смолян,district,total,117485.0
+2013,Смолян,district,urban,64687.0
+2013,Смолян,district,rural,52798.0
+2014,Смолян,district,total,115101.0
+2014,Смолян,district,urban,63569.0
+2014,Смолян,district,rural,51532.0
+2015,Смолян,district,total,112792.5
+2015,Смолян,district,urban,62501.5
+2015,Смолян,district,rural,50291.0
+2016,Смолян,district,total,110513.0
+2016,Смолян,district,urban,61440.0
+2016,Смолян,district,rural,49073.0
+2017,Смолян,district,total,108353.5
+2017,Смолян,district,urban,60480.0
+2017,Смолян,district,rural,47873.5
+2018,Смолян,district,total,106351.5
+2018,Смолян,district,urban,59637.5
+2018,Смолян,district,rural,46714.0
+2019,Смолян,district,total,104476.5
+2019,Смолян,district,urban,58821.5
+2019,Смолян,district,rural,45655.0
+2020,Смолян,district,total,102709.5
+2020,Смолян,district,urban,58088.5
+2020,Смолян,district,rural,44621.0
+2021,Смолян,district,total,100602.5
+2021,Смолян,district,urban,57165.0
+2021,Смолян,district,rural,43437.5
+2022,Смолян,district,total,94253.0
+2022,Смолян,district,urban,53943.0
+2022,Смолян,district,rural,40311.0
+2023,Смолян,district,total,92730.5
+2023,Смолян,district,urban,53190.5
+2023,Смолян,district,rural,39540.0
+2024,Смолян,district,total,91320.5
+2024,Смолян,district,urban,52448.5
+2024,Смолян,district,rural,38872.0
+2025,Смолян,district,total,89675.0
+2025,Смолян,district,urban,51708.5
+2025,Смолян,district,rural,37966.5
+2010,София (столица),district,total,1254622.0
+2010,София (столица),district,urban,1196872.0
+2010,София (столица),district,rural,57750.0
+2011,София (столица),district,total,1294205.0
+2011,София (столица),district,urban,1234073.0
+2011,София (столица),district,rural,60132.0
+2012,София (столица),district,total,1299465.0
+2012,София (столица),district,urban,1239309.0
+2012,София (столица),district,rural,60156.0
+2013,София (столица),district,total,1305975.0
+2013,София (столица),district,urban,1245838.0
+2013,София (столица),district,rural,60137.0
+2014,София (столица),district,total,1313095.0
+2014,София (столица),district,urban,1253166.0
+2014,София (столица),district,rural,59929.0
+2015,София (столица),district,total,1318180.5
+2015,София (столица),district,urban,1258393.5
+2015,София (столица),district,rural,59787.0
+2016,София (столица),district,total,1321720.5
+2016,София (столица),district,urban,1262092.0
+2016,София (столица),district,rural,59628.5
+2017,София (столица),district,total,1324533.0
+2017,София (столица),district,urban,1265179.5
+2017,София (столица),district,rural,59353.5
+2018,София (столица),district,total,1326774.5
+2018,София (столица),district,urban,1267839.5
+2018,София (столица),district,rural,58935.0
+2019,София (столица),district,total,1328455.0
+2019,София (столица),district,urban,1269776.5
+2019,София (столица),district,rural,58678.5
+2020,София (столица),district,total,1318601.0
+2020,София (столица),district,urban,1259723.0
+2020,София (столица),district,rural,58878.0
+2021,София (столица),district,total,1307925.5
+2021,София (столица),district,urban,1248864.5
+2021,София (столица),district,rural,59061.0
+2022,София (столица),district,total,1277436.0
+2022,София (столица),district,urban,1214539.0
+2022,София (столица),district,rural,62898.0
+2023,София (столица),district,total,1283649.5
+2023,София (столица),district,urban,1220933.5
+2023,София (столица),district,rural,62716.0
+2024,София (столица),district,total,1291448.0
+2024,София (столица),district,urban,1228540.0
+2024,София (столица),district,rural,62908.0
+2025,София (столица),district,total,1299872.0
+2025,София (столица),district,urban,1236716.5
+2025,София (столица),district,rural,63155.5
+2010,София,district,total,251737.0
+2010,София,district,urban,151108.0
+2010,София,district,rural,100629.0
+2011,София,district,total,246621.0
+2011,София,district,urban,150057.0
+2011,София,district,rural,96564.0
+2012,София,district,total,244435.0
+2012,София,district,urban,149191.0
+2012,София,district,rural,95244.0
+2013,София,district,total,242066.0
+2013,София,district,urban,148174.0
+2013,София,district,rural,93892.0
+2014,София,district,total,239469.0
+2014,София,district,urban,146734.0
+2014,София,district,rural,92735.0
+2015,София,district,total,237570.5
+2015,София,district,urban,145176.0
+2015,София,district,rural,92394.5
+2016,София,district,total,235632.5
+2016,София,district,urban,143713.0
+2016,София,district,rural,91919.5
+2017,София,district,total,232874.0
+2017,София,district,urban,142344.5
+2017,София,district,rural,90529.5
+2018,София,district,total,230302.0
+2018,София,district,urban,141234.5
+2018,София,district,rural,89067.5
+2019,София,district,total,227856.0
+2019,София,district,urban,140160.0
+2019,София,district,rural,87696.0
+2020,София,district,total,232573.5
+2020,София,district,urban,140100.5
+2020,София,district,rural,92473.0
+2021,София,district,total,236041.5
+2021,София,district,urban,139594.0
+2021,София,district,rural,96447.5
+2022,София,district,total,228885.0
+2022,София,district,urban,137789.0
+2022,София,district,rural,91096.0
+2023,София,district,total,227015.0
+2023,София,district,urban,136669.0
+2023,София,district,rural,90346.0
+2024,София,district,total,225560.5
+2024,София,district,urban,135668.5
+2024,София,district,rural,89892.0
+2025,София,district,total,223823.5
+2025,София,district,urban,134765.0
+2025,София,district,rural,89058.5
+2010,Стара Загора,district,total,349169.0
+2010,Стара Загора,district,urban,240807.0
+2010,Стара Загора,district,rural,108362.0
+2011,Стара Загора,district,total,332315.0
+2011,Стара Загора,district,urban,237638.0
+2011,Стара Загора,district,rural,94677.0
+2012,Стара Загора,district,total,330484.0
+2012,Стара Загора,district,urban,236677.0
+2012,Стара Загора,district,rural,93807.0
+2013,Стара Загора,district,total,328968.0
+2013,Стара Загора,district,urban,236132.0
+2013,Стара Загора,district,rural,92836.0
+2014,Стара Загора,district,total,327034.0
+2014,Стара Загора,district,urban,235159.0
+2014,Стара Загора,district,rural,91875.0
+2015,Стара Загора,district,total,324824.0
+2015,Стара Загора,district,urban,233374.0
+2015,Стара Загора,district,rural,91450.0
+2016,Стара Загора,district,total,322531.0
+2016,Стара Загора,district,urban,231687.0
+2016,Стара Загора,district,rural,90844.0
+2017,Стара Загора,district,total,320222.0
+2017,Стара Загора,district,urban,230660.5
+2017,Стара Загора,district,rural,89561.5
+2018,Стара Загора,district,total,317711.5
+2018,Стара Загора,district,urban,229605.0
+2018,Стара Загора,district,rural,88106.5
+2019,Стара Загора,district,total,314876.0
+2019,Стара Загора,district,urban,228064.5
+2019,Стара Загора,district,rural,86811.5
+2020,Стара Загора,district,total,312398.0
+2020,Стара Загора,district,urban,221942.5
+2020,Стара Загора,district,rural,90455.5
+2021,Стара Загора,district,total,309270.0
+2021,Стара Загора,district,urban,215714.0
+2021,Стара Загора,district,rural,93556.0
+2022,Стара Загора,district,total,293161.0
+2022,Стара Загора,district,urban,208486.0
+2022,Стара Загора,district,rural,84675.0
+2023,Стара Загора,district,total,291101.0
+2023,Стара Загора,district,urban,207390.0
+2023,Стара Загора,district,rural,83711.0
+2024,Стара Загора,district,total,289543.0
+2024,Стара Загора,district,urban,206553.5
+2024,Стара Загора,district,rural,82989.5
+2025,Стара Загора,district,total,287729.0
+2025,Стара Загора,district,urban,205730.0
+2025,Стара Загора,district,rural,81999.0
+2010,Търговище,district,total,128754.0
+2010,Търговище,district,urban,65628.0
+2010,Търговище,district,rural,63126.0
+2011,Търговище,district,total,120423.0
+2011,Търговище,district,urban,65081.0
+2011,Търговище,district,rural,55342.0
+2012,Търговище,district,total,119325.0
+2012,Търговище,district,urban,64541.0
+2012,Търговище,district,rural,54784.0
+2013,Търговище,district,total,118253.0
+2013,Търговище,district,urban,64034.0
+2013,Търговище,district,rural,54219.0
+2014,Търговище,district,total,117069.0
+2014,Търговище,district,urban,63356.0
+2014,Търговище,district,rural,53713.0
+2015,Търговище,district,total,115815.5
+2015,Търговище,district,urban,62381.0
+2015,Търговище,district,rural,53434.5
+2016,Търговище,district,total,114452.5
+2016,Търговище,district,urban,61513.0
+2016,Търговище,district,rural,52939.5
+2017,Търговище,district,total,113084.0
+2017,Търговище,district,urban,60979.0
+2017,Търговище,district,rural,52105.0
+2018,Търговище,district,total,112035.5
+2018,Търговище,district,urban,60580.0
+2018,Търговище,district,rural,51455.5
+2019,Търговище,district,total,111255.5
+2019,Търговище,district,urban,60232.0
+2019,Търговище,district,rural,51023.5
+2020,Търговище,district,total,110470.5
+2020,Търговище,district,urban,59821.0
+2020,Търговище,district,rural,50649.5
+2021,Търговище,district,total,109072.0
+2021,Търговище,district,urban,59141.0
+2021,Търговище,district,rural,49931.0
+2022,Търговище,district,total,96610.0
+2022,Търговище,district,urban,54251.0
+2022,Търговище,district,rural,42360.0
+2023,Търговище,district,total,95905.0
+2023,Търговище,district,urban,53766.0
+2023,Търговище,district,rural,42139.0
+2024,Търговище,district,total,95172.0
+2024,Търговище,district,urban,53320.5
+2024,Търговище,district,rural,41851.5
+2025,Търговище,district,total,94184.0
+2025,Търговище,district,urban,52947.0
+2025,Търговище,district,rural,41237.0
+2010,Хасково,district,total,254767.0
+2010,Хасково,district,urban,178935.0
+2010,Хасково,district,rural,75832.0
+2011,Хасково,district,total,245245.0
+2011,Хасково,district,urban,177025.0
+2011,Хасково,district,rural,68220.0
+2012,Хасково,district,total,242816.0
+2012,Хасково,district,urban,175497.0
+2012,Хасково,district,rural,67319.0
+2013,Хасково,district,total,240494.0
+2013,Хасково,district,urban,174183.0
+2013,Хасково,district,rural,66311.0
+2014,Хасково,district,total,238488.0
+2014,Хасково,district,urban,172865.0
+2014,Хасково,district,rural,65623.0
+2015,Хасково,district,total,237023.5
+2015,Хасково,district,urban,171263.0
+2015,Хасково,district,rural,65760.5
+2016,Хасково,district,total,234899.0
+2016,Хасково,district,urban,169396.5
+2016,Хасково,district,rural,65502.5
+2017,Хасково,district,total,232345.5
+2017,Хасково,district,urban,168021.0
+2017,Хасково,district,rural,64324.5
+2018,Хасково,district,total,229708.5
+2018,Хасково,district,urban,166488.0
+2018,Хасково,district,rural,63220.5
+2019,Хасково,district,total,226729.0
+2019,Хасково,district,urban,164059.5
+2019,Хасково,district,rural,62669.5
+2020,Хасково,district,total,224471.0
+2020,Хасково,district,urban,161736.0
+2020,Хасково,district,rural,62735.0
+2021,Хасково,district,total,221947.0
+2021,Хасково,district,urban,159388.0
+2021,Хасково,district,rural,62559.0
+2022,Хасково,district,total,208902.0
+2022,Хасково,district,urban,150936.0
+2022,Хасково,district,rural,57966.0
+2023,Хасково,district,total,207276.5
+2023,Хасково,district,urban,148912.0
+2023,Хасково,district,rural,58364.5
+2024,Хасково,district,total,207235.0
+2024,Хасково,district,urban,148204.5
+2024,Хасково,district,rural,59030.5
+2025,Хасково,district,total,206529.0
+2025,Хасково,district,urban,147810.5
+2025,Хасково,district,rural,58718.5
+2010,Шумен,district,total,193147.0
+2010,Шумен,district,urban,121483.0
+2010,Шумен,district,rural,71664.0
+2011,Шумен,district,total,180189.0
+2011,Шумен,district,urban,113001.0
+2011,Шумен,district,rural,67188.0
+2012,Шумен,district,total,179241.0
+2012,Шумен,district,urban,112379.0
+2012,Шумен,district,rural,66862.0
+2013,Шумен,district,total,178437.0
+2013,Шумен,district,urban,111812.0
+2013,Шумен,district,rural,66625.0
+2014,Шумен,district,total,177493.0
+2014,Шумен,district,urban,110942.0
+2014,Шумен,district,rural,66551.0
+2015,Шумен,district,total,176322.5
+2015,Шумен,district,urban,109557.5
+2015,Шумен,district,rural,66765.0
+2016,Шумен,district,total,175098.0
+2016,Шумен,district,urban,108307.5
+2016,Шумен,district,rural,66790.5
+2017,Шумен,district,total,173721.0
+2017,Шумен,district,urban,107144.5
+2017,Шумен,district,rural,66576.5
+2018,Шумен,district,total,172660.5
+2018,Шумен,district,urban,106173.5
+2018,Шумен,district,rural,66487.0
+2019,Шумен,district,total,172308.5
+2019,Шумен,district,urban,105693.0
+2019,Шумен,district,rural,66615.5
+2020,Шумен,district,total,172021.5
+2020,Шумен,district,urban,104177.5
+2020,Шумен,district,rural,67844.0
+2021,Шумен,district,total,170602.0
+2021,Шумен,district,urban,102258.0
+2021,Шумен,district,rural,68344.0
+2022,Шумен,district,total,150022.0
+2022,Шумен,district,urban,93850.0
+2022,Шумен,district,rural,56172.0
+2023,Шумен,district,total,149663.5
+2023,Шумен,district,urban,93161.5
+2023,Шумен,district,rural,56502.0
+2024,Шумен,district,total,149489.0
+2024,Шумен,district,urban,92578.5
+2024,Шумен,district,rural,56910.5
+2025,Шумен,district,total,148940.0
+2025,Шумен,district,urban,92196.0
+2025,Шумен,district,rural,56744.0
+2010,Ямбол,district,total,137121.0
+2010,Ямбол,district,urban,94201.0
+2010,Ямбол,district,rural,42920.0
+2011,Ямбол,district,total,130804.0
+2011,Ямбол,district,urban,91164.0
+2011,Ямбол,district,rural,39640.0
+2012,Ямбол,district,total,129353.0
+2012,Ямбол,district,urban,90309.0
+2012,Ямбол,district,rural,39044.0
+2013,Ямбол,district,total,127913.0
+2013,Ямбол,district,urban,89578.0
+2013,Ямбол,district,rural,38335.0
+2014,Ямбол,district,total,126450.0
+2014,Ямбол,district,urban,88786.0
+2014,Ямбол,district,rural,37664.0
+2015,Ямбол,district,total,124772.5
+2015,Ямбол,district,urban,87607.5
+2015,Ямбол,district,rural,37165.0
+2016,Ямбол,district,total,123048.5
+2016,Ямбол,district,urban,86398.5
+2016,Ямбол,district,rural,36650.0
+2017,Ямбол,district,total,121373.0
+2017,Ямбол,district,urban,85490.5
+2017,Ямбол,district,rural,35882.5
+2018,Ямбол,district,total,119683.5
+2018,Ямбол,district,urban,84560.0
+2018,Ямбол,district,rural,35123.5
+2019,Ямбол,district,total,118116.0
+2019,Ямбол,district,urban,83584.0
+2019,Ямбол,district,rural,34532.0
+2020,Ямбол,district,total,116910.5
+2020,Ямбол,district,urban,81582.0
+2020,Ямбол,district,rural,35328.5
+2021,Ямбол,district,total,115423.5
+2021,Ямбол,district,urban,79589.0
+2021,Ямбол,district,rural,35834.5
+2022,Ямбол,district,total,108017.0
+2022,Ямбол,district,urban,75670.0
+2022,Ямбол,district,rural,32347.0
+2023,Ямбол,district,total,106849.5
+2023,Ямбол,district,urban,74805.5
+2023,Ямбол,district,rural,32044.0
+2024,Ямбол,district,total,105874.5
+2024,Ямбол,district,urban,74006.0
+2024,Ямбол,district,rural,31868.5
+2025,Ямбол,district,total,105000.0
+2025,Ямбол,district,urban,73501.5
+2025,Ямбол,district,rural,31498.5

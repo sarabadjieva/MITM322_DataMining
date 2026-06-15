@@ -32,7 +32,7 @@ def plot_national_trend(trend_dict: TrendDatasets, metric):
     ax.plot(nonmarital["year"], nonmarital["births"], marker="o", linewidth=2, label="Nonmarital births")
     ax.plot(shared["year"], shared["births"], marker="o", linewidth=2, label="Total births")
 
-    ax.set_title(f"{metric_title(metric)} Marriages and Births Over Time")
+    ax.set_title(f"{metric_title(metric)} Marriages and Births Over Time per 1000 people")
     ax.set_xlabel("Year")
     ax.set_ylabel("Count")
     ax.grid(True, alpha=0.3)
@@ -46,7 +46,7 @@ def plot_lag_analysis(lag_dict, metric):
     for ax, birth_type in zip(axes, BIRTH_TYPES):
         lag_df = lag_dict[birth_type]
         ax.bar(lag_df["lag"], lag_df["correlation"])
-        ax.set_title(f"{metric_title(metric)} Lag: {birth_type.capitalize()} Births")
+        ax.set_title(f"{metric_title(metric)} Lag: {birth_type.capitalize()} Births per 1000 people")
         ax.set_xlabel("Lag (years)")
         ax.set_ylabel("Correlation")
 
@@ -68,7 +68,7 @@ def plot_regional_lag_analysis(lag_matrices, metric):
             ax=ax
         )
 
-        ax.set_title(f"{metric_title(metric)} Regional Lag: {birth_type.capitalize()} Births")
+        ax.set_title(f"{metric_title(metric)} Regional Lag: {birth_type.capitalize()} Births per 1000 people")
         ax.set_xlabel("Lag (years)")
         ax.set_ylabel("Regions")
 
@@ -155,11 +155,11 @@ def plot_clusters(clusters_dict, metric):
 
 
 def plot_results(results: AnalysisResults):
-    # plot_national_trend(results.national_sets, results.metric)
-    # plot_lag_analysis(results.lags, results.metric)
-    # plot_regional_lag_analysis(results.regional_lags, results.metric)
-    # plot_nonmarital_share(results.nonmarital_share, results.metric)
-    # plot_elbow(results.inertia, results.metric)
+    plot_national_trend(results.national_sets, results.metric)
+    plot_lag_analysis(results.lags, results.metric)
+    plot_regional_lag_analysis(results.regional_lags, results.metric)
+    plot_nonmarital_share(results.nonmarital_share, results.metric)
+    plot_elbow(results.inertia, results.metric)
     plot_clusters(results.clusters, results.metric)
     plot_clusters_heatmap(results.clusters, results.metric)
     plot_cluster_profiles(results.clusters, results.metric)

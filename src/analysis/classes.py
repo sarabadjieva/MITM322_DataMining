@@ -8,6 +8,7 @@ class RawDatasets:
     marital: pd.DataFrame
     nonmarital: pd.DataFrame
     all_births: pd.DataFrame
+    population: pd.DataFrame
 
 
 @dataclass

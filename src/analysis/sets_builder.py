@@ -5,19 +5,34 @@ from src.analysis.classes import TrendDatasets, RawDatasets
 
 
 def build_trend_dataset(raw_datasets: RawDatasets, metric, level, join_cols):
-    marriages_df = filter_metric(raw_datasets.marriages, metric, level).rename(
-        columns={"value": "marriages"}
+    def prepare(df: pd.DataFrame, value_new_name):
+        return filter_metric(df, metric, level).rename(columns={"value": value_new_name})
+
+    marriages_df = prepare(raw_datasets.marriages, "marriages")
+    population_df = prepare(raw_datasets.population,"population")
+
+    base = pd.merge(
+        marriages_df[join_cols + ["marriages"]],
+        population_df[join_cols + ["population"]],
+        on=join_cols,
     )
 
+    base["marriages"] = base["marriages"] / base["population"] * 1000
+
     def merge_births(births_df):
-        births_df = filter_metric(births_df, metric, level).rename(
-            columns={"value": "births"}
-        )
-        return pd.merge(
-            marriages_df[join_cols + ["marriages"]],
+        births_df = prepare(births_df, "births")
+
+        df = pd.merge(
+            base,
             births_df[join_cols + ["births"]],
             on=join_cols,
         )
+
+        df["births"] = df["births"] / df["population"] * 1000
+
+        df = df.drop(columns=["population"])
+
+        return df
 
     return TrendDatasets(
         marital=merge_births(raw_datasets.marital),

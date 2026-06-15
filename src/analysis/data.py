@@ -14,4 +14,5 @@ def load_raw_datasets(output_dir=OUTPUT_DIR) -> RawDatasets:
         marital=pd.read_csv(output_dir / "births_marital_status_residence_marital_clean.csv"),
         nonmarital=pd.read_csv(output_dir / "births_marital_status_residence_nonmarital_clean.csv"),
         all_births=pd.read_csv(output_dir / "births_marital_status_residence_all_clean.csv"),
+        population=pd.read_csv(output_dir / "population_by_residence_clean.csv")
     )
