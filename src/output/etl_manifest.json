@@ -20,5 +20,12 @@
     "rows": 1392,
     "output_file": "marriages_by_residence_clean.csv",
     "clean_municipality": false
+  },
+  {
+    "file": "Pop_6.1.5_Pop_DR.xlsx",
+    "dataset": "population_by_residence",
+    "rows": 1392,
+    "output_file": "population_by_residence_clean.csv",
+    "clean_municipality": true
   }
 ]

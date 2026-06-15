@@ -32,4 +32,9 @@ FILE_CONFIGS = {
         dataset="marriages_by_residence",
         mode=ParseMode.MARRIAGES,
     ),
+    "Pop_6.1.5_Pop_DR.xlsx": FileConfig(
+        dataset="population_by_residence",
+        mode=ParseMode.MARRIAGES,
+        clean_municipality=True,
+    ),
 }

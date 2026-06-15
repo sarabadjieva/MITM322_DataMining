@@ -22,7 +22,7 @@ def normalize_and_validate(result, dataset: str):
 def run_etl_for_file(path: Path, config):
     match config.mode:
         case ParseMode.MARRIAGES:
-            result = parse_marriages(path)
+            result = parse_marriages(path, config.clean_municipality)
 
         case ParseMode.BIRTHS:
             result = parse_births(path, config.clean_municipality)
