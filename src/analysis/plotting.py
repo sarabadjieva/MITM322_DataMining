@@ -5,7 +5,8 @@ import seaborn as sns
 from scipy.cluster.hierarchy import dendrogram
 
 from sklearn.preprocessing import StandardScaler
-from src.analysis.helpers import BIRTH_TYPES, Features, CLUSTER_FEATURES
+from src.analysis.helpers import BIRTH_TYPES, Features, CLUSTER_FEATURES, FEATURE_LABELS, metric_title, \
+    birth_type_title
 from src.analysis.classes import AnalysisResults, TrendDatasets
 
 
@@ -21,14 +22,14 @@ def plot_national_trend(trend_dict: TrendDatasets, metric):
 
     fig, ax = plt.subplots(figsize=(12, 6))
 
-    ax.plot(marital["year"], marital["marriages"], marker="o", linewidth=2, label="Marriages")
-    ax.plot(marital["year"], marital["births"], marker="o", linewidth=2, label="Marital births")
-    ax.plot(nonmarital["year"], nonmarital["births"], marker="o", linewidth=2, label="Nonmarital births")
-    ax.plot(shared["year"], shared["births"], marker="o", linewidth=2, label="Total births")
+    ax.plot(marital["year"], marital["marriages"], marker="o", linewidth=2, label="Бракове")
+    ax.plot(marital["year"], marital["births"], marker="o", linewidth=2, label="Брачни раждания")
+    ax.plot(nonmarital["year"], nonmarital["births"], marker="o", linewidth=2, label="Извънбрачни раждания")
+    ax.plot(shared["year"], shared["births"], marker="o", linewidth=2, label="Раждания")
 
-    ax.set_title(f"{metric.capitalize()} Marriages and Births Over Time per 1000 people")
-    ax.set_xlabel("Year")
-    ax.set_ylabel("Rate per 1000")
+    ax.set_title(f"{metric_title(metric)}: бракове и раждания на 1000 души")
+    ax.set_xlabel("Година")
+    ax.set_ylabel("Стойност за всеки 1000")
     ax.grid(True, alpha=0.3)
     ax.legend()
     finalize_plot()
@@ -40,9 +41,9 @@ def plot_lag_analysis(lag_dict, metric):
     for ax, birth_type in zip(axes, BIRTH_TYPES):
         lag_df = lag_dict[birth_type]
         ax.bar(lag_df["lag"], lag_df["correlation"])
-        ax.set_title(f"{metric.capitalize()} Lag: {birth_type.capitalize()} Births")
-        ax.set_xlabel("Lag (years)")
-        ax.set_ylabel("Correlation")
+        ax.set_title(f"{metric_title(metric)}: {birth_type_title(birth_type)} раждания")
+        ax.set_xlabel("Изместване (години)")
+        ax.set_ylabel("Корелация")
 
     finalize_plot()
 
@@ -62,9 +63,9 @@ def plot_regional_lag_analysis(lag_matrices, metric):
             ax=ax
         )
 
-        ax.set_title(f"{metric.capitalize()} Regional Lag: {birth_type.capitalize()} Births")
-        ax.set_xlabel("Lag (years)")
-        ax.set_ylabel("Regions")
+        ax.set_title(f"{metric_title(metric)}: {birth_type_title(birth_type)} раждания по области")
+        ax.set_xlabel("Изместване (години)")
+        ax.set_ylabel("Области")
 
     finalize_plot()
 
@@ -73,8 +74,8 @@ def plot_nonmarital_share(share, metric):
     fig, ax = plt.subplots(figsize=(12, 6))
 
     ax.plot(share["year"], share["nonmarital_share"], marker="o", linewidth=2)
-    ax.set_title(f"{metric.capitalize()} Share of Non-Marital Births")
-    ax.set_xlabel("Year")
+    ax.set_title(f"{metric_title(metric)}: дял на извънбрачните раждания")
+    ax.set_xlabel("Година")
     ax.set_ylabel("%")
     ax.grid(True, alpha=0.3)
 
@@ -91,9 +92,9 @@ def plot_dendrogram(clusters, linkage_matrix, metric):
         leaf_font_size=8,
     )
 
-    plt.title(f"{metric.capitalize()} Hierarchical Clustering Dendrogram")
-    plt.xlabel("Region")
-    plt.ylabel("Ward Distance")
+    plt.title(f"{metric_title(metric)}: йерархична клъстеризация на областите")
+    plt.xlabel("Област")
+    plt.ylabel("Разстояние (Ward)")
 
     plt.tight_layout()
     finalize_plot()
@@ -135,15 +136,15 @@ def plot_clusters(clusters, metric):
             textcoords="offset points",
         )
 
-    ax.set_title(f"{metric.capitalize()} Regional Clusters")
-    ax.set_xlabel("Strongest marital correlation")
-    ax.set_ylabel("Nonmarital birth share")
+    ax.set_title(f"{metric_title(metric)}: клъстери на областите")
+    ax.set_xlabel("Най-силна корелация с брачни раждания")
+    ax.set_ylabel("Дял извънбрачни раждания (%)")
 
     ax.grid(alpha=0.25)
 
     legend = ax.legend(
         *scatter.legend_elements(),
-        title="Cluster",
+        title="Клъстер",
         loc="upper right",
     )
 
@@ -165,6 +166,11 @@ def plot_clusters_heatmap(clusters_dict, metric):
         columns=CLUSTER_FEATURES,
     )
 
+    scaled_df.columns = [
+        FEATURE_LABELS.get(col, col)
+        for col in scaled_df.columns
+    ]
+
     plt.figure(figsize=(10, 10))
 
     sns.heatmap(
@@ -184,42 +190,42 @@ def plot_clusters_heatmap(clusters_dict, metric):
     for pos in cluster_changes:
         plt.axhline(pos + 1, color="black", linewidth=2)
 
-    plt.title(f"{metric.capitalize()} Cluster Feature Heatmap")
-    plt.xlabel("Features")
-    plt.ylabel("Regions")
+    plt.title(f"{metric_title(metric)}: характеристики на областите")
+    plt.xlabel("Показатели")
+    plt.ylabel("Области")
 
     plt.tight_layout()
     finalize_plot()
 
-
-def plot_cluster_profiles(clusters_dict, metric):
-    features = clusters_dict.copy()
-
-    profile = features.groupby("cluster")[CLUSTER_FEATURES].mean()
-
-    scaler = StandardScaler()
-
-    profile_scaled = pd.DataFrame(
-        scaler.fit_transform(profile),
-        index=profile.index,
-        columns=profile.columns,
+def plot_cluster_profiles(clusters, metric):
+    profile = (
+        clusters.groupby("cluster")[CLUSTER_FEATURES]
+        .mean()
+        .round(2)
     )
 
-    plt.figure(figsize=(8, 5))
+    profile = profile.rename(columns=FEATURE_LABELS)
 
-    sns.heatmap(
-        profile_scaled,
-        annot=True,
-        cmap="coolwarm",
-        center=0,
-        fmt=".2f",
+    fig, ax = plt.subplots(figsize=(10, 3))
+    ax.axis("off")
+
+    table = ax.table(
+        cellText=profile.values,
+        rowLabels=[f"Клъстер {i}" for i in profile.index],
+        colLabels=profile.columns,
+        cellLoc="center",
+        loc="center"
     )
 
-    plt.title(f"{metric.capitalize()} Cluster Profiles")
-    plt.ylabel("Cluster")
-    plt.xlabel("Feature")
+    table.auto_set_font_size(False)
+    table.set_fontsize(9)
+    table.scale(1.2, 2)
 
-    plt.tight_layout()
+    plt.title(
+        f"{metric_title(metric)}: средни характеристики на клъстерите",
+        pad=20,
+    )
+
     finalize_plot()
 
 
