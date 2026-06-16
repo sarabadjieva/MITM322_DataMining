@@ -2,6 +2,7 @@
   {
     "file": "Pop_1.2.2._birth_DR.xlsx",
     "dataset": "births_marital_status_residence",
+    "clean_municipality": true,
     "outputs": {
       "marital": {
         "output_file": "births_marital_status_residence_marital_clean.csv",
@@ -10,22 +11,25 @@
       "nonmarital": {
         "output_file": "births_marital_status_residence_nonmarital_clean.csv",
         "rows": 1392
+      },
+      "all": {
+        "output_file": "births_marital_status_residence_all_clean.csv",
+        "rows": 1392
       }
-    },
-    "clean_municipality": true
+    }
   },
   {
     "file": "Pop_4.1.1._Marriages_DR.xlsx",
     "dataset": "marriages_by_residence",
+    "clean_municipality": false,
     "rows": 1392,
-    "output_file": "marriages_by_residence_clean.csv",
-    "clean_municipality": false
+    "output_file": "marriages_by_residence_clean.csv"
   },
   {
     "file": "Pop_6.1.5_Pop_DR.xlsx",
     "dataset": "population_by_residence",
+    "clean_municipality": true,
     "rows": 1392,
-    "output_file": "population_by_residence_clean.csv",
-    "clean_municipality": true
+    "output_file": "population_by_residence_clean.csv"
   }
 ]

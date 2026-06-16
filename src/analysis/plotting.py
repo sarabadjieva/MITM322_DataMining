@@ -14,10 +14,6 @@ def finalize_plot():
     plt.show()
 
 
-def first_frame(dataframes):
-    return next(iter(dataframes.values()))
-
-
 def plot_national_trend(trend_dict: TrendDatasets, metric):
     marital = trend_dict.marital.sort_values("year")
     nonmarital = trend_dict.nonmarital.sort_values("year")
@@ -85,6 +81,24 @@ def plot_nonmarital_share(share, metric):
     finalize_plot()
 
 
+def plot_dendrogram(clusters, linkage_matrix, metric):
+    plt.figure(figsize=(14, 7))
+
+    dendrogram(
+        linkage_matrix,
+        labels=clusters.index,
+        leaf_rotation=90,
+        leaf_font_size=8,
+    )
+
+    plt.title(f"{metric.capitalize()} Hierarchical Clustering Dendrogram")
+    plt.xlabel("Region")
+    plt.ylabel("Ward Distance")
+
+    plt.tight_layout()
+    finalize_plot()
+
+
 def plot_clusters(clusters, metric):
     features = clusters.copy()
 
@@ -122,8 +136,8 @@ def plot_clusters(clusters, metric):
         )
 
     ax.set_title(f"{metric.capitalize()} Regional Clusters")
-    ax.set_xlabel("Maximum marital correlation")
-    ax.set_ylabel("Maximum non-marital correlation")
+    ax.set_xlabel("Strongest marital correlation")
+    ax.set_ylabel("Nonmarital birth share")
 
     ax.grid(alpha=0.25)
 
@@ -135,24 +149,6 @@ def plot_clusters(clusters, metric):
 
     ax.add_artist(legend)
 
-    finalize_plot()
-
-
-def plot_dendrogram(clusters, linkage_matrix, metric):
-    plt.figure(figsize=(14, 7))
-
-    dendrogram(
-        linkage_matrix,
-        labels=clusters.index,
-        leaf_rotation=90,
-        leaf_font_size=8,
-    )
-
-    plt.title(f"{metric.capitalize()} Hierarchical Clustering Dendrogram")
-    plt.xlabel("Region")
-    plt.ylabel("Ward Distance")
-
-    plt.tight_layout()
     finalize_plot()
 
 

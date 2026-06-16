@@ -18,7 +18,7 @@ CLUSTER_FEATURES = [
         Features.MARITAL_BEST_LAG,
         Features.NONMARITAL_BEST_CORR,
         Features.NONMARITAL_BEST_LAG,
-        Features.NONMARITAL_SHARE,
+        Features.NONMARITAL_SHARE
     ]
 
 def filter_metric(df, metric, level):

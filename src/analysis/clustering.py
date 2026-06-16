@@ -1,5 +1,6 @@
 import pandas as pd
 from scipy.cluster.hierarchy import linkage, fcluster
+from sklearn.metrics import silhouette_score
 
 from sklearn.preprocessing import StandardScaler
 
@@ -39,17 +40,31 @@ def build_correlation_cluster_features(regional, max_lag=5):
     return features.fillna(features.mean())
 
 
-def cluster_regions(regional, n_clusters=4):
+def cluster_regions(regional, min_clusters=3, max_clusters=5):
     features = build_correlation_cluster_features(regional)
+
     x_scaled = StandardScaler().fit_transform(features)
 
     linkage_matrix = linkage(x_scaled, method="ward")
 
+    best_score = -1
+    best_labels = None
+
+    max_clusters = min(max_clusters, len(features) - 1)
+    for k in range(min_clusters, max_clusters + 1):
+        labels = fcluster(
+            linkage_matrix,
+            t=k,
+            criterion="maxclust",
+        )
+
+        score = silhouette_score(x_scaled, labels)
+
+        if score > best_score:
+            best_score = score
+            best_labels = labels
+
     result = features.copy()
-    result["cluster"] = fcluster(
-        linkage_matrix,
-        t=n_clusters,
-        criterion="maxclust",
-    )
+    result["cluster"] = best_labels
 
     return result, linkage_matrix

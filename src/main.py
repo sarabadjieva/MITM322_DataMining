@@ -6,7 +6,12 @@ from src.etl.runner import run_all
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--mode", choices=["etl", "analysis", "all"], default="all")
+
+    parser.add_argument(
+        "--mode",
+        choices=["etl", "analysis", "all"],
+        default="all",
+    )
 
     args = parser.parse_args()
 
@@ -14,8 +19,7 @@ def main():
         run_all()
 
     if args.mode in {"analysis", "all"}:
-        run_analysis()
-
+       run_analysis()
 
 if __name__ == "__main__":
     main()
