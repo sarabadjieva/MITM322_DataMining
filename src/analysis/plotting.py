@@ -127,7 +127,15 @@ def plot_clusters(clusters, metric):
         linewidths=0.5,
     )
 
-    for region in features.index:
+    to_label = set()
+
+    to_label.update(features.nlargest(3, x).index)
+    to_label.update(features.nsmallest(3, x).index)
+
+    to_label.update(features.nlargest(3, y).index)
+    to_label.update(features.nsmallest(3, y).index)
+
+    for region in to_label:
         ax.annotate(
             region,
             (features.loc[region, x], features.loc[region, y]),
@@ -141,14 +149,6 @@ def plot_clusters(clusters, metric):
     ax.set_ylabel("Дял извънбрачни раждания (%)")
 
     ax.grid(alpha=0.25)
-
-    legend = ax.legend(
-        *scatter.legend_elements(),
-        title="Клъстер",
-        loc="upper right",
-    )
-
-    ax.add_artist(legend)
 
     finalize_plot()
 
@@ -197,6 +197,7 @@ def plot_clusters_heatmap(clusters_dict, metric):
     plt.tight_layout()
     finalize_plot()
 
+
 def plot_cluster_profiles(clusters, metric):
     profile = (
         clusters.groupby("cluster")[CLUSTER_FEATURES]
@@ -228,12 +229,41 @@ def plot_cluster_profiles(clusters, metric):
     finalize_plot()
 
 
+def plot_cluster_members(clusters, metric):
+    fig, ax = plt.subplots(figsize=(12, 3))
+    ax.axis("off")
+
+    lines = []
+
+    for cluster, group in clusters.groupby("cluster"):
+        regions = ", ".join(sorted(group.index))
+        lines.append(f"Клъстер {cluster}:")
+        lines.append(regions)
+        lines.append("")
+
+    text = "\n".join(lines)
+
+    ax.text(
+        0.02,
+        0.98,
+        text,
+        va="top",
+        fontsize=10,
+        transform=ax.transAxes,
+    )
+
+    fig.suptitle(f"{metric_title(metric)}: клъстери")
+
+    finalize_plot()
+
+
 def plot_results(results: AnalysisResults):
-    plot_national_trend(results.national_sets, results.metric)
-    plot_lag_analysis(results.lags, results.metric)
-    plot_regional_lag_analysis(results.regional_lags, results.metric)
-    plot_nonmarital_share(results.nonmarital_share, results.metric)
-    plot_dendrogram(results.clusters, results.linkage_matrix, results.metric)
+    # plot_national_trend(results.national_sets, results.metric)
+    # plot_lag_analysis(results.lags, results.metric)
+    # plot_regional_lag_analysis(results.regional_lags, results.metric)
+    # plot_nonmarital_share(results.nonmarital_share, results.metric)
+    # plot_dendrogram(results.clusters, results.linkage_matrix, results.metric)
     plot_clusters(results.clusters, results.metric)
     plot_clusters_heatmap(results.clusters, results.metric)
     plot_cluster_profiles(results.clusters, results.metric)
+    plot_cluster_members(results.clusters, results.metric)

@@ -45,11 +45,11 @@ CLUSTER_FEATURES = [
 
 
 FEATURE_LABELS = {
-    Features.MARITAL_BEST_CORR: "Най-силна корелация\n с брачни раждания",
-    Features.MARITAL_BEST_LAG: "Лаг на най-силната\n корелация (брачни)",
-    Features.NONMARITAL_BEST_CORR: "Най-силна корелация\n с извънбрачни раждания",
-    Features.NONMARITAL_BEST_LAG: "Лаг на най-силната\n корелация (извънбрачни)",
-    Features.NONMARITAL_SHARE: "Дял извънбрачни\n раждания (%)",
+    Features.MARITAL_BEST_CORR: "Най-силна корелация\n(брачни)",
+    Features.MARITAL_BEST_LAG: "Лаг на най-силната\nкорелация (брачни)",
+    Features.NONMARITAL_BEST_CORR: "Най-силна корелация\n(извънбрачни)",
+    Features.NONMARITAL_BEST_LAG: "Лаг на най-силната\nкорелация (извънбрачни)",
+    Features.NONMARITAL_SHARE: "Дял извънбрачни\nраждания (%)",
 }
 
 
