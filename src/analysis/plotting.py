@@ -204,26 +204,25 @@ def plot_cluster_profiles(clusters, metric):
         .round(2)
     )
 
-    profile = profile.rename(columns=FEATURE_LABELS)
+    profile = profile.rename(columns=FEATURE_LABELS).T
 
-    fig, ax = plt.subplots(figsize=(10, 3))
+    fig, ax = plt.subplots(figsize=(6, 3))
     ax.axis("off")
 
     table = ax.table(
         cellText=profile.values,
-        rowLabels=[f"Клъстер {i}" for i in profile.index],
-        colLabels=profile.columns,
+        rowLabels=profile.index,
+        colLabels=[f"К{i}" for i in profile.columns],
         cellLoc="center",
-        loc="center"
+        loc="center",
     )
 
     table.auto_set_font_size(False)
     table.set_fontsize(9)
     table.scale(1.2, 2)
 
-    plt.title(
+    plt.suptitle(
         f"{metric_title(metric)}: средни характеристики на клъстерите",
-        pad=20,
     )
 
     finalize_plot()
